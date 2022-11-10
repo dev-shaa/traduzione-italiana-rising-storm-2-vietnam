@@ -1,0 +1,63 @@
+[AccessControl]
+;Access Denied Messages
+IPBanned_Title=Permanently Banned
+IPBanned=Your IP Has Been Banned From This Server
+SessionBanned_Title=Session Banned
+SessionBanned=You Are Session Banned From This Game And May Rejoin After Map Change
+GlobalBanned_Title=Globally Banned
+GlobalBanned=You Are Banned From This Server. Please contact support@tripwireinteractive.com for more information
+IDBanned_Title=Permanently Banned
+IDBanned=Your Steam ID Has Been Banned From This Server
+
+;Removed From Server Messages
+KickedMsg_Title=Kicked By Admin
+KickedMsg=You Have Been Kicked From This Server By An Admin
+KickAndPermaBan_Title=Banned By Admin
+KickAndPermaBan=You Have Been Permanently Banned From This Server
+KickAndSessionBan_Title=Session Banned By Admin
+KickAndSessionBan=You Have Been Session Banned From This Server And May Return After Map Change
+VoteKicked_Title=Vote Kicked
+VoteKicked=You Have Been Vote Kicked From This Server For:
+VoteKickedReason_Idling=Teammate has been idle for %PARAM% minutes
+VoteKickedReason_Griefing=Toxic Teammate with %PARAM% unforgiven TKs
+VoteKickedReason_Cheating=Player accused of Cheating/Exploiting with %PARAM% kills
+VoteKickedReason_IdlingVictim=Idling
+VoteKickedReason_GriefingVictim=Toxic Behavior
+VoteKickedReason_CheatingVictim=Cheating/Exploiting
+IdleKickReason_Title=Idle Kicked
+IdleKickReason=You Have Been Kicked From This Server For Idling
+InvalidPacketKickMsg_Title=Invalid Packet
+InvalidPacketKickMsg=You Have Been Kicked From This Server Because Of An Invalid Packet
+
+[Errors]
+CompressedReadFailure=Error Loading File
+CompressedReadCorruption=`~ may be incompatible. Please check the log for errors and notify author.
+ConnectionFailed_Title=Connection Lost
+ConnectionFailed=Your connection to the host has been lost.
+
+[GameMessage]
+MaxedOutMessage_Title=Server Is Full
+MaxedOutMessage=" "
+
+[OnlineGameSettings]
+OwningPlayerName.FriendlyName="Server"
+PingInMs.FriendlyName="Ping"
+bIsDedicated.FriendlyName="Dedicated"
+bIsListPlay.FriendlyName="ListPlay"
+AverageSkillRating.FriendlyName="Skill Rating"
+ServerAddress.FriendlyName="Server Address"
+bIsRanked.FriendlyName="Is Ranked"
+bRequiresPassword.FriendlyName="Requires Password"
+ServerFlags.FriendlyName=" "
+PlayerRatio.FriendlyName="Players"
+MapName.FriendlyName="Map"
+GameMode.FriendlyName="Mode"
+HonorRange.FriendlyName="Honor"
+RealismLevel.FriendlyName="Realism Mode"
+FriendlyFire.FriendlyName="Friendly Fire"
+AdminContact.FriendlyName="Admin Contact"
+bIsCampaignGame.FriendlyName="Campaign Mode"
+NorthCampaignTerritories.FriendlyName="North Territories"
+SouthCampaignTerritories.FriendlyName="South Territories"
+SpectatorMode.FriendlyName="Spectator Mode"
+MutatorsRunning.FriendlyName="Mutator"

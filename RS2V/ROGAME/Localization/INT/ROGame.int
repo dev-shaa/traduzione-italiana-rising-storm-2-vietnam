@@ -1,0 +1,4029 @@
+[ROOnlineGameSearch]
+PropertyMappings[0]=(ColumnHeaderText="Non-Standard Options")
+PropertyMappings[1]=(ColumnHeaderText="Dedicated Server")
+
+[ROOnlineGameSettings]
+LocalizedSettingsMappings[0]=(ColumnHeaderText="Game",ValueMappings=((Name="Skirmish"),(Name="Firefight"),(Name="Territories"),(Name="Supremacy")))
+LocalizedSettingsMappings[2]=(ValueMappings=((Name="0-100"),(Name="10-20"),(Name="10-50"),(Name="20-50"),(Name="40-50"),(Name="50-70"),(Name="50-100"),(Name="70-100")))
+PropertyMappings[0]=(ColumnHeaderText="Map")
+PropertyMappings[1]=(ColumnHeaderText="Game")
+PropertyMappings[2]=(ColumnHeaderText="Non-Standard Options")
+PropertyMappings[3]=(ColumnHeaderText="Dedicated Server")
+
+[ROOnlineGameSettingsCommon]
+ServerFlags.FriendlyName="Details"
+MapName.FriendlyName="Map"
+PlayerRatio.FriendlyName="Players"
+AdminContact.FriendlyName="Server Contact"
+Anti-Cheat Protected.FriendlyName="Anti-Cheat Protected"
+Campaign Mode.FriendlyName="Campaign Mode"
+NorthCampaignRegions.FriendlyName="North Regions"
+SouthCampaignRegions.FriendlyName="South Regions"
+NorthCampaignVP.FriendlyName="North Victory Points"
+SouthCampaignVP.FriendlyName="South Victory Points"
+CampaignYear.FriendlyName="Campaign Year"
+Requires Password.FriendlyName="Requires Password"
+GameMode.FriendlyName="Mode"
+HonorRange.FriendlyName="Level"
+RealismLevel.FriendlyName="Server Settings"
+MapGame.FriendlyName="Game Type"
+FriendlyFire.FriendlyName="Friendly Fire"
+VAC Secured.FriendlyName="EAC Secured"
+bClientSideHitDetection.FriendlyName="Hit Detection"
+bEnableVOIP.FriendlyName="Voice Chat Enabled"
+bDeadVOIPEnabled.FriendlyName="Voice Chat While Dead"
+bPublicVOIPEnabled.FriendlyName="Public Voice Chat"
+bTeamVOIPEnabled.FriendlyName="Team Voice Chat"
+Proximity3DVOIPSetting.FriendlyName="Local Voice Chat"
+bPublicTextChatEnabled.FriendlyName="Public Text Chat"
+RoundLimit.FriendlyName="Round Limit"
+PingLimit.FriendlyName="Max Ping"
+bBalanceTeams.FriendlyName="Team Balancing"
+bAutoBalanceTeamsOnDeath.FriendlyName="Autobalance Teams on Death"
+MaxTeamDifference.FriendlyName="Max Team Difference"
+bEnableMapVoting.FriendlyName="Map Voting"
+bEnableKickVoting.FriendlyName="Kick Voting"
+bEnableRoleKick.FriendlyName="Role Kick Voting"
+bForceHeloAdvancedFlightModel.FriendlyName="Advanced Helo Physics Forced"
+FriendlyPlayerNames.FriendlyName="Max Friendly Icon Dist"
+YesString="Yes"
+NoString="No"
+ClientSideString="Client-Side"
+ServerSideString="Server-Side"
+GamemodeString0="Custom Mode"
+GamemodeString1="Territories"
+GamemodeString2="Supremacy"
+GamemodeString3="Skirmish"
+GamemodeString4="Firefight"
+GamemodeString5="Training"
+RealisticString0="Standard"
+RealisticString1="Custom"
+SpectatorModeString0="3rd Person Free-Rotate"
+SpectatorModeString1="3rd Person Fixed"
+SpectatorModeString2="1st Person Only"
+Proximity3DVOIPString0="None"
+Proximity3DVOIPString1="Friendly Only"
+Proximity3DVOIPString2="All"
+MapGameString0="RS2: Vietnam"
+MapGameString1="Green Army Men"
+FriendlyNameDisplayString0="0m"
+FriendlyNameDisplayString1="10m"
+FriendlyNameDisplayString2="50m"
+FriendlyNameDisplayString3="100m"
+FriendlyNameDisplayString4="150m"
+
+[ROTDMOnlineGameSearch]
+PropertyMappings[0]=(Name="Non-Standard Options")
+PropertyMappings[1]=(Name="Dedicated Server")
+
+[ROGameInfo]
+ExceededFriendlyFireKillLimit_Title="KICKED FROM SERVER"
+ExceededFriendlyFireDamageLimit_Title="KICKED FROM SERVER"
+ExceededFriendlyFireKillLimitString="You exceeded the Friendly Fire Kill Limit"
+ExceededFriendlyFireDamageLimitString="You exceeded the Friendly Fire Damage Limit"
+NorthBotNames[0]="Trang"
+NorthBotNames[1]="Giang"
+NorthBotNames[2]="Vuong"
+NorthBotNames[3]="Huu"
+NorthBotNames[4]="Hien"
+NorthBotNames[5]="Duc"
+NorthBotNames[6]="Trong"
+NorthBotNames[7]="Tuan"
+NorthBotNames[8]="Phong"
+NorthBotNames[9]="Hai"
+NorthBotNames[10]="Thao"
+NorthBotNames[11]="Cuong"
+NorthBotNames[12]="Binh"
+NorthBotNames[13]="Phuoc"
+NorthBotNames[14]="Anh"
+NorthBotNames[15]="Danh"
+NorthBotNames[16]="Hung"
+NorthBotNames[17]="Nhat"
+NorthBotNames[18]="Quan"
+NorthBotNames[19]="Vien"
+NorthBotNames[20]="Chinh"
+NorthBotNames[21]="Lanh"
+NorthBotNames[22]="Bao"
+NorthBotNames[23]="Ngai"
+NorthBotNames[24]="Sang"
+NorthBotNames[25]="Thanh"
+NorthBotNames[26]="Sinh"
+NorthBotNames[27]="Xuan"
+NorthBotNames[28]="Dien"
+NorthBotNames[29]="Chien"
+NorthBotNames[30]="Huynh"
+NorthBotNames[31]="Minh"
+SouthBotNames[0]="John"
+SouthBotNames[1]="Adam"
+SouthBotNames[2]="Bill"
+SouthBotNames[3]="Stuart"
+SouthBotNames[4]="Jack"
+SouthBotNames[5]="Simon"
+SouthBotNames[6]="David"
+SouthBotNames[7]="Richard"
+SouthBotNames[8]="Alan"
+SouthBotNames[9]="Floyd"
+SouthBotNames[10]="Adam"
+SouthBotNames[11]="Rob"
+SouthBotNames[12]="Ross"
+SouthBotNames[13]="George"
+SouthBotNames[14]="Ben"
+SouthBotNames[15]="Javier"
+SouthBotNames[16]="Dan"
+SouthBotNames[17]="Thomas"
+SouthBotNames[18]="Keith"
+SouthBotNames[19]="Sam"
+SouthBotNames[20]="Joe"
+SouthBotNames[21]="Don"
+SouthBotNames[22]="Toby"
+SouthBotNames[23]="James"
+SouthBotNames[24]="Justyn"
+SouthBotNames[25]="Lewis"
+SouthBotNames[26]="Nathan"
+SouthBotNames[27]="Pedro"
+SouthBotNames[28]="Alex"
+SouthBotNames[29]="Mike"
+SouthBotNames[30]="Ken"
+SouthBotNames[31]="Leo"
+VACBanKick_Title="Terminated."
+VACBanKick=""
+
+
+[ROGameInfoFirefight]
+GameName="Firefight"
+DisplayName="Firefight"
+Description="Team Death-Match, RO Style!"
+
+[ROGameInfoTerritories]
+GameName="Territories"
+DisplayName="Territories"
+Description="Waves of reinforcements with multiple objectives to take or destroy."
+
+[ROGameInfoCountdown]
+GameName="Countdown"
+DisplayName="Countdown"
+Description="---"
+
+[ROGameInfoSkirmish]
+GameName="Skirmish"
+DisplayName="Skirmish"
+Description="Players deploy in waves, and each team starts with limited number. Capture objectives to add additional waves."
+
+[ROGameInfoSinglePlayer]
+DisplayName="SinglePlayer"
+Description="SinglePlayer..."
+
+[ROGameInfoSupremacy]
+GameName="Supremacy"
+DisplayName="Supremacy"
+Description="Objective based tug of war."
+
+[RODataProvider_MapAvailable]
+MapNameCol="Map List"
+TimesPlayedCol="Times Played"
+
+[RODataProvider_MapResult]
+MapNameVoteCol="Voted Maps"
+VoteCol="Votes"
+
+[RODataProvider_KickVote]
+VoteCol="Votes"
+PlayerNameCol="Player"
+TeamCol="Team"
+SteamIDCol="Steam ID"
+
+[RODataProvider_RoleVote]
+VoteCol="Votes"
+PlayerNameCol="Player"
+TeamCol="Team"
+RoleCol="Role"
+
+[RODataProvider_InvitePlayerList]
+PlayerNameCol="Player"
+ScoreCol="Score"
+HonorCol="Level"
+RoleCol="Role"
+SquadCol="Squad"
+
+[ROLocalMessageTickDown]
+StartNextObjectiveCount="Respawning At The Next Objective In:"
+WaitingAllSwitchedTeam="WAITING FOR PLAYERS:"
+
+[ROLocalMessageGame]
+HasJoined="joined"
+SecondsRemaining="seconds remaining"
+TypeNpToForgive="Type 'NP' in Chat to Forgive %k for Team Killing you"
+TeamKillForgivenMessage="You have forgiven %k for Team Killing you"
+TeamKillGotForgivenMessage="%v has forgiven you for Team Killing them"
+AutoAdminLogin="You have been automatically signed-in as a server admin"
+WelcomeMemberFirstPerson="Welcome %s"
+WelcomeMemberThirdPerson="Please welcome our member %s"
+NotifyTracked="INFO: Player %s has kicks/(session-)bans on record"
+North="North"
+South="South"
+NotifySquadKicked="%SL has kicked you from their squad"
+
+[ROUISceneEscapeMenu]
+PoorRolePerformanceString="Poor role performance"
+NotDoingJobString="Not doing job"
+WhinerString="I Can do better"
+IdlingString="Idle teammate"
+GriefingString="Toxic teammate"
+CheatingString="Cheating player"
+VoteKickInProgressString = "IN PROGRESS"
+
+[ROLocalMessageGameHint]
+TacticalViewHint=""
+
+[ROLocalMessageGameAlert]
+WonRound="HAVE CAPTURED ALL OBJECTIVES"
+WonRoundLockdown="LOCKED DOWN"
+WonMatch="HAVE WON THE MATCH"
+TeamIsFull="TEAM IS FULL"
+CantChangeTeamsQuicklyAfterSpawn="CANNOT CHANGE TEAMS YET"
+RoleFilled="SELECTED ROLE IS FULL"
+CampaignWon="have won the campaign"
+RespawnAvailable="Reinforcement Wave Available"
+WaitingRespawnAvailable="%i SOLDIERS QUEUED FOR DEPLOYMENT"
+OneWaitingRespawnAvailable="1 SOLDIER QUEUED FOR DEPLOYMENT"
+RespawnedBy="DEPLOYED BY COMMANDER"
+MaintainRadioContactAerialRecon="STAY CLOSE TO RADIO TO RECEIVE RECON INFO"
+KillCamAlert="KILLED FROM LOCATION"
+SPGotReinforced="Your squad has been reinforced"
+SpawnOnSquadLeaderFailed="CANNOT DEPLOY ON SQUAD LEADER\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
+SpawnOnYouFailed="SQUAD MEMBER FAILED TO DEPLOY NEAR YOU"
+SpawnOnSLFailedInSpawnVolume="SQUAD LEADER IS IN A RESTRICTED AREA\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
+SpawnOnSLFailedInObjectiveVolume="CANNOT DEPLOY WHEN SQUAD LEADER IS IN OBJECTIVE\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
+SpawnOnSLFailedInTunnel="SQUAD LEADER IN ENEMY TUNNEL\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
+SpawnOnYouFailedInSpawnVolume="SQUAD CANNOT DEPLOY IN RESTRICTED AREA"
+SpawnOnYouFailedInObjectiveVolume="SQUAD CANNOT DEPLOY IN OBJECTIVE"
+SpawnOnYouFailedInTunnel="SQUAD CANNOT DEPLOY IN ENEMY TUNNEL"
+AutoRespawnWarning="Auto Redeploying Team In 10 Seconds.\nPress [ %KEY% ] To Override."
+ReconShotDown="RECON SHOT DOWN"
+NewDesiredRole="QUEUED FOR DESIRED ROLE"
+ClaimedDesiredRole="CLAIMED DESIRED ROLE"
+DesiredRoleFilled="DESIRED ROLE OCCUPIED BY ANOTHER PLAYER"
+SpawnAtTunnelFailed="CANNOT DEPLOY AT TUNNEL\n[ %KEY% ] CHANGE DEPLOYMENT"
+SpawnTunnelInvalid="TUNNEL NOT AVAILABLE\n[ %KEY% ] CHANGE DEPLOYMENT"
+SpawnTunnelEnemyClose="ENEMY TOO CLOSE TO TUNNEL\n[ %KEY% ] CHANGE DEPLOYMENT"
+EnhancedLogisticsActive="HO CHI MINH TRAIL ACTIVATED"
+NooneToSpawnForAmbushRespawn="NO SOLDIERS WAITING TO DEPLOY"
+MapBoundsAmbushRespawn="CANNOT DEPLOY OUT OF COMBAT AREA"
+SpawnProtectAmbushRespawn="CANNOT DEPLOY OUT OF COMBAT AREA"
+TunnelWasDestroyed="SQUAD TUNNEL DESTROYED"
+NoTunnelPlaced="DIG A SQUAD TUNNEL"
+SwitchingTeam="SWITCHING TEAMS"
+SwitchingTeamByAdmin="SWITCHED TEAMS BY ADMIN"
+
+[ROLocalMessageGameRedAlert]
+ReinforcementsDepleted="REINFORCEMENTS ARE DEPLETED"
+SpawnWindowOpen="TEAM CAN DEPLOY AGAIN"
+SkirmishSpawnTimeLow="CAPTURE AN OBJECTIVE BEFORE IT'S TOO LATE"
+SpawnWindowClosed="TEAM CAN NO LONGER DEPLOY"
+EnemySpawnWindowDisabled="TEAM CAN NO LONGER DEPLOY"
+MapBoundaryTouch="LEAVING COMBAT AREA - TURN BACK NOW"
+AllObjectivesCaptured="TEAM OWN ALL OBJECTIVES"
+FinalObjectiveAttack="ATTACKING FINAL OBJECTIVE"
+FinalObjectiveDefend="DEFENDING FINAL OBJECTIVE"
+MapBoundaryUnTouch="RETURNED TO COMBAT AREA"
+SpawnGrandfatheredMessage="ENEMY-CONTROLLED TERRITORY - FALL BACK"
+ArtilleryStrike="ARTILLERY SUPPORT INCOMING"
+BarrageStrike="BARRAGE STRIKE INCOMING"
+NapalmStrike="NAPALM SUPPORT INCOMING"
+GunshipStrike="AC-47 GUNSHIP SUPPORT INCOMING"
+BombingRun="BOMBING RUN INCOMING"
+TankScuttleEnabled="PRESS K TO SCUTTLE"
+TankWillScuttle="TANK IS ABOUT TO BE SCUTTLED"
+AttackersGotReinforced=""
+DefendersGotReinforced=""
+PrimaryWeaponUseProhibited="WEAPON RESTRICTED IN ENEMY TUNNEL"
+NormalWeaponsRestored="WEAPON RESTORED"
+HeloLZMarked="LZ MARKED - CHECK YOUR MAP"
+LastLivingPlayer="LAST MAN ALIVE"
+SkirmishSuddenDeath="DEPLOYMENT NO LONGER POSSIBLE"
+WeaponBlockedInTunnelString="Cannot use Primary Weapon in Enemy Tunnel"
+TransportLandedInSpawnProtection="LZ IN ENEMY TERRITORY"
+Our="OUR"
+Enemy="ENEMY"
+We="WE"
+They="ENEMY"
+
+[ROLocalMessageBleeding]
+BleedingMessages[0]=HOLD [ %KEY% ] TO BANDAGE
+BleedingMessages[1]=%COUNT%/%TOTAL% BANDAGES REMAINING
+
+[ROLocalMessagePlantedItem]
+TrapPlantHint="[ %FIREKEY% ] PLACE TRAP"
+TrapDisarmHint="[ %KEY% ] DISARM TRAP"
+DigTunnelHint="[ %IRONKEY% ] PLACE TUNNEL"
+TunnelInObj="CANNOT TUNNEL IN OBJECTIVE"
+TunnelBlocked="CANNOT TUNNEL HERE"
+TunnelTooFar="CANNOT TUNNEL THIS FAR FROM OWN OBJECTIVE"
+TunnelTooCloseToObj="MOVE %DIST%m AWAY. TOO CLOSE TO OBJECTIVE"
+TunnelTooCloseToTunnel="TOO CLOSE TO ANOTHER TUNNEL"
+TunnelWithinCooldown="SQUAD TUNNEL DESTROYED. TUNNEL IN %TIME% SECONDS"
+DestroyTunnel="HOLD [ %USEKEY% ] DESTROY ENEMY TUNNEL"
+HMGPlaceHint="[ %FIREKEY% ] PLACE HMG"
+AmmoCratePlaceHint="[ %FIREKEY% ] PLACE AMMO CRATE"
+PlaceableAmmoCrateCooldown="AMMOCRATE PLACEABLE IN %TIME% SECONDS"
+PlaceableAmmoCrateTooCloseToOtherCrate="TOO CLOSE TO ANOTHER AMMO CRATE"
+
+
+[ROLocalMessageGameSwitchAmmo]
+LoadedString="LOADED"
+FailedString="NO %AMMO% AMMO TO LOAD"
+AmmoTypesArray[0]="HE GRENADE"
+AmmoTypesArray[1]="BUCKSHOT"
+AmmoTypesArray[2]="SLUG"
+AmmoTypesArray[3]="SMOKE GRENADE"
+AmmoTypesArray[4]="BULLETS"
+
+[ROLocalMessageAirSupport]
+RequestString="PLATOON COMMANDER: REQUESTING"
+ConfirmedString="BATTALION HQ: %TYPE% SUPPORT ON THE WAY"
+DeniedString="BATTALION HQ: %TYPE% SUPPORT DENIED"
+NapalmString="NAPALM STRIKE"
+GunshipString="AC-47 SPOOKY"
+BomberString="BOMBING RUN"
+AntiAirString="ANTI-AIRCRAFT COVERAGE"
+AirSupportCancelled="SUPPORT AIRCRAFT CANCELLED"
+AircraftShotDown="%TYPE% HAS BEEN SHOT DOWN"
+AntiAirActive="ANTI-AIRCRAFT COVERAGE ON STANDBY"
+AntiAirOffline="ANTI-AIRCRAFT COVERAGE OFFLINE"
+TryAgainLater="%TYPE% IS NOT READY"
+TryAgainSoon="%TYPE% IS ALMOST READY"
+MarkedHeloLZ="LZ POSITION MARKED"
+
+[ROLocalMessageHeloDespawn]
+CountingHeloDespawn="REDEPLOYING IN"
+
+[ROLocalMessageHeloBailout]
+HeloBailoutString="BAIL OUT"
+
+[ROLocalMessageTimeRunningOut]
+FiveMinutesLeftString="5 MINUTES REMAINING"
+OneMinuteLeftString="60 SECONDS REMAINING"
+ThirtySecondsLeftString="30 SECONDS REMAINING"
+
+[ROLocalMessageVictoryStatus]
+EnemyHalfwayString="ENEMY IS HALFWAY TO VICTORY"
+FriendlyHalfwayString="WE ARE HALFWAY TO VICTORY"
+NearlyLostString="ENEMY HAS NEARLY WON"
+NearlyWonString="WE HAVE NEARLY WON"
+
+[ROLocalMessageGamePickup]
+Pickup="[ %key% ] PICK UP "
+InvArray[0]="TYPE 56"
+InvArray[1]="TYPE 56-1"
+InvArray[2]="AKM"
+InvArray[3]="M16A1"
+InvArray[4]="SKS-45"
+InvArray[5]="M14"
+InvArray[6]="MN 91/30"
+InvArray[7]="TT-33"
+InvArray[8]="M1911"
+InvArray[9]="DP-28"
+InvArray[10]="RPD"
+InvArray[11]="M60"
+InvArray[12]="PPSH-41"
+InvArray[13]="MAT-49 9mm"
+InvArray[14]="MAT-49 7.62mm"
+InvArray[15]="M3A1"
+InvArray[16]="MN 91/30 PU"
+InvArray[17]="M40"
+InvArray[18]="SVD"
+InvArray[19]="XM21"
+InvArray[20]="M37 TrenchGun"
+InvArray[21]="M37 Stakeout"
+InvArray[22]="M37 Duckbill"
+InvArray[23]="SxS Long"
+InvArray[24]="SxS Coach Gun"
+InvArray[25]="SxS Sawn Off"
+InvArray[26]="M79"
+InvArray[27]="RPG-7"
+InvArray[28]="M9A1-7 FLAMETHROWER"
+InvArray[29]="M61 GRENADE"
+InvArray[30]="M34 WP GRENADE"
+InvArray[31]="TYPE 67 GRENADE"
+InvArray[32]="C-4 EXPLOSIVE"
+InvArray[33]="MD-82 MINE"
+InvArray[34]="M18 CLAYMORE MINE"
+InvArray[35]="PUNJI TRAP"
+InvArray[36]="TRIPWIRE TRAP"
+InvArray[37]="BINOCULARS"
+InvArray[38]="PICK MATTOCK"
+InvArray[39]="M8 SMOKE"
+InvArray[40]="M18 SIGNAL SMOKE"
+InvArray[41]="RDG-1 SMOKE"
+InvArray[42]="DShK HMG"
+InvArray[43]="M2 HMG"
+InvArray[44]="M1917"
+InvArray[45]="PM"
+InvArray[46]="XM21 Suppressed"
+InvArray[47]="L1A1"
+InvArray[48]="L2A1"
+InvArray[49]="OWEN"
+InvArray[50]="F1"
+InvArray[51]="HI-POWER"
+InvArray[52]="XM177E1"
+InvArray[53]="M1 CARBINE"
+InvArray[54]="M2 CARBINE"
+InvArray[55]="M1 GARAND"
+InvArray[56]="M1D SNIPER"
+InvArray[57]="M1A1"
+InvArray[58]="BAR"
+InvArray[59]="M1919A6"
+InvArray[60]="MP40 SMG"
+InvArray[61]="FOUGASSE MINE"
+InvArray[62]="MOLOTOV COCKTAIL"
+InvArray[63]="PLACEABLE HMG"
+InvArray[64]="MAS49"
+InvArray[65]="MAS49 SNIPER"
+InvArray[66]="RP-46"
+InvArray[67]="K-50M"
+InvArray[68]="PLACEABLE AMMO CRATE"
+
+Pickedup="PICKED UP"
+PickedUpAmmo="AMMO"
+PickupAmmoFailed="CANNOT CARRY MORE %WEAPON% AMMO"
+PickUpSwap="[ %key% ] SWAP"
+SwapWith="FOR"
+SavingCheckpoint="Saving Checkpoint"
+
+[ROLocalMessageVehicleDamage]
+VehicleDamageMessages[0]="Engine Damaged"
+VehicleDamageMessages[1]="Engine Disabled"
+VehicleDamageMessages[2]="Transmission Damaged"
+VehicleDamageMessages[3]="Transmission Disabled"
+VehicleDamageMessages[4]="Left Brake Destroyed"
+VehicleDamageMessages[5]="Right Brake Destroyed"
+VehicleDamageMessages[6]="Main Cannon Disabled"
+VehicleDamageMessages[7]="Coax MG Disabled"
+VehicleDamageMessages[8]="Turret Traverse Motor Disabled"
+VehicleDamageMessages[9]="Turret Rotation Disabled"
+VehicleDamageMessages[10]="Left Brake Damaged"
+VehicleDamageMessages[11]="Right Brake Damaged"
+VehicleDamageMessages[12]="Left Track Disabled"
+VehicleDamageMessages[13]="Right Track Disabled"
+VehicleDamageMessages[14]="Left Track Damaged"
+VehicleDamageMessages[15]="Right Track Damaged"
+VehicleDamageMessages[16]="Engine Repaired"
+VehicleDamageMessages[17]="Transmission Repaired"
+VehicleDamageMessages[18]="Left Brakes Repaired"
+VehicleDamageMessages[19]="Right Brakes Repaired"
+VehicleDamageMessages[20]="Main Cannon Repaired"
+VehicleDamageMessages[21]="Coax MG Repaired"
+VehicleDamageMessages[22]="Turret Traverse Motor Repaired"
+VehicleDamageMessages[23]="Turret Rotation Repaired"
+VehicleDamageMessages[24]="Left Tracks Repaired"
+VehicleDamageMessages[25]="Right Tracks Repaired"
+VehicleDamageMessages[26]="Ammo Storage Repaired"
+VehicleDamageMessages[27]="Fuel Tank Repaired"
+VehicleDamageMessages[28]="Front Armor Damaged"
+VehicleDamageMessages[29]="Front Armor Heavily Damaged"
+VehicleDamageMessages[30]="Rear Armor Damaged"
+VehicleDamageMessages[31]="Rear Armor Heavily Damaged"
+VehicleDamageMessages[32]="Left Armor Damaged"
+VehicleDamageMessages[33]="Left Armor Heavily Damaged"
+VehicleDamageMessages[34]="Right Armor Damaged"
+VehicleDamageMessages[35]="Right Armor Heavily Damaged"
+VehicleDamageMessages[36]="Turret Front Armor Damaged"
+VehicleDamageMessages[37]="Turret Front Armor Heavily Damaged"
+VehicleDamageMessages[38]="Turret Rear Armor Damaged"
+VehicleDamageMessages[39]="Turret Rear Armor Heavily Damaged"
+VehicleDamageMessages[40]="Turret Left Armor Damaged"
+VehicleDamageMessages[41]="Turret Left Armor Heavily Damaged"
+VehicleDamageMessages[42]="Turret Right Armor Damaged"
+VehicleDamageMessages[43]="Turret Right Armor Heavily Damaged"
+VehicleDamageMessages[44]="Can't Move Engine Disabled"
+VehicleDamageMessages[45]="Can't Move Transmission Disabled"
+VehicleDamageMessages[46]="Can't Turn Left, Brake Is Destroyed"
+VehicleDamageMessages[47]="Can't Turn Right, Brake Is Destroyed"
+VehicleDamageMessages[48]="Can't Move Tracks Disabled"
+VehicleDamageMessages[49]="Left Track Is Disabled"
+VehicleDamageMessages[50]="Right Track Is Disabled"
+VehicleDamageMessages[51]="Armor Repaired"
+VehicleDamageMessages[52]="Left Steer Wheel Damaged"
+VehicleDamageMessages[53]="Right Steer Wheel Damaged"
+VehicleDamageMessages[54]="Left Steer Wheel Destroyed"
+VehicleDamageMessages[55]="Right Steer Wheel Destroyed"
+VehicleDamageMessages[56]="Left Steer Wheel Repaired"
+VehicleDamageMessages[57]="Right Steer Wheel Repaired"
+VehicleDamageMessages[58]="Turning Impaired, Left Steerable Wheel Is Destroyed"
+VehicleDamageMessages[59]="Turning Impaired, Right Steerable Wheel Is Destroyed"
+VehicleDamageMessages[60]="Turning Severely Impaired, Steerable Wheels Destroyed"
+VehicleDamageMessages[61]="Main Rotor Damaged"
+VehicleDamageMessages[62]="Main Rotor Destroyed"
+VehicleDamageMessages[63]="Tail Rotor Damaged"
+VehicleDamageMessages[64]="Tail Rotor Damaged"
+VehicleDamageMessages[65]="Tail Boom Destroyed"
+VehicleDamageMessages[66]="Left Skid Destroyed"
+VehicleDamageMessages[67]="Right Skid Destroyed"
+VehicleDamageMessages[68]="Main Rotor Repaired"
+VehicleDamageMessages[69]="Tail Rotor Repaired"
+VehicleDamageMessages[70]="Left Skid Repaired"
+VehicleDamageMessages[71]="Right Skid Repaired"
+
+[ROLocalMessageVOIP]
+ChannelSwitchMessage="Channel:"
+ChannelPublic="Public"
+ChannelTeam="Team"
+ChannelSquad="Squad"
+ChannelVehicle="Vehicle"
+ChannelProximity="Local"
+ChannelCommand="Command"
+
+[ROUISceneMainMenu]
+DownloadingString="Downloading"
+DownloadedString="Download Complete"
+DownloadFailedString="Download Failed"
+RS2DefaultControlsString=RISING STORM 2 CONTROLS
+RS2DefaultControlsSmallString=Rising Storm 2: Vietnam Defaults
+RO2ClassicControlsString=USE RO2 CONTROLS
+RO2ClassicControlsSmallString=Classic Red Orchestra 2 Defaults
+TerritoriesString=TERRITORIES
+SupremacyString=SUPREMACY
+SkirmishString=SKIRMISH
+CampaignString=CAMPAIGN
+QuickMatchQueueString="You will join the queue for a full server if an open slot is not found."
+QuickMatchSlowSearchString="Search is taking longer than expected. Consider trying a different Game Type, or finding a game manually through the Server Browser."
+QuickMatchNotFound="No match found"
+XPMultiplierString="x XP BONUS EVENT"
+NextClassUnlocks[0]=(ClassName="RADIOMAN")
+NextClassUnlocks[1]=(ClassName="SQUAD LEADER")
+NextClassUnlocks[2]=(ClassName="COMMANDER")
+
+[ROUISceneTrainingMenu]
+MissionTypeString="TRAINING"
+TrainingMissionDates[0]="September 23, 1969"
+TrainingMissionSummaries[0]="Some place, maybe Vietnam or maybe not: Get some time in on the firing range before you head into combat. Familiarise yourself with all the available combat classes and their kit to be as prepared as you can be when you meet the enemy face to face."
+TrainingMissionDates[1]="November 12, 1969"
+TrainingMissionSummaries[1]="Some airfield, maybe Vietnam or maybe not: Familiarise yourself with the flight and handling characteristics of each helicopter in a low pressure environment. Test your dexterity on the aerial obstacle course, or your gunnery skills on the free-fire range."
+VideoComingSoon="COMING SOON"
+TutorialVideos[0]=(VideoTitle="Mode: Territories",VideoDescription="Learn how to play Territories, a returning Game Mode for 64 players which sees one team attack objectives held by the defending forces.")
+TutorialVideos[1]=(VideoTitle="Mode: Supremacy",VideoDescription="Learn all about the Supremacy Game Mode, a new 64-player mode with open battlefields and point-based scoring.")
+TutorialVideos[2]=(VideoTitle="Mode: Skirmish",VideoDescription="Learn about Skirmish mode in this video. Skirmish is a smaller-scale game mode designed for less than 64 players.")
+TutorialVideos[3]=(VideoTitle="Movement",VideoDescription="Learn the basics of moving and navigating the battlefields of Rising Storm 2.")
+TutorialVideos[4]=(VideoTitle="Combat Basics",VideoDescription="Find out how you use your weapons effectively, how to switch between your gear, and how to bandage wounds and throw grenades.")
+TutorialVideos[5]=(VideoTitle="Advanced Combat",VideoDescription="Learn about some of the more unique elements of Rising Storm 2’s combat. This video outlines how to use the unique features of certain guns, as well as more advanced tools like traps and explosives.")
+TutorialVideos[6]=(VideoTitle="Squads",VideoDescription="Learn about how Squads work in Rising Storm 2, both as a Squad Leader and as a regular soldier. Find out how to lock your Squad, how you can invite others, and how Squad-based deployment mechanics work.")
+TutorialVideos[7]=(VideoTitle="Basic Classes",VideoDescription="This video breaks down the basic Class roles and their functions on the battlefield. Covered here are Grunt and Rifleman, Machinegunners, Marksmen (Snipers) and the Radioman.")
+TutorialVideos[8]=(VideoTitle="Advanced Classes",VideoDescription="Here we cover the more complex class roles and how they operate in Rising Storm 2. Covered here are the Pointman and Scout, the Combat Engineer and Sapper, the Grenadier and the RPG Soldier.")
+TutorialVideos[9]=(VideoTitle="Communication",VideoDescription="This video outlines how to communicate effectively with your team using voice and text chat, as well as the quick widgets.")
+TutorialVideos[10]=(VideoTitle="Helicopters",VideoDescription="This video outlines how flying Helicopters works in Rising Storm 2. We cover the basics of flight controls, the role of each Helicopter and their unique functions, as well as a few advanced tips for flying effectively.")
+TutorialVideos[11]=(VideoTitle="The Commander",VideoDescription="Find out how to play as the Commander of your team, arguably Rising Storm 2’s most important role. This video outlines how to call in powerful support abilities, how to give orders to your team, and how to most effectively lead your forces to victory.")
+
+[ROUISceneServerBrowser]
+StandardString="Standard"
+CustomString="Custom"
+AllString="All"
+TerritoryString="Territories"
+SupremacyString="Supremacy"
+FirefightString="Firefight"
+SkirmishString="Skirmish"
+SearchDestroyString="Search and Destroy"
+CampaignString="Campaign"
+InfantryString="Infantry"
+CombinedArmsString="Combined Arms"
+TankString="Tank"
+RemoveFavoriteString="Remove from Favorites"
+AddFavoriteString="Add to Favorites"
+RefreshString="REFRESH ALL"
+StopString="STOP REFRESH"
+RS2String="RS2: Vietnam"
+GAMString="Green Army Men"
+ServerQueueDescription="You are in a queue and will automatically join the server when an open slot is available."
+ServerLost="It is not possible to connect to selected server"
+
+[ROUISceneUnitSelect]
+PrimaryString="PRIMARY"
+SecondaryString="SIDEARM"
+NoneString="NONE AVAILABLE"
+LockedString="LOCKED"
+FullString="FULL"
+ContinueString="CONTINUE"
+RealismModeStrings[0]="Standard"
+RealismModeStrings[1]="Custom"
+KickFromSquadMessage="Kick %PLAYER% from your squad?\nAre you sure you wish to do this?"
+PromoteSLMessage="Promote %PLAYER% to Squad Leader?\nYou will no longer be Squad Leader."
+SquadInviteMessage="%PLAYER% has invited you to join squad %SQUAD%.\nWould you like to accept?"
+FullAutoString="Full Auto"
+SemiAutoString="Semi-Auto"
+PumpActionString="Pump Action"
+BoltActionString="Bolt Action"
+
+[ROUISceneAfterActionReport]
+LevelAbbreviationString="L"
+ContinueString="CONTINUE"
+ExitString="CLOSE"
+MoreUnlocksString="MORE ITEMS"
+NoneString="NONE"
+SquadString="SQUAD"
+TWSWinConditionAllObjectivesString="ALL OBJECTIVES CAPTURED"
+TWSWinConditionScoreLimitString="SCORE LIMIT REACHED"
+TWSWinConditionTimeLimitString="TIME LIMIT REACHED"
+TWSWinConditionReinforcementsDepletedString="ELIMINATED"
+TWSWinConditionLockDownString="LOCKDOWN"
+TWSMostDishonorablePlayerDefaultName=""
+TWSWinConditionMostObjectives="Most Objectives Captured"
+TWSWinConditionSameObjectivesBetterTime="Objectives Captured The Fastest"
+TWSWinConditionMostPoints="HIGHEST TOTAL SCORE"
+TWSWinConditionSuddenDeath="S U D D E N  D E A T H"
+RoundEndRoundWonString="VICTORY"
+RoundEndRoundLostString="DEFEAT"
+RoundEndRoundTiedString="ROUND TIED"
+RoundEndRoundWonSwapString="ROUND WON, SWAPPING SIDES"
+RoundEndRoundLostSwapString="ROUND LOST, SWAPPING SIDES"
+RoundEndRoundTiedSwapString="ROUND TIED, SWAPPING SIDES"
+RoundEndRoundsWonString="Rounds"
+RoundEndStatTeamPointsString="Total Score"
+RoundEndStatRemainingReinforcementsString="Reinforcements"
+RoundEndStatObjectivesCapturedString="Objectives"
+RoundEndStatTotalRoundPointsString="Total Score"
+RoundEndStatLastRoundPointsString="Last Round Team Score"
+RoundEndStatLastRoundScoreString="Last Round Score"
+RoundEndStatTotalScoreString="Total Score"
+RoundEndStatWinTimeString="Win Time"
+RoundEndStatWinTotalTimeString="Total Time"
+RoundEndStatWinEnemiesKilledString="Kills"
+RoundEndStatWinEnemiesRemainingString="Enemies Remaining"
+RoundEndConditionAllObjectivesString="ALL OBJECTIVES CAPTURED"
+RoundEndConditionScoreLimitString="SCORE LIMIT REACHED"
+RoundEndConditionTimeLimitString="TIME EXPIRED"
+RoundEndConditionOverTimeString="OVERTIME EXPIRED"
+RoundEndConditionReinforcementsDepletedString="REINFORCEMENTS DEPLETED"
+RoundEndConditionLockDownString="LOCKDOWN"
+RoundEndConditionMostObjectives="MOST OBJECTIVES CAPTURED"
+RoundEndConditionSameObjectivesBetterTime="Objectives Captured The Fastest"
+RoundEndConditionMostPoints="HIGHEST TOTAL SCORE"
+RoundEndConditionWonSkirmish="%WINTEAM% ELMINATED %LOSTEAM%ERN FORCES"
+RoundEndConditionSuddenDeath="SUDDEN DEATH"
+RoundEndConditionTied="All Match Win Conditions Were Tied"
+RoundEndConditionObjectivesDestroyedString="Objective(s) Destroyed"
+RoundEndConditionBombsDefusedString="Bomb(s) Defused"
+RoundEndConditionForcesEliminated=" FORCES ELIMINATED"
+RoundEndNoWinTime="No Round Won"
+RoundEndNoTimeLostRound="DEFEAT"
+MatchEndWonString="MATCH VICTORY"
+MatchEndLostString="MATCH DEFEAT"
+MatchEndTiedString="MATCH TIED"
+MatchEndMessageWonMostRounds="%TEAM% WON %ROUNDS% ROUNDS"
+MatchEndMessageWonRoundsTied="%WINTEAM% WON BY TIE BREAKER"
+MatchEndMessageWonRoundsTiedReinforcements="%TEAM% HAD MOST REINFORCEMENTS"
+MatchEndMessageWonRoundsTiedCapturedObjectives="CAPTURED OBJECTIVES: %WINTEAM% %WINNUMOBJECTIVES% / %LOSTEAM% %LOSNUMOBJECTIVES%"
+MatchEndMessageWonRoundsTiedNeutralScoredPoints="TEAM POINTS: %WINTEAM% %WINPOINTS% / %LOSTEAM% %LOSPOINTS%"
+MatchEndMessageWonRoundsTiedScoredPoints="TEAM POINTS: %WINTEAM% %WINPOINTS% / %LOSTEAM% %LOSPOINTS%"
+MatchEndMessageWonRoundsTiedWinTime="%TEAM% WAS THE FASTEST"
+MatchEndMessageWonSkirmish="%WINTEAM% ELIMINATED %LOSTEAM% FORCES"
+MatchEndMessageTied="MATCH TIE"
+MatchEndMessageNorthTeam="NORTH VIETNAM"
+MatchEndMessageSouthTeam="UNITED STATES"
+MatchEndDishonorablePlayerDefaultName=""
+MatchEndStatWinTimeString="Fastest Win Time:"
+AAR_NOXP="This is an Unranked Server. XP has not been tracked. You must play on Ranked Servers to gain XP."
+AAR_PAX="Thank you for playing Rising Storm 2: Vietnam here at PAX South.\nWe hope you enjoyed it!\n\nKeep up to date with development news at our official website.\n\nwww.risingstorm2.com"
+
+[ROUISceneRoundStart]
+RoundBeginString="ROUND STARTING..."
+Realism=""
+RealismModeStrings[0]=""
+RealismModeStrings[1]="CUSTOM SERVER"
+TETitleString="TERRITORIES"
+FFTitleString="FIREFIGHT"
+SKTitleString="SKIRMISH"
+SUTitleString="SUPREMACY"
+TEMessageStrings[0]="CAPTURE & SECURE ALL ENEMY OBJECTIVES"
+TEMessageStrings[1]="DEFEND OBJECTIVES FROM THE ENEMY ASSAULT"
+TEMessageStrings[2]=""
+FFMessageStrings[0]="ELIMINATE THE ENEMY"
+FFMessageStrings[1]="THE FIRST TEAM TO REACH THE TARGET SCORE WILL WIN"
+SKMessageStrings[0]="CAPTURE OBJECTIVES TO ADD REINFORCEMENT WAVES"
+SKMessageStrings[1]="HOLD OBJECTIVES TO PREVENT ENEMY REINFORCEMENTS"
+SUMessageStrings[0]="OBJECTIVES ARE WORTH POINTS"
+SUMessageStrings[1]="CAPTURE ADJACENT OBJECTIVES TO LINK BACK TO HOME BASE"
+
+[ROUISceneProfile]
+NorthTeamString="NORTH"
+SouthTeamString="SOUTH"
+TieString="TIE"
+PerMatchString="PER MATCH"
+HourSuffix="h"
+MinuteSuffix="m"
+SecondsSuffix="s"
+WeaponTypeString[0]="Handgun"
+WeaponTypeString[1]="Rifle"
+WeaponTypeString[2]="Sub Machine Gun"
+WeaponTypeString[3]="Semi-Automatic Rifle"
+WeaponTypeString[4]="Scoped Rifle"
+WeaponTypeString[5]="Assault Rifle"
+WeaponTypeString[6]="Battle Rifle"
+WeaponTypeString[7]="Light Machine Gun"
+WeaponTypeString[8]="Anti-Tank Rifle"
+WeaponTypeString[9]="Grenade"
+WeaponTypeString[10]="Smoke Grenade"
+WeaponTypeString[11]="Signal Smoke"
+WeaponTypeString[12]="Anti-Tank Grenade"
+WeaponTypeString[13]="Explosive"
+WeaponTypeString[14]="Melee"
+WeaponTypeString[15]="Incendiary Device"
+WeaponTypeString[16]="Shotgun"
+WeaponTypeString[17]="Rocket Launcher"
+WeaponTypeString[18]="Booby Trap"
+WeaponTypeString[19]="Equipment"
+
+AchievementsUnlockedString="%NUM% / %DEN% Achievements Unlocked"
+AchievementsHiddenString="(%HID% Secret)"
+
+[ROUISceneSettings]
+WeaponOptionsSectionHeadingString="WEAPON"
+PlayerViewSectionHeadingString="PLAYER VIEW"
+HUDOptionsSectionHeadingString="HUD"
+MessagesAndChatSectionHeadingString="MESSAGES & CHAT"
+VehicleOptionsSectionHeadingString="AIRCRAFT / VEHICLE"
+FreeAimIronSightsStyleLabelString="Iron Sight Free-Aim"
+FreeAimIronSightsStyleOptionsString="None|Smooth Rotation|Boxed Free-Aim"
+FreeAimRadiusLabelString="Free-aim radius when using iron sights"
+FreeAimRadiusOptionsString="Small|Medium|Large"
+GameplaySectionHeadingString="GAMEPLAY"
+FOVLabelString="Field of View"
+ISFOVScaleSMGLabelString="SIGHT FOV SCALE - SMG/PISTOL"
+ISFOVScaleRifleLabelString="SIGHT FOV SCALE - RIFLE"
+ISFOVScaleBipodLabelString="SIGHT FOV SCALE - BIPOD"
+NoSprintFocusLabelString="Enable Non-Iron Sight Zoom"
+GoreLevelLabelString="Blood & Dismemberment"
+GoreLevelOptionsString="Full Blood & Dismemberment|Blood Only|None"
+GameplayHintLabelString="Gameplay Tips"
+GameplayHintOptionsString="Reset Tips|Active Tips Only|Disable Tips"
+HintsSectionHeadingString="TIPS & HINTS"
+ShowMenuTipsLabelString="Enable Menu Tips"
+ShowHUDTipsLabelString="Enable In-Game Tips"
+WeaponsSectionHeadingString="WEAPONS"
+ManualBoltingLabelString="Enable Manual Bolt Action"
+ManualPumpingLabelString="Enable Manual Pump Action"
+AutoReloadOnLowAmmoLabelString="Enable Reload when Check Ammo is Low"
+AutoReloadingLabelString="Enable Automatic Reload"
+PreferSemiAutoLabelString="Default to Semi-Auto Firemode"
+AutoGrenadeSwitchLabelString="AUTOMATIC GRENADE SWITCH"
+RO2MosinReticleLabelString="Use RO2 Style Reticle for Mosin Nagant Sniper"
+VehicleSectionHeadingString="VEHICLES"
+AircraftSectionHeadingString="AIRCRAFT"
+VehicleAutoReloadingLabelString="Enable Auto-Reloading"
+IncrementalThrottleLabelString="Enable Incremental Throttle"
+InvertAircraftPitchLabelString="Invert Aircraft Y-Axis"
+AircraftFreelookLabelString="Enable Freelook by Default"
+AircraftDecoupleAimFromTurnLabelString="Decouple Aiming From Turning"
+AdvancedFlightModelLabelString="Enable Advanced Flight Model"
+HeloAutoTakeControlsString="Enable Automatic Pilot Take-over"
+HeloMouseTurnLabelString="Mouse Turning"
+HeloMouseTurnOptionsString="Yaw and Roll|Yaw Only|Roll Only"
+SteamSectionHeadingString="STEAM"
+EnableSteamCloudLabelString="Enable Steam Cloud"
+ControlsSectionHeadingString="CONTROLS"
+KeyboardDefaultsLabelString="Keyboard Defaults Layout"
+KeyboardDefaultsOptionsString="Right Handed|Left Handed"
+MouseSectionHeadingString="MOUSE"
+InvertMouseLabelString="Reverse Mouse"
+MouseSensitivityLabelString="Mouse Sensitivity - In-Game"
+ZoomedSensitivityLabelString="Mouse Sensitivity - Iron Sights"
+ZoomedScopedSensitivityLabelString="Mouse Sensitivity - Scopes"
+EnableMouseSmoothingLabelString="Mouse Smoothing"
+HeloCollectiveRateLabelString="Helicopter Collective Sensitivity"
+MiscOptionsSectionHeadingString="MISCELLANEOUS"
+AutoSprintCheckBoxString="Enable Automatic Dive after Sprinting"
+GraphicsQualityOptionStrings[0]="Ultra"
+GraphicsQualityOptionStrings[1]="High"
+GraphicsQualityOptionStrings[2]="Medium"
+GraphicsQualityOptionStrings[3]="Low"
+GraphicsQualityOptionStrings[4]="Lowest"
+GraphicsQualityOptionStrings[5]="Custom"
+AspectRatioOptionStrings[0]="4:3"
+AspectRatioOptionStrings[1]="5:4"
+AspectRatioOptionStrings[2]="16:9"
+AspectRatioOptionStrings[3]="16:10"
+AspectRatioOptionStrings[4]="21:9"
+AspectRatioOptionStrings[5]="Multi-Monitor Landscape"
+AspectRatioOptionStrings[6]="Multi-Monitor Portrait"
+AspectRatioOptionStrings[7]="Auto-Detect"
+PostProcessOptionStrings[0]="Authentic"
+PostProcessOptionStrings[1]="Enhanced"
+PostProcessOptionStrings[2]="War Movie"
+PostProcessOptionStrings[3]="Woodstock Experience"
+VolumeSectionHeadingString="VOLUME"
+VoiceChatSectionHeadingString="VOICE CHAT"
+MasterVolumeLabelString="Master Volume"
+MusicVolumeLabelString="In-Game Music Volume"
+MenuMusicVolumeLabelString="Menu Music Volume"
+SFXVolumeLabelString="SFX Volume"
+DialogVolumeLabelString="Dialog Volume"
+AnnouncerVolumeLabelString="Announcer Volume"
+HeadshotVolumeLabelString="Headshot Death Volume"
+VOIPTransmitVolumeLabelString="Voice Transmit Volume"
+VOIPReceiveVolumeLabelString="Voice Receive Volume"
+GeneralSectionHeadingString="GENERAL"
+MaxChannelsLabelString="Max Audio Channels"
+VoiceMessageFrequencyLabelString="Battle Chatter Frequency"
+VoiceMessageFrequencyOptionsString="All Battle Chatter|Critical Chatter Only|Minimal Chatter"
+SoundQualityLabelString="Audio Quality"
+SoundQualityOptionsString="High|Low"
+MicrophoneSectionHeadingString="MICROPHONE"
+ConfigureMicrophoneLabelString="CONFIGURE MICROPHONE"
+AAOptionStrings[0]="Off"
+AAOptionStrings[1]="FXAA Low"
+AAOptionStrings[2]="FXAA Medium"
+AAOptionStrings[3]="FXAA High"
+AAOptionStrings[4]="MLAA Ultra"
+GeneralHeaderString="GENERAL"
+VCOnlyClimbableIndicatorsString="Enable Glow on Climbable Obstacles"
+TacViewHeaderString="GENERAL"
+TacOpacityIronsightFadeString="HUD Opacity - Iron Sights"
+ToggleTacViewDisplayString="Enable Tactical View"
+CompassVisModeLabelString="Compass Visibility"
+CompassVisModeOptionsString="Always On|Toggle|Off"
+ToggleOrdersWidgetDisplayString="Enable Orders Widget"
+TacOpacityIronSightAimedFadeString="HUD Opacity - Aimed At"
+AlwaysShowObjectiveString="Always Display Important Icons"
+TacViewFadeTimeString="Tactical View Fadeout Time"
+PopupTacViewString="Display Tactical View on Objective Capture"
+TacViewTimeSuffixString="s"
+ChatboxHeaderString="TEXT CHAT"
+ChatboxOpacityString="Chat Message Opacity"
+KillfeedHeaderString="KILL FEED"
+KillfeedScaleString="Kill Feed Scale"
+KillOpacityString="Kill Feed Opacity"
+KillfeedTypeString="No Kill Feed|Only Your Death|Only Your Kills|Only Squad's Kill Messages|All Kill Messages"
+KillfeedTypeLabelString="Kill Feed Display"
+KillfeedDisplayTypeLabelString="Kill Feed Displayed As"
+KillfeedDisplayTypeString="Icon|Text"
+PlayerNamesTypeString="Off|10m|50m|100m|150m"
+PlayerNamesTypeLabelString="Player Name & Icon Display Distance"
+PlayerNameFoVDistScalingString="FOV to Display Teammate Names"
+PlayerNameFoVValuesString="Wide|Wide|Medium|Narrow|Narrow"
+AmmoCheckHeaderString="CHECK AMMO"
+AmmoCheckUseTextString="Display Check Ammo as Text"
+VoiceCommHeaderstring="VOICE COMMUNCATIONS & ORDERS"
+VoiceCommLabelString="Communication / Orders Menu"
+VoiceCommOptionString="Communication Rose (Classic)|Compact Communication / Orders Menu"
+FriendFoeColoursString="Display Friendly Team as Blue - Enemy as Red"
+SquadColourString="Your Squad's Color"
+WindowModeOptionStrings[0]="Windowed"
+WindowModeOptionStrings[1]="Borderless Windowed"
+WindowModeOptionStrings[2]="Fullscreen"
+TexturePoolSizeOptionStrings[0]="Unlimited"
+TexturePoolSizeOptionStrings[1]="1 Gb"
+TexturePoolSizeOptionStrings[2]="2 Gb"
+TexturePoolSizeOptionStrings[3]="3 Gb"
+TexturePoolSizeOptionStrings[4]="4 Gb"
+TexturePoolSizeOptionStrings[5]="6 Gb"
+EnableMantleIconString="Enable Mantle Icon"
+EnableWeaponRestIconString="Enable Weapon Rest Icon"
+EnableWeaponObstructedString="Enable Weapon Obstructed Icon"
+TogglePaperDollString="Enable Paper Doll"
+EnableSquadListString="Enable Squad List"
+EnablePassengerListString="Enable Vehicle Passenger List"
+EnableSpawnQueueString="Display Spawn Queue & Timer"
+EnableRadiomanHelperString="Enable Radioman Helper"
+EnablePeripheralWhipsString="Enable Peripheral Whips"
+EnableHeloInstrumentsString="Enable Helicopter Instrument HUD"
+EnableVehicleHUDString="Enable Vehicle Status HUD"
+EnableGridLocAutoShowString="Auto-Show Grid Reference when Location Changes"
+ToggleConsoleKeyString="Enable Developer Console"
+MenuMovieBGString="Use Legacy Menu Background"
+
+
+[ROHUDWidget]
+NoSquadString="UNASSIGNED"
+PilotSquadString="PILOTS ONLY"
+
+[ROHUDWidgetVOIPTalkers]
+VOIPChannelStrings[0]="PUBLIC"
+VOIPChannelStrings[1]="TEAM"
+VOIPChannelStrings[2]="SQUAD"
+VOIPChannelStrings[3]="VEHICLE"
+VOIPChannelStrings[4]="SPECTATOR"
+VOIPChannelStrings[5]="SPECTATORS"
+VOIPChannelStrings[6]="LOCAL"
+VOIPChannelStrings[7]="COMMAND"
+
+[ROHUDWidgetScoreboard]
+MapNameNotSetString="Map Name Not Set"
+SquadString="SQUAD"
+PlayerText="Players"
+ScoreText="Score"
+KillsText="Kills"
+PingText="Ping"
+RoundString="ROUND"
+SpectatorsString="SPECTATORS"
+InstructionMouseText="[ LMB ] Enable Mouse Cursor"
+InstructionMuteP1Text="Click"
+InstructionMuteP2Text="to Mute Players"
+
+[ROHUDWidgetScoreboardTE]
+ReinforcementsString="REINFORCEMENTS"
+ManpowerString="MANPOWER"
+RoundPointsString="Round Points"
+ObjectivesCapturedString="OBJECTIVES CAPTURED"
+OvertimeString="OVERTIME"
+
+[ROHUDWidgetScoreboardFF]
+WinStrengthText="STRENGTH POINTS TO WIN"
+StrengthText="STRENGTH"
+
+[ROHUDWidgetScoreboardSK]
+SpawnWindowString="DEPLOY TIME REMAINING"
+EnemiesRemainingText="ENEMIES REMAINING"
+
+[ROHUDWidgetScoreboardSU]
+ReinforcementsString="REINFORCEMENTS"
+PointsHeldString="POINTS HELD"
+LeaderString="LEADER"
+TiedString="TIED"
+
+[ROHUDWidgetOverheadMap]
+CaptureString="CAPTURE"
+DefendString="DEFEND"
+RequiredObjString="OBJECTIVES"
+SecondaryObjectivesString="SECONDARY OBJECTIVES"
+DestroyString="DESTROY"
+OpenCloseOverheadMapString="[ %x ] OPEN / CLOSE OVERHEAD MAP"
+ToggleCursorString="[ %x ] TOGGLE CURSOR [MOUSEWHEEL] ZOOM IN / OUT [RMB] MOVE MAP"
+SupremacyTipString="LINK OBJECTIVES TO HOME BASE - UNLINKED OBJECTIVES SCORE ZERO POINTS"
+YourPositionString="YOU"
+ObjString="OBJ - "
+NeutralObjString="OBJ - NEUTRAL"
+DefendObjString="DEFEND"
+AttackObjString="ATTACK"
+DestroyableObjString="OBJ - DESTROY"
+CommanderRadioString="RADIO"
+ArtilleryTargetString="TARGET"
+RallyPointString="RALLY HERE"
+SquadleaderString="SQUAD LEADER"
+SquadMemberString="SQUAD MATE"
+TeamMemberString="FRIENDLY"
+DeadTeamMemberString="DEAD FRIENDLY"
+EnemySpottedString="ENEMY SPOTTED"
+EnemyTankSpottedString="TANK SPOTTED"
+EnemyTransportSpottedString="TRANSPORT SPOTTED"
+EnemyTunnelSpottedString="TUNNEL SPOTTED"
+EnemyHelicopterSpottedString="AIRCRAFT SPOTTED"
+FriendlyHelicopterString="FRIENDLY HELICOPTER"
+ReconPlaneString="RECON AIRCRAFT"
+ResupplyPointString="RESUPPLY POINT"
+ForwardScoutString="RECON SCOUT"
+TunnelEntranceString="TUNNEL"
+VCTunnelSpawnString="SQUAD TUNNEL"
+AC47SpookyString="AC-47"
+CanberraString="CANBERRA"
+F4PhantomString="F-4"
+A1SkyraiderString="A-1"
+LZString="LZ"
+SL1String="SL 1"
+RemainingSalvosString="STRIKES REMAINING"
+Num1String="1"
+Num2String="2"
+Num3String="3"
+Num4String="4"
+Num5String="5"
+Num6String="6"
+Num7String="7"
+Num8String="8"
+Num9String="9"
+Num10String="10"
+LetterAString="A"
+LetterBString="B"
+LetterCString="C"
+LetterDString="D"
+LetterEString="E"
+LetterFString="F"
+LetterGString="G"
+LetterHString="H"
+LetterIString="I"
+LetterJString="J"
+TeamLeaderShortString="TL"
+SquadLeaderShortString="SL"
+HelicopterShortString="H"
+YourTargetString="YOUR TARGET"
+RequestByString="FROM"
+GridsizeString="%SIZE% m"
+AutoString="AUTO"
+StrikeDirHintString="DRAG TARGET TO SET AIRSTRIKE DIRECTION. CLICK TARGET TO RESET"
+
+[ROHUDWidgetCompass]
+VerticalMarkersString[0]="A"
+VerticalMarkersString[1]="B"
+VerticalMarkersString[2]="C"
+VerticalMarkersString[3]="D"
+VerticalMarkersString[4]="E"
+VerticalMarkersString[5]="F"
+VerticalMarkersString[6]="G"
+VerticalMarkersString[7]="H"
+VerticalMarkersString[8]="I"
+VerticalMarkersString[9]="J"
+VerticalMarkersString[10]="K"
+
+[ROHUDWidgetSimpleCompass]
+VerticalMarkersString[0]="A"
+VerticalMarkersString[1]="B"
+VerticalMarkersString[2]="C"
+VerticalMarkersString[3]="D"
+VerticalMarkersString[4]="E"
+VerticalMarkersString[5]="F"
+VerticalMarkersString[6]="G"
+VerticalMarkersString[7]="H"
+VerticalMarkersString[8]="I"
+VerticalMarkersString[9]="J"
+VerticalMarkersString[10]="K"
+
+[ROHUDWidgetLockdownTimer]
+LockDownText="LOCKDOWN IN"
+OvertimeText="OVERTIME"
+
+[ROHUDWidgetOvertimeTimer]
+WinningOvertimeText="OBJECTIVES CAPTURED - DEFEND AND HOLD "
+LosingOvertimeText="OBJECTIVES LOST - CAPTURE AN OBJECTIVE "
+
+[ROHUDWidgetPromptBox]
+AcceptPromptKeyString="%x - YES"
+DenyPromptKeyString="%x - NO"
+VoteKickString="Kick:"
+RoleKickString="Role Kick:"
+KickReasonString="Reason:"
+InvitedToSquadString="Invite:"
+InviteByString="From:"
+MapVoteString="Change Map:"
+VotesString="Votes:"
+SquadOrderString="SL:"
+CommanderString="CMDR:"
+SaysString="Says"
+ForgiveString="Forgive:"
+ForString="For:"
+TeamKillingYouString="Team Killing You"
+APlayerString="A Player"
+
+
+[ROHUDWidgetRespawnTimer]
+RespawnTimerString="NEXT DEPLOYMENT:"
+ZeroTimeString="0:00"
+SpawnClosedString:"WAITING FOR AN OBJECTIVE TO BE CAPTURED"
+
+[ROHUDWidgetWatermark]
+GameVersion="WORK IN PROGRESS"
+WebsiteLink="BETA MAP"
+;WebsiteLink="ALPHA CONTENT"
+BuildID=""
+
+[ROHUDWidgetWeapon]
+RangeSettingText="% m"
+DigSquadTunnelLine1Text="DIG"
+DigSquadTunnelLine2Text="SQUAD"
+DigSquadTunnelLine3Text="TUNNEL"
+MagazineText="Ammo"
+BandageResupplyText="Bandage"
+CarriedMGAmmoResupplyText="Carried Ammo"
+
+[ROHUDWidgetGameStatus]
+OvertimeString="OVERTIME"
+SuddenDeathString="SUDDEN DEATH"
+LockdownString="LOCKDOWN IN:"
+VictoryString="VICTORY IN:"
+DefeatString="DEFEAT IN:"
+
+[ROHUDWidgetGameStatusSK]
+WindowClosedString="LOCK"
+WavesString="WAVES"
+
+[ROHUDWidgetWorld]
+AttackString="ATTACK"
+DestroyString="DESTROY"
+DefendString="DEFEND"
+ProtectString="PROTECT"
+MoveHereString="RALLY HERE"
+MetersAbbreviated="m"
+TimeRemainingString="TIME REMAINING"
+OvertimeString="OVERTIME"
+ReinforcementsString="REINFORCEMENTS"
+ManpowerString="MANPOWER"
+StrengthString="STRENGTH"
+SalvoString="STRIKES REMAINING"
+NeedsRessuplyString="NEEDS AMMO"
+EnemySpottedStrings[0]=" "
+EnemySpottedStrings[1]="RPG"
+EnemySpottedStrings[2]=" "
+EnemySpottedStrings[3]="SAPPER"
+EnemySpottedStrings[4]="MACHINE GUN"
+EnemySpottedStrings[5]="SNIPER"
+EnemySpottedStrings[6]=" "
+EnemySpottedStrings[7]=" "
+EnemySpottedStrings[8]=" "
+EnemySpottedStrings[9]="OFFICER"
+EnemySpottedStrings[10]="PILOT"
+EnemySpottedStrings[11]="TANK"
+EnemySpottedStrings[12]="TRANSPORT"
+EnemySpottedStrings[13]="HUEY"
+EnemySpottedStrings[14]="COBRA"
+EnemySpottedStrings[15]="LOACH"
+EnemySpottedStrings[16]="GUNSHIP"
+EnemySpottedStrings[17]="TUNNEL"
+OtherFinalObjective="Other Teams Final Objective:"
+OtherTimeToBeat="Time To Beat:"
+AttackerExtraWaveString="Available Extra Waves:"
+RadioString=""
+SquadLeaderString="SL"
+TeamLeaderString="TL"
+IncomingArtilleryString="INCOMING ARTILLERY"
+SPManpowerReinfString="MANPOWER REINFORCED IN:"
+
+[ROHUDWidgetSquadList]
+SquadMemberString="SQUAD"
+SquadLeaderListString="SQUAD LEADERS"
+NoTLString="TEAM HAS NO COMMANDER"
+NoSLString="NO SQUAD LEADER"
+NoPilotString="NO ATTACHED PILOT"
+NearbyString="Squad Bonus"
+
+[ROHUDWidgetVehicleList]
+TankMemberString="TANK MEMBERS"
+TransportString="PASSENGERS"
+DriverTag="DRIVER"
+GunnerTag="GUNNER"
+NoDriverString="NO DRIVER"
+NoGunnerString="NO GUNNER"
+PilotTag="PILOT"
+CopilotTag="CO-PILOT"
+NoPilotString="NO PILOT"
+NoCopilotString="NO CO-PILOT"
+
+
+[ROHUDWidgetSpawnQueue]
+NextRespawnLabelText="NEXT DEPLOYMENT:"
+SpawnQueueString="WAITING TO DEPLOY"
+OutOfReinforcementsText="ZERO REINFORCEMENTS REMAIN"
+SpawnClosedString="WAITING FOR AN OBJECTIVE TO BE CAPTURED"
+RespawnTeamKillPenaltyText="+ %SECONDS% TK PENALTY"
+
+[ROLocalMessageGameReload]
+Reload="NEW MAGAZINE IS"
+ReloadCheck="MAGAZINE IS"
+InvArray[0]="VERY CLOSE TO EMPTY"
+InvArray[1]="CLOSE TO EMPTY"
+InvArray[2]="OVER HALF FULL"
+InvArray[3]="FULL"
+InvArray[4]="VERY CLOSE TO EMPTY"
+InvArray[5]="CLOSE TO EMPTY"
+InvArray[6]="OVER HALF FULL"
+InvArray[7]="FULL"
+ReloadMustDeploy="Must be in cover to reload"
+CheckAmmoMustDeploy="Must be in cover to check ammo"
+
+[ROLocalMessageGameReloadFlamer]
+FlamerAmmoCheck="The fuel tank feels"
+FlamerEmpty="The fuel tank is empty"
+
+[ROLocalMessageObjective]
+ObjectiveIs="Objective is"
+PercentCapturedBy="percent captured"
+HaveCaptured="CAPTURED"
+ObjectiveStalemate="OBJECTIVE STALEMATE"
+AreAttacking="ARE ATTACKING"
+NextObjective="Next Objective:"
+NextObjectiveIsKey="(KEY OBJECTIVE)"
+HaveCapturedKey="and got reinforced"
+AttackObjective="ATTACK"
+DefendObjective="DEFEND"
+ObjectiveSecured="%s HAS BEEN CAPTURED"
+AttackNextObjective="ATTACK"
+DefendNextObjective="DEFEND"
+ObjectiveCutOff="LINE BROKEN - SECURE IT NOW"
+We="WE"
+TheEnemy="ENEMY"
+
+[ROLocalMessageWeapon]
+WeaponBarrelDestroyed="Barrel badly damaged. Press [%key%] to replace it."
+WeaponBarrelDestroyedOOB="Barrel badly damaged. You are out of extra barrels"
+WeaponBarrelDestroyedCCB="BARREL WARPED"
+WeaponBarrelAboutToFailDestroyed="Barrel very hot. Press [%key%] to replace it."
+WeaponBarrelAboutToFailDestroyedOOB="BARREL BEGINNING TO WARP"
+WeaponBarrelAboutToFailDestroyedCCB="BARREL VERY HOT"
+WeaponInSpawnProtectionString="Cannot use weapon in restricted areas"
+
+[ROHUD]
+TeamLeaderTag="TL"
+SquadLeaderTag="SL"
+SquadLeaderIDTag="SL x"
+DeadTag="DEAD "
+TeamTag="TEAM "
+SquadTag="SQUAD "
+SquadIDTag="SQUAD X"
+AmmoUVs[0]=(AmmoDescription="5.56x45mm 30rd Box")
+AmmoUVs[1]=(AmmoDescription="5.56x45mm 18rd Box")
+AmmoUVs[2]=(AmmoDescription="7.62x39mm 30rd Box")
+AmmoUVs[3]=(AmmoDescription="7.62x39mm 30rd Box")
+AmmoUVs[4]=(AmmoDescription="7.62x39mm 10rd Clip")
+AmmoUVs[5]=(AmmoDescription="7.62x51mm 20rd Box")
+AmmoUVs[6]=(AmmoDescription="11.43x23mm 7rd Box")
+AmmoUVs[7]=(AmmoDescription="7.62x25mm 8rd Box")
+AmmoUVs[8]=(AmmoDescription="7.62x54mmR 47rd Pan")
+AmmoUVs[9]=(AmmoDescription="7.62x39mm 100rd Drum")
+AmmoUVs[10]=(AmmoDescription="7.62x39mm 200rd Belt")
+AmmoUVs[11]=(AmmoDescription="7.62x51mm 100rd Belt")
+AmmoUVs[12]=(AmmoDescription="7.62x51mm 200rd Belt")
+AmmoUVs[13]=(AmmoDescription="7.62x25mm 35rd Stick")
+AmmoUVs[14]=(AmmoDescription="7.62x25mm 71rd Drum")
+AmmoUVs[15]=(AmmoDescription="9x19mm 32rd Stick")
+AmmoUVs[16]=(AmmoDescription="7.62x25mm 35rd Stick")
+AmmoUVs[17]=(AmmoDescription="11.43x23mm 30rd Stick")
+AmmoUVs[18]=(AmmoDescription="7.62x54mmR 5rd Clip")
+AmmoUVs[19]=(AmmoDescription="7.62x51mm 5rd Clip")
+AmmoUVs[20]=(AmmoDescription="7.62x54mmR 10rd Box")
+AmmoUVs[21]=(AmmoDescription="00 Buckshot Shell")
+AmmoUVs[22]=(AmmoDescription="1oz Rifled Slug")
+AmmoUVs[23]=(AmmoDescription="00 Buckshot Shell")
+AmmoUVs[24]=(AmmoDescription="No.4 Buckshot Shell")
+AmmoUVs[26]=(AmmoDescription="40x46mm HE Grenade")
+AmmoUVs[27]=(AmmoDescription="40x46mm Buckshot Shell")
+AmmoUVs[28]=(AmmoDescription="40x46mm Smoke Grenade")
+AmmoUVs[42]=(AmmoDescription="15L Fuel Tank")
+AmmoUVs[47]=(AmmoDescription="7.62x51mm 20rd Box")
+AmmoUVs[48]=(AmmoDescription="7.62x51mm 30rd Box")
+AmmoUVs[49]=(AmmoDescription="9x19mm 33rd Stick")
+AmmoUVs[50]=(AmmoDescription="9x19mm 34rd Stick")
+AmmoUVs[51]=(AmmoDescription="9x19mm 13rd Box")
+AmmoUVs[52]=(AmmoDescription="7.62x33mm 15rd Box")
+AmmoUVs[53]=(AmmoDescription="7.62x33mm 30rd Box")
+AmmoUVs[54]=(AmmoDescription="7.62x63mm 8rd Clip")
+AmmoUVs[55]=(AmmoDescription="11.43x23mm 30rd Stick")
+AmmoUVs[56]=(AmmoDescription="7.62x63mm 20rd Box")
+AmmoUVs[57]=(AmmoDescription="7.62x63mm 250rd Belt")
+AmmoUVs[58]=(AmmoDescription="9x19mm 32rd Stick")
+AmmoUVs[63]=(AmmoDescription="7.5x54mm 10rd Box")
+AmmoUVs[64]=(AmmoDescription="50x200mm HE Grenade")
+AmmoUVs[65]=(AmmoDescription="7.62x54mmR 250rd Belt")
+
+[ROHUDWidgetComCommunication]
+BasicCommunication[0]="NEED AMMO"
+BasicCommunication[1]="REQUEST ORDERS"
+BasicCommunication[2]="REQUEST SUPPORT..."
+BasicCommunication[3]="ACKNOWLEDGE..."
+BasicCommunication[4]="TAKE COVER"
+BasicCommunication[5]="ATTACK"
+BasicCommunication[6]="RETREAT"
+BasicCommunication[7]="TAUNT"
+BasicCommunication[8]=""
+SupportOptions[0]="MACHINE GUN"
+SupportOptions[1]="INFANTRY"
+SupportOptions[2]="RECON"
+SupportOptions[3]="FIRE SUPPORT"
+SupportOptions[4]="ANTI-AIRCRAFT"
+SupportOptions[5]="AIRCRAFT"
+SupportOptions[6]="EXPLOSIVE"
+SupportOptions[7]="SMOKE SCREEN"
+Acknowledgments[0]="NEGATIVE"
+Acknowledgments[1]="AFFIRMATIVE"
+Acknowledgments[2]="THANKS"
+Acknowledgments[3]="SORRY"
+
+[ROHUDWidgetCompactVoiceComms]
+MyTankString="My Tank"
+AllSquadsString="ALL SQUADS"
+AllFireTeamsString="ALL Fire Teams"
+ObjectiveString="OBJECTIVE"
+Mouse1MoveString="[LMB] RALLY HERE"
+Mouse1AttackString="[LMB] ATTACK %x"
+Mouse1DefendString="[LMB] DEFEND %x"
+Mouse2String="[RMB] MARK FIRE SUPPORT"
+Mouse3String="[MMB] MARK LZ"
+ForceString="FORCE"
+AmbushString="AMBUSH"
+NoneString="NONE"
+VoiceBasicComms[0]="NEED AMMO"
+VoiceBasicComms[1]="ATTACK"
+VoiceBasicComms[2]="RETREAT"
+VoiceBasicComms[3]="TAKE COVER"
+VoiceBasicComms[4]="ACKNOWLEDGE..."
+VoiceBasicComms[5]="REQUEST SUPPORT..."
+VoiceBasicComms[6]="REQUEST ORDERS"
+VoiceBasicComms[7]="TAUNT"
+VoiceAcknowledgements[0]="NEGATIVE"
+VoiceAcknowledgements[1]="AFFIRMATIVE"
+VoiceAcknowledgements[2]="THANKS"
+VoiceAcknowledgements[3]="SORRY"
+VoiceSupportComms[0]="ANTI-AIRCRAFT"
+VoiceSupportComms[1]="AIRCRAFT"
+VoiceSupportComms[2]="EXPLOSIVE"
+VoiceSupportComms[3]="SMOKE SCREEN"
+VoiceSupportComms[4]="ARTILLERY"
+VoiceSupportComms[5]="RECON"
+VoiceSupportComms[6]="INFANTRY"
+VoiceSupportComms[7]="MACHINE GUN"
+VoiceSquadLeaderStrings[0]="SQUAD %s"
+VoiceSquadLeaderStrings[1]="ATTACK..."
+VoiceSquadLeaderStrings[2]="DEFEND..."
+VoiceSquadLeaderStrings[3]="MARK COORDINATES"
+VoiceSquadLeaderStrings[4]="CLEAR COORDINATES"
+VoiceSquadLeaderStrings[5]="CANCEL FIRE SUPPORT"
+VoiceSquadLeaderStrings[6]="FOLLOW ME"
+VoiceSquadLeaderStrings[7]="MARK LZ"
+VoiceSquadLeaderStrings[8]="RESUME"
+VoiceTeamLeaderStrings[0]="SQUAD %s"
+VoiceTeamLeaderStrings[1]="ATTACK..."
+VoiceTeamLeaderStrings[2]="DEFEND..."
+VoiceTeamLeaderStrings[3]="MARK COORDINATES"
+VoiceTeamLeaderStrings[4]="REQUEST COORDINATES"
+VoiceTeamLeaderStrings[5]="%Force (%i) IN QUEUE"
+VoiceTeamLeaderStrings[6]="FOLLOW ME"
+VoiceTeamLeaderStrings[7]="MARK LZ"
+VoiceTeamLeaderStrings[8]="RESUME"
+VoiceTankCommanderStrings[0]="SELECTED SQUAD: %s"
+VoiceTankCommanderStrings[1]="ATTACK"
+VoiceTankCommanderStrings[2]="DEFEND"
+VoiceTankCommanderStrings[3]="FIRE AT WILL"
+VoiceTankCommanderStrings[4]="HOLD FIRE"
+VoiceTankCommanderStrings[5]="MARK LZ"
+VoiceMenuMisc[0]="BACK"
+VoiceMenuMisc[1]="CLOSE"
+
+[ROHUDWidgetCutOffTimer]
+CutOffLabel=" REINFORCEMENTS CUT OFF IN"
+
+[ROHUDWidgetSPDefendTimer]
+DefendText="DEFEND OBJECTIVE:"
+
+[ROHUDWidgetMapBoundaryTimer]
+ReturnOrder="RETURN TO THE COMBAT AREA"
+
+[ROHUDWidgetVehicleInfo]
+AmmoCountString="99"
+APString="AP"
+HEString="HE"
+SmokyString="Smoke"
+
+[ROVWeap_TankTurret]
+SwitchToAPString="Switched to AP Rounds"
+SwitchToHEString="Switched to HE Rounds"
+SwitchToSmokeString="Switched to Smoke Rounds"
+
+[ROHUDWidgetCommander]
+ForceString="RAPID"
+AmbushString="AMBUSH"
+RespawnString="DEPLOYMENT"
+ZeroTimeString="0:00"
+AerialString="AERIAL"
+ReconString="RECON"
+CancelString="CANCEL"
+ArtilleryString="ARTILLERY"
+RequestString="REQUEST"
+ScoutString="SCOUT"
+EnhancedString="HO CHI"
+LogisticsString="MINH TRAIL"
+BarrageString="BARRAGE"
+MortarsString="MORTARS"
+AirDefenceString="ANTI-AIR"
+GunshipString="SPOOKY"
+NapalmString="NAPALM"
+BombingRunString="BOMBING RUN"
+RequestCoordsString="REQUEST UPDATED COORDINATES"
+ClearCoordsString="CLEAR CURRENT COORDINATES"
+CoordsLogString="COORDINATES LOG"
+;The special character combination " $^" (including the leading space) are a special new line trigger that won't break the formatting in this particular widget. Do not replace them with /n or delete them unless we're going back to 100% automatic text wrapping.
+ScrollThroughSquadString="[SHIFT+MOUSEWHEEL] CYCLE SQUADS"
+AerialReconTipTitleString="AERIAL RECON"
+AerialReconTipString="Reconnaissance aircraft reports enemies on the move or out in the open $^Duration: 60s"
+ForceRespawnTipTitleString="RAPID DEPLOYMENT"
+ForceRespawnTipString="Instantly deploys all dead team members at their selected deployment points"
+GunshipTipTitleString="REQUEST SPOOKY"
+GunshipTipString="Minigun Bursts: Every 4-6s $^Radius: 25m $^Duration: %DUR%s"
+SouthArtilleryTipTitleString="REQUEST ARTILLERY"
+SouthArtilleryTipString="Salvos: 5 $^Bombardment Radius: 25m $^Duration: 30s"
+NapalmTipTitleString="REQUEST NAPALM"
+NapalmTipString="Drops 2 Napalm Canisters on the selected target $^Strike Length: 90m"
+ScoutReconTipTitleString="SCOUT RECON"
+ScoutReconTipString="Hidden Scouts deliver reports of enemy movement to your map. $^Duration: 60s"
+AmbushRespawnTipTitleString="AMBUSH DEPLOYMENT"
+AmbushRespawnTipString="Instantly deploys all dead teammates on your current position. Useful for surprise attacks."
+LogisticsTipTitleString="HO CHI MINH TRAIL"
+LogisticsTipString="50% reduction to Team's deployment time and reinforcements lost $^Duration: %DUR%s"
+NorthArtilleryTipTitleString="REQUEST BARRAGE"
+NorthArtilleryTipString="Salvos: 5 $^Bombardment Radius: 40m $^Duration: 30s"
+AirDefenceTipTitleString="REQUEST ANTI-AIR"
+AirDefenceTipString="Automatically targets enemy aircraft above an altitude of 75m. $^Duration: 60s"
+BombingRunTipTitleString="REQUEST BOMBING RUN"
+BombingRunTipString="2 RAAF Canberra Bombers perform a bombing run over the selected target $^Strike Length: 200m"
+MortarsTipTitleString="REQUEST MORTARS"
+MortarsTipString="Salvos: 9 $^Bombardment Radius: 36m $^Duration: 35s"
+CancelButtonTipTitleString="CANCEL ARTILLERY"
+CooldownString="Cooldown:"
+
+[ROHUDWidgetComOrders]
+AllSquadsString="ALL SQUADS"
+AllFireTeamsString="All Fire Teams"
+MyTankString="My Tank"
+TeamLeaderStrings[0]="%s"
+TeamLeaderStrings[1]="RESUME"
+TeamLeaderStrings[2]="ATTACK..."
+TeamLeaderStrings[3]="MARK COORDS"
+TeamLeaderStrings[4]="REQUEST COORDS"
+TeamLeaderStrings[5]="DEFEND..."
+TeamLeaderStrings[6]="(%i) %Force"
+TeamLeaderStrings[7]="FOLLOW ME"
+TeamLeaderStrings[8]="MARK LZ"
+SquadLeaderStrings[0]="%s"
+SquadLeaderStrings[1]="RESUME"
+SquadLeaderStrings[2]="ATTACK..."
+SquadLeaderStrings[3]="MARK COORDS"
+SquadLeaderStrings[4]="CLEAR COORDS"
+SquadLeaderStrings[5]="DEFEND..."
+SquadLeaderStrings[6]="CANCEL FIRE SUPPORT"
+SquadLeaderStrings[7]="FOLLOW ME"
+SquadLeaderStrings[8]="MARK LZ"
+TankCommanderStrings[0]="Selected Squad:%;5.%%s"
+TankCommanderStrings[1]=""
+TankCommanderStrings[2]="Attack"
+TankCommanderStrings[3]=""
+TankCommanderStrings[4]="Fire At Will"
+TankCommanderStrings[5]="Defend"
+TankCommanderStrings[6]=""
+TankCommanderStrings[7]="Hold Fire"
+TankCommanderStrings[8]="Mark LZ"
+Mouse1MoveString="[LMB] RALLY HERE"
+Mouse1AttackString="[LMB] ATTACK %x"
+Mouse1DefendString="[LMB] DEFEND %x"
+Mouse2String="[RMB] MARK FIRE SUPPORT"
+Mouse3String="[MMB] MARK LZ"
+ForceString="DEPLOY"
+AmbushString="AMBUSH"
+
+[ROHUDWidgetCountdownTimer]
+CountdownText="COUNTDOWN"
+ReinforcementText="REINFORCEMENT WAVES:"
+OvertimeText="OVERTIME"
+SuddenDeathText="S U D D E N  D E A T H"
+
+[ROHUDWidgetKillMessages]
+RangeString=" "
+RangeSuffix="m"
+TeamString=" "
+ObjCapturedString="CAPTURED OBJECTIVE"
+ObjDefendedString="DEFENDED OBJECTIVE"
+CappingBonusString="CAPTURING"
+DefendingBonusString="DEFENDING"
+ObjContestedString="CONTESTED OBJECTIVE"
+SatchelObjDestroyedString="DESTROYED OBJECTIVE"
+KillAssistString="ASSIST"
+ResuppliedMGString="SUPPLIED AMMO"
+RallyPointReachedString="RALLY POINT"
+KillInObjString="OFFENSIVE KILL"
+KillFromObjString="DEFENSIVE KILL"
+ProtectedCommanderString="PROTECTED COMMANDER"
+ProtectedSquadLeaderString="PROTECTED SQUAD LEADER"
+TeamKillString="TEAM KILL"
+TeamWoundString="TEAM WOUND"
+SuicideString="KILLED SELF"
+SquadSpawnString="SQUAD DEPLOY"
+VehicleKillAssistString="VEHICLE ASSIST"
+TeamDamageVehicleString="VEHICLE TEAM DAMAGE"
+TeamKillVehicleString="VEHICLE TK"
+VehicleKillMessage="VEHICLE KILL"
+KamikazeString="SUICIDE KILL"
+TKForgivenString="TK FORGIVEN"
+ReconKillString="RECON PLANE KILL"
+SpookyKillString="AC-47 KILL"
+PhantomKillString="NAPALM AIRCRAFT KILL"
+CanberraKillString="CANBERRA BOMBER KILL"
+ExplosiveDisarmedString="DISARMED EXPLOSIVE"
+TrapDisarmedString="DISARMED TRAP"
+HeloDropString="TRANSPORT"
+PilotAssistString="PILOT ASSIST"
+SpotAssistString="SPOTTER ASSIST"
+TunnelDestroyedString="TUNNEL DESTROYED"
+SquadKillAssistString="SQUAD ASSIST"
+SquadCappingBonusString="SQUAD CAPTURE BONUS"
+SquadDefendingBonusString="SQUAD DEFEND BONUS"
+SquadSpotAssistString="SQUAD SPOTTER ASSIST"
+SquadProtectedString="PROTECTED SQUAD"
+HeadshotString="HEAD"
+HeartshotString="HEART"
+EngineString="ENGINE"
+AmmoStorageString="AMMO STORAGE"
+FuelTankString="FUEL TANK"
+KilledString="KILL"
+RadioManAssistString="RADIO ASSIST"
+SLCommanderAssist="FIRE SUPPORT ASSIST"
+UpperSpineString="UPPER SPINE"
+LowerSpineString="LOWER SPINE"
+AmmoCrateResuppliedString="AMMOCRATE SUPPLIED BONUS"
+
+[ROHUDWidgetMiniStrengthPoints]
+StrengthPointsText=": "
+
+[ROHUDWidgetRoundEndTimer]
+RoundEndText="ROUND ENDS IN:"
+SuddenDeathText="S U D D E N  D E A T H"
+OvertimeText="OVERTIME"
+
+[ROHUDWidgetIndicator]
+CoverMessage="[ %COVERKEY% ]"
+DeployMessage="[ %IRONSIGHTS% ] DEPLOY"
+MantleMessage="[ %MANTLEKEY% ]"
+ClimbMessage="[ %MANTLEKEY% ]"
+CoverMantleMessage="[ %MANTLEKEY% ]"
+DeployMantleMessage="[ %MANTLEKEY% ]"
+EnterVehicleMessage="[ %USEKEY% ]"
+VehicleFullMessage="VEHICLE FULL"
+
+[ROHUDWidgetKillMessages]
+LevelUpString="LEVEL UP"
+LevelUpHonorString=""
+
+[ROHUDWidgetLevelUpMessage]
+LevelUpString="LEVEL"
+LevelUpHonorString=""
+
+[ROHUDWidgetSkirmishEnemies]
+EnemiesRemainingText="Enemies:"
+
+
+[ROLocalMessageCom]
+Communication[0]="Enemy Spotted"
+Communication[1]="Requesting Orders"
+Communication[2]="We need Infantry support"
+Communication[3]="Affirmative"
+Communication[4]="Thanks"
+Communication[5]="I need ammo"
+Communication[6]="Negative"
+Communication[7]="Sorry about that"
+Communication[8]="Take Cover"
+Communication[9]="We need Machine Gun support"
+Communication[10]="We need Recon"
+Communication[11]="We need Fire Support now"
+Communication[12]="We need Anti-Aircraft support"
+Communication[13]="We need Aircraft support"
+Communication[14]="We need an Explosive here"
+Communication[15]="We need Smoke here"
+Communication[16]="We need to Attack"
+Communication[17]="Retreat Now"
+SquadOrders[0]="Lay down suppressing fire"
+SquadOrders[1]="Move over there"
+SquadOrders[2]="Attack"
+SquadOrders[3]="Mark Fire Support Coordinates"
+SquadOrders[4]="Follow me"
+SquadOrders[5]="Defend"
+SquadOrders[6]="Trying To Force Deployment"
+SquadOrders[7]="As you were"
+SquadOrders[8]="Fire Support Coordinate Marked"
+SquadOrders[9]="Attack That Tank"
+SquadOrders[10]="Attack That Helicopter"
+TankOrders[0]="Lay down some suppressing fire"
+TankOrders[1]="Move over there"
+TankOrders[2]="Move to"
+TankOrders[3]="Attack That Tank"
+TankOrders[4]="Fire at will"
+TankOrders[5]="Cease Fire"
+TankOrders[6]="As you were"
+TankOrders[7]="Attack the"
+TankOrders[8]="Defend the"
+ReachedRallyPoint="ARRIVED AT RALLY POINT"
+ForcedRespawnFailed="CANNOT DEPLOY REINFORCEMENTS - %ts REMAINING"
+ForcedRespawnNotNeeded="EVERYONE ALIVE - NOONE TO DEPLOY"
+ForcedRespawnSuccess="DEPLOYED REINFORCEMENTS"
+OrderConfirmed="CONFIRMED ORDER"
+OrderDenied="DENIED ORDER"
+CommanderOrderText=""
+ConfirmDeny="%;5.% F4: Confirm Orders or F5: Deny"
+VehicleString=" VEHICLE:"
+TeamString=" TEAM:"
+FireTeamString=""
+SquadString=" SQUAD LEADER:"
+
+[ROPlaceableSpawn]
+TunnelDestroyedMessage="TUNNEL DESTROYED"
+StoppedDestroyingTunnelMessage="CANCELLED TUNNEL DESTRUCTION"
+DestroyingTunnelInSecondsMessage="DESTROYING TUNNEL IN %TIME%s"
+
+[ROPlayerController]
+TeamString="TEAM "
+SquadString="SQUAD "
+ObjectiveMarkersString[0]="A"
+ObjectiveMarkersString[1]="B"
+ObjectiveMarkersString[2]="C"
+ObjectiveMarkersString[3]="D"
+ObjectiveMarkersString[4]="E"
+ObjectiveMarkersString[5]="F"
+ObjectiveMarkersString[6]="G"
+ObjectiveMarkersString[7]="H"
+ObjectiveMarkersString[8]="I"
+ObjectiveMarkersString[9]="J"
+ObjectiveMarkersString[10]="K"
+ObjectiveMarkersString[11]="L"
+ObjectiveMarkersString[12]="M"
+ObjectiveMarkersString[13]="N"
+ObjectiveMarkersString[14]="O"
+ObjectiveMarkersString[15]="P"
+CannotRotateTurretString="Turret ring damaged, can not rotate turret"
+SpeedHackDetectedString="HIGH PING DETECTED"
+EnemySpottedSpamString=""
+EnemySpottedInvalidTargetString="TARGET INVALID"
+KickVoteStarted="VOTE KICK INITIATED AGAINST"
+RoleVoteStarted="ROLE KICK INITIATED AGAINST"
+YouString="YOU"
+ByString="BY"
+
+[RORocketWeapon]
+BackBlastWarningMessage="DANGER - RPG BACKBLAST AREA"
+
+[RORoleInfoNorthernRifleman]
+MyName="RIFLEMAN"
+ClassShortName="RIFLE"
+Description="The Rifleman is the main-stay of the infantry platoon. He is tasked with the vital role of taking and holding ground. Using his standard issue rifle, he can effectively engage the enemy at a moderate to long range with a high level of effectiveness. He also carries spare ammunition for the squad LMGs and should remember to keep his machine-gunners well supplied."
+ToolTipText="Tasked with the vital role of taking and holding ground.\nUses standard issue rifle, can effectively engage the enemy at a moderate to long range with a high level of effectiveness.\nCarries spare ammunition for squad LMGs and remember to keep machine-gunners well supplied."
+
+[RORoleInfoNorthernGuerilla]
+MyName="GUERRILLA"
+ClassShortName="GUER"
+ToolTipText=""
+
+[RORoleInfoNorthernScout]
+MyName="SCOUT"
+ClassShortName="SCOUT"
+Description=
+ToolTipText="Equipment and weapons allow for ambushes and close-quarters fighting.\nThrow smoke grenades to block enemy line-of-sight and help attack objectives."
+
+[RORoleInfoNorthernMachineGunner]
+MyName="MACHINE GUNNER"
+ClassShortName="MG"
+Description="Armed with a light machine gun, he provides the squad with its primary source of firepower. The light machine gun can deliver overwhelming damage to the enemy, but careful use is required to avoid over-heating or wasting ammunition. Since the light machine gun is not a close combat weapon, the squad must provide protection and ammunition for this class."
+ToolTipText="Provides the squad with heavy, sustained firepower to suppress the enemy.\nCareful use is required to avoid over-heating and warping the weapon's barrel.\nMachine Gunners are encumbered with a heavy weapon and lots of ammunition."
+
+[RORoleInfoNorthernSniper]
+MyName="SNIPER"
+ClassShortName="SNPR"
+Description=
+ToolTipText="Pick targets carefully, concentrating on key enemies, such as leaders, machine-gunners and opposing snipers."
+
+[RORoleInfoNorthernSapper]
+MyName="SAPPER"
+ClassShortName="SAP"
+Description=
+ToolTipText="Equipped with weapons to distrupt the enemy, sneak into enemy lines and wreak havoc.\nPlace toe-popper mines in clever locations to blow up unsuspecting foe."
+
+[RORoleInfoNorthernRPG]
+MyName="RPG"
+ClassShortName="RPG"
+Description=
+ToolTipText="Light infantry role armed with an RPG-7.\nAllows the user to take-down vehicles, penetrate heavy cover and kill enemies.\nRemember to visit Resupply Points for more ammunition."
+
+[RORoleInfoNorthernRadioman]
+MyName="RADIOMAN"
+ClassShortName="RADIO"
+Description=
+ToolTipText="Working side-by-side with the team's Commander, the Radioman provides a vital team asset - a portable Radio.\nStay closeby so the Commander can use your Radio and be sure to provide him with protection.\nArmed with standard Rifleman equipment and smoke grenades."
+
+[RORoleInfoNorthernCommander]
+MyName="COMMANDER"
+ClassShortName="CMDR"
+Description="The Platoon Commander is the overall leader on the battlefield, normally a junior Lieutenant by rank. His role is to provide overall direction of the forces in combat, issuing orders through his Squad Leaders. He is also responsible for handling fire support, aerial recon - and the key reinforcements."
+ToolTipText="Team leader on the battlefield.\nProvides overall direction of the forces in combat by issuing orders through Squad Leaders.\nResponsible for calling in heavy fire support or reconnaissance via Radios or Radioman.\n\n* Required: Level 25 and willingness to work with your team."
+
+[RORoleInfoSouthernRifleman]
+MyName="RIFLEMAN"
+ClassShortName="RIFLE"
+Description="The Rifleman is the main-stay of the infantry platoon. He is tasked with the vital role of taking and holding ground. Using his standard issue rifle, he can effectively engage the enemy at a moderate to long range with a high level of effectiveness. He also carries spare ammunition for the squad LMGs and should remember to keep his machine-gunners well supplied."
+ToolTipText="Tasked with the vital role of taking and holding ground.\nUses standard issue rifle, can effectively engage the enemy at a moderate to long range with a high level of effectiveness.\nCarries spare ammunition for squad LMGs and remember to keep machine-gunners well supplied."
+
+[RORoleInfoSouthernGrunt]
+MyName="GRUNT"
+ClassShortName="GRUNT"
+ToolTipText=""
+
+[RORoleInfoSouthernPointman]
+MyName="POINTMAN"
+ClassShortName="POINT"
+Description=
+ToolTipText="Enemy traps are easily noticed and can be disarmed.\nEquipment and weapons allow for ambushes and close-quarters fighting.\nThrow smoke grenades to block enemy line-of-sight and help attack objectives."
+
+[RORoleInfoSouthernMachineGunner]
+MyName="MACHINE GUNNER"
+ClassShortName="MG"
+Description="Armed with a light machine gun, he provides the squad with its primary source of firepower. The light machine gun can deliver overwhelming damage to the enemy, but careful use is required to avoid over-heating or wasting ammunition. Since the light machine gun is not a close combat weapon, the squad must provide protection and ammunition for this class."
+ToolTipText="Provides the squad with heavy, sustained firepower to suspress the enemy.\nCareful use is required to avoid over-heating and warping the weapon's barrel.\nMachine Gunners are encumbered with a heavy weapon and lots of ammunition."
+
+[RORoleInfoSouthernMarksman]
+MyName="MARKSMAN"
+ClassShortName="MARKS"
+Description="The marksman/sniper is equipped much the same as basic infantry, with the exception of a telescopic sight on his primary weapon. He should be a very good shot - and should pick his targets carefully, concentrating on key enemies, such as leaders, machine-gunners and opposing snipers."
+ToolTipText="Pick targets carefully, concentrating on key enemies, such as leaders, machine-gunners and opposing snipers."
+
+[RORoleInfoSouthernEngineer]
+MyName="COMBAT ENGINEER"
+ClassShortName="ENGI"
+Description="The Combat Engineer carries high explosive demolition ("satchel") charges in addition to his standard infantry gear. Apart from his infantry role, the engineer can use his satchel charges to destroy enemy positions or, if all else fails, enemy armor."
+ToolTipText="Equipped with high-explosive plastics (C4), seek out and destroy enemy positions or ambush common enemy routes.\nAlternatively, the Combat Engineer can use the M9A-1 Flamethrower to set enemy positions ablaze."
+
+[RORoleInfoSouthernGrenadier]
+MyName="GRENADIER"
+ClassShortName="GREN"
+Description=
+ToolTipText="Grenadier provides an overwhelming force multiplier using a large volume of explosives.\nAlternative ammo can be used with the M79 Grenade Launcher.\nProvide smoke or eliminate enemies in close-quarters with buckshot rounds."
+
+[RORoleInfoSouthernRadioman]
+MyName="RADIOMAN"
+ClassShortName="RADIO"
+Description=
+ToolTipText="Working side-by-side with the team's Commander, the Radioman provides a vital team asset - a portable Radio.\nStay closeby so the Commander can use your Radio and be sure to provide him with protection.\nArmed with standard Rifleman equipment and smoke grenades."
+
+[RORoleInfoSouthernCommander]
+MyName="COMMANDER"
+ClassShortName="CMDR"
+Description="The Platoon Commander is the overall leader on the battlefield, normally a junior Lieutenant by rank. His role is to provide overall direction of the forces in combat, issuing orders through his Squad Leaders. He is also responsible for handling fire support, aerial recon - and the key reinforcements."
+ToolTipText="Team leader on the battlefield.\nProvides overall direction of the forces in combat by issuing orders through Squad Leaders.\nResponsible for calling in heavy fire support or reconnaissance via Radios or Radioman.\n\n* Required: Level 25 and willingness to work with your team."
+
+[RORoleInfoSouthernTransportPilot]
+MyName="TRANSPORT PILOT"
+ClassShortName="TPILOT"
+Description="Pilots are highly trained specialists, who are the only soldiers able to take the pilot and copilot seats in helicopters. They are lightly armed, but able to fight on the ground as infantry following a crash landing or when helicopters aren't available. Transport pilots are only able to fly transport helicopters."
+ToolTipText="Highly trained specialist, able to pilot and copilot Transport Helicopters.\nLightly armed, but able to fight as infantry following a crash landing.\n\n* Transport Pilots are only able to fly UH-1 Hueys."
+
+[RORoleInfoSouthernPilot]
+MyName="COMBAT PILOT"
+ClassShortName="CPILOT"
+Description="Pilots are highly trained specialists, who are the only soldiers able to take the pilot and copilot seats in helicopters. They are lightly armed, but able to fight on the ground as infantry following a crash landing or when helicopters aren't available. Combat pilots are only able to fly scout and attack helicopters."
+ToolTipText="Highly trained specialist, able to pilot and copilot Combat Helicopters.\nLightly armed, but able to fight as infantry following a crash landing.\n\n* Combat Pilots are only able to fly the AH-1 Cobra and OH-1 Loach helicopters."
+
+[RORoleInfoSouthernSpecialist]
+MyName="SPECIALIST"
+ClassShortName="SPEC"
+ToolTipText=""
+
+[RORoleInfoSouthernRiflemanAus]
+MyName="RIFLEMAN"
+ClassShortName="RIFLE"
+ToolTipText="Tasked with the vital role of taking and holding ground.\nUses standard issue rifle, can effectively engage the enemy at a moderate to long range with a high level of effectiveness.\nCarries spare ammunition for squad LMGs and remember to keep machine-gunners well supplied."
+
+[RORoleInfoSouthernScoutAus]
+MyName="SCOUT"
+ClassShortName="SCOUT"
+ToolTipText="Enemy traps are easily noticed and can be disarmed.\nEquipment and weapons allow for ambushes and close-quarters fighting.\nThrow smoke grenades to block enemy line-of-sight and help attack objectives."
+
+[RORoleInfoSouthernMachineGunnerAus]
+MyName="MACHINE GUNNER"
+ClassShortName="MG"
+ToolTipText="Provides the squad with heavy, sustained firepower to suspress the enemy.\nCareful use is required to avoid over-heating and warping the weapon's barrel.\nMachine Gunners are encumbered with a heavy weapon and lots of ammunition."
+
+[RORoleInfoSouthernMarksmanAus]
+MyName="MARKSMAN"
+ClassShortName="MARKS"
+ToolTipText="Pick targets carefully, concentrating on key enemies, such as leaders, machine-gunners and opposing snipers."
+
+[RORoleInfoSouthernEngineerAus]
+MyName="COMBAT ENGINEER"
+ClassShortName="ENGI"
+ToolTipText="Equipped with high-explosive plastics (C4), seek out and destroy enemy positions or ambush common enemy routes.\nAlternatively, the Combat Engineer can use the M9A-1 Flamethrower to set enemy positions ablaze."
+
+[RORoleInfoSouthernGrenadierAus]
+MyName="GRENADIER"
+ClassShortName="GREN"
+ToolTipText="Grenadier provides an overwhelming force multiplier using a large volume of explosives.\nAlternative ammo can be used with the M79 Grenade Launcher.\nProvide smoke or eliminate enemies in close-quarters with buckshot rounds."
+
+[RORoleInfoSouthernRadiomanAus]
+MyName="RADIOMAN"
+ClassShortName="RADIO"
+ToolTipText="Working side-by-side with the team's Commander, the Radioman provides a vital team asset - a portable Radio.\nStay closeby so the Commander can use your Radio and be sure to provide him with protection.\nArmed with standard Rifleman equipment and smoke grenades."
+
+[RORoleInfoSouthernCommanderAus]
+MyName="COMMANDER"
+ClassShortName="CMDR"
+ToolTipText="Team leader on the battlefield.\nProvides overall direction of the forces in combat by issuing orders through Squad Leaders.\nResponsible for calling in heavy fire support or reconnaissance via Radios or Radioman.\n\n* Required: Level 25 and willingness to work with your team."
+
+[RORoleInfoSouthernTransportPilotAus]
+MyName="TRANSPORT PILOT"
+ClassShortName="TPILOT"
+ToolTipText="Highly trained specialist, able to pilot and copilot Transport Helicopters.\nLightly armed, but able to fight as infantry following a crash landing.\n\n* Transport Pilots are only able to fly UH-1 Hueys."
+
+[RORoleInfoSouthernPilotAus]
+MyName="COMBAT PILOT"
+ClassShortName="CPILOT"
+ToolTipText="Highly trained specialist, able to pilot and copilot Combat Helicopters.\nLightly armed, but able to fight as infantry following a crash landing.\n\n* Combat Pilots are only able to fly the UH-1H Bushranger Gunship and OH-1 Loach helicopters."
+
+[RORoleInfoSouthernSpecialistAUS]
+MyName="SPECIALIST"
+ClassShortName="SPEC"
+ToolTipText=""
+
+[RORoleInfoSouthernRiflemanARVN]
+MyName="RIFLEMAN"
+ClassShortName="RIFLE"
+ToolTipText="Tasked with the vital role of taking and holding ground.\nUses standard issue rifle, can effectively engage the enemy at a moderate to long range with a high level of effectiveness.\nCarries spare ammunition for squad LMGs and remember to keep machine-gunners well supplied."
+
+[RORoleInfoSouthernPointmanARVN]
+MyName="POINTMAN"
+ClassShortName="POINTMAN"
+ToolTipText="Enemy traps are easily noticed and can be disarmed.\nEquipment and weapons allow for ambushes and close-quarters fighting.\nThrow smoke grenades to block enemy line-of-sight and help attack objectives."
+
+[RORoleInfoSouthernMachineGunnerARVN]
+MyName="MACHINE GUNNER"
+ClassShortName="MG"
+ToolTipText="Provides the squad with heavy, sustained firepower to suspress the enemy.\nCareful use is required to avoid over-heating and warping the weapon's barrel.\nMachine Gunners are encumbered with a heavy weapon and lots of ammunition."
+
+[RORoleInfoSouthernMarksmanARVN]
+MyName="MARKSMAN"
+ClassShortName="MARKS"
+ToolTipText="Pick targets carefully, concentrating on key enemies, such as leaders, machine-gunners and opposing snipers."
+
+[RORoleInfoSouthernEngineerARVN]
+MyName="COMBAT ENGINEER"
+ClassShortName="ENGI"
+ToolTipText="Equipped with high-explosive plastics (C4), seek out and destroy enemy positions or ambush common enemy routes."
+
+[RORoleInfoSouthernGrenadierARVN]
+MyName="GRENADIER"
+ClassShortName="GREN"
+ToolTipText="Grenadier provides an overwhelming force multiplier using a large volume of explosives.\nAlternative ammo can be used with the M79 Grenade Launcher.\nProvide smoke or eliminate enemies in close-quarters with buckshot rounds."
+
+[RORoleInfoSouthernRadiomanARVN]
+MyName="RADIOMAN"
+ClassShortName="RADIO"
+ToolTipText="Working side-by-side with the team's Commander, the Radioman provides a vital team asset - a portable Radio.\nStay closeby so the Commander can use your Radio and be sure to provide him with protection.\nArmed with standard Rifleman equipment and smoke grenades."
+
+[RORoleInfoSouthernCommanderARVN]
+MyName="COMMANDER"
+ClassShortName="CMDR"
+ToolTipText="Team leader on the battlefield.\nProvides overall direction of the forces in combat by issuing orders through Squad Leaders.\nResponsible for calling in heavy fire support or reconnaissance via Radios or Radioman.\n\n* Required: Level 25 and willingness to work with your team."
+
+[RORoleInfoSouthernTransportPilotARVN]
+MyName="TRANSPORT PILOT"
+ClassShortName="TPILOT"
+ToolTipText="Highly trained specialist, able to pilot and copilot Transport Helicopters.\nLightly armed, but able to fight as infantry following a crash landing.\n\n* Transport Pilots are only able to fly UH-1 Hueys."
+
+[RORoleInfoSouthernPilotARVN]
+MyName="COMBAT PILOT"
+ClassShortName="CPILOT"
+ToolTipText="Highly trained specialist, able to pilot and copilot Combat Helicopters.\nLightly armed, but able to fight as infantry following a crash landing.\n\n* Combat Pilots are only able to fly the AH-1 Cobra and OH-1 Loach helicopters."
+
+[ROSatchelChargeWeapon]
+DisplayName="Satchel"
+ShortDisplayName="SATCHEL"
+CapitalizedDisplayName="SATCHEL"
+Description="3Kg Explosive Satchel"
+
+[ROWeap_AK47_AssaultRifle]
+DisplayName="AK-47 Assault Rifle"
+ShortDisplayName="AK-47"
+CapitalizedDisplayName="AK-47 ASSAULT RIFLE"
+Description="Rifle, 7.62x39mm, AK47\n\nUbiqitous Russian Assault Rifle Design."
+DisplayInfo[0]=(DisplayName="Type 56",Description="Rifle, 7.62x39mm.Chinese reproduction of the AK-47 with foldable \"pig-sticker\" bayonet and wooden stock.",WeaponSpecialAttributesText=("Foldable Bayonet","Solid Stock"))
+DisplayInfo[1]=(DisplayName="Type 56-1",Description="Lightweight version of the Type-56 with a foldable stock and no bayonet.",WeaponSpecialAttributesText=("Foldable Stock","-No Bayonet"))
+DisplayInfo[2]=(DisplayName="AKM",Description="Russian produced, the AKM is an update of the AK-47 design. Lighter than the standard Type-56, with lower recoil but a lower rate of fire and muzzle velocity. Includes attachable blade style bayonet.",WeaponSpecialAttributesText=("Attachable Bayonet","Solid Stock"))
+
+[ROWeap_M16A1_AssaultRifle]
+DisplayName="M16A1 Assault Rifle"
+ShortDisplayName="M16A1"
+CapitalizedDisplayName="M16A1 ASSAULT RIFLE"
+Description="Rifle, 5.56x45mm, M16A1\n\nIntroduced into wide service in 1968, Colt's M16 design became the standard in modern assault rifles."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet","Flash Suppressor"))
+
+[ROWeap_XM177E1_Carbine]
+DisplayName="XM177E1 Carbine"
+ShortDisplayName="XM177E1"
+CapitalizedDisplayName="XM177E1 CARBINE"
+Description="Carbine, 5.56x45mm, XM177E1\n\nWith its 10 inch barrel, the XM177E1 is a more mobile and lightweight version of the M16A1."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Flash Suppressor","Collapsible Stock","-No Bayonet"))
+
+[ROWeap_SKS_Rifle]
+DisplayName="SKS-45 Carbine"
+ShortDisplayName="SKS-45"
+CapitalizedDisplayName="SKS-45 CARBINE"
+Description="Carbine, 7.62x39mm, SKS\n\nRussian made SKS-45, uses 10 round stripper clips."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Bayonet"))
+
+[ROWeap_M14_Rifle]
+DisplayName="M14 Battle Rifle"
+ShortDisplayName="M14"
+CapitalizedDisplayName="M14 BATTLE RIFLE"
+Description="Rifle, 7.62x51mm, M14\n\nDeveloped from the M1 Garand, the M14 Battle Rifle uses a higher caliber bullet than the M16, but is restricted to semi-automatic fire."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet"))
+
+[ROWeap_M1911_Pistol]
+DisplayName="M1911A1 Handgun"
+ShortDisplayName="M1911A1"
+CapitalizedDisplayName="M1911A1 HANDGUN"
+Description="Handgun, .45 cal, M1911A1\n\nSemi-automatic, .45 caliber handgun. The standard sidearm of US Armed Forces since the first World War."
+
+[ROWeap_TT33_Pistol]
+DisplayName="TT33 Handgun"
+ShortDisplayName="TT-33"
+CapitalizedDisplayName="TT-33 HANDGUN"
+Description="Handgun, 7.62x25mm, TT-33\n\nRussian Tokarev handgun used during Second World War."
+
+[ROWeap_DP28_LMG]
+DisplayName="DP-28 LMG"
+ShortDisplayName="DP-28"
+CapitalizedDisplayName="DP-28 LMG"
+Description="Light Machine Gun, 7.62x54mmR, DP-28\n\nRussian Degtyaryov Machine Gun used in World War 2. Many Vietcong were armed with outdated Russian equipment."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Bipod"))
+
+[ROWeap_RPD_LMG]
+DisplayName="RPD LMG"
+ShortDisplayName="RPD"
+CapitalizedDisplayName="RPD LMG"
+Description="Light Machine Gun, 7.62x39mm, RPD\n\nA formidable machine gun designed by the Russians and reproduced by China, North Korea, and other nations."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Bipod"))
+
+[ROWeap_M60_GPMG]
+DisplayName="M60 GPMG"
+ShortDisplayName="M60"
+CapitalizedDisplayName="M60 GPMG"
+Description="Machine Gun, 7.62x51mm, M60 GPMG\n\nThe M60 General Purpose Machinegun is a powerful fire-support weapon with high ammo capacity."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Bipod"))
+
+[ROWeap_PPSH41_SMG]
+DisplayName="PPSh-41"
+ShortDisplayName="PPSH-41"
+CapitalizedDisplayName="PPSH-41"
+Description="Submachine Gun, 7.62x25mm, PPSH-41\n\nA classic Russian submachine gun for close-quarters assault. Can fit either box or drum magazines."
+
+[ROWeap_MAT49_SMG]
+DisplayName="MAT-49"
+ShortDisplayName="MAT-49"
+CapitalizedDisplayName="MAT-49 SMG"
+Description="Submachine Gun, 9x19mm / 7.62x25mm, MAT-49\n\nFrench submachine gun captured and repurposed by North Vietnamese forces."
+DisplayInfo[0]=(DisplayName="French Original",Description="Original French version chambered for 9mm. Fires at 600 rpm from a 32 round magazine.",WeaponSpecialAttributesText=("Retractable Stock"))
+DisplayInfo[1]=(DisplayName="Viet-Modified",Description="North Vietnamese conversion to chamber 7.62mm. A slightly longer barrel gives a slight accuracy boost, and features a drastically higher 900 rpm rate of fire.",WeaponSpecialAttributesText=("Retractable Stock"))
+
+[ROWeap_M3A1_SMG]
+DisplayName="M3A1 Grease Gun"
+ShortDisplayName="M3A1"
+CapitalizedDisplayName="M3A1 GREASE GUN"
+Description="Submachine Gun, .45 cal, M3A1\n\nThe famous 'Grease Gun' from WW2 is a powerful, low rate of fire submachinegun with an adjustable stock."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Retractable Stock"))
+
+[ROWeap_MN9130_Rifle]
+DisplayName="MN1891/30 Rifle"
+ShortDisplayName="MN 91/30"
+CapitalizedDisplayName="MOSIN NAGANT 91/30 RIFLE"
+Description="Rifle, 7.62x54mmR, Mosin Nagant 1891/30\n\nFirst introduced in 1891, the legendary Mosin Nagant has served in many wars across the globe."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet"))
+
+[ROWeap_MN9130Scoped_Rifle]
+DisplayName="Scoped MN1891/30"
+ShortDisplayName="MN 91/30 PU"
+CapitalizedDisplayName="MN 91/30 PU SNIPER RIFLE"
+Description="Sniper Rifle, 7.62x54mmR, Mosin Nagant 1891/30\n\nScoped variant of the 'Mosin Nagant' for marksmen. Scope design allows user to still utilize the rifle's ironsights."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("3.5x PU Scope","Attachable Bayonet"))
+
+[ROWeap_M40Scoped_Rifle]
+DisplayName="M40 Sniper Rifle"
+ShortDisplayName="M40"
+CapitalizedDisplayName="M40 SNIPER RIFLE"
+Description="Sniper Rifle, 7.62x51mm, M40\n\nRemington made bolt-action rifle with a 3-9x high-powered scope."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("3-9x Redfield Scope"))
+
+[ROWeap_SVDScoped_Rifle]
+DisplayName="SVD Sniper Rifle"
+ShortDisplayName="SVD"
+CapitalizedDisplayName="SVD SNIPER RIFLE"
+Description="Sniper Rifle, 7.62x54mmR, Dragunov SVD\n\nModern Russian Marksman rifle with unique design, including attachable bayonet and dual-sight configuration."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("4x PSO-1 Scope","Attachable Bayonet"))
+
+[ROWeap_XM21Scoped_Rifle]
+DisplayName="XM21 Scoped Rifle"
+ShortDisplayName="XM21"
+CapitalizedDisplayName="XM21 SCOPED RIFLE"
+Description="Sniper Rifle, 7.62x51mm, XM21\n\nSemi-automatic marksman rifle based on the M14 with 3-9x scope."
+DisplayInfo[0]=(DisplayName="Standard",WeaponSpecialAttributesText=("3-9x AR TEL Scope","Attachable Bayonet"))
+DisplayInfo[1]=(DisplayName="Suppressed",Description="Rifle, Sniper, 7.62-MM, XM21. Semi-automatic marksman rifle based on the M14. Fitted with the Sionics M14SS-1 and subsonic ammunition.",WeaponSpecialAttributesText=("3-9x AR TEL Scope","Suppressor","Subsonic Ammo","-No Bayonet"))
+
+[ROWeap_M37_Shotgun]
+DisplayName="M37 Shotgun"
+ShortDisplayName="M37"
+CapitalizedDisplayName="ITHACA M37 SHOTGUN"
+Description="Shotgun, 12-Gauge, M37 Ithaca\n\nThe M37 is a rugged pump action shotgun designed for close-quarters assault."
+DisplayInfo[0]=(DisplayName="Trench Gun",Description="Based on the Browning Model-17, the Trench Gun variant has a five shell capacity, and features a 20-inch heat-shielded barrel which can be mount a bayonet.",WeaponSpecialAttributesText=("Attachable Bayonet"))
+DisplayInfo[1]=(DisplayName="'Stakeout' Riot Gun",Description="A lightweight, compact variant of the M37 for extreme CQB. Fitted with a pistol-grip, no stock and a shortened barrel with no bayonet lug.",WeaponSpecialAttributesText=("Pistol Grip","No Stock","-No Bayonet"))
+DisplayInfo[2]=(DisplayName="'Duckbill' Conversion",Description="The field-converted 'Duckbill' has an extended magazine of 8 shells and has been modified with a muzzle spreader, giving the weapon a distinct horizontal spread.",WeaponSpecialAttributesText=("Muzzle Spreader","Extended Magazine","-No Bayonet"))
+
+[ROWeap_IZH43_Shotgun]
+DisplayName="SxS Shotgun"
+ShortDisplayName="SxS"
+CapitalizedDisplayName="SxS SHOTGUN"
+Description="Shotgun,12-Gauge,Side by Side\n\nRussian-civilian made side-by-side hunting shotgun repurposed by North Vietnamese forces."
+DisplayInfo[0]=(DisplayName="Hunting Shotgun",Description="Full length 30\" barrel, for higher muzzle velocity and tighter shot groupings at long range.")
+DisplayInfo[1]=(DisplayName="Coach Gun",Description="Shorter 20\" barrel version, a lighter weapon and easier to use in tight spaces, but with reduced muzzle velocity and broader spread.")
+DisplayInfo[2]=(DisplayName="Sawn-Off",Description="The sawn-off shotgun can be used in even the tightest spaces, but the high recoil and spread make it unsuited for any engagement beyond 50 metres.")
+
+[ROWeap_M79_GrenadeLauncher]
+DisplayName="M79 Grenade Launcher"
+ShortDisplayName="M79"
+CapitalizedDisplayName="M79 GRENADE LAUNCHER"
+Description="Grenade Launcher, 40x46mm, M79\n\nSingle-shot, breach loading grenade launcher which can fire various ammunition types."
+
+[ROWeap_M79_GrenadeLauncherSmoke]
+DisplayName="M79 with Sidearm"
+CapitalizedDisplayName="M79 WITH SIDEARM"
+Description="Grenade Launcher, 40x46mm, M79\n\nAmmunition loadout includes HE + Smoke grenades and sidearm."
+
+[ROWeap_RPG7_RocketLauncher]
+DisplayName="RPG-7 Rocket Launcher"
+ShortDisplayName="RPG-7"
+CapitalizedDisplayName="RPG-7 ROCKET LAUNCHER"
+Description="Rocket Launcher, 40x105mm, RPG-7\n\nShoulder-mounted, fires HEAT rounds out to a range of nearly 1km at 115m/s."
+
+[ROWeap_M61_Grenade]
+DisplayName="M61 Grenade"
+ShortDisplayName="M61 GRENADE"
+CapitalizedDisplayName="M61 GRENADE"
+Description="Grenade, Hand: Fragmentation, Delay, M61. Standard US 5-second explosive grenade."
+
+[ROWeap_Type67_Grenade]
+DisplayName="Type 67 Grenade"
+ShortDisplayName="TYPE 67 GRENADE"
+CapitalizedDisplayName="TYPE 67 GRENADE"
+Description="Type 67 Frag Grenade. Chinese Imitation of German Model 24 Stielhandgranate."
+
+[ROWeap_M8_Smoke]
+DisplayName="M8 Smoke Grenade"
+ShortDisplayName="M8 SMOKE"
+CapitalizedDisplayName="M8 SMOKE"
+Description="Grenade, Hand: Smoke, M8. Use to provide cover and concealment."
+
+[ROWeap_M34_WP]
+DisplayName="M34 WP Grenade"
+ShortDisplayName="M34 WP"
+CapitalizedDisplayName="M34 WP GRENADE"
+Description="Grenade, Hand: White Phosphorous, M34. Explosive White Phosphorous grenade. Leaves behind deadly smoke."
+
+[ROWeap_RDG1_Smoke]
+DisplayName="RDG-1 Smoke Grenade"
+ShortDisplayName="RDG-1 SMOKE"
+CapitalizedDisplayName="RDG-1 SMOKE"
+Description="Russian RDG-1 Smoke Grenade. Used to provide cover and break up enemy sight-lines."
+
+[ROWeap_M18_SignalSmoke]
+DisplayName="M18 Colored Smoke Grenade"
+ShortDisplayName="M18 SMOKE"
+CapitalizedDisplayName="M18 SIGNAL SMOKE GRENADE"
+Description="Grenade, Hand: Colored Smoke, M18. Use to mark Artillery Targets."
+
+[ROItem_Binoculars]
+DisplayName="Binoculars"
+ShortDisplayName="BINOCS"
+CapitalizedDisplayName="BINOCULARS"
+Description="Standard-issue Binoculars."
+
+[ROItem_PlaceableHMG]
+DisplayName="Placeable HMG"
+ShortDisplayName="HMG"
+CapitalizedDisplayName="PLACEABLE HMG"
+Description="A placable HMG."
+
+[ROItem_PlaceableAmmoCrate]
+DisplayName="Placeable Ammo Crate"
+ShortDisplayName="Ammo Crate"
+CapitalizedDisplayName="PLACEABLE AMMO CRATE"
+Description="A placable ammo crate."
+
+[ROWeap_VietSatchel]
+DisplayName="3kg Satchel Charge"
+ShortDisplayName="3KG SATCHEL"
+CapitalizedDisplayName="3KG SATCHEL CHARGE"
+Description="Vietnamese 3kg Satchel Charge."
+
+[ROWeap_C4_Explosive]
+DisplayName="C-4 Explosive"
+ShortDisplayName="C-4"
+CapitalizedDisplayName="C-4 EXPLOSIVE"
+Description="Charge, Demolition, M112 Composition C-4. Detonate with remote trigger device."
+
+[ROWeap_M18_Claymore]
+DisplayName="M18 Claymore"
+ShortDisplayName="M18 CLAYMORE"
+CapitalizedDisplayName="M18 CLAYMORE"
+Description="Anti-Personnel Mine, M18, 'Claymore'. Detonate with remote trigger device."
+
+[ROWeap_MD82_Mine]
+DisplayName="MD-82 Mine"
+ShortDisplayName="MD-82 MINE"
+CapitalizedDisplayName="MD-82 MINE"
+Description="Vietnamese MD-82 Toe Popper Anti-Personnel Mine. Can be placed on any surface, and detonates when stepped on by enemy forces."
+
+[ROWeap_PunjiTrap]
+DisplayName="Punji Trap"
+ShortDisplayName="PUNJI TRAP"
+CapitalizedDisplayName="PUNJI TRAP"
+Description="Vietnamese 'Face Knocker' Punji Pressure Trap. Activated by a pressure plate, this improvised trap springs a spike board into the unfortunate victim's face."
+
+[ROWeap_Fougasse_Mine]
+DisplayName="Flame Fougasse"
+ShortDisplayName="FOUGASSE"
+CapitalizedDisplayName="FLAME FOUGASSE"
+Description="Vietnamese Improvised Explosive Device. A container of highly flammable, sticky fuel mixture, attached to a small explosive charge. The container is buried underground and detonated by an attached pressure plate, with the explosive charge both igniting the mixture and spreading it in radius around the blast site.
+
+[ROWeap_M9_Flamethrower]
+DisplayName="M9A1-7 Flamethrower"
+ShortDisplayName="M9A1-7"
+CapitalizedDisplayName="M9A1-7 FLAMETHROWER"
+Description="Flamethrower, 4.7-gallon Fuel Canister, M9A1-7\n\nFires jets of flaming napalm up to 30 meters. Holds around seven seconds of fuel."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Deflects off Walls"))
+
+[ROWeap_TripwireTrap]
+DisplayName="Tripwire Trap"
+ShortDisplayName="TRIPWIRE TRAP"
+CapitalizedDisplayName="TRIPWIRE TRAP"
+Description="Vietnamese Explosive Tripwire Booby Trap. Manufactured from improvised materials and an F1 hand-grenade."
+
+[ROItem_TunnelTool]
+DisplayName="Pick Mattock"
+ShortDisplayName="MATTOCK"
+CapitalizedDisplayName="PICK MATTOCK"
+Description="A Pick Mattock for digging deployment tunnels."
+
+[ROWeap_M1917_Pistol]
+DisplayName="M1917 Revolver"
+ShortDisplayName="M1917"
+CapitalizedDisplayName="M1917 REVOLVER"
+Description="Revolver, Caliber .45, M1917\n\nUsed by the US Armed Forces during the first World War to supplement the standard M1911, it saw continued service in Vietnam by both the South Vietnamese and US forces, primarily by "Tunnel Rat" units."
+
+[ROWeap_PM_Pistol]
+DisplayName="PM Handgun"
+ShortDisplayName="PM"
+CapitalizedDisplayName="PM HANDGUN"
+Description="Handgun, 9x18mm, \"Pistolet Makarova\"\n\nSemi-automatic handgun chambered in 9x18mm Makarov. Russian standard issue sidearm used throughout the Cold War."
+
+[ROWeap_L1A1_Rifle]
+DisplayName="L1A1 Self Loading Rifle"
+ShortDisplayName="L1A1"
+CapitalizedDisplayName="L1A1 SLR"
+Description="Rifle, 7.62x51mm, L1A1 SLR\n\nL1A1 Self Loading Rifle is a Commonwealth derivation of the Belgian FN FAL, and served as the standard Battle Rifle of the ANZAC forces."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet"))
+
+[ROWeap_L2A1_LMG]
+DisplayName="L2A1 Light Machine Gun"
+ShortDisplayName="L2A1"
+CapitalizedDisplayName="L2A1 LMG"
+Description="Light Machine Gun, 7.62x51mm, L2A1\n\nL2A1 is a modified L1A1 platform with added bipod, full-auto fire capability and heavier barrel."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Bipod"))
+
+[ROWeap_Owen_SMG]
+DisplayName="Owen Machine Carbine"
+ShortDisplayName="Owen"
+CapitalizedDisplayName="OWEN SMG"
+Description="Submachine Gun, 9x19mm, Owen Gun\n\nOwen Machine Carbine was first used during WW2. Unconventional but reliable, the top-loading blowback design made it a favorite of Australian scouts."
+
+[ROWeap_F1_SMG]
+DisplayName="F1 SMG"
+ShortDisplayName="F1"
+CapitalizedDisplayName="F1 SMG"
+Description="Submachine Gun, 9x19mm, F1 SMG\n\nSuccessor to the Owen Gun in Australian service. Similar design to the British Sterling."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet"))
+
+[ROWeap_BHP_Pistol]
+DisplayName="Browning Hi-Power"
+ShortDisplayName="Hi-Power"
+CapitalizedDisplayName="BROWNING HI-POWER"
+Description="Handgun, 9x19mm, Hi-Power\n\nStandard handgun for Australian forces and many others around the world. Designed by the same engineer as the M1911."
+
+[ROWeap_M1_Carbine]
+DisplayName="M1 Carbine"
+ShortDisplayName="M1 Carbine"
+CapitalizedDisplayName="M1 CARBINE"
+Description="United States Carbine, Caliber .30, M1\n\nThe M1 Carbine is a lightweight and easy to use weapon, and was one of the standard firearms of the US Military from WW2 well into the Vietnam War."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet"))
+
+[ROWeap_M2_Carbine]
+DisplayName="M2 Carbine"
+ShortDisplayName="M2 Carbine"
+CapitalizedDisplayName="M2 CARBINE"
+Description="United States Carbine, Caliber .30, M2\n\nIdentical to the M1 Carbine, but with selective-fire capability allowing fully automatic fire. This version also comes equipped with a large 30 round magazine."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet"))
+
+[ROWeap_M1Garand_Rifle]
+DisplayName="M1 Garand Rifle"
+ShortDisplayName="Garand"
+CapitalizedDisplayName="M1 GARAND RIFLE"
+Description="Rifle, Caliber .30, M1 Garand\n\nThis .30 caliber semi automatic rifle saw extensive use by US troops through both the Second World War and the Korean War."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet"))
+
+[ROWeap_M1A1_SMG]
+DisplayName="Thompson M1A1 SMG"
+ShortDisplayName="M1A1"
+CapitalizedDisplayName="THOMPSON M1A1 SMG"
+Description="Submachine Gun, Caliber .45, Thompson\n\nA .45 caliber sub machine gun which became iconic during the prohibition era as the SMG of choice for organised crime."
+
+[ROWeap_M1918_BAR]
+DisplayName="M1918A2 Browning Automatic Rifle"
+ShortDisplayName="M1918A2"
+CapitalizedDisplayName="M1918A2 BAR"
+Description="Automatic Rifle, Caliber .30, BAR\n\nThe M1918, or 'BAR' was designed in 1917, chambered to fit the 30.06 Springfield cartridge. It remained in use by the US until being phased out in the 1950s."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Bipod"))
+
+[ROWeap_M1DGarand_SniperRifle]
+DisplayName="M1D Garand Sniper Rifle"
+ShortDisplayName="Garand Sniper"
+CapitalizedDisplayName="M1D GARAND SNIPER RIFLE"
+Description="Sniper Rifle, Caliber .30, M1D\n\nThis modified M1 Garand features a scope, offset to the left of the weapon’s receiver."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Flash Suppressor"))
+
+[ROWeap_M1919A6_LMG]
+DisplayName="M1919A6 LMG"
+ShortDisplayName="M1919A6"
+CapitalizedDisplayName="BROWNING M1919A6 LMG"
+Description="Machine Gun, Caliber 30, M1919A6\n\nA .30 caliber M1919 machine gun, still used by many fighting forces in the present day, which first saw combat during the Banana Wars in Central America."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Bipod"))
+
+[ROWeap_MP40_SMG]
+DisplayName="MP-40"
+ShortDisplayName="MP-40"
+CapitalizedDisplayName="MP-40 SMG"
+Description="Submachine Gun, 9x19mm, MP-40\n\nGerman WW2-era submachine gun chambered in 9mm Parabellum and firing at 500 rounds per minute. Its advanced and modern features ensured it would see continued popularity long after the war."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Stock"))
+
+[ROWeap_K50M_SMG]
+DisplayName="K-50M"
+ShortDisplayName="K-50M"
+CapitalizedDisplayName="K-50M SMG"
+Description="Submachine Gun, 7.62x25mm, K-50M\n\nNorth Vietnamese SMG that was built by modifying existing PPsh-41 and Type 50 weapons from the Soviet Union and China. Shorter and lighter than weapons it is based on, it retains the same rate of fire and stopping power, but at a cost of lower accuracy and more recoil. It also has the original wooden stock replaced with the retractable stock of the MAT-49 and a pistol grip, however the stock cannot be retracted if a drum magazine is in use."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Stock"))
+
+[ROWeap_Molotov]
+DisplayName="Molotov Cocktail"
+ShortDisplayName="MOLOTOV"
+CapitalizedDisplayName="MOLOTOV COCKTAIL"
+Description="Vietnamese improvised incendiary weapon consisting of a glass bottle filled with flammable liquid and an alcohol soaked rag acting as a fuse when lit. When the bottle smashes it produces a large fireball, followed by flames that spread out from the point of impact."
+
+[ROWeap_MAS49_Rifle]
+DisplayName="MAS-49 Battle Rifle"
+ShortDisplayName="MAS-49"
+CapitalizedDisplayName="MAS-49 BATTLE RIFLE"
+Description="Rifle, 7.5x54mm, MAS-49\n\nFrench semi-automatic rifle produced in 1949 that replaced the WW2-era bolt action rifles previously in French service. This version was produced in limited numbers, however many saw action in the First Indochina War, at the end of which they fell into Vietnamese hands."
+;DisplayInfo[0]=(WeaponSpecialAttributesText=("-No Grenade Launcher"))
+;DisplayInfo[1]=(WeaponSpecialAttributesText=("Grenade Launcher Attachment",""))
+
+[ROWeap_MAS49_Rifle_Grenade]
+DisplayName="MAS-49 Battle Rifle w/Grenade Launcher"
+ShortDisplayName="MAS-49 w/GL"
+CapitalizedDisplayName="MAS-49 BATTLE RIFLE W/GL"
+Description="Rifle, 7.5x54mm, MAS-49\n\nFrench semi-automatic service rifle equipped with a grenade launcher attachment. This version can fire 50mm HE grenades with impact fuses either directly or indirectly, out to a max range of 260m."
+
+[ROWeap_MAS49Scoped_Rifle]
+DisplayName="MAS-49 Scoped Rifle"
+ShortDisplayName="MAS-49 Scoped"
+CapitalizedDisplayName="MAS-49 SCOPED RIFLE"
+Description="Scoped Rifle, 7.5x54mm, MAS-49\n\nFrench semi-automatic service rifle equipped with an APX L806 telescopic sight for sniping."
+
+[ROWeap_RP46_LMG]
+DisplayName="RP-46 LMG"
+ShortDisplayName="RP-46"
+CapitalizedDisplayName="RP-46 LMG"
+Description="Light Machine Gun, 7.62x54mmR, RP-46\n\nRussian Degtyaryov Machine Gun, the final evolution of the series that began life as the DP-26. This version was adopted in 1946 and is essentially a WW2 era DP-28 with the addition of a belt feed and heavier barrel for longer sustained firing time."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Bipod"))
+
+[ROWeapon]
+SwitchToNormalFireString=""
+SwitchToAltFireString=""
+NoRoomToDropString="No room to drop weapon"
+
+[ROVWeap_TankTurret]
+DisplayName="Tank Cannon"
+ShortDisplayName="TANK CANNON"
+Description="A Tank's main cannon"
+
+[ROWeaponArtillery]
+DisplayName="Artillery"
+ShortDisplayName="ARTILLERY"
+Description="Artillery Barrage"
+
+[ROUISceneHostGame]
+HostGameString="Host Game"
+CampaignString="Campaign"
+SelectMapString="Select a Map"
+SelectRegionString="Select Region"
+SelectMapCycleString="Double Click a Map to add or remove it from the cycle"
+GameRulesString="Customize Game Rules"
+ServerSettingsString="Customize Server Settings"
+AddAMapString="Add A Map"
+ServerHeadingString="SERVER"
+RulesHeadingString="Rules"
+BotsHeadingString="Bots"
+GameHeadingString="Game"
+CountdownHeadingString="Countdown"
+TerritoryHeadingString="Territories"
+FirefightHeadingString="Firefight"
+CampaignHeadingString="Campaign"
+DedicatedServerString="Dedicated Server"
+LanServerString="LAN Server"
+ServerNameString="Server Name"
+AdminNameString="Admin Name"
+AdminPasswordString="Admin Password"
+AdminEmailString="Admin Email"
+MaxPlayersString="Max Players"
+PlayersBalanceTeamsString="Players Balance Teams"
+MaxTeamDifferenceString="Max Team Difference"
+FriendlyFireString="Friendly Fire"
+FriendlyFireKillLimitString="Friendly Fire Kill Limit"
+FriendlyFirePunishmentString="Friendly Fire Punishment"
+FriendlyFirePunishmentOptionsString="No Punishment|Kick|Session Ban|Permanent Ban"
+FriendlyFirePunishmentDefaultString="No Punishment"
+NumberofBotsString="Number of Bots"
+BotSkillString="Bot Skill"
+BotSkillOptionsString="Raw Recruit|Frontline Soldier|Veteran|Highly Decorated|Hero"
+BotSkillDefaultString="Raw Recruit"
+BotsBalanceTeamsString="Bots Balance Teams"
+MinPlayersString="Min Players"
+PreStartDurationsString="Pre-Start Durations"
+UseGameLobbyString="Use Game Lobby"
+LobbyTimeLimitString="Lobby Time Limit"
+UseMapCycleString="Use Map Cycle"
+MirroredSpawnsString="Mirrored Spawns"
+DeathMessageModeString="Death Message Mode"
+DeathMessageModeOptionsString="None|All|Personal"
+DeathMessageModeDefaultString="All"
+DelayedDeathMessagesString="Delayed Death Messages"
+RoundLimitString="Round Limit"
+RoundLimitOptionsString="Best 1 out of 1|Best 2 out of 3|Best 3 out of 5|Best 7 out of 10"
+RoundLimitDefaultString="Best 2 out of 3"
+FriendlyFireScaleString="Friendly Fire Scale"
+TimePerObjectiveString="Time Per Objective"
+KeyObjectivesString="Key Objectives"
+LockdownString="Lockdown"
+KillLimitString="Kill Limit"
+RespawnTimerString="Respawn Timer"
+StartingCombatPowerString="Starting Combat Power"
+RegionVoteTimeString="Region Vote Time"
+AttackDefendVoteTimeString="Attack Defend Vote Time"
+FirstRegionVoteTimeString="First Region Vote Time"
+SilentAdminLoginString="Silent Admin Login"
+EnableWebAdminString="Enable Web Admin"
+WebAdminPortString="Web Admin Port"
+GamePasswordString="Game Password"
+MaxIdleTimeString="Max Idle Time"
+MaxSpectatorsString="Max Spectators"
+MinNetPlayersString="Min Net Players"
+AdminCanPauseString="Admin Can Pause"
+UseMapListString="Use Map List"
+ReadyUpDurationsString="Ready Up Durations"
+
+[ROUISceneMultiplayerCampaign]
+EnemyCasualtiesLightString="Enemy Sustained Light Casualties"
+EnemyCasualtiesMediumString="Enemy Sustained Medium Casualties"
+EnemyCasualtiesHeavyString="Enemy Sustained Heavy Casualties"
+ReinforcementsLostString="Reinforcements Lost"
+CombatPowerString="Combat Power"
+FailedToDefendRegionString="Failed To Defend Region"
+RegionsHeldString="Regions Held"
+ForcedAttackString="Enemy has dug in and ready to Defend, please select a Region to Attack"
+EnemyForcedAttackString="We have forced the enemy to attack, Prepare to Defend"
+EnemyPreparingNextMoveString="Please wait, Enemy is preparing their next move"
+SelectRegionString="SELECT A REGION"
+EnemySelectingRegionString="ENEMY SELECTING REGION"
+EnemySelectingRegionMapString="ENEMY SELECTING MAP"
+EnemySelectingFactionString="TEAMS SELECTING ARMIES"
+EnemyVotingSpecialAbilityString="ENEMY VOTING ON"
+EnemyVotedSpecialAbilityString="ENEMY HAS ACTIVATED"
+VotedSpecialAbilityString="WE HAVE ACTIVATED"
+VotedNoSpecialAbilityString="ABILITY NOT ACTIVATED"
+NorthTeamSelectingRegionString="NORTH TEAM SELECTING REGION"
+SouthTeamSelectingRegionString="SOUTH TEAM SELECTING REGION"
+NorthTeamSelectingRegionMapString="NORTH TEAM SELECTING MAP"
+SouthTeamSelectingRegionMapString="SOUTH TEAM SELECTING MAP"
+NorthTeamSelectingFactionString="NORTH TEAM SELECTING ARMIES"
+SouthTeamSelectingFactionString="SOUTH TEAM SELECTING ARMIES"
+NorthTeamActivatedSpecialAbilityString="NORTH TEAM HAS ACTIVATED"
+SouthTeamActivatedSpecialAbilityString="SOUTH TEAM HAS ACTIVATED"
+NorthTeamSelectedFactionString="NORTH TEAM DEPLOYING AS"
+SouthTeamSelectedFactionString="SOUTH TEAM DEPLOYING AS"
+SelectedFactionString="DEPLOYING AS"
+EnemySelectedFactionString="ENEMY FORCE"
+WeAreVotingNotice="WE ARE VOTING"
+EnemyVotingNotice="ENEMY IS VOTING"
+StatusWeAttackingString="WE ARE ATTACKING"
+StatusYouAttackingString="YOU ARE ATTACKING"
+StatusEnemyAttackingString="ENEMY IS ATTACKING"
+StatusDefendingString="YOU ARE DEFENDING"
+PleaseWaitString=", PLEASE WAIT"
+NorthTeamIsAttackingString="NORTH TEAM IS ATTACKING"
+SouthTeamIsAttackingString="SOUTH TEAM IS ATTACKING"
+ReadyToTravelString="DEPLOYING TO BATTLE"
+PrepareToAttackString="PREPARE TO ATTACK!"
+PrepareToDefendString="PREPARE TO DEFEND!"
+NeutralRegionString="NEUTRAL REGION"
+EnemyRegionString="ENEMY REGION"
+YourRegionString="YOUR REGION"
+BalancingTeamsString="TEAMS ARE UNBALANCED"
+AskingPlayersString="ASKING PLAYERS TO SWITCH"
+AutoBalancingTeamsString="TEAMS STILL UNBALANCED"
+ForcingSwitchString="SELECTING PLAYERS FOR AUTO-BALANCE"
+BalancingTeamsCompleteString="TEAM BALANCING COMPLETE"
+NotEnoughCombatPowerToAttackString="Not enough Combat Power to Attack, prepare to Defend"
+EnemyCombatPowerLowString="Enemy is low on Combat Power, prepare to Attack"
+FinalObjectiveAttackString="Final Objective, Prepare to Attack"
+FinalObjectiveDefendString="Final Objective, Prepare to Defend"
+HeroicVictoryString="HEROIC VICTORY"
+VictoryString="VICTORY"
+NarrowVictoryString="NARROW VICTORY"
+CrushingDefeatString="CRUSHING DEFEAT"
+DefeatString="DEFEAT"
+NarrowDefeatString="NARROW DEFEAT"
+RegionTakenString="CAPTURED"
+RegionHeldString="HELD"
+RegionCededString="CEDED"
+RegionString="REGION"
+YourTeamString="YOUR TEAM"
+EnemyTeamString="ENEMY TEAM"
+CampaignNorthTeamString="NORTH TEAM"
+CampaignSouthTeamString="SOUTH TEAM"
+SATurnsString="IN %NUM% TURNS"
+AvailableString="AVAILABLE"
+HCMTString="Ho Chi Minh Trail"
+SDString="Search & Destroy"
+HCMTShortString="HCMT"
+SDShortString="S&D"
+HCMTDescriptionString="Reduces your combat power penalty for lost reinforcements by 50% for the next Battle."
+SDDescriptionString="If your team wins the next Battle, the Enemy's Combat Power loss will be tripled. If your Team loses the next Battle, the region's owner will become Neutral rather than staying in Enemy hands."
+SpecialAbilityVoteTitleString="Activate %ABILITY% this turn?"
+FactionVoteTipString="Vote for the Army to be deployed to"
+CampaignWonString="YOU HAVE %WL% THE WAR!"
+CampaignOverString="CAMPAIGN OVER"
+RestartingString="RESTARTING SHORTLY"
+WonString="WON"
+LostString="LOST"
+WinConditionCPString="ran out of Combat Power."
+WinConditionVPString="has the most Victory Points."
+WinConditionAllRegionsString="controls every region."
+WinConditionMostCP="has the most Combat Power."
+WinConditionMostRegions="controls the most Regions."
+TieBreakerString="By Tie Breaker:"
+EarlyString="EARLY"
+LateString="LATE"
+EarlyWarString="EARLY WAR"
+MidWarString="MID WAR"
+LateWarString="LATE WAR"
+EarlyLoadoutsString="Early War Weapons"
+MidLoadoutsString="Mid War Weapons"
+LateLoadoutsString="Late War Weapons"
+AllAbilitiesString="All Abilities"
+GunshipString="No Gunship"
+BomberString="No Bombing Run"
+CombatPilotsString="No Combat Pilots"
+UnavailableString="Unavailable"
+TeamSwitchPromptString=Your team currently outnumbers the enemy. Would you like to help even things up by switching to the other team for an instant %XP%xp bonus?
+RegionNames[0]="QUANG TRI"
+RegionNames[1]="QUANG NAM"
+RegionNames[2]="QUANG NGAI"
+RegionNames[3]="PLEIKU"
+RegionNames[4]="PHU YEN"
+RegionNames[5]="TUYEN DOC"
+RegionNames[6]="BINH LONG"
+RegionNames[7]="SAIGON"
+RegionNames[8]="LONG KHANH"
+RegionNames[9]="KIEN PHONG"
+RegionNames[10]="VINH LONG"
+RegionNames[11]="AN GIANG"
+YearPrefixString="19"
+YearStrings[0]="65"
+YearStrings[1]="66"
+YearStrings[2]="67"
+YearStrings[3]="68"
+YearStrings[4]="69"
+YearStrings[5]="70"
+YearStrings[6]="71"
+YearStrings[7]="72"
+YearStrings[8]="73"
+YearStrings[9]="74"
+YearStrings[10]="75"
+
+
+[ROUISceneTeamSelect]
+AttackingString="ATTACKING"
+DefendingString="DEFENDING"
+PlayersString="Players"
+FullString="FULL"
+OwnTeamString="CURRENT TEAM"
+NorthTeamInfoText="Northern forces, representing Communist North Vietnam, use an arsenal of Chinese, Russian, and scavenged weaponry from previous conflicts as well as improvised explosives and traps. They can deploy on Squad Tunnels placed by their Squad Leaders."
+SouthTeamInfoText="The Southern forces fought on behalf of South Vietnam, a Capitalist government propped up by the United States. They use state-of-the-art Western military equipment and have overwhelming air superiority. They can deploy directly on their Squad Leader’s location."
+SwitchAllowedString="Team switch allowed in:"
+NoSwitchDuringVoteString="Cannot change teams while a kick vote against you is in progress."
+
+[ROUIWidgetRoleSelection]
+RoleOpenString="Open"
+RoleTakenByAIString="AI Open"
+RoleLockedString="Locked"
+LockString="Lock"
+UnlockString="Unlock"
+
+
+[ROHUDWidgetMessagesChat]
+SayDisplay="Say to Public: "
+TeamSayDisplay="Say to Team: "
+SquadSayDisplay="Say to Squad: "
+
+[ROUIWidgetClassSelection]
+HeroClassString="HERO"
+
+[ROUISceneLobby]
+MissionBeginsIn="MATCH BEGINS IN"
+MissionBeginsWhenAllPlayersReady="MATCH BEGINS WHEN ALL PLAYERS ARE READY"
+MissionBeginsWhenMostPlayersReady="MATCH BEGINS WHEN MAJORITY PLAYERS ARE READY"
+WaitingForPlayers="WAITING FOR PLAYERS"
+ReadyString="READY"
+UnreadyString="NOT READY"
+AttackingString="ATTACKING"
+DefendingString="DEFENDING"
+SquadString="SQUAD"
+EnemyString="ENEMY"
+
+[ROUISceneSpawnSelect]
+SpawnAutoButtonText="AUTO-SELECT LOCATION"
+Spawn0ButtonText="1 - WHISKEY" 
+Spawn1ButtonText="2 - X-RAY" 
+Spawn2ButtonText="3 - YANKEE" 
+Spawn3ButtonText="4 - ZULU" 
+SpawnOnSLButtonText="SQUAD LEADER"
+SpawnOnMGButtonText="MACHINE GUNNER"
+ChangeRoleButtonText="CHANGE ROLE"
+ReadyButtonText="READY"
+SpawnSelectText="SELECT DEPLOYMENT LOCATION"
+NextRespawnLabelText="NEXT DEPLOYMENT:"
+ReadyToSpawnString="READY TO DEPLOY"
+OutOfReinforcementsText="ZERO REINFORCEMENTS REMAIN"
+SpawnClosedString="WAITING FOR AN OBJECTIVE TO BE CAPTURED"
+SpawnOnHelicopter0ButtonText="UH-1H ONE"
+SpawnOnHelicopter1ButtonText="UH-1H TWO" 
+SpawnOnHelicopter2ButtonText="UH-1H THREE" 
+SpawnOnHelicopter3ButtonText="UH-1H FOUR" 
+SpawnOnHelicopter4ButtonText="UH-1H FIVE" 
+SpawnOnHelicopter5ButtonText="UH-1H SIX" 
+SpawnOnHelicopter6ButtonText="HELICOPTER 7"
+SpawnOnHelicopter7ButtonText="HELICOPTER 8"
+SpawnOnHelicopter8ButtonText="HELICOPTER 9"
+SpawnOnHelicopter9ButtonText="HELICOPTER 10"
+HelicopterString="HELICOPTER:"
+GunshipString="GUNSHIP:"
+SpawnInTunnelButtonText="SQUAD TUNNEL"
+LoachString="LOACH:"
+SpawnOnCommanderButtonText="COMMANDER"
+
+[ROLocalMessageArtillery]
+SavedPosition="MARKED COORDINATES"
+RequestStrike="PLATOON COMMANDER: REQUESTING FIRE SUPPORT"
+StrikeDenied="BATTALION HQ: FIRE SUPPORT DENIED - SELECT NEW COORDINATES"
+StrikeConfirmed="BATTALION HQ: FIRE SUPPORT ON THE WAY"
+NoCoords="SELECT COORDINATES ON MAP BEFORE CALLING FOR SUPPORT"
+InvalidTarget="TRY ANOTHER LOCATION - COORDINATES OUTSIDE COMBAT AREA"
+OutOfStrikes="Your Artillery Strikes for This Mission Are Exhausted"
+TryAgainLater="FIRE SUPPORT IS NOT READY"
+TryAgainSoon="FIRE SUPPORT IS ALMOST READY"
+StrikesRemaining="Remaining"
+NoArtyAvailable="NO FIRE SUPPORT AVAILABLE"
+ArtyStrikeCancelled="FIRE SUPPORT CANCELLED"
+RequestEnhancedLogistics="PLATOON COMMANDER: REQUESTING REINFORCEMENTS FROM THE HO CHI MINH TRAIL"
+EnhancedLogisticsConfirmed="BATTALION HQ: REINFORCEMENTS ON THE WAY"
+CoordinatesCleared="COORDINATES CLEARED"
+
+[ROLocalMessageGameTouch]
+TouchRadio="[ %KEY% ] COMMANDER RADIO"
+
+[ROVehicle]
+ErrorMessageString1="Unable to move there while someone else is moving there"
+ErrorMessageString2="Unable to switch seats while already switching seats"
+ErrorMessageString3="Unable to switch seats while someone else is repositioning in that seat"
+ErrorMessageString4="Unable to switch seats while reloading"
+ErrorMessageString5="Unable to move to that seat while someone else is reloading there"
+
+[ROVehicleWeapon]
+PrimaryFireDisabledString="This weapon's primary fire mode is disabled"
+SecondaryFireDisabledString="This weapon's secondary fire mode is disabled"
+
+[ROVehicle_PanzerIVG]
+VehicleNameString="PanzerIV G"
+VehiclePositionString="In a PanzerIV G"
+SeatProxies[0]=(ProxyPositionString="Driver")
+SeatProxies[1]=(ProxyPositionString="Commander")
+SeatProxies[2]=(ProxyPositionString="Hull MGer")
+SeatProxies[3]=(ProxyPositionString="Loader")
+SeatProxies[4]=(ProxyPositionString="Gunner")
+
+[ROVehicle_PanzerIIIM]
+VehicleNameString="PanzerIII M"
+VehiclePositionString="In a PanzerIII M"
+SeatProxies[0]=(ProxyPositionString="Driver")
+SeatProxies[1]=(ProxyPositionString="Commander")
+SeatProxies[2]=(ProxyPositionString="Hull MGer")
+SeatProxies[3]=(ProxyPositionString="Loader")
+SeatProxies[4]=(ProxyPositionString="Gunner")
+
+[ROVehicle_T3476]
+VehicleNameString="T-34 76"
+VehiclePositionString="In a T-34 76"
+SeatProxies[0]=(ProxyPositionString="Driver")
+SeatProxies[1]=(ProxyPositionString="Commander")
+SeatProxies[2]=(ProxyPositionString="Hull MGer")
+SeatProxies[3]=(ProxyPositionString="Loader")
+UsePeriscodeString="Press [%KEY%] to link the periscope and turret"
+
+[ROVehicle_T70]
+VehicleNameString="T-70"
+VehiclePositionString="In a T-70"
+SeatProxies[0]=(ProxyPositionString="Driver")
+SeatProxies[1]=(ProxyPositionString="Commander")
+UsePeriscopeString="Press [%KEY%] to link the periscope and turret"
+
+[ROObjectiveSP]
+CompletedMessage="Objective Completed"
+
+[ROTankCannonProjectile]
+AmmoTypeShortName="AP"
+
+[ROTankCannonSmokeRound]
+AmmoTypeShortName="SMOKE"
+
+[VehProj_PanzerIVG_HE]
+AmmoTypeShortName="HE"
+
+[VehProj_T3476_HE]
+AmmoTypeShortName="HE"
+
+[VehProj_T70_HE]
+AmmoTypeShortName="HE"
+
+[VehProj_PanzerIIIM_HE]
+AmmoTypeShortName="HE"
+
+[ROLocalMessageVehicle]
+VehicleMessages[0]="Forwards"
+VehicleMessages[1]="Reverse"
+VehicleMessages[2]="Left"
+VehicleMessages[3]="Left Slowly"
+VehicleMessages[4]="Right"
+VehicleMessages[5]="Right Slowly"
+VehicleMessages[6]="Stop"
+VehicleMessages[7]="Acknowledged"
+VehicleMessages[8]="Cannot Comply"
+VehicleString="(Vehicle):"
+
+[ROPawn]
+CannotCrouchString="Cannot crouch here"
+CannotUncrouchString="Cannot stand here"
+CannotProneString="Cannot prone here"
+CannotUnproneString="Cannot stand here"
+CannotDeployString="Cannot deploy here"
+CannotTurnString="Not enough room to turn here"
+CannotAimFurtherString="Not enough room to aim further"
+
+[ROPawnHandler]
+VietnameseHeads[0]=(DisplayName="Head 01")
+VietnameseHeads[1]=(DisplayName="Head 02")
+VietnameseHeads[2]=(DisplayName="Head 03")
+VietnameseHeads[3]=(DisplayName="Head 04")
+VietnameseHeads[4]=(DisplayName="Head 05")
+VietnameseHeads[5]=(DisplayName="Head 06")
+VietnameseHeads[6]=(DisplayName="Head 07")
+VietnameseHeads[7]=(DisplayName="Head 08")
+VietFaceItems[0]=(DisplayName="None")
+VietFaceItems[1]=(DisplayName="Spectacles")
+VietFaceItems[2]=(DisplayName="Shades")
+VietFaceItems[3]=(DisplayName="Eye Bandage")
+VietFaceItems[4]=(DisplayName="Cigar")
+VietFaceItems[5]=(DisplayName="Cigarette")
+VietFaceItems[6]=(DisplayName="Pipe")
+VietFaceItems[7]=(DisplayName="Red Mask")
+VietFaceItems[8]=(DisplayName="Blue Mask")
+VietFaceItems[9]=(DisplayName="Black Mask")
+VietFaceItems[10]=(DisplayName="Rocket Goggles")
+VietFacialHair[0]=(DisplayName="None")
+VietFacialHair[1]=(DisplayName="Pencil Moustache")
+VietFacialHair[2]=(DisplayName="Ho Chi Minh Goatee")
+VietFacialHair[3]=(DisplayName="Goatee")
+VietFacialHair[4]=(DisplayName="Long Goatee")
+VietFacialHair[5]=(DisplayName="Full Beard")
+NVATunics[0]=(DisplayName="Long",BodyMICs=((DisplayName="Tan"),(DisplayName="Camo"),(DisplayName="Dac Cong Light"),(DisplayName="Dac Cong Dark"),(DisplayName="Tan w/ Foliage"),(DisplayName="Camo w/ Foliage"),(DisplayName="Dac Cong Light w/ Foliage"),(DisplayName="Dac Cong Dark w/ Foliage")))
+NVATunics[1]=(DisplayName="Rolled",BodyMICs=((DisplayName="Tan"),(DisplayName="Camo"),(DisplayName="Dac Cong Light"),(DisplayName="Dac Cong Dark"),(DisplayName="Tan w/ Foliage"),(DisplayName="Camo w/ Foliage"),(DisplayName="Dac Cong Light w/ Foliage"),(DisplayName="Dac Cong Dark w/ Foliage")))
+NVATunics[2]=(DisplayName="Torn",BodyMICs=((DisplayName="Tan"),(DisplayName="Camo"),(DisplayName="Dac Cong Light"),(DisplayName="Dac Cong Dark"),(DisplayName="Tan w/ Foliage"),(DisplayName="Camo w/ Foliage"),(DisplayName="Dac Cong Light w/ Foliage"),(DisplayName="Dac Cong Dark w/ Foliage")))
+NVATunics[3]=(DisplayName="Pants",BodyMICs=((DisplayName="Tan"),(DisplayName="Camo"),(DisplayName="Dac Cong Light"),(DisplayName="Dac Cong Dark"),(DisplayName="Tan w/ Foliage"),(DisplayName="Camo w/ Foliage"),(DisplayName="Dac Cong Light w/ Foliage"),(DisplayName="Dac Cong Dark w/ Foliage")))
+NVATunics[4]=(DisplayName="Rolled Pants",BodyMICs=((DisplayName="Tan"),(DisplayName="Camo"),(DisplayName="Dac Cong Light"),(DisplayName="Dac Cong Dark"),(DisplayName="Tan w/ Foliage"),(DisplayName="Camo w/ Foliage"),(DisplayName="Dac Cong Light w/ Foliage"),(DisplayName="Dac Cong Dark w/ Foliage")))
+NVATunics[5]=(DisplayName="Torn Pants",BodyMICs=((DisplayName="Tan"),(DisplayName="Camo"),(DisplayName="Dac Cong Light"),(DisplayName="Dac Cong Dark"),(DisplayName="Tan w/ Foliage"),(DisplayName="Camo w/ Foliage"),(DisplayName="Dac Cong Light w/ Foliage"),(DisplayName="Dac Cong Dark w/ Foliage")))
+NVATunics[6]=(DisplayName="Officer",BodyMICs=((DisplayName="Tan")))
+NVATunics[7]=(DisplayName="Smock",BodyMICs=((DisplayName="Tan"),(DisplayName="Green"),(DisplayName="Tan w/ Foliage"),(DisplayName="Green w/ Foliage")))
+NVATunics[8]=(DisplayName="Smock w/Hood",BodyMICs=((DisplayName="Tan"),(DisplayName="Green"),(DisplayName="Tan w/ Foliage"),(DisplayName="Green w/ Foliage")))
+NVATunics[9]=(DisplayName="Sapper",BodyMICs=((DisplayName="Tan"),(DisplayName="Camo"),(DisplayName="Tan w/ Foliage"),(DisplayName="Camo w/ Foliage")))
+NVAShirts[0]=(DisplayName="None")
+NVAShirts[1]=(DisplayName="Bandages")
+NVAShirts[2]=(DisplayName="Dirty Bandages")
+NVAShirts[3]=(DisplayName="Tan Shirt")
+NVAShirts[4]=(DisplayName="Tan Shirt + Bandage")
+NVAShirts[5]=(DisplayName="Tan Vest")
+NVAShirts[6]=(DisplayName="Tan Vest + Bandage")
+NVAShirts[7]=(DisplayName="Warm Vest")
+NVAHeadgear[0]=(DisplayName="Pith Helmet")
+NVAHeadgear[1]=(DisplayName="Camo Pith Helmet")
+NVAHeadgear[2]=(DisplayName="Broad Brimmed Hat")
+NVAHeadgear[3]=(DisplayName="Tan Cap")
+NVAHeadgear[4]=(DisplayName="Tan Ushanka")
+NVAHeadgear[5]=(DisplayName="Camo Cap")
+NVAHeadgear[6]=(DisplayName="Camo Ushanka")
+NVAHeadgear[7]=(DisplayName="Buzzcut")
+NVAHeadgear[8]=(DisplayName="Very Short Hair")
+NVAHeadgear[9]=(DisplayName="Short Hair")
+NVAHeadgear[10]=(DisplayName="Medium Hair")
+NVAHeadgear[11]=(DisplayName="East German M56")
+NVAHeadgear[12]=(DisplayName="Camo Hat")
+NVAHeadgear[13]=(DisplayName="Officer's Cap")
+NVAHeadgear[14]=(DisplayName="Mop Top")
+NVAHeadgear[15]=(DisplayName="Crew Cut")
+NVAHeadgear[16]=(DisplayName="Swept Crew Cut")
+NVAHeadgear[17]=(DisplayName="M56 w/Flag")
+NVAHeadgear[18]=(DisplayName="Pith Helmet w/Net")
+NVAHeadgear[19]=(DisplayName="Para Pith Helmet")
+NVAHeadgear[20]=(DisplayName="Para Pith Helmet w/Net")
+NVAHeadgear[21]=(DisplayName="PLA Cap")
+NVAHeadgear[22]=(DisplayName="Jungle Ops Cap")
+NVATattoos[0]=(DisplayName="None")
+NVATattoos[1]=(DisplayName="Fish")
+NVATattoos[2]=(DisplayName="Crocodile")
+NVATattoos[3]=(DisplayName="Dong Son")
+NVATattoos[4]=(DisplayName="Dragon")
+NVATattoos[5]=(DisplayName="Bathtub")
+NVATattoos[6]=(DisplayName="Eye Scar")
+NVATattoos[7]=(DisplayName="Mouth Scar")
+NVATattoos[8]=(DisplayName="Lotus")
+NVATattoos[9]=(DisplayName="Phoenix")
+NVATattoos[10]=(DisplayName="Small Dragon")
+NVATattoos[11]=(DisplayName="Grease & Ash")
+NLFTunics[0]=(DisplayName="Long",BodyMICs=((DisplayName="Black"),(DisplayName="Grey"),(DisplayName="Blue & Tan"),(DisplayName="Brown & Grey"),(DisplayName="Black & White"),(DisplayName="Black w/ Foliage"),(DisplayName="Grey w/ Foliage"),(DisplayName="Blue & Tan w/ Foliage"),(DisplayName="Brown & Grey w/ Foliage"),(DisplayName="Black & White w/ Foliage")))
+NLFTunics[1]=(DisplayName="Rolled",BodyMICs=((DisplayName="Black"),(DisplayName="Grey"),(DisplayName="Blue & Tan"),(DisplayName="Brown & Grey"),(DisplayName="Black & White"),(DisplayName="Black w/ Foliage"),(DisplayName="Grey w/ Foliage"),(DisplayName="Blue & Tan w/ Foliage"),(DisplayName="Brown & Grey w/ Foliage"),(DisplayName="Black & White w/ Foliage")))
+NLFTunics[2]=(DisplayName="Torn",BodyMICs=((DisplayName="Black"),(DisplayName="Grey"),(DisplayName="Blue & Tan"),(DisplayName="Brown & Grey"),(DisplayName="Black & White"),(DisplayName="Black w/ Foliage"),(DisplayName="Grey w/ Foliage"),(DisplayName="Blue & Tan w/ Foliage"),(DisplayName="Brown w/ Foliage"),(DisplayName="Black & White w/ Foliage")))
+NLFTunics[3]=(DisplayName="Pants",BodyMICs=((DisplayName="Black"),(DisplayName="Grey"),(DisplayName="Blue & Tan"),(DisplayName="Brown & Grey"),(DisplayName="Black & White"),(DisplayName="Black w/ Foliage"),(DisplayName="Grey w/ Foliage"),(DisplayName="Blue & Tan w/ Foliage"),(DisplayName="Brown & Grey w/ Foliage"),(DisplayName="Black & White w/ Foliage")))
+NLFTunics[4]=(DisplayName="Rolled Pants",BodyMICs=((DisplayName="Black"),(DisplayName="Grey"),(DisplayName="Blue & Tan"),(DisplayName="Brown & Grey"),(DisplayName="Black & White"),(DisplayName="Black w/ Foliage"),(DisplayName="Grey w/ Foliage"),(DisplayName="Blue & Tan w/ Foliage"),(DisplayName="Brown & Grey w/ Foliage"),(DisplayName="Black & White w/ Foliage")))
+NLFTunics[5]=(DisplayName="Torn Pants",BodyMICs=((DisplayName="Black"),(DisplayName="Grey"),(DisplayName="Blue & Tan"),(DisplayName="Brown & Grey"),(DisplayName="Black & White"),(DisplayName="Black w/ Foliage"),(DisplayName="Grey w/ Foliage"),(DisplayName="Blue & Tan w/ Foliage"),(DisplayName="Brown & Grey w/ Foliage"),(DisplayName="Black & White w/ Foliage")))
+NLFTunics[6]=(DisplayName="Sapper",BodyMICs=((DisplayName="Black"),(DisplayName="Tan"),(DisplayName="Black w/ Foliage"),(DisplayName="Tan w/ Foliage")))
+NLFShirts[0]=(DisplayName="None")
+NLFShirts[1]=(DisplayName="Bandages")
+NLFShirts[2]=(DisplayName="Dirty Bandages")
+NLFShirts[3]=(DisplayName="Black Shirt")
+NLFShirts[4]=(DisplayName="Black Shirt + Bandage")
+NLFShirts[5]=(DisplayName="Black Vest")
+NLFShirts[6]=(DisplayName="Black Vest + Bandage")
+NLFShirts[7]=(DisplayName="Warm Vest")
+NLFHeadgear[0]=(DisplayName="Pith Helmet")
+NLFHeadgear[1]=(DisplayName="Covered Pith Helmet")
+NLFHeadgear[2]=(DisplayName="Broad Brimmed Hat")
+NLFHeadgear[3]=(DisplayName="PAVN Hat")
+NLFHeadgear[4]=(DisplayName="Soviet SSh-39")
+NLFHeadgear[5]=(DisplayName="Head Scarf")
+NLFHeadgear[6]=(DisplayName="Buzzcut")
+NLFHeadgear[7]=(DisplayName="Very Short Hair")
+NLFHeadgear[8]=(DisplayName="Short Hair")
+NLFHeadgear[9]=(DisplayName="Medium Hair")
+NLFHeadgear[10]=(DisplayName="Non La")
+NLFHeadgear[11]=(DisplayName="Camo Hat")
+NLFHeadgear[12]=(DisplayName="Mop Top")
+NLFHeadgear[13]=(DisplayName="Crew Cut")
+NLFHeadgear[14]=(DisplayName="Swept Crew Cut")
+NLFHeadgear[15]=(DisplayName="SSh-39 w/Flag")
+NLFHeadgear[16]=(DisplayName="Red Head Scarf")
+NLFHeadgear[17]=(DisplayName="Rice Hat")
+NLFHeadgear[18]=(DisplayName="Foliage Pith Helmet")
+NLFHeadgear[19]=(DisplayName="Japanese WW2 Helmet")
+NLFHeadgear[20]=(DisplayName="Jungle Ops Cap")
+NLFTattoos[0]=(DisplayName="None")
+NLFTattoos[1]=(DisplayName="Fish")
+NLFTattoos[2]=(DisplayName="Crocodile")
+NLFTattoos[3]=(DisplayName="Dong Son")
+NLFTattoos[4]=(DisplayName="Dragon")
+NLFTattoos[5]=(DisplayName="Bathtub")
+NLFTattoos[6]=(DisplayName="Eye Scar")
+NLFTattoos[7]=(DisplayName="Mouth Scar")
+NLFTattoos[8]=(DisplayName="Lotus")
+NLFTattoos[9]=(DisplayName="Phoenix")
+NLFTattoos[10]=(DisplayName="Small Dragon")
+NLFTattoos[11]=(DisplayName="Grease & Ash")
+USAHeads[0]=(DisplayName="Head 01")
+USAHeads[1]=(DisplayName="Head 02")
+USAHeads[2]=(DisplayName="Head 03")
+USAHeads[3]=(DisplayName="Head 04")
+USAHeads[4]=(DisplayName="Head 05")
+USAHeads[5]=(DisplayName="Head 06")
+USAHeads[6]=(DisplayName="Head 07")
+USAHeads[7]=(DisplayName="Head 08")
+USAHeads[8]=(DisplayName="Head 09")
+USAHeads[9]=(DisplayName="Head 10")
+USAHeads[10]=(DisplayName="Head 11")
+USAHeads[11]=(DisplayName="Head 12")
+USAFaceItems[0]=(DisplayName="None")
+USAFaceItems[1]=(DisplayName="Glasses")
+USAFaceItems[2]=(DisplayName="Aviators")
+USAFaceItems[3]=(DisplayName="Cigar")
+USAFaceItems[4]=(DisplayName="Cigarette")
+USAFaceItems[5]=(DisplayName="Blue Tinted Glasses")
+USAFaceItems[6]=(DisplayName="Green Tinted Glasses")
+USAFaceItems[7]=(DisplayName="Orange Tinted Glasses")
+USAFaceItems[8]=(DisplayName="Red Tinted Glasses")
+USAFaceItems[9]=(DisplayName="Purple Tinted Glasses")
+USAFaceItems[10]=(DisplayName="Rose Tinted Glasses")
+USAFaceItems[11]=(DisplayName="Driving Goggles")
+USAFaceItems[12]=(DisplayName="Gas Mask")
+USAFacialHair[0]=(DisplayName="None")
+USAFacialHair[1]=(DisplayName="Pencil Moustache")
+USAFacialHair[2]=(DisplayName="Chevron Moustache")
+USAFacialHair[3]=(DisplayName="Horseshoe Moustache")
+USAFacialHair[4]=(DisplayName="Goatee")
+USAFacialHair[5]=(DisplayName="Mutton Chop Beard")
+USAFacialHair[6]=(DisplayName="Full Beard")
+USArmyTunics[0]=(DisplayName="Long",BodyMICs=((DisplayName="Olive Drab")))
+USArmyTunics[1]=(DisplayName="Rolled",BodyMICs=((DisplayName="Olive Drab")))
+USArmyTunics[2]=(DisplayName="Torn",BodyMICs=((DisplayName="Olive Drab")))
+USArmyTunics[3]=(DisplayName="Pants",BodyMICs=((DisplayName="Olive Drab")))
+USArmyTunics[4]=(DisplayName="Rolled Pants",BodyMICs=((DisplayName="Olive Drab")))
+USArmyTunics[5]=(DisplayName="Torn Pants",BodyMICs=((DisplayName="Olive Drab")))
+USArmyTunics[6]=(DisplayName="Vest",BodyMICs=((DisplayName="Olive Drab")))
+USArmyTunics[7]=(DisplayName="Rolled Vest",BodyMICs=((DisplayName="Olive Drab")))
+USArmyTunics[8]=(DisplayName="Torn Vest",BodyMICs=((DisplayName="Olive Drab")))
+USArmyTunics[9]=(DisplayName="Vest and Pants",BodyMICs=((DisplayName="Olive Drab")))
+USArmyTunics[10]=(DisplayName="Cavalry Ascot",BodyMICs=((DisplayName="Olive Drab")))
+USArmyTunics[11]=(DisplayName="Military Police",BodyMICs=((DisplayName="Olive Drab")))
+USArmyTunics[12]=(DisplayName="Tiger Long",BodyMICs=((DisplayName="Tiger Stripe")))
+USArmyTunics[13]=(DisplayName="Tiger Pants",BodyMICs=((DisplayName="Tiger Stripe")))
+USArmyTunics[14]=(DisplayName="Open Vest",BodyMICs=((DisplayName="Olive Drab")))
+USArmyTunics[15]=(DisplayName="MACV SOG",BodyMICs=((DisplayName="Olive Drab")))
+USArmyShirts[0]=(DisplayName="None")
+USArmyShirts[1]=(DisplayName="Bandages")
+USArmyShirts[2]=(DisplayName="Dirty Bandages")
+USArmyShirts[3]=(DisplayName="Olive Shirt")
+USArmyShirts[4]=(DisplayName="Olive Shirt + Bandage")
+USArmyShirts[5]=(DisplayName="Tiger Shirt")
+USArmyShirts[6]=(DisplayName="Tiger Shirt + Bandage")
+USArmyShirts[7]=(DisplayName="Olive Vest")
+USArmyShirts[8]=(DisplayName="Olive Vest + Bandage")
+USArmyShirts[9]=(DisplayName="White Vest")
+USArmyShirts[10]=(DisplayName="White Vest + Bandage")
+USArmyShirts[11]=(DisplayName="Black Shirt")
+USArmyTattoos[0]=(DisplayName="None")
+USArmyTattoos[1]=(DisplayName="Born Free")
+USArmyTattoos[2]=(DisplayName="Pinup")
+USArmyTattoos[3]=(DisplayName="Gamble")
+USArmyTattoos[4]=(DisplayName="Reaper")
+USArmyTattoos[5]=(DisplayName="Camo Paint")
+USArmyTattoos[6]=(DisplayName="Coconut Monkey")
+USArmyTattoos[7]=(DisplayName="Eye Scar")
+USArmyTattoos[8]=(DisplayName="Mouth Scar")
+USArmyTattoos[9]=(DisplayName="Freedom")
+USArmyTattoos[10]=(DisplayName="Panther")
+USArmyTattoos[11]=(DisplayName="Snake")
+USArmyTattoos[12]=(DisplayName="Camo Paint v2")
+USMCTunics[0]=(DisplayName="Long",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Tiger Stripe"),(DisplayName="Olive Drab")))
+USMCTunics[1]=(DisplayName="Rolled",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Tiger Stripe"),(DisplayName="Olive Drab")))
+USMCTunics[2]=(DisplayName="Torn",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Tiger Stripe"),(DisplayName="Olive Drab")))
+USMCTunics[3]=(DisplayName="Pants",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Tiger Stripe"),(DisplayName="Olive Drab")))
+USMCTunics[4]=(DisplayName="Rolled Pants",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Tiger Stripe"),(DisplayName="Olive Drab")))
+USMCTunics[5]=(DisplayName="Torn Pants",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Tiger Stripe"),(DisplayName="Olive Drab")))
+USMCTunics[6]=(DisplayName="Vest",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Tiger Stripe"),(DisplayName="Olive Drab")))
+USMCTunics[7]=(DisplayName="Rolled Vest",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Tiger Stripe"),(DisplayName="Olive Drab")))
+USMCTunics[8]=(DisplayName="Torn Vest",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Tiger Stripe"),(DisplayName="Olive Drab")))
+USMCTunics[9]=(DisplayName="Vest and Pants",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Tiger Stripe"),(DisplayName="Olive Drab")))
+USMCTunics[10]=(DisplayName="Military Police",BodyMICs=((DisplayName="Olive Drab")))
+USMCTunics[11]=(DisplayName="Tiger Long",BodyMICs=((DisplayName="Tiger Stripe")))
+USMCTunics[12]=(DisplayName="Tiger Pants",BodyMICs=((DisplayName="Tiger Stripe")))
+USMCTunics[13]=(DisplayName="Open Vest",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Tiger Stripe"),(DisplayName="Olive Drab")))
+USMCTunics[14]=(DisplayName="Force Recon",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Olive Drab")))
+USMCShirts[0]=(DisplayName="None")
+USMCShirts[1]=(DisplayName="Bandages")
+USMCShirts[2]=(DisplayName="Dirty Bandages")
+USMCShirts[3]=(DisplayName="Olive Shirt")
+USMCShirts[4]=(DisplayName="Olive Shirt + Bandage")
+USMCShirts[5]=(DisplayName="Tiger Shirt")
+USMCShirts[6]=(DisplayName="Tiger Shirt + Bandage")
+USMCShirts[7]=(DisplayName="Olive Vest")
+USMCShirts[8]=(DisplayName="Olive Vest + Bandage")
+USMCShirts[9]=(DisplayName="White Vest")
+USMCShirts[10]=(DisplayName="White Vest + Bandage")
+USMCShirts[11]=(DisplayName="Black Shirt")
+USMCTattoos[0]=(DisplayName="None")
+USMCTattoos[1]=(DisplayName="Born Free")
+USMCTattoos[2]=(DisplayName="Pinup")
+USMCTattoos[3]=(DisplayName="Gamble")
+USMCTattoos[4]=(DisplayName="Reaper")
+USMCTattoos[5]=(DisplayName="Camo Paint")
+USMCTattoos[6]=(DisplayName="Coconut Monkey")
+USMCTattoos[7]=(DisplayName="Eye Scar")
+USMCTattoos[8]=(DisplayName="Mouth Scar")
+USMCTattoos[9]=(DisplayName="Freedom")
+USMCTattoos[10]=(DisplayName="Panther")
+USMCTattoos[11]=(DisplayName="Snake")
+USMCTattoos[12]=(DisplayName="Camo Paint v2")
+USAHeadgear[0]=(DisplayName="Standard Issue")
+USAHeadgear[1]=(DisplayName="Lowland ERDL")
+USAHeadgear[2]=(DisplayName="Ace of Spades")
+USAHeadgear[3]=(DisplayName="Born to Kill")
+USAHeadgear[4]=(DisplayName="Smokes")
+USAHeadgear[5]=(DisplayName="Peace")
+USAHeadgear[6]=(DisplayName="The Rookie")
+USAHeadgear[7]=(DisplayName="Skull and Crossbones")
+USAHeadgear[8]=(DisplayName="Boonie Hat")
+USAHeadgear[9]=(DisplayName="Cap")
+USAHeadgear[10]=(DisplayName="Air Cap")
+USAHeadgear[11]=(DisplayName="Buzzcut")
+USAHeadgear[12]=(DisplayName="Short Hair")
+USAHeadgear[13]=(DisplayName="Mullet")
+USAHeadgear[14]=(DisplayName="Bandana")
+USAHeadgear[15]=(DisplayName="Do Rag")
+USAHeadgear[16]=(DisplayName="Born to Test")
+USAHeadgear[17]=(DisplayName="Tigerstripe Boonie")
+USAHeadgear[18]=(DisplayName="Make Mods Not War")
+USAHeadgear[19]=(DisplayName="Long Hair")
+USAHeadgear[20]=(DisplayName="Crew Cut")
+USAHeadgear[21]=(DisplayName="Mohawk")
+USAHeadgear[22]=(DisplayName="Armored Cav")
+USAHeadgear[23]=(DisplayName="Green MP")
+USAHeadgear[24]=(DisplayName="Black MP")
+USAHeadgear[25]=(DisplayName="Christmas")
+USAHeadgear[26]=(DisplayName="Sandbag")
+USAHeadgear[27]=(DisplayName="Animal")
+USAHeadgear[28]=(DisplayName="Backwards")
+USAHeadgear[29]=(DisplayName="Blood Type")
+USAHeadgear[30]=(DisplayName="#*@! It")
+USAHeadgear[31]=(DisplayName="40 Millimetre")
+USAHeadgear[32]=(DisplayName="Countdown")
+USAHeadgear[33]=(DisplayName="Spare Mags")
+USAHeadgear[34]=(DisplayName="Make War")
+USAHeadgear[35]=(DisplayName="Grenade Pins")
+USAHeadgear[36]=(DisplayName="Tourist")
+USAHeadgear[37]=(DisplayName="Spec Ops Bandana")
+USArmyHeadgear[0]=(DisplayName="Cavalry")
+USArmyHeadgear[1]=(DisplayName="Beret")
+USMCHeadgear[0]=(DisplayName="Campaign Hat")
+USPilotTunics[0]=(DisplayName="Flight Suit",BodyMICs=((DisplayName="Green"),(DisplayName="Navy"),(DisplayName="Tan")))
+USPilotHeadgear[0]=(DisplayName="Standard")
+USPilotHeadgear[1]=(DisplayName="AirCav")
+USPilotHeadgear[2]=(DisplayName="Dark Horse")
+USPilotHeadgear[3]=(DisplayName="Mustang")
+USPilotHeadgear[4]=(DisplayName="Stars'n'Stripes")
+USPilotHeadgear[5]=(DisplayName="Razorback")
+USPilotHeadgear[6]=(DisplayName="Standard Issue Visor")
+USPilotHeadgear[7]=(DisplayName="AirCav Visor")
+USPilotHeadgear[8]=(DisplayName="Dark Horse Visor")
+USPilotHeadgear[9]=(DisplayName="Mustang Visor")
+USPilotHeadgear[10]=(DisplayName="Stars'n'Stripes Visor")
+USPilotHeadgear[11]=(DisplayName="Razorback Visor")
+USPilotShirts[0]=(DisplayName="None")
+USPilotFaceItems[0]=(DisplayName="None")
+USPilotTattoos[0]=(DisplayName="None")
+AustralianHeads[0]=(DisplayName="Head 01")
+AustralianHeads[1]=(DisplayName="Head 02")
+AustralianHeads[2]=(DisplayName="Head 03")
+AustralianHeads[3]=(DisplayName="Head 04")
+AustralianHeads[4]=(DisplayName="Head 05")
+AustralianHeads[5]=(DisplayName="Head 06")
+AustralianHeads[6]=(DisplayName="Head 07")
+AustralianHeads[7]=(DisplayName="Head 08")
+AusArmyFaceItems[0]=(DisplayName="None")
+AusArmyFaceItems[1]=(DisplayName="Glasses")
+AusArmyFaceItems[2]=(DisplayName="Aviators")
+AusArmyFaceItems[3]=(DisplayName="Cigarette")
+AusArmyFaceItems[4]=(DisplayName="Blue Tinted Glasses")
+AusArmyFaceItems[5]=(DisplayName="Green Tinted Glasses")
+AusArmyFaceItems[6]=(DisplayName="Orange Tinted Glasses")
+AusArmyFaceItems[7]=(DisplayName="Red Tinted Glasses")
+AusArmyFaceItems[8]=(DisplayName="Purple Tinted Glasses")
+AusArmyFaceItems[9]=(DisplayName="Rose Tinted Glasses")
+AusArmyFacialHair[0]=(DisplayName="None")
+AusArmyFacialHair[1]=(DisplayName="Pencil Moustache")
+AusArmyFacialHair[2]=(DisplayName="Chevron Moustache")
+AusArmyFacialHair[3]=(DisplayName="Horseshoe Moustache")
+AusArmyFacialHair[4]=(DisplayName="Goatee")
+AusArmyFacialHair[5]=(DisplayName="Mutton Chop Beard")
+AusArmyFacialHair[6]=(DisplayName="Full Beard")
+AusArmyTunics[0]=(DisplayName="Long",BodyMICs=((DisplayName="Jungle Green")))
+AusArmyTunics[1]=(DisplayName="Rolled",BodyMICs=((DisplayName="Jungle Green")))
+AusArmyTunics[2]=(DisplayName="Torn",BodyMICs=((DisplayName="Jungle Green")))
+AusArmyTunics[3]=(DisplayName="Pants",BodyMICs=((DisplayName="Jungle Green")))
+AusArmyTunics[4]=(DisplayName="Rolled Pants",BodyMICs=((DisplayName="Jungle Green")))
+AusArmyTunics[5]=(DisplayName="Torn Pants",BodyMICs=((DisplayName="Jungle Green")))
+AusArmyShirts[0]=(DisplayName="None")
+AusArmyShirts[1]=(DisplayName="Bandages")
+AusArmyShirts[2]=(DisplayName="Dirty Bandages")
+AusArmyShirts[3]=(DisplayName="Olive Shirt")
+AusArmyShirts[4]=(DisplayName="Olive Shirt + Bandage")
+AusArmyShirts[5]=(DisplayName="Olive Vest")
+AusArmyShirts[6]=(DisplayName="Olive Vest + Bandage")
+AusArmyShirts[7]=(DisplayName="White Vest")
+AusArmyShirts[8]=(DisplayName="White Vest + Bandage")
+AusArmyTattoos[0]=(DisplayName="None")
+AusArmyTattoos[1]=(DisplayName="Southern Cross")
+AusArmyTattoos[2]=(DisplayName="Aussie Flag")
+AusArmyTattoos[3]=(DisplayName="Pinup")
+AusArmyTattoos[4]=(DisplayName="Tiger")
+AusArmyTattoos[5]=(DisplayName="Kangaroo")
+AusArmyTattoos[6]=(DisplayName="Coconut Monkey")
+AusArmyTattoos[7]=(DisplayName="Eye Scar")
+AusArmyTattoos[8]=(DisplayName="Mouth Scar")
+AusArmyTattoos[9]=(DisplayName="Panther")
+AusArmyTattoos[10]=(DisplayName="Snake")
+AusArmyHeadgear[0]=(DisplayName="Green Giggle")
+AusArmyHeadgear[1]=(DisplayName="Droopy Green Giggle")
+AusArmyHeadgear[2]=(DisplayName="Brown Giggle")
+AusArmyHeadgear[3]=(DisplayName="Droopy Brown Giggle")
+AusArmyHeadgear[4]=(DisplayName="Giggle w/Band")
+AusArmyHeadgear[5]=(DisplayName="Droopy Giggle w/Band")
+AusArmyHeadgear[6]=(DisplayName="Giggle w/Band")
+AusArmyHeadgear[7]=(DisplayName="Droopy Giggle w/Band")
+AusArmyHeadgear[8]=(DisplayName="Uncovered M1")
+AusArmyHeadgear[9]=(DisplayName="US Pattern M1")
+AusArmyHeadgear[10]=(DisplayName="Buzzcut")
+AusArmyHeadgear[11]=(DisplayName="Short Hair")
+AusArmyHeadgear[12]=(DisplayName="Swept Hair")
+AusArmyHeadgear[13]=(DisplayName="Balding")
+AusArmyHeadgear[14]=(DisplayName="Sweat Rag Bandana")
+AusArmyHeadgear[15]=(DisplayName="Slouch Hat")
+AusArmyHeadgear[16]=(DisplayName="Parade Slouch Hat")
+AusArmyHeadgear[17]=(DisplayName="Kiwi Lemon Squeezer")
+AusArmyHeadgear[18]=(DisplayName="Long Hair")
+AusArmyHeadgear[19]=(DisplayName="Crew Cut")
+AusPilotTunics[0]=(DisplayName="Flight Suit",BodyMICs=((DisplayName="Green"),(DisplayName="Green & White"),(DisplayName="Pale Blue")))
+AusPilotHeadgear[0]=(DisplayName="Standard")
+AusPilotHeadgear[1]=(DisplayName="RAAF")
+AusPilotHeadgear[2]=(DisplayName="Roo")
+AusPilotHeadgear[3]=(DisplayName="Kiwi")
+AusPilotHeadgear[4]=(DisplayName="White")
+AusPilotHeadgear[5]=(DisplayName="Aussie Flag")
+AusPilotHeadgear[6]=(DisplayName="Standard Visor")
+AusPilotHeadgear[7]=(DisplayName="RAAF Visor")
+AusPilotHeadgear[8]=(DisplayName="Roo Visor")
+AusPilotHeadgear[9]=(DisplayName="Kiwi Visor")
+AusPilotHeadgear[10]=(DisplayName="White Visor")
+AusPilotHeadgear[11]=(DisplayName="Aussie Flag Visor")
+SthVietnameseHeads[0]=(DisplayName="Head 01")
+SthVietnameseHeads[1]=(DisplayName="Head 02")
+SthVietnameseHeads[2]=(DisplayName="Head 03")
+SthVietnameseHeads[3]=(DisplayName="Head 04")
+ARVNFaceItems[0]=(DisplayName="None")
+ARVNFaceItems[1]=(DisplayName="Spectacles")
+ARVNFaceItems[2]=(DisplayName="Shades")
+ARVNFaceItems[3]=(DisplayName="Cigar")
+ARVNFaceItems[4]=(DisplayName="Cigarette")
+ARVNFacialHair[0]=(DisplayName="None")
+ARVNFacialHair[1]=(DisplayName="Pencil Moustache")
+ARVNFacialHair[2]=(DisplayName="Goatee")
+ARVNFacialHair[3]=(DisplayName="Long Goatee")
+ARVNFacialHair[4]=(DisplayName="Full Beard")
+ARVNTunics[0]=(DisplayName="Long",BodyMICs=((DisplayName="Olive Drab"),(DisplayName="Tigerstripe"),(DisplayName="ERDL"),(DisplayName="Airborne"),(DisplayName="Beo Gam")))
+ARVNTunics[1]=(DisplayName="Rolled",BodyMICs=((DisplayName="Olive Drab"),(DisplayName="Tigerstripe"),(DisplayName="ERDL"),(DisplayName="Airborne"),(DisplayName="Beo Gam")))
+ARVNTunics[2]=(DisplayName="Torn",BodyMICs=((DisplayName="Olive Drab"),(DisplayName="Tigerstripe"),(DisplayName="ERDL"),(DisplayName="Airborne"),(DisplayName="Beo Gam")))
+ARVNTunics[3]=(DisplayName="Pants",BodyMICs=((DisplayName="Olive Drab"),(DisplayName="Tigerstripe"),(DisplayName="ERDL"),(DisplayName="Airborne"),(DisplayName="Beo Gam")))
+ARVNTunics[4]=(DisplayName="Rolled Pants",BodyMICs=((DisplayName="Olive Drab"),(DisplayName="Tigerstripe"),(DisplayName="ERDL"),(DisplayName="Airborne"),(DisplayName="Beo Gam")))
+ARVNTunics[5]=(DisplayName="Torn Pants",BodyMICs=((DisplayName="Olive Drab"),(DisplayName="Tigerstripe"),(DisplayName="ERDL"),(DisplayName="Airborne"),(DisplayName="Beo Gam")))
+ARVNTunics[6]=(DisplayName="Sat Cong",BodyMICs=((DisplayName="Olive Drab"),(DisplayName="Tigerstripe"),(DisplayName="ERDL"),(DisplayName="Airborne"),(DisplayName="Beo Gam")))
+ARVNShirts[0]=(DisplayName="None")
+ARVNShirts[1]=(DisplayName="Bandages")
+ARVNShirts[2]=(DisplayName="Dirty Bandages")
+ARVNShirts[3]=(DisplayName="Olive Shirt")
+ARVNShirts[4]=(DisplayName="Olive Shirt + Bandage")
+ARVNShirts[5]=(DisplayName="Olive Vest")
+ARVNShirts[6]=(DisplayName="Olive Vest + Bandage")
+ARVNShirts[7]=(DisplayName="White Vest")
+ARVNShirts[8]=(DisplayName="White Vest + Bandage")
+ARVNShirts[9]=(DisplayName="Tiger Shirt")
+ARVNShirts[10]=(DisplayName="Tiger Shirt + Bandage")
+ARVNTattoos[0]=(DisplayName="None")
+ARVNTattoos[1]=(DisplayName="Fish")
+ARVNTattoos[2]=(DisplayName="Crocodile")
+ARVNTattoos[3]=(DisplayName="Tiger")
+ARVNTattoos[4]=(DisplayName="Coconut Monkey")
+ARVNTattoos[5]=(DisplayName="Eye Scar")
+ARVNTattoos[6]=(DisplayName="Mouth Scar")
+ARVNTattoos[7]=(DisplayName="Lotus")
+ARVNTattoos[8]=(DisplayName="Phoenix")
+ARVNTattoos[9]=(DisplayName="Panther")
+ARVNTattoos[10]=(DisplayName="Snake")
+ARVNHeadgear[0]=(DisplayName="Uncovered M1")
+ARVNHeadgear[1]=(DisplayName="Camo Paint M1")
+ARVNHeadgear[2]=(DisplayName="Ranger")
+ARVNHeadgear[3]=(DisplayName="Camo Ranger")
+ARVNHeadgear[4]=(DisplayName="US Pattern M1")
+ARVNHeadgear[5]=(DisplayName="Lowland ERDL")
+ARVNHeadgear[6]=(DisplayName="Tigerstripe")
+ARVNHeadgear[7]=(DisplayName="Cap")
+ARVNHeadgear[8]=(DisplayName="Camo Cap")
+ARVNHeadgear[9]=(DisplayName="Black Beret")
+ARVNHeadgear[10]=(DisplayName="Camo Beret")
+ARVNHeadgear[11]=(DisplayName="Boonie")
+ARVNHeadgear[12]=(DisplayName="Pinned Boonie")
+ARVNHeadgear[13]=(DisplayName="Tied Slouch")
+ARVNHeadgear[14]=(DisplayName="Buzzcut")
+ARVNHeadgear[15]=(DisplayName="Very Short Hair")
+ARVNHeadgear[16]=(DisplayName="Short Hair")
+ARVNHeadgear[17]=(DisplayName="Medium Hair")
+ARVNHeadgear[18]=(DisplayName="Mop Top")
+ARVNHeadgear[19]=(DisplayName="Crew Cut")
+ARVNHeadgear[20]=(DisplayName="Swept Crew Cut")
+ARVNHeadgear[21]=(DisplayName="Tigerstripe Boonie")
+ARVNHeadgear[22]=(DisplayName="Beo Gam Boonie")
+ARVNHeadgear[23]=(DisplayName="Flag M1")
+ARVNHeadgear[24]=(DisplayName="Jungle Paint M1")
+ARVNHeadgear[25]=(DisplayName="Ammo Belt")
+ARVNPilotTunics[0]=(DisplayName="Flight Suit",BodyMICs=((DisplayName="Green"),(DisplayName="Tan")))
+ARVNPilotHeadgear[0]=(DisplayName="Standard")
+ARVNPilotHeadgear[1]=(DisplayName="VNAF")
+ARVNPilotHeadgear[2]=(DisplayName="Spirit")
+ARVNPilotHeadgear[3]=(DisplayName="Standard Visor")
+ARVNPilotHeadgear[4]=(DisplayName="VNAF Visor")
+ARVNPilotHeadgear[5]=(DisplayName="Spirit Visor")
+ARVNPilotFaceItems[0]=(DisplayName="None")
+
+DLCPackDetails[0]=(PackName="")
+DLCPackDetails[1]=(PackName="")
+DLCPackDetails[2]=(PackName="")
+DLCPackDetails[3]=(PackName="DIGITAL DELUXE EDITION",PackDescription="Rising Storm 2's Digital Deluxe Edition allows access to two exclusive camo patterned hats, plus early unlocks for several items and the game's Official Soundtrack.",PackDescriptionShort="Two exclusive camo patterned hats, early unlocks for several items and more.")
+DLCPackDetails[4]=(PackName="PULLING RANK",PackDescription="Show your team that you're above the rank and file with this set of customization options that put you a cut above regular infantry.%nl%%nl%Features items for both the Northern and Southern forces.",PackDescriptionShort="Show your team that you're above the rank and file!")
+DLCPackDetails[5]=(PackName="")
+DLCPackDetails[6]=(PackName="PERSONALIZED TOUCH",PackDescription="Get a haircut, soldier! The Personalized Touch pack contains a variety of exclusive customization options to make “Your Dudes” truly unique, whether they’re a war-torn, battle-scarred group of badasses, or hippies with an eye for flair.%nl%Contains new customization items for all factions including hair, glasses, scars and tattoos.",PackDescriptionShort="A variety of exclusive customization options to make “Your Dudes” truly unique.")
+DLCPackDetails[7]=(PackName="UNCLE HO'S HEROES",PackDescription="Are you worried about looking less than impressive while defending your homeland from the forces of capitalist imperialism? This pack is guaranteed to have you shouting ‘Our homes are safe!’.%nl%%nl%Provides instant access to items normally unlocked via leveling up for the NLF and PAVN.",PackDescriptionShort="This pack is guaranteed to have you shouting ‘Our homes are safe!’")
+DLCPackDetails[8]=(PackName="BORN IN THE USA",PackDescription="USA! USA! USA! With this set of all-American customization options, you'll be bleeding red, white and blue!%nl%%nl%Provides instant access to items normally unlocked via leveling up for the US Forces.",PackDescriptionShort="With this set of all-American customization options, you'll be bleeding red, white and blue!")
+DLCPackDetails[9]=(PackName="MAN DOWN UNDER",PackDescription="That’s not a DLC… THAT’S a DLC! Unleash your inner battler with this set of dinky-di Australia-themed customization options.%nl%%nl%Provides instant access to items normally unlocked via leveling up for the Australians.",PackDescriptionShort="That’s not a DLC… THAT’S a DLC! Dinky-di, Australia-themed customization options.")
+DLCPackDetails[10]=(PackName="SOUTHERN STYLE",PackDescription="Not just for chicken, dress to impress as you repel the communist invaders in (Southern) Style.%nl%%nl%Provides instant access to items normally unlocked via leveling up for the ARVN.",PackDescriptionShort="Dress to impress as you repel the communist invaders in (Southern) Style.")
+DLCPackDetails[11]=(PackName="REAR ECHELON",PackDescription="Who are those stylish chaps you ask? Rear echelon, my friend. With this exclusive pack of support troop themed items, you too can lead from the rear!%nl%%nl%Contains new customization items for the US forces.",PackDescriptionShort="With this exclusive pack of support troop themed items, you too can lead from the rear!")
+DLCPackDetails[12]=(PackName="HOMELAND SECURITY",PackDescription="Dress like Uncle Ho's watching! Make your families proud (of your dress sense) as you defend the homeland with this exclusive pack of customization items for the Northern Forces.%nl%%nl%Contains new customization items for the PAVN and NLF forces.",PackDescriptionShort="Dress like Uncle Ho's watching! Exclusive pack of customization items for the Northern Forces.")
+DLCPackDetails[13]=(PackName="")
+DLCPackDetails[14]=(PackName="")
+DLCPackDetails[15]=(PackName="SGT. JOE'S SUPPORT BUNDLE",PackDescription="This Cosmetic DLC pack is entirely derived from the work of community developer \"Sgt Joe\" (and friends) on the Gameplay Overhaul Mutator - and all revenue from this DLC is shared with that team, to help encourage their work.%nl%Contains items for both the Northern and Southern forces.",PackDescriptionShort="Support our community developer \"Sgt Joe\" (and friends!)")
+DLCPackDetails[16]=(PackName="THE SPECIALISTS",PackDescription="Stand out on the battlefield - or rather, don’t. This cosmetic DLC pack contains everything you need to look and feel like a bona fide operator in the jungles of Vietnam. Contains items for both the North and South.%nl%%nl%Contains items for both the Northern and Southern forces.",PackDescriptionShort="Everything you need to look and feel like a bona fide operator in the jungles of Vietnam.")
+
+
+[ROLocalMessageResupply]
+ResuppliedGunner="Ammo Supplied to"
+BeenResupplied="Received Ammo from"
+PressToRessuply="[ %key% ] Give Ammo to"
+PistolAdded="A pistol has been added to your inventory."
+
+[ROLocalMessageMusicRadio]
+MusicRadioInstructionString="[%KEY%] Play/Stop [%FORWARDTRACK%] Skip"
+
+[ROVolumeMapBoundary]
+WarningMessage="RESTRICTED AREA - GO BACK TO COMBAT"
+
+[ROVolumeSpawnProtection]
+WarningMessage="RESTRICTED AREA - GO BACK TO COMBAT"
+
+[ROHUDWidgetTerritoryStartTimer]
+GameStartString="MATCH STARTING..."
+
+[AccessControl]
+NotEnoughHonor_Title="Your Honor Level is not high enough to play on this server."
+NotEnoughHonor="This server requires an Honor Level of at least "
+TooMuchHonor_Title="You have too much Honor to play on this server"
+TooMuchHonor="This server requires an Honor Level of no more than "
+ConnectionCanceled_Title="Cancelled Connection Attempt"
+
+[ROUISceneConnecting]
+ConnectingString="CONNECTING TO SERVER..."
+CancelString="[F10] CANCEL CONNECTION"
+WaitingForMapString="PLEASE WAIT, SERVER IS CHANGING MAP..."
+
+[ROSeqAct_DisplayTrainingMessage]
+Message="%i1 Out of %i2 Targets Hit"
+
+[ROHUDWidgetSpectator]
+FreeCameraText=""
+ThirdPersonText=""
+FirstPersonText=""
+ViewpointText=""
+RoamingText=""
+ControlAText="[%KEY%] NEXT PLAYER"
+ControlBText="[%KEY%] PREVIOUS PLAYER"
+ControlCText="[%KEY%] CHANGE CAMERA"
+SpawnKeyText="[ %KEY% ] CHANGE DEPLOYMENT POINT"
+CameraSpeedText=""
+SpectatingWarningText="SPECTATING"
+TeamSelectKeyText="[ %KEY% ] Select a Team"
+ControlBTextDemoPlayback="[%KEY%] Toggle Show Aiming Info"
+
+[ROHUDWidgetCountdownProgression]
+DefendString="DEFEND"
+AttackString="ATTACK"
+VictoryString="VICTORY"
+DefeatString="DEFEAT"
+
+[KeyBindingStrings_Movement]
+CategoryName="MOVEMENT"
+INF_MoveForwardString="Forward"
+INF_MoveBackwardString="Backward"
+INF_StrafeLeftString="Strafe Left"
+INF_StrafeRightString="Strafe Right"
+INF_Lean_LeftString="Lean Left"
+INF_Lean_RightString="Lean Right"
+INF_JumpString="Jump / Mantle / Climb Up"
+INF_Crouch_ToggleString="Crouch (Toggle)"
+INF_Crouch_HoldString="Crouch (Hold)"
+INF_Prone_ToggleString="Prone (Toggle)"
+INF_Prone_HoldString="Prone (Hold)"
+INF_SprintString="Sprint / Focus / Control Breath (Hold)"
+INF_Sprint_ToggleString="Sprint (Toggle)"
+INF_WalkingString="Walk"
+
+[KeyBindingStrings_Interaction]
+CategoryName="INTERACTION"
+InteractString="Use / Interact / Bandage"
+UseKeyString="Use / Interact"
+INF_BandageString="Bandage"
+
+[KeyBindingStrings_Weapons]
+CategoryName="WEAPONS AND TACTICS"
+FireString="Fire Weapon"
+Ironsights_ToggleString="Iron Sights (Toggle)"
+Ironsights_HoldString="Iron Sights (Hold)"
+Prev_WeaponString="Previous Weapon / Sight Range Up"
+Next_WeaponString="Next Weapon / Sight Range Down"
+INF_Give_Reload_CommandString="Reload / Check Ammo (Hold)"
+INF_Toggl_Fire_ModeString="Change Firemode"
+INF_Toggl_Special_ModeString="Toggle Bayonet / Stock Position / Switch Ammo"
+AltFireString="Melee Attack / Prime Grenade / Underhand Throw"
+INF_Drop_WeaponString="Drop Current Weapon"
+Switch_Weapon_1String="Primary Weapon / Vehicle Seat 1"
+Switch_Weapon_2String="Sidearm / Vehicle Seat 2"
+Switch_Weapon_3String="Grenades / Vehicle Seat 3"
+Switch_Weapon_4String="Smoke Grenades / Vehicle Seat 4"
+Switch_Weapon_5String="Traps & Explosives / Vehicle Seat 5"
+Switch_Weapon_6String="Equipment / Vehicle Seat 6"
+Switch_Weapon_7String="Vehicle Seat 7"
+Switch_Weapon_8String="Vehicle Seat 8"
+Switch_Weapon_9String="Vehicle Seat 9"
+Switch_Weapon_10String="Vehicle Seat 10"
+INF_Throw_GrenadeString="Quick Grenade Throw / Detonate Explosives"
+Toggl_Tactical_DisplayString="Tactical View"
+Toggl_MapString="Overhead Map"
+ExclusiveFocusString="Zoom / Control Breathing (Hold)"
+Increase_Scope_PowerString="Increase Scope Zoom"
+Decrease_Scope_PowerString="Decrease Scope Zoom"
+Do_Toggle_IlluminationString="Toggle Scope Illumination"
+
+[KeyBindingStrings_CommandSystem]
+CategoryName="COMMAND SYSTEM"
+Orders_WidgetString="Quick Orders Widget (Hold)"
+OrdersString="Command Widget (Hold)"
+Give_Follow_CommandString="Cycle Squads / Follow Me (Hold)"
+Force_RespawnString="Commander Force Ambush / Rapid Deployment"
+Next_UnitString="Select Next Squad"
+
+[KeyBindingStrings_OrdersVoiceChat]
+CategoryName="COMMUNICATION - CHAT / VOICE"
+CommunicationString="Communication Menu"
+Spot_EnemyString="Spot Enemy"
+ChatString="Public Text Chat"
+Team_ChatString="Team Text Chat"
+Squad_ChatString="Squad Text Chat"
+Voice_ChatString="Voice Chat"
+Change_Voice_ChannelString="Cycle Voice Chat Channel"
+Public_Voice_ChatString="Voice Chat - Public"
+Team_Voice_ChatString="Voice Chat - Team"
+Squad_Voice_ChatString="Voice Chat - Squad"
+Vehicle_Voice_ChatString="Voice Chat - Vehicle"
+Spatialized_Voice_ChatString="Voice Chat - Local"
+
+[KeyBindingStrings_Other]
+CategoryName="OTHER"
+ConfirmString="Vote Yes / Confirm Order"
+DenyString="Vote No / Deny Order"
+Team_SelectString="Change Team"
+Role_SelectString="Change Role"
+Toggl_ScoreboardString="Scoreboard (Toggle)"
+Show_ScoreboardString="Scoreboard (Hold)"
+shotString="Screenshot"
+Reopen_Spawn_SelectString="Change Deployment Point"
+
+[KeyBindingStrings_Aircraft]
+CategoryName="HELICOPTER"
+AIR_PitchHeloForwardString="Pitch Helicopter Forward"
+AIR_PitchHeloBackString="Pitch Helicopter Back"
+AIR_RollHeloLeftString="Roll Helicopter Left"
+AIR_RollHeloRightString="Roll Helicopter Right"
+AIR_YawHeloLeftString="Yaw Helicopter Left"
+AIR_YawHeloRightString="Yaw Helicopter Right"
+AIR_IncreaseHeloCollectiveString="Raise Helicopter Collective"
+AIR_DecreaseHeloCollectiveString="Lower Helicopter Collective"
+AIR_ResetHeloCollectiveString="Center Helicopter Collective (Advanced Mode)"
+AIR_HeloAutoHoverString="Toggle Auto-Hover"
+AIR_FreelookString="Freelook"
+AIR_Helo_DespawnString="Change Deployment Point while in Helicopter"
+AIR_OrderBailOutString="Order Passengers Out of Transport Helicopter"
+
+[KeyBindingStrings_VehicleSpecific]
+CategoryName="VEHICLE"
+ScuttleString="Scuttle Tank"
+
+[KeyBinding_FriendlyNames]
+MouseScrollUp="M Wheel Up"
+MouseScrollDown="M Wheel Down"
+LeftMouseButton="LMB"
+RightMouseButton="RMB"
+MiddleMouseButton="MMB"
+ThumbMouseButton="Mouse 4"
+ThumbMouseButton2="Mouse 5"
+CapsLock="Caps Lock"
+SpaceBar="Space"
+PageUp="Page Up"
+PageDown="Page Down"
+Zero="0"
+One="1"
+Two="2"
+Three="3"
+Four="4"
+Five="5"
+Six="6"
+Seven="7"
+Eight="8"
+Nine="9"
+NumPadZero="Num 0"
+NumPadOne="Num 1"
+NumPadTwo="Num 2"
+NumPadThree="Num 3"
+NumPadFour="Num 4"
+NumPadFive="Num 5"
+NumPadSix="Num 6"
+NumPadSeven="Num 7"
+NumPadEight="Num 8"
+NumPadNine="Num 9"
+Multiply="*"
+Add="+"
+Subtract="-"
+Decimal="."
+Divide="/"
+NumLock="Num Lock"
+ScrollLock="Scroll Lock"
+LeftShift="L Shift"
+RightShift="R Shift"
+LeftControl="L CTRL"
+RightControl="R CTRL"
+LeftAlt="L ALT"
+RightAlt="R ALT"
+Semicolon=";"
+Equals="="
+Comma=","
+Underscore="_"
+Period="."
+Slash="/"
+Tilde="`"
+LeftBracket="["
+Backslash="\\"
+RightBracket="]"
+Quote="'"
+Enter="Enter"
+Up="Up"
+Down="Down"
+Left="Left"
+Right="Right"
+Tab="Tab"
+F1="F1"
+F2="F2"
+F3="F3"
+F4="F4"
+F5="F5"
+F6="F6"
+F7="F7"
+F8="F8"
+F9="F9"
+F10="F10"
+F11="F11"
+F12="F12"
+BackSpace="Backspace"
+End="End"
+Insert="Insert"
+Delete="Delete"
+Home="Home"
+
+[ROHUDWidgetHints]
+EscapeString="Esc"
+
+[ROHTimed_TacticalView]
+TitleString="TACTICAL VIEW"
+BodyString="Hold the [%KEY%] key to show your tactical overlay, which shows objectives and other valuable information."
+
+[ROHTimed_Crouch]
+TitleString="CROUCHING"
+BodyString="Press [%KEY%] to crouch. Crouching steadies your aim and lowers recoil when firing a weapon."
+
+[ROHTimed_Prone]
+TitleString="PRONE"
+BodyString="Press [%KEY%] to prone. Going prone steadies your aim and lowers recoil when firing a weapon."
+
+[ROHTimed_FindObj]
+TitleString="FINDING OBJECTIVES"
+BodyString="Holding [%KEY%] will indicate objective locations and other useful information."
+
+[ROHTimed_ArtilleryPlacement]
+TitleString="ORDNANCE MARKERS"
+BodyString="Using your Binoculars with [%BINOCS%], you can mark an artillery target for your Commander by pressing %FIRE%."
+
+[ROHTrig_CapturingObj]
+TitleString="CAPTURING OBJECTIVES"
+BodyString="Capture objectives by outnumbering the enemy within the objective area."
+
+[ROHTrig_DefendingObj]
+TitleString="DEFENDING OBJECTIVES"
+BodyString="Defend objectives by clearing the enemy out of the area, or by outnumbering them within the objective."
+
+[ROHTrig_ControlledBreathing]
+TitleString="CONTROLLED BREATHING"
+BodyString="Hold [%KEY%] while in iron sights to breathe slower and steady your aim."
+
+[ROHTrig_DialSights]
+TitleString="DIALING SIGHTS"
+BodyString="Use [%UP%] or [%DOWN%] while aiming to adjust your sights for different ranges."
+
+[ROHTrig_DisarmBooby]
+TitleString="DISARMING BOOBY TRAPS"
+BodyString="Disarm a trap by moving slowly up to it and pressing [%USE%]. You can also destroy them with gunfire or explosives."
+
+[ROHTrig_CookGrenade]
+TitleString="MANUAL GRENADE PRIMING"
+BodyString="Prime a grenade by pressing the the [%MELEE%] key after pulling the pin."
+
+[ROHTrig_AutoCookGrenade]
+TitleString="AUTO-ARMING GRENADE"
+BodyString="The fuse on this grenade arms itself as soon as you pull it back.  Hold [%FIRE%] or [%QNADE%] to prime the grenade."
+
+[ROHTrig_DivingProne]
+TitleString="MOVING FROM PRONE"
+BodyString="While prone, you can press [%SPRINT%] and [%FORWARD%] to stand up and sprint forward."
+
+[ROHTrig_Stabalizing]
+TitleString="STABILISING WEAPONS"
+BodyString="Stabilize your weapon for more accurate shooting by putting it on, or next to, objects."
+
+[ROHTrig_M79ShellTypes]
+TitleString="M79 AMMO TYPES"
+BodyString="Press [%WFUNC%] to load the M79 grenade launcher with different ammo types."
+
+[ROHTrig_HeloDespawn]
+TitleString="REDEPLOY FROM HELICOPTER"
+BodyString="Press [%WFUNC%] to redeploy from a helicopter you've spawned in, if you haven't left it yet."
+
+[ROHTrig_Commander]
+TitleString="COMMANDER"
+BodyString="The Commander's role is for experienced players and is crucial for victory. The Commander can use unique abilities at the radio."
+
+[ROHTrig_Pilot]
+TitleString="PILOTS"
+BodyString="Unlike other roles, Pilots spawn at special Helicopter bases, far from the action."
+
+[ROHTrig_SquadLeaderUS]
+TitleString="SOUTHERN SQUAD LEADER"
+BodyString="As a US Squad Leader, you function as a mobile deployment point for your Squad when you're alive."
+
+[ROHTrig_SquadLeaderVC]
+TitleString="NORTHERN SQUAD LEADER"
+BodyString="As a North Vietnamese Squad Leader, you can place Tunnels that allow your Squad to use for deployment."
+
+[ROHTrig_Supremacy]
+TitleString="SUPREMACY MODE"
+BodyString="Supremacy is a multi-objective game mode. Capture objectives in a chain to your Home Base to score points."
+
+[ROHTrig_WhitePhosphorous]
+TitleString="WHITE PHOSPHOROUS"
+BodyString="The M34 White Phosphorous Grenade deals incendiary damage in a large area. The smoke it leaves behind is deadly."
+
+[ROHTrig_M79]
+TitleString="M79 MINIMUM DISTANCE"
+BodyString="The M79's explosive rounds will only explode once they pass a minimum arming distance of 14 metres."
+
+[ROHTrig_TripwireTrap]
+TitleString="TRIPWIRE TRAPS"
+BodyString="Place each end of the Tripwire using [%Key%]. Only two Traps can be placed at a time. They will persist even if your character dies."
+
+[ROHTrig_SignalSmokeGrenades]
+TitleString="SIGNAL SMOKE GRENADES"
+BodyString="M18 Signal Smoke Grenades can be used to mark artillery targets for your Commander."
+
+[ROHTrig_PlantingTrapsVC]
+TitleString="TRAPS AND FRIENDLY TARGETS"
+BodyString="Friendly forces will not set off your traps, but be careful - they can be hurt when an enemy triggers it."
+
+[ROHTrig_DetonatableExplosives]
+TitleString="DETONATABLE EXPLOSIVES"
+BodyString="Place C4 using [%Key%] and detonate with [%Key%]. Only one can be placed at a time. Placing new C4 will remove the old. C4 is also removed on death."
+
+[ROHTrig_TunnelPlacement]
+TitleString="PLACING A SQUAD TUNNEL"
+BodyString="Squad Leaders should press [%Key%] to get out the tunnelling tool. A Tunnel will allow your Squad to spawn from it. Only one Tunnel can be placed at a time."
+
+[ROHTrig_ChangingVoiceChannel]
+TitleString="CHANGING VOICE CHANNEL"
+BodyString="Press [%Key%] to cycle between different voice chat channels."
+
+[ROHTrig_EnemyTraps]
+TitleString="SPOTTING ENEMY TRAPS"
+BodyString="Pointmen and Scouts can detect Enemy Traps on the ground. These will be highlighted in red."
+
+[ROHTrig_Suppression]
+TitleString="SUPPRESSION"
+BodyString="You become suppressed when in danger. Recover from the effects by taking cover."
+
+[ROHTrig_Bleeding]
+TitleString="BLEEDING & BANDAGING"
+BodyString="You've been hit! You need to bandage using [%Key%]. If you don't, you'll eventually bleed out and die."
+
+[ROHTrig_LegInjury]
+TitleString="LEG INJURIES"
+BodyString="An injury to the leg will temporarily slow down your movement speed."
+
+[ROHTrig_TunnelSpawningInfo]
+TitleString="DEPLOY ON SQUAD TUNNEL"
+BodyString="The North Vietnamese forces can deploy at tunnels placed by their Squad Leaders."
+
+[ROHTrig_MapBoundary]
+TitleString="MAP BOUNDARY"
+BodyString="You've reached the boundary of the map. Turn back now!"
+
+[ROHTrig_SpawnProtection]
+TitleString="SPAWN PROTECTION"
+BodyString="You cannot use your weapon while in an enemy spawn area. Turn back now!"
+
+[ROHTrig_TunnelTool]
+TitleString="TUNNELING TOOL"
+BodyString="Press [%Key%] to get out your Tunnelling Tool and dig a Tunnel that allows your Squad to deploy near it."
+
+[ROHTrig_EquipBayonet]
+TitleString="EQUIP BAYONET"
+BodyString="Press [%Key%] to equip the bayonet on this weapon."
+
+[ROHTrig_SwitchFireMode]
+TitleString="SELECT FIRE WEAPONS"
+BodyString="Press [%Key%] to change your weapon's firing mode."
+
+[ROHTrig_SwitchAmmo]
+TitleString="SWITCHING AMMO"
+BodyString="Press [%Key%] to switch to this weapon's alternate ammo type."
+
+[ROHTrig_ExtendStock]
+TitleString="FOLDING STOCKS"
+BodyString= "Press [%Key%] to fold or extend this weapon's stock. This will change how the weapon behaves when aimed."
+
+[ROHTrig_MGBarrels]
+TitleString="MACHINEGUN BARRELS"
+BodyString="Machine Gun barrels are prone to overheating and will warp with extended use. Fire in short bursts."
+
+[ROHTrig_RPGBackBlast]
+TitleString="RPG-7 BACKBLAST"
+BodyString="The RPG-7 can injure or even kill soldiers standing close behind you. Be careful when you fire it!"
+
+[ROHTrig_CheckMagazine]
+TitleString="CHECK AMMO"
+BodyString="Hold [%Key%] to check roughly how much ammo is left in the magazine of your weapon."
+
+[ROHTrig_Resupplying]
+TitleString="RESUPPLY"
+BodyString="To resupply your ammunition and grenades, find a resupply point using your Tactical Overlay."
+
+[ROHTrig_HidingFromAmericanSurveillance]
+TitleString="HIDING FROM AMERICAN SURVEILLANCE"
+BodyString="To hide from opposing Recon Planes, stay still while crouched or prone, and don't fire your weapon."
+
+[ROHTrig_DestroyingEnemyTunnels]
+TitleString="DESTROYING ENEMY TUNNELS"
+BodyString="Destroy enemy Deployment Tunnels using explosives, or by approaching the tunnel and holding [%Key%]."
+
+[ROHTrig_MeleeAttacks]
+TitleString="MELEE ATTACKS"
+BodyString="Press [%Key%] to melee attack an enemy. Hold [%Key%] while sprinting to charge attack."
+
+[ROHTrig_SupremacyLineIsBroke]
+TitleString="THE LINE IS BROKEN"
+BodyString="In Supremacy, objectives only gain points for your team when connected to your Home Base."
+
+[ROHTrig_FriendlyFire]
+TitleString="FRIENDLY FIRE"
+BodyString="Confirm your target before shooting. Each team has unique details that distinguish them from the enemy."
+
+[ROHTrig_FriendlyFirePenalty]
+TitleString="FRIENDLY FIRE PENALTIES"
+BodyString="Be cautious not to shoot your team mates! Team kills will result in time added to your next respawn."
+
+[ROHTrig_UnderhandGrenadeThrows]
+TitleString="UNDERHAND GRENADE THROWS"
+BodyString="Press [%Key%] to throw a grenade underhand, shortening your throwing distance."
+
+[ROHTrig_MarkingArtillery]
+TitleString="MARKING ARTILLERY"
+BodyString="Squad Leaders can mark artillery targets for your Commander. Press [%Key2%] to use your Binoculars, then [%Key%] to mark a target."
+
+[ROHTrig_Leaning]
+TitleString="LEANING"
+BodyString="Press [%Key%] or [%Key2%] to lean. Leaning lets you see around corners and obstacles."
+
+[ROHTrig_AltSniperSight]
+TitleString="ALTERNATE SIGHTS ON SNIPER RIFLES"
+BodyString="Press [%Key%] to switch to an alternate, non-scoped view for your sniper rifle."
+
+[ROHTrig_ChangingRole]
+TitleString="CHANGING ROLE & SQUAD"
+BodyString="Press [%Key%] to switch to a different Role, Loadout or Squad."
+
+[ROHTrig_Reinforcements]
+TitleString="REINFORCEMENTS"
+BodyString="Your team has only so many reinforcements. When these run out, your team can no longer redeploy when killed."
+
+[ROHTrig_SquadBenefits]
+TitleString="SQUAD BENEFITS"
+BodyString="Being near Squadmates gives benefits against suppression, helps you capture objectives faster, and more."
+
+[ROHTrig_Flying1]
+TitleString="FLYING"
+BodyString="Use [%Collectiveup%] to ascend, [%Collectivedown%] to descend, and [%L%] [%R%] [%U%] [%D%] to control the nose."
+
+[ROHTrig_Flying2]
+TitleString="FLYING #2"
+BodyString="Roll the Helicopter with [%Roll Left%] / [%Roll Right%] or yaw with [%Yleft%] / [%Yright%]."
+
+[ROHTrig_Flying3]
+TitleString="FLYING #3"
+BodyString="Hold [%Freelook%] to look around whilst in a Helicopter. Press [%Autohover%] to come to a stop in mid-air."
+
+[ROHTrig_FlyingLoach]
+TitleString="LOACH ROLE"
+BodyString="The Loach will spot enemies on the ground automatically for your team. You can also transport your Commander."
+
+[ROHTrig_SwitchingSeats]
+TitleString="SWITCH SEATS"
+BodyString="Switch seats in vehicles by using the number keys. Only Pilots can sit in pilot seats."
+
+[ROHTrig_CobraGunner]
+TitleString="AIRCRAFT GUNNER SEAT"
+BodyString="Use [%Mousewheelup%] to enter the gun sights. Fire the cannon with [%Key2%] and the Grenades with [%Key%]."
+
+[ROHTrig_HueyGunner]
+TitleString="HUEY GUNNERS"
+BodyString="Use [%Mousewheel%] to get on the M60D as a 'Shotgun Rider' - a Huey Door Gunner."
+
+[ROHTrig_LoachCommander]
+TitleString="COMMANDING FROM THE LOACH"
+BodyString="Press [%M%] to access the Radio in the Loach. Use [%Mousewheel%], aim at a location and press [%Fire%] to mark targets."
+
+[ROHTrig_CombatPilots]
+TitleString="COMBAT PILOTS"
+BodyString="Combat Pilots can only fly the Loach and Cobra. The Huey is for Transport Pilots."
+
+[ROHTrig_TransportPilots]
+TitleString="TRANSPORT PILOTS"
+BodyString="Transport Pilots only fly the Huey and cannot pilot the Loach or Cobra."
+
+[ROHTrig_ResupplyChopper]
+TitleString="RESUPPLY AND RE-ARM"
+BodyString="To re-supply your ammunition and repair your Helicopter, land at your original deployment location."
+
+[ROHTrig_AntiAir]
+TitleString="ANTI-AIR"
+BodyString="The North Vietnamese Commander can call anti-air missiles, which destroy aircraft above 75m AGL."
+
+[ROHTrig_Bipods]
+TitleString="BIPODS"
+BodyString="Press [%Key%] to adjust the Bipod on this weapon. When the Bipod is deployed, you will automatically rest the gun on surfaces."
+
+[ROHTrig_RadioMan]
+TitleString="RADIOMAN"
+BodyString="The Radioman provides a mobile radio for the Commander to use anywhere on the battlefield."
+
+[ROHTrig_RoleSpawnRifleman]
+TitleString="RIFLEMAN TIPS"
+BodyString="Engage enemies from a distance as a Rifleman, and use your grenades up close."
+
+[ROHTrig_RoleSpawnPointman]
+TitleString="POINTMAN TIPS"
+BodyString="Traps are highlighted in red for you. Use your smoke grenades to obscure the enemy's vision."
+
+[ROHTrig_RoleSpawnScout]
+TitleString="SCOUT TIPS"
+BodyString="Throw smoke grenades to obscure the enemy's vision and use your Tripwires as booby traps."
+
+[ROHTrig_RoleSpawnMachineGunner]
+TitleString="MACHINEGUNNER TIPS"
+BodyString="Fire short bursts to avoid damaging your weapon, and lay down suppressing fire at the Enemy."
+
+[ROHTrig_RoleSpawnGrenadier]
+TitleString="GRENADIER TIPS"
+BodyString="Use your M79 to clear the enemy out of cover and hard defensive positions. Smoke ammo can be used to obscure the enemy's vision."
+
+[ROHTrig_RoleSpawnSniper]
+TitleString="SNIPER TIPS"
+BodyString="Find a vantage point and carefully select targets for precise kills. Use explosives to protect yourself."
+
+[ROHTrig_RoleSpawnEngineer]
+TitleString="ENGINEER TIPS"
+BodyString="Use C4 defensively to protect key locations or objectives. The Flamethrower and WP grenade are best for clearing out enemy positions."
+
+[ROHTrig_RoleSpawnRPGSoldier]
+TitleString="RPG SOLDIER TIPS"
+BodyString="As well as being an anti-vehicle weapon, the RPG-7 can penetrate through hard cover to strike enemies."
+
+[ROHTrig_RoleSpawnSapper]
+TitleString="SAPPER TIPS"
+BodyString="You can place up to five mines at a time. Use them to protect key areas and pathways."
+
+[ROHTrig_M18Claymore]
+TitleString="M18 CLAYMORE"
+BodyString="Place Claymores using [%Key%] and detonate with [%Key%]. Only one can be placed at a time. Placing new Claymores will remove the old. They are also removed on death."
+
+[ROHTrig_MD82_Mine]
+TitleString="MD82 MINE"
+BodyString="Place MD82 mines using [%Key%]. Up to 5 Mines can be placed at once. They will persist even if your character dies."
+
+[ROHTrig_PunjiTrap]
+TitleString="PUNJI TRAP"
+BodyString="Dig a Punji Trap using [%Key%]. Only one can be placed at time. It will persist even if your character dies."
+
+[ROHRand_UnderhandGrenadeThrows]
+TitleString="UNDERHAND GRENADE THROWS"
+BodyString="Press [%Key%] to underhand throw a grenade - use this for lob grenades a short distance."
+
+[ROHRand_MarkingEnemies]
+TitleString="MARKING ENEMIES"
+BodyString="Press [%Key%] to mark enemies, vehicles, and tunnels for your team mates. This will allow them to quickly locate targets."
+
+[ROHRand_VoteKick]
+TitleString="VOTE KICK"
+BodyString="Initiate a vote to kick disruptive or unpleasant players from the server from the Escape Menu."
+
+[ROHRand_MapVoting]
+TitleString="MAP VOTING"
+BodyString="Call a vote to change the map from the Escape Menu. Follow the prompts that appear to cast your vote."
+
+[ROHRand_RoleVoting]
+TitleString="ROLE VOTING"
+BodyString="Start a vote to remove someone from a role from the escape menu. Key roles, like pilots, need skilled players."
+
+[ROHRand_AmmoLoadouts]
+TitleString="AMMO LOADOUTS"
+BodyString="Some weapons have alternate ammo loadouts that provide options for different scenerios."
+
+[ROHRand_WorkingWithYourSquad]
+TitleString="SQUAD TEAMWORK"
+BodyString="Working closely with your Squad provides useful bonuses, from reduced suppression to faster objective capturing and forward spawning."
+
+[ROHRand_NorthTraps]
+TitleString="NORTH VIETNAMESE TRAPS"
+BodyString="North Vietnamese forces have a variety of traps that can make the battlefield an unpredictable nightmare for Enemy troops."
+
+[ROHRand_SpottingTraps]
+TitleString="SPOTTING TRAPS"
+BodyString="Pointmen will see Vietnamese traps highlighted in red."
+
+[ROHRand_Ladders]
+TitleString="IMPROVISED LADDERS"
+BodyString="North Vietnamese can climb special, highlighted objects in the environment."
+
+[ROHRand_Penetration]
+TitleString="BALLISTIC PENETRATION"
+BodyString="Bullets realistically penetrate cover and materials in the environment. The bigger the bullet, the further the round will penetrate."
+
+[ROHRand_Footsteps]
+TitleString="FOOTSTEP SOUNDS"
+BodyString="You can locate enemies by the sound of their footsteps. Be quieter by crouching or moving slowly."
+
+[ROHRand_Stamina]
+TitleString="STAMINA"
+BodyString="Sprinting and jumping increase your breathing and fatigue. This will temporarily make aiming more difficult."
+
+[ROHRand_Suppression]
+TitleString="SUPPRESSION"
+BodyString="Being shot at and nearby explosions result in Suppression - causing rapid breathing and impaired vision."
+
+[ROHRand_WeaponResting]
+TitleString="WEAPON RESTING"
+BodyString="Steadying on objects brings up the Weapon Resting icon, which indicates reduced weapon sway and recoil."
+
+[ROHRand_BulletDrop]
+TitleString="BALLISTICS"
+BodyString="Bullet trajectories drop over distance. Scroll the Mouse Wheel while aiming to dial in the correct range."
+
+[ROHRand_Encumbrance]
+TitleString="ENCUMBRANCE"
+BodyString="The weight of ammunition, weaponry and gear a soldier carries impact stamina and movement speed."
+
+[ROHRand_DroppingYourWeapon]
+TitleString="DROPPING YOUR WEAPON"
+BodyString="Press [%Key%] to drop your weapon. This is faster than reloading or manually switching to a sidearm."
+
+[ROHRand_SuppressingTheEnemy]
+TitleString="SUPPRESSING THE ENEMY"
+BodyString="When under fire, it's harder to see and shoot at enemies - so provide covering fire to pin down the Enemy."
+
+[ROHRand_Patience]
+TitleString="PATIENCE"
+BodyString="Rushing into a hostile area will usually result in a quick death."
+
+[ROHRand_AdvancedGrenadeUse]
+TitleString="ADVANCED GRENADE USE"
+BodyString="Grenades are valuable for clearing out Enemies behind cover - don't waste them."
+
+[ROHRand_SmokesAndObjs]
+TitleString="SMOKE GRENADES & OBJECTIVES"
+BodyString="Co-ordinated use of smoke grenades is crucial for a team's victory. Use them to obscure your advance."
+
+[RODataProvider_ServerPlayerList]
+PlayerNameCol="PLAYER"
+PlayerScoreCol="SCORE"
+PlayerHonorCol="LEVEL"
+PlayerPingCol="PING"
+
+[ROGameViewportClient]
+RealismTip="SETTINGS:"
+GameTypeString="MODE:"
+AuthorTitleString="AUTHOR:"
+RealismModeStrings[0]="Standard Server"
+RealismModeStrings[1]="Custom Server"
+RealismModeDescription[0]="A Standard Server uses the standard default server settings."
+RealismModeDescription[1]="A Custom Server has adjusted one or more of a large number of gameplay affecting options.  Settings can vary from server to server."
+
+[ROLocalMessageVehicleTwo]
+VehicleEnterMessage="[ %KEY% ] ENTER VEHICLE"
+BlockingVehicleMessage="MOVE - YOU ARE PREVENTING A VEHICLE FROM SPAWNING"
+ChangingSeatsMessage="Changing Seats..."
+PilotKilledMessage="PILOT IS DEAD"
+NonPilotErrorMessageString="MUST BE PILOT TO FLY AIRCRAFT"
+WrongPilotErrorMessageString="NOT QUALIFIED TO FLY THIS HELICOPTER"
+AirborneErrorMessageString="CANNOT LEAVE SEAT WHILE AIRBORNE"
+UnsafeToExitMessageString="CANNOT EXIT AT THIS SPEED/ALTITUDE"
+
+[ROLocalMessageHeloArmRepair]
+RepairRearmStartMessage="Repairing and Rearming..."
+RepairRearmProgressMessage="Finishing in"
+
+[ROGameInfo]
+DefaultPlayerName=RS2Player
+
+[ROHUDWidgetHelicopterInfo]
+AmmoCount1String="99"
+AmmoCount2String="99"
+AmmoType1String="Ammo1"
+AmmoType2String="Ammo2"
+
+[ROHUDWidgetHelicopterInstruments]
+AltitudeString="ALTITUDE"
+AltitudeUnits="m AGL"
+VertSpeedString="VSI"
+VertSpeedUnits="m/s"
+RPMString="RPM"
+AirspeedString="AIRSPEED"
+AirspeedUnits="kts"
+
+[ROVehicleHelicopter]
+AutoHoverEnabledString="Auto-Hover Enabled"
+AutoHoverDisabledString="Auto-Hover Disabled"
+
+[ROUISceneCharacter]
+Random="RANDOM"
+TunicString="TUNIC"
+TunicMatString="TUNIC PATTERN"
+ShirtString="SHIRT"
+HeadString="FACE"
+HairColourString="HAIR COLOR"
+HeadgearString="HEADGEAR"
+FaceItemString="FACIAL ACCESSORIES"
+FacialHairString="FACIAL HAIR"
+TattooString="TATTOO"
+AllRoleStrings[0]="ALL INFANTRY ROLES"
+AllRoleStrings[1]="ALL PILOT ROLES"
+
+[ROUISceneStore]
+LevelString="LVL"
+ExclusiveString="EXCLUSIVE"
+OwnedString="ALREADY OWNED"
+CarouselItemsString="Items"
+CarouselOfString="of"
+
+[ROSniperWeaponAdvanced]
+MOASettingString="Scope Elev:"
+MagnificationSettingString="Power:"
+
+[ROSquadInfo]
+DefaultTitleStrings[0]=ALPHA
+DefaultTitleStrings[1]=BRAVO
+DefaultTitleStrings[2]=CHARLIE
+DefaultTitleStrings[3]=DELTA
+DefaultTitleStrings[4]=ECHO
+DefaultTitleStrings[5]=FOXTROT
+DefaultTitleStrings[6]=GOLF
+DefaultTitleStrings[7]=HOTEL
+DefaultTitleStrings[8]=INDIA
+DefaultTitleStrings[9]=JULIET
+
+[ROUIWidgetSquadSelection]
+CreateString=CREATE
+JoinString=JOIN
+LeaveString=LEAVE
+BotString=(Bot)
+CreateSquadTip="Create Squad"
+JoinSquadTip="Join Squad"
+LeaveSquadTip="Leave Squad"
+LockSquadTip="Lock/Unlock Squad (%NUM% Players Min)"
+InviteTip="Invite Players"
+RenameTip="Rename Squad"
+PromoteTip="Promote Player to Squad Leader"
+KickTip="Kick Player from Squad"
+AttachPilotTip="Attach Pilot to Squad"
+DetachPilotTip="Detach Pilot from Squad"
+
+[ROUIWidgetGridScrollable]
+RandomString=Random
+UnlockString="UNLOCK NOW"
+DLCString="DLC"
+
+[ROGame.ROGeneralTips]
+GeneralTips=GeneralTip1
+GeneralTips=GeneralTip2
+GeneralTips=GeneralTip3
+GeneralTips=GeneralTip4
+GeneralTips=MovementTip1
+GeneralTips=MovementTip2
+GeneralTips=MovementTip3
+GeneralTips=MovementTip4
+GeneralTips=MovementTip5
+GeneralTips=MovementTip6
+GeneralTips=WeaponTip1
+GeneralTips=WeaponTip2
+GeneralTips=WeaponTip3
+GeneralTips=WeaponTip4
+GeneralTips=WeaponTip5
+GeneralTips=WeaponTip6
+GeneralTips=WeaponTip7
+GeneralTips=WeaponTip8
+GeneralTips=WeaponTip9
+GeneralTips=WeaponTip10
+GeneralTips=WeaponTip11
+GeneralTips=WeaponTip12
+GeneralTips=WeaponTip13
+GeneralTips=WeaponTip14
+GeneralTips=WeaponTip15
+GeneralTips=WeaponTip16
+GeneralTips=ClassTip1
+GeneralTips=ClassTip2
+GeneralTips=ClassTip3
+GeneralTips=ClassTip4
+GeneralTips=ClassTip5
+GeneralTips=ClassTip6
+GeneralTips=ClassTip7
+GeneralTips=Squadtip1
+GeneralTips=Squadtip2
+GeneralTips=Squadtip3
+GeneralTips=Squadtip4
+GeneralTips=Squadtip5
+GeneralTips=Squadtip6
+GeneralTips=Squadtip7
+
+[ROMapInfo]
+NorthernArmyNames[0]="PEOPLE'S ARMY OF VIETNAM"
+NorthernArmyNames[1]="NATIONAL LIBERATION FRONT"
+SouthernArmyNames[0]="UNITED STATES ARMY"
+SouthernArmyNames[1]="UNITED STATES MARINE CORPS"
+SouthernArmyNames[2]="AUSTRALIAN ARMY"
+SouthernArmyNames[3]="ARMY OF THE REPUBLIC OF VIETNAM"
+NorthernArmyShortNames[0]="PAVN"
+NorthernArmyShortNames[1]="NLF"
+SouthernArmyShortNames[0]="US ARMY"
+SouthernArmyShortNames[1]="USMC"
+SouthernArmyShortNames[2]="AUS ARMY"
+SouthernArmyShortNames[3]="ARVN"
+SouthernArmyPilotStrings[0]="US PILOT"
+SouthernArmyPilotStrings[1]="US PILOT"
+SouthernArmyPilotStrings[2]="AUS PILOT"
+SouthernArmyPilotStrings[3]="NVAF PILOT"
+
+[ROHUDWidgetSLNotice]
+SpawnedSquadLeaderString="YOU ARE SQUAD LEADER"
+PromotedSquadLeaderString="PROMOTED TO SQUAD LEADER"
+DemotedSquadLeaderString="YOU ARE NO LONGER SQUAD LEADER"
+
+[ROAccessControl]
+TempBanned_Title=Temporary Banned Until %s
+TempBanned=Your Steam ID has been banned from this server
+NameChange_Title=Auto Session Banned
+NameChange=Too many name changes within this session
+PingLimit_Title=Auto Kicked
+PingLimit=Too high average ping
+PendingKickVore=There is an active kick vote against you
+
+[ROMembers]
+RemoveReason_Title="APOLOGIES"
+RemoveReason="You have been removed from this server to make space for a member."
+
+[PlayerReplicationInfo]
+PlayerName.FriendlyName="Player"
+Kills.FriendlyName="Kills"
+Deaths.FriendlyName="Deaths"
+Score.FriendlyName="Score"
+UniqueID.FriendlyName="Player ID"
+
+[ROHUDWidgetHeloTrainRespawnTimer]
+RespawningText="RETURNING TO BASE IN %SEC% SECONDS"
+
+[ROUIWidgetKeyBindings]
+AlreadyBoundMessage=%KEY% is currently bound to %CMD%.
+
+[ROHUDWidgetRadiomanHelper]
+InUseString="IN USE"
+MeterAbbreviation="m"
+CommanderNearByString="NEARBY"
+
+[ROGameEngine]
+DiscordStatusStandalone="%map%"
+DiscordStatusMultiplayerNoTeam="%gamemode% - %map%, %playercount% players"
+DiscordStatusMultiplayer="%gamemode% - %map%, %team% %role%, %playercount% players"
+DiscordStatusCampaign="Campaign - %campaignyear%, %gamemode% - %map%, %team%, %playercount% players"
+DiscordStatusMultiplayerNoTeamXP="%XP%, %gamemode% - %map%, %playercount% players"
+DiscordStatusMultiplayerXP="%XP%, %gamemode% - %map%, %team% %role%, %playercount% players"
+DiscordStatusCampaignXP="%XP%, Campaign - %campaignyear%, %gamemode% - %map%, %team%, %playercount% players"
+DiscordStatusMultiplayerQueuedForServer="Queued to join %servername%"
+DiscordStatusMultiplayerConnectingToServer="Connecting to %servername%"

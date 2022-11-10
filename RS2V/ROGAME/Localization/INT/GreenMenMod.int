@@ -1,0 +1,759 @@
+[GMUISceneTeamSelect]
+AttackingString="ATTACKING"
+DefendingString="DEFENDING"
+PlayersString="Players"
+FullString="FULL"
+NorthTeamInfoText="The second most powerful army of the plastic world."
+SouthTeamInfoText="The most powerful army of the plastic world."
+
+[GMLocalMessageGamePickup]
+Pickup="[ %key% ] PICK UP "
+InvArray[0]="AK"
+InvArray[1]="AK"
+InvArray[2]="AKM"
+InvArray[3]="ASSAULT RIFLE"
+InvArray[4]="SKS"
+InvArray[5]="MARKSMAN RIFLE"
+InvArray[6]="OBREZ"
+InvArray[7]="TT-33"
+InvArray[8]="PISTOL"
+InvArray[9]="DP-28"
+InvArray[10]="RPD"
+InvArray[11]="MACHINE GUN"
+InvArray[12]="PPSH-41"
+InvArray[13]="MAT-49 9mm"
+InvArray[14]="MAT-49 7.62mm"
+InvArray[15]="SMG"
+InvArray[16]="MN 91/30 PU"
+InvArray[17]="SNIPER RIFLE"
+InvArray[18]="SVD"
+InvArray[19]="DMR"
+InvArray[20]="SHOTGUN"
+InvArray[21]="COMPACT SHOTGUN"
+InvArray[22]="MODIFIED SHOTGUN"
+InvArray[23]="IZh-58 Long"
+InvArray[24]="RIFLED SHOTGUN"
+InvArray[25]="IZh-58 Sawn Off"
+InvArray[26]="GRENADE LAUNCHER"
+InvArray[27]="BAZOOKA"
+InvArray[28]="FLAMETHROWER"
+InvArray[29]="GRENADE"
+InvArray[30]="WP GRENADE"
+InvArray[31]="TYPE 67 GRENADE"
+InvArray[32]="C-4 EXPLOSIVE"
+InvArray[33]="MD-82 MINE"
+InvArray[34]="M18 CLAYMORE MINE"
+InvArray[35]="PUNJI TRAP"
+InvArray[36]="TRIPWIRE TRAP"
+InvArray[37]="BINOCULARS"
+InvArray[38]="PICK MATTOCK"
+InvArray[39]="SMOKE"
+InvArray[40]="SIGNAL SMOKE"
+InvArray[41]="RDG-1 SMOKE"
+InvArray[42]="DShK HMG"
+InvArray[43]="M2 HMG"
+InvArray[44]="REVOLVER"
+InvArray[45]="PM"
+InvArray[46]="DMR"
+InvArray[47]="BATTLE RIFLE"
+InvArray[48]="L2A1"
+InvArray[49]="OWEN"
+InvArray[50]="PEASHOOTER"
+InvArray[51]="HI-POWER"
+InvArray[52]="ASSAULT SMG"
+InvArray[53]="PDW SEMI"
+InvArray[54]="PDW"
+InvArray[55]="BATTLE RIFLE"
+InvArray[56]="SCOPED RIFLE"
+InvArray[57]="TYPEWRITER"
+InvArray[58]="AUTOMATIC RIFLE"
+InvArray[59]="BROWNING"
+InvArray[60]="SCHMEISSER"
+InvArray[61]="FOUGASSE MINE"
+InvArray[62]="MOLOTOV COCKTAIL"
+InvArray[63]="DEPLOYABLE HMG"
+InvArray[64]="DEPLOYABLE AMMO CRATE"
+
+[GMPlayerController]
+NorthTeamInfoText="After the defeat of the Tan Army, the second most powerful force would be this."
+SouthTeamInfoText="The most powerful army of the plastic world."
+
+[GMRoleInfoBlueRifleman]
+MyName="RIFLEMAN"
+ClassShortName="RIFLE"
+Description="The Rifleman is the main-stay of the infantry platoon. He is tasked with the vital role of taking and holding ground. Using his standard issue rifle, he can effectively engage the enemy at a moderate to long range with a high level of effectiveness. He also carries spare ammunition for the squad LMGs and should remember to keep his machine-gunners well supplied."
+
+[GMRoleInfoGreenRifleman]
+MyName="RIFLEMAN"
+ClassShortName="RIFLE"
+Description="The Rifleman is the main-stay of the infantry platoon. He is tasked with the vital role of taking and holding ground. Using his standard issue rifle, he can effectively engage the enemy at a moderate to long range with a high level of effectiveness. He also carries spare ammunition for the squad LMGs and should remember to keep his machine-gunners well supplied."
+
+[GMRoleInfoBlueMachineGunner]
+MyName="MACHINE GUNNER"
+ClassShortName="MG"
+Description="Armed with a light machine gun, he provides the squad with its primary source of firepower. The light machine gun can deliver overwhelming damage to the enemy, but careful use is required to avoid over-heating or wasting ammunition. Since the light machine gun is not a close combat weapon, the squad must provide protection and ammunition for this class."
+
+[GMRoleInfoGreenMachineGunner]
+MyName="MACHINE GUNNER"
+ClassShortName="MG"
+Description="Armed with a light machine gun, he provides the squad with its primary source of firepower. The light machine gun can deliver overwhelming damage to the enemy, but careful use is required to avoid over-heating or wasting ammunition. Since the light machine gun is not a close combat weapon, the squad must provide protection and ammunition for this class."
+
+[GMRoleInfoGreenPointman]
+MyName="POINTMAN"
+ClassShortName="POINT"
+Description=
+
+[GMRoleInfoBluePointman]
+MyName="POINTMAN"
+ClassShortName="POINT"
+Description=
+
+[GMRoleInfoGreenSniper]
+MyName="SNIPER"
+ClassShortName="SNPR"
+Description="The marksman/sniper is equipped much the same as basic infantry, with the exception of a telescopic sight on his primary weapon. He should be a very good shot - and should pick his targets carefully, concentrating on key enemies, such as leaders, machine-gunners and opposing snipers."
+
+[GMRoleInfoBlueSniper]
+MyName="SNIPER"
+ClassShortName="SNPR"
+Description="The marksman/sniper is equipped much the same as basic infantry, with the exception of a telescopic sight on his primary weapon. He should be a very good shot - and should pick his targets carefully, concentrating on key enemies, such as leaders, machine-gunners and opposing snipers."
+
+[GMRoleInfoGreenEngineer]
+MyName="COMBAT ENGINEER"
+ClassShortName="ENGI"
+Description="The Combat Engineer carries high explosive demolition ("satchel") charges in addition to his standard infantry gear. Apart from his infantry role, the engineer can use his satchel charges to destroy enemy positions or, if all else fails, enemy armor."
+
+[GMRoleInfoGreenEngineerSupremacy]
+MyName="COMBAT ENGINEER"
+ClassShortName="ENGI"
+Description="The Combat Engineer carries high explosive demolition ("satchel") charges in addition to his standard infantry gear. Apart from his infantry role, the engineer can use his satchel charges to destroy enemy positions or, if all else fails, enemy armor."
+
+[GMRoleInfoBlueEngineer]
+MyName="COMBAT ENGINEER"
+ClassShortName="ENGI"
+Description="The Combat Engineer carries high explosive demolition ("satchel") charges in addition to his standard infantry gear. Apart from his infantry role, the engineer can use his satchel charges to destroy enemy positions or, if all else fails, enemy armor."
+
+[GMRoleInfoBlueEngineerSupremacy]
+MyName="COMBAT ENGINEER"
+ClassShortName="ENGI"
+Description="The Combat Engineer carries high explosive demolition ("satchel") charges in addition to his standard infantry gear. Apart from his infantry role, the engineer can use his satchel charges to destroy enemy positions or, if all else fails, enemy armor."
+
+[GMRoleInfoGreenGrenadier]
+MyName="GRENADIER"
+ClassShortName="GREN"
+Description=
+
+[GMRoleInfoBlueGrenadier]
+MyName="GRENADIER"
+ClassShortName="GREN"
+Description=
+
+[GMRoleInfoGreenRadioman]
+MyName="RADIOMAN"
+ClassShortName="RADIO"
+Description=
+
+[GMRoleInfoBlueRadioman]
+MyName="RADIOMAN"
+ClassShortName="RADIO"
+Description=
+
+[GMRoleInfoGreenCommander]
+MyName="COMMANDER"
+ClassShortName="CMDR"
+Description="The Platoon Commander is the overall leader on the battlefield, normally a junior Lieutenant by rank. His role is to provide overall direction of the forces in combat, issuing orders through his Squad Leaders. He is also responsible for handling fire support, aerial recon - and the key reinforcements."
+
+[GMRoleInfoBlueCommander]
+MyName="COMMANDER"
+ClassShortName="CMDR"
+Description="The Platoon Commander is the overall leader on the battlefield, normally a junior Lieutenant by rank. His role is to provide overall direction of the forces in combat, issuing orders through his Squad Leaders. He is also responsible for handling fire support, aerial recon - and the key reinforcements."
+
+[GMWeap_Green_Bazooka]
+DisplayName="Green Bazooka"
+ShortDisplayName="Bazooka"
+CapitalizedDisplayName="GREEN BAZOOKA"
+Description="60mm Rocket Launcher. Delivers high-explosive shoulder fired missiles at high speeds. Although highly destructive, the weapon lacks versatility and leaves little space for carrying spare munitions."
+
+[GMWeap_Blue_Bazooka]
+DisplayName="Blue Bazooka"
+ShortDisplayName="Bazooka"
+CapitalizedDisplayName="BLUE BAZOOKA"
+Description="60mm Rocket Launcher. Delivers high-explosive shoulder fired missiles at high speeds. Although highly destructive, the weapon lacks versatility and leaves little space for carrying spare munitions."
+
+[GMWeap_Green_Peashooter]
+DisplayName="Green Peashooter"
+ShortDisplayName="Peashooter"
+CapitalizedDisplayName="GREEN PEASHOOTER"
+Description="9mm Submachinegun, Select Fire. Outfitted with a Suppressor, the weapon benefits from greatly reduced muzzle flash and decreased tracer visibility, at the cost of greatly reduced stopping power at range."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Suppressor","Two-Stage Trigger"))
+
+[GMWeap_Blue_Peashooter]
+DisplayName="Blue Peashooter"
+ShortDisplayName="Peashooter"
+CapitalizedDisplayName="BLUE PEASHOOTER"
+Description="9mm Submachinegun, Select Fire. Outfitted with a Suppressor, the weapon benefits from greatly reduced muzzle flash and decreased tracer visibility, at the cost of greatly reduced stopping power at range."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Suppressor","Two-Stage Trigger"))
+
+[GMWeap_Green_DMR]
+DisplayName="Green DMR"
+ShortDisplayName="DMR"
+CapitalizedDisplayName="GREEN DMR"
+Description="7.62 Rifle, Semi Auto. High-capacity precision weapon intended for medium range engagements. Comes equipped with a High Magnification Scope."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("High Magnification Scope","-No Bayonet"))
+
+[GMWeap_Blue_DMR]
+DisplayName="Blue DMR"
+ShortDisplayName="DMR"
+CapitalizedDisplayName="BLUE DMR"
+Description="7.62 Rifle, Semi Auto. High-capacity precision weapon intended for medium range engagements. Comes equipped with a High Magnification Scope."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("High Magnification Scope","-No Bayonet"))
+
+[GMWeap_Green_Slugshot]
+DisplayName="Green Rifled Shotgun"
+ShortDisplayName="Rifled Shotgun"
+CapitalizedDisplayName="GREEN RIFLED SHOTGUN"
+Description="12 Gauge Shotgun, Pump Action. Accurized variant of the Shotgun that fires high-velocity saboted slugs. Comes equipped with a High Magnification Scope and a rifled barrel."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("High Magnification Scope","-No Bayonet"))
+
+[GMWeap_Blue_Slugshot]
+DisplayName="Blue Rifled Shotgun"
+ShortDisplayName="Rifled Shotgun"
+CapitalizedDisplayName="BLUE RIFLED SHOTGUN"
+Description="12 Gauge Shotgun, Pump Action. Accurized variant of the Shotgun that fires high-velocity saboted slugs. Comes equipped with a High Magnification Scope and a rifled barrel."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("High Magnification Scope","-No Bayonet"))
+
+[GMWeap_Green_Obrez]
+DisplayName="Green Obrez"
+ShortDisplayName="Obrez"
+CapitalizedDisplayName="GREEN OBREZ"
+Description="7.62 Rifle, Bolt Action. The haphazardly sawed-off stock makes it compact enough to be carried as a sidearm. One handed shooting is ill-advised."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Extreme power"))
+
+[GMWeap_Blue_Obrez]
+DisplayName="Blue Obrez"
+ShortDisplayName="Obrez"
+CapitalizedDisplayName="BLUE OBREZ"
+Description="7.62 Rifle, Bolt Action. The haphazardly sawed-off stock makes it compact enough to be carried as a sidearm. One handed shooting is ill-advised."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Extreme power"))
+
+[GMWeap_Green_PDW]
+DisplayName="Green PDW"
+ShortDisplayName="PDW"
+CapitalizedDisplayName="GREEN PDW"
+Description=".30-Cal Carbine, Select Fire. Accurate, lightweight and easy to use. The cartridge used by this weapon sports surprising power retention over long distances."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable bayonet"))
+
+[GMWeap_Blue_PDW]
+DisplayName="Blue PDW"
+ShortDisplayName="PDW"
+CapitalizedDisplayName="BLUE PDW"
+Description=".30-Cal Carbine, Select Fire. Accurate, lightweight and easy to use. The cartridge used by this weapon sports surprising power retention over long distances."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable bayonet"))
+
+[GMWeap_Green_BAR]
+DisplayName="Green Automatic Rifle"
+ShortDisplayName="Automatic Rifle"
+CapitalizedDisplayName="GREEN AUTOMATIC RIFLE"
+Description="7.62 Machine Gun, Select Fire. Lightweight squad support weapon that trades magazine size for mobility. The alternate firing mode improves shot grouping by lowering the rate of fire."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Deployable Bipod","Controlled fire mode"))
+
+[GMWeap_Blue_BAR]
+DisplayName="Blue Automatic Rifle"
+ShortDisplayName="Automatic Rifle"
+CapitalizedDisplayName="BLUE AUTOMATIC RIFLE"
+Description="7.62 Machine Gun, Select Fire. Lightweight squad support weapon that trades magazine size for mobility. The alternate firing mode improves shot grouping by lowering the rate of fire."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Deployable Bipod","Controlled fire mode"))
+
+[GMWeap_Typewriter]
+DisplayName="Green Typewriter"
+ShortDisplayName="Typewriter"
+CapitalizedDisplayName="GREEN TYPEWRITER"
+Description=".45 Submachinegun, Select Fire. With its high rate of fire and great stopping power, the Typewriter is the perfect tool to lead the charge with."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Minces the Blues"))
+
+[GMWeap_Schmeisser]
+DisplayName="Blue Schmeisser"
+ShortDisplayName="Schmeisser"
+CapitalizedDisplayName="BLUE SCHMEISSER"
+Description="9mm Submachinegun, Full Auto. With its slow and steady bark, the Schmeisser proves great at stopping however many enemies are coming your way."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Stock"))
+
+[GMWeap_Green_AssaultRifle]
+DisplayName="Green Assault Rifle"
+ShortDisplayName="Assault Rifle"
+CapitalizedDisplayName="GREEN ASSAULT RIFLE"
+Description="5.56 Rifle, Select Fire. Reliable, accurate, lightweight. The main-stay of many plastic armies."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet"))
+
+[GMWeap_Blue_AssaultRifle]
+DisplayName="Blue Assault Rifle"
+ShortDisplayName="Assault Rifle"
+CapitalizedDisplayName="BLUE ASSAULT RIFLE"
+Description="5.56 Rifle, Select Fire. Reliable, accurate, lightweight. The main-stay of many plastic armies."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet"))
+
+[GMWeap_Green_SLR]
+DisplayName="Green Battle Rifle"
+ShortDisplayName="Battle Rifle"
+CapitalizedDisplayName="GREEN BATTLE RIFLE"
+Description="7.62 Rifle, Semi Auto. A skilled shooter will appreciate the added punch, but it comes with added bulk and lack of a fire selector."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet"))
+
+[GMWeap_Blue_SLR]
+DisplayName="Blue Battle Rifle"
+ShortDisplayName="Battle Rifle"
+CapitalizedDisplayName="BLUE BATTLE RIFLE"
+Description="7.62 Rifle, Semi Auto. A skilled shooter will appreciate the added punch, but it comes with added bulk and lack of a fire selector."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet"))
+
+[GMWeap_Green_9mmCQC]
+DisplayName="Green Assault SMG"
+ShortDisplayName="Assault SMG"
+CapitalizedDisplayName="GREEN ASSAULT SMG"
+Description="9mm Submachinegun, Select Fire. Compact variant of the Assault Rifle intended for operations in cramped environments, such as anthills or dollhouses."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("High Rate of Fire","-No Bayonet")) 
+
+[GMWeap_Blue_9mmCQC]
+DisplayName="Blue Assault SMG"
+ShortDisplayName="Assault SMG"
+CapitalizedDisplayName="BLUE ASSAULT SMG"
+Description="9mm Submachinegun, Select Fire. Compact variant of the Assault Rifle intended for operations in cramped environments, such as anthills or dollhouses."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("High Rate of Fire","-No Bayonet"))
+
+[GMWeap_Green_Pistol]
+DisplayName="Green Pistol"
+ShortDisplayName="Pistol"
+CapitalizedDisplayName="GREEN PISTOL"
+Description=".45 Handgun, Semi Auto. The Pistol is the current standard-issue sidearm for the majority of plastic armies."
+
+[GMWeap_Blue_Pistol]
+DisplayName="Blue Pistol"
+ShortDisplayName="Pistol"
+CapitalizedDisplayName="BLUE PISTOL"
+Description=".45 Handgun, Semi Auto. The Pistol is the current standard-issue sidearm for the majority of plastic armies."
+
+[GMWeap_Green_MachineGun]
+DisplayName="Green Machine Gun"
+ShortDisplayName="Machine Gun"
+CapitalizedDisplayName="GREEN MACHINE GUN"
+Description="7.62 Machine Gun, Full Auto. The main source of firepower for plastic squads, the Machine Gun sports high ammo capacity and great suppressive capabilities."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Great against vehicles"))
+
+[GMWeap_Blue_MachineGun]
+DisplayName="Blue Machine Gun"
+ShortDisplayName="Machine Gun"
+CapitalizedDisplayName="BLUE MACHINE GUN"
+Description="7.62 Machine Gun, Full Auto. The main source of firepower for plastic squads, the Machine Gun sports high ammo capacity and great suppressive capabilities."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Great against vehicles"))
+
+[GMWeap_Green_SMG]
+DisplayName="Green Submachine Gun"
+ShortDisplayName="SMG"
+CapitalizedDisplayName="GREEN SUBMACHINE GUN"
+Description=".45 Submachinegun, Full Auto. A compact, lightweight package often favored by commanding officers and vehicle crewmen due to its ease of transport."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Retractable Stock"))
+
+[GMWeap_Blue_SMG]
+DisplayName="Blue Submachine Gun"
+ShortDisplayName="SMG"
+CapitalizedDisplayName="BLUE SUBMACHINE GUN"
+Description=".45 Submachinegun, Full Auto. A compact, lightweight package often favored by commanding officers and vehicle crewmen due to its ease of transport."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Retractable Stock"))
+
+[GMWeap_Green_SniperRifle]
+DisplayName="Green Sniper Rifle"
+ShortDisplayName="Sniper Rifle"
+CapitalizedDisplayName="GREEN SNIPER RIFLE"
+Description="7.62 Rifle, Bolt Action. Powerful rifle equipped with a high magnification scope."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("High Magnification Scope"))
+
+[GMWeap_Blue_SniperRifle]
+DisplayName="Green Sniper Rifle"
+ShortDisplayName="Sniper Rifle"
+CapitalizedDisplayName="BLUE SNIPER RIFLE"
+Description="7.62 Rifle, Bolt Action. Powerful rifle equipped with a high magnification scope."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("High Magnification Scope"))
+
+[GMWeap_Green_Shotgun]
+DisplayName="Green Shotgun"
+ShortDisplayName="Shotgun"
+CapitalizedDisplayName="GREEN SHOTGUN"
+Description="12 Gauge Shotgun, Pump Action. Devastating firearm tailored for close quarters combat."
+DisplayInfo.Empty
+DisplayInfo[0]=(DisplayName="Full-Size Shotgun",Description="Standard variant of the shotgun. Features a solid stock and a 5-shell magazine capacity.",WeaponSpecialAttributesText=("Solid Stock"))
+DisplayInfo[1]=(DisplayName="Compact Shotgun",Description="Extremely compact varant of the shotgun. The stock has been removed and replaced with a pistol grip.",WeaponSpecialAttributesText=("Pistol Grip","-No Stock"))
+DisplayInfo[2]=(DisplayName="Modified Shotgun",Description="This variant features a modified choke, which spreads the pellets over an horizontal pattern.",WeaponSpecialAttributesText=("Muzzle Spreader","Solid Stock"))
+
+[GMWeap_Blue_Shotgun]
+DisplayName="Blue Shotgun"
+ShortDisplayName="Shotgun"
+CapitalizedDisplayName="BLUE SHOTGUN"
+Description="12 Gauge Shotgun, Pump Action. Devastating firearm tailored for close quarters combat."
+DisplayInfo.Empty
+DisplayInfo[0]=(DisplayName="Full-Size Shotgun",Description="Standard variant of the shotgun. Features a solid stock and a 5-shell magazine capacity.",WeaponSpecialAttributesText=("Solid Stock"))
+DisplayInfo[1]=(DisplayName="Compact Shotgun",Description="Extremely compact varant of the shotgun. The stock has been removed and replaced with a pistol grip.",WeaponSpecialAttributesText=("Pistol Grip","-No Stock"))
+DisplayInfo[2]=(DisplayName="Modified Shotgun",Description="This variant features a modified choke, which spreads the pellets over an horizontal pattern.",WeaponSpecialAttributesText=("Muzzle Spreader","Solid Stock"))
+
+[GMWeap_Blue_SmokeLauncher]
+DisplayName="Blue Smoke Launcher"
+ShortDisplayName="Smoke Launcher"
+CapitalizedDisplayName="BLUE SMOKE LAUNCHER"
+Description="40mm Grenade Launcher. A compact variant of the Grenade Launcher only capable of firing smoke grenades. These grenades are only compatible with other Smoke Launchers."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("-Requires unique ammo"))
+
+[GMWeap_Green_SmokeLauncher]
+DisplayName="Green Smoke Launcher"
+ShortDisplayName="Smoke Launcher"
+CapitalizedDisplayName="GREEN SMOKE LAUNCHER"
+Description="40mm Grenade Launcher. A compact variant of the Grenade Launcher only capable of firing smoke grenades. These grenades are only compatible with other Smoke Launchers."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("-Requires unique ammo"))
+
+[GMWeap_Green_GrenadeLauncher]
+DisplayName="Green Grenade Launcher"
+ShortDisplayName="Grenade Launcher"
+CapitalizedDisplayName="GREEN GRENADE LAUNCHER"
+Description="40mm Grenade Launcher. Capable of precise delivery of various types of munitions across extreme distances."
+
+[GMWeap_Blue_GrenadeLauncher]
+DisplayName="Blue Grenade Launcher"
+ShortDisplayName="Grenade Launcher"
+CapitalizedDisplayName="BLUE GRENADE LAUNCHER"
+Description="40mm Grenade Launcher. Capable of precise delivery of various types of munitions across extreme distances."
+
+[GMWeap_Green_Grenade]
+DisplayName="Green Frag Grenade"
+ShortDisplayName="Frag Grenade"
+CapitalizedDisplayName="GREEN FRAG GRENADE"
+Description="Hand Grenade. Explodes, causing great damage within its blast radius."
+
+[GMWeap_Blue_Grenade]
+DisplayName="Blue Frag Grenade"
+ShortDisplayName="Frag Grenade"
+CapitalizedDisplayName="BLUE FRAG GRENADE"
+Description="Hand Grenade. Explodes, causing great damage within its blast radius."
+
+[GMWeap_Green_SmokeGrenade]
+DisplayName="White Smoke Grenade"
+ShortDisplayName="White Smoke"
+CapitalizedDisplayName="WHITE SMOKE GRENADE"
+Description="Hand Grenade. Emits harmless smoke which provides concealment."
+
+[GMWeap_Blue_SmokeGrenade]
+DisplayName="White Smoke Grenade"
+ShortDisplayName="White Smoke"
+CapitalizedDisplayName="WHITE SMOKE GRENADE"
+Description="Hand Grenade. Emits harmless smoke which provides concealment."
+
+[GMWeap_Green_SmokeMarkerGrenade]
+DisplayName="Green Signal Smoke"
+ShortDisplayName="Signal Smoke"
+CapitalizedDisplayName="GREEN SIGNAL SMOKE"
+Description="Hand Grenade. The colorful smoke provides concealment and can be used to mark Artillery Targets."
+
+[GMWeap_Blue_SmokeMarkerGrenade]
+DisplayName="Blue Signal Smoke"
+ShortDisplayName="Signal Smoke"
+CapitalizedDisplayName="BLUE SIGNAL SMOKE"
+Description="Hand Grenade. The colorful smoke provides concealment and can be used to mark Artillery Targets."
+
+[GMWeap_Green_Flamethrower]
+DisplayName="Green Flamethrower"
+ShortDisplayName="Flamethrower"
+CapitalizedDisplayName="GREEN FLAMETHROWER"
+Description="Portable weapon of mass destruction. Fires jets of plastic-melting flames at a distance of up to 30 meters."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Bounces off walls"))
+
+[GMWeap_Blue_Flamethrower]
+DisplayName="Blue Flamethrower"
+ShortDisplayName="Flamethrower"
+CapitalizedDisplayName="BLUE FLAMETHROWER"
+Description="Portable weapon of mass destruction. Fires jets of plastic-melting flames at a distance of up to 30 meters."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Bounces off walls"))
+
+[GMItem_Green_Binocs]
+DisplayName="Green Binoculars"
+ShortDisplayName="Binocs"
+CapitalizedDisplayName="GREEN BINOCULARS"
+Description="Standard-issue Binoculars. Can be used to mark Artillery Targets."
+
+[GMItem_Blue_Binocs]
+DisplayName="Blue Binoculars"
+ShortDisplayName="Binocs"
+CapitalizedDisplayName="BLUE BINOCULARS"
+Description="Standard-issue Binoculars. Can be used to mark Artillery Targets."
+
+[GMWeap_Green_Revolver]
+DisplayName="Green Revolver"
+ShortDisplayName="Revolver"
+CapitalizedDisplayName="GREEN REVOLVER"
+Description=".45 Handgun, Double Action. Old sidearm being phased out in favor of the Pistol, still used in small numbers on the field."
+
+[GMWeap_Blue_Revolver]
+DisplayName="Blue Revolver"
+ShortDisplayName="Revolver"
+CapitalizedDisplayName="BLUE REVOLVER"
+Description=".45 Handgun, Double Action. Old sidearm being phased out in favor of the Pistol, still used in small numbers on the field."
+
+[GMWeap_Green_C4_Explosive]
+DisplayName="Green C-4 Explosive"
+ShortDisplayName="C-4"
+CapitalizedDisplayName="GREEN C-4 EXPLOSIVE"
+Description="Demolition charge. Detonate with remote trigger device, possibly at a safe distance."
+
+[GMWeap_Blue_C4_Explosive]
+DisplayName="Blue C-4 Explosive"
+ShortDisplayName="C-4"
+CapitalizedDisplayName="BLUE C-4 EXPLOSIVE"
+Description="Demolition charge. Detonate with remote trigger device, possibly at a safe distance."
+
+[GMWeap_Green_Claymore]
+DisplayName="Green Claymore"
+ShortDisplayName="Claymore"
+CapitalizedDisplayName="GREEN CLAYMORE"
+Description="Anti-Personnel Mine. Fires a cluster of metal balls in an arc in front of the device. Detonate with remote trigger."
+
+[GMWeap_Blue_Claymore]
+DisplayName="Blue Claymore"
+ShortDisplayName="Claymore"
+CapitalizedDisplayName="BLUE CLAYMORE"
+Description="Anti-Personnel Mine. Fires a cluster of metal balls in an arc in front of the device. Detonate with remote trigger."
+
+[GMWeap_Green_WPGrenade]
+DisplayName="Green WP Grenade"
+ShortDisplayName="WP Grenade"
+CapitalizedDisplayName="GREEN WP GRENADE"
+Description="Hand Grenade. The smoke from this grenade not only provides concealment, but also burns everyone it comes in contact with."
+
+[GMWeap_Blue_WPGrenade]
+DisplayName="Blue WP Grenade"
+ShortDisplayName="WP Grenade"
+CapitalizedDisplayName="BLUE WP GRENADE"
+Description="Hand Grenade. The smoke from this grenade not only provides concealment, but also burns everyone it comes in contact with."
+
+[GMMapInfo]
+NorthernArmyNames[0]="BLUE ARMY COMMAND"
+NorthernArmyNames[1]="BLUE RESERVES"
+SouthernArmyNames[0]="GREEN ARMY COMMAND"
+SouthernArmyNames[1]="GREEN RESERVES"
+NorthernArmyShortNames[0]="BLU"
+NorthernArmyShortNames[1]="BLU"
+SouthernArmyShortNames[0]="GRN"
+SouthernArmyShortNames[1]="GRN"
+
+[GMGameInfoTerritories]
+NorthBotNames[0]="Jenkins"
+NorthBotNames[1]="Dingo"
+NorthBotNames[2]="Huey"
+NorthBotNames[3]="Bluey"
+NorthBotNames[4]="Louie"
+NorthBotNames[5]="Doc"
+NorthBotNames[6]="Eiffel"
+NorthBotNames[7]="Cyan Connery"
+NorthBotNames[8]="Bleu"
+NorthBotNames[9]="Hawk"
+NorthBotNames[10]="Tommy"
+NorthBotNames[11]="Harry"
+NorthBotNames[12]="Blupert"
+NorthBotNames[13]="Phritz"
+NorthBotNames[14]="Blucas"
+NorthBotNames[15]="Daniel"
+NorthBotNames[16]="Hung"
+NorthBotNames[17]="Nate"
+NorthBotNames[18]="Grimm"
+NorthBotNames[19]="Oats"
+NorthBotNames[20]="Mark"
+NorthBotNames[21]="Paul"
+NorthBotNames[22]="Chris"
+NorthBotNames[23]="Cpl. Joe"
+NorthBotNames[24]="Garry"
+NorthBotNames[25]="Gregor"
+NorthBotNames[26]="Matt"
+NorthBotNames[27]="Juan Deag"
+NorthBotNames[28]="Homer"
+NorthBotNames[29]="NotGreen"
+NorthBotNames[30]="rogerG"
+NorthBotNames[31]="Moose"
+SouthBotNames[0]="John"
+SouthBotNames[1]="Adam"
+SouthBotNames[2]="Bill"
+SouthBotNames[3]="Sarge"
+SouthBotNames[4]="Jack"
+SouthBotNames[5]="Simon"
+SouthBotNames[6]="David"
+SouthBotNames[7]="Riff"
+SouthBotNames[8]="Alan"
+SouthBotNames[9]="Buffguy"
+SouthBotNames[10]="Wilson"
+SouthBotNames[11]="Rob"
+SouthBotNames[12]="Ross"
+SouthBotNames[13]="George"
+SouthBotNames[14]="Ben"
+SouthBotNames[15]="Lucas"
+SouthBotNames[16]="Dan"
+SouthBotNames[17]="Thomas"
+SouthBotNames[18]="Keith"
+SouthBotNames[19]="Sam"
+SouthBotNames[20]="Joe"
+SouthBotNames[21]="Dave"
+SouthBotNames[22]="Toby"
+SouthBotNames[23]="James"
+SouthBotNames[24]="Justyn"
+SouthBotNames[25]="Lewis"
+SouthBotNames[26]="Nathan"
+SouthBotNames[27]="Pedro"
+SouthBotNames[28]="Alex"
+SouthBotNames[29]="Mike"
+SouthBotNames[30]="Ken"
+SouthBotNames[31]="Leo"
+
+[GMGameInfoSkirmish]
+GameName="GMMSkirmish"
+DisplayName="Skirmish"
+NorthBotNames[0]="Jenkins"
+NorthBotNames[1]="Dingo"
+NorthBotNames[2]="Huey"
+NorthBotNames[3]="Bluey"
+NorthBotNames[4]="Louie"
+NorthBotNames[5]="Doc"
+NorthBotNames[6]="Eiffel"
+NorthBotNames[7]="Cyan Connery"
+NorthBotNames[8]="Bleu"
+NorthBotNames[9]="Hawk"
+NorthBotNames[10]="Tommy"
+NorthBotNames[11]="Harry"
+NorthBotNames[12]="Blupert"
+NorthBotNames[13]="Phritz"
+NorthBotNames[14]="Blucas"
+NorthBotNames[15]="Daniel"
+NorthBotNames[16]="Hung"
+NorthBotNames[17]="Nate"
+NorthBotNames[18]="Grimm"
+NorthBotNames[19]="Oats"
+NorthBotNames[20]="Mark"
+NorthBotNames[21]="Paul"
+NorthBotNames[22]="Chris"
+NorthBotNames[23]="Cpl. Joe"
+NorthBotNames[24]="Garry"
+NorthBotNames[25]="Gregor"
+NorthBotNames[26]="Matt"
+NorthBotNames[27]="Juan Deag"
+NorthBotNames[28]="Homer"
+NorthBotNames[29]="NotGreen"
+NorthBotNames[30]="rogerG"
+NorthBotNames[31]="Moose"
+SouthBotNames[0]="John"
+SouthBotNames[1]="Adam"
+SouthBotNames[2]="Bill"
+SouthBotNames[3]="Sarge"
+SouthBotNames[4]="Jack"
+SouthBotNames[5]="Simon"
+SouthBotNames[6]="David"
+SouthBotNames[7]="Riff"
+SouthBotNames[8]="Alan"
+SouthBotNames[9]="Buffguy"
+SouthBotNames[10]="Wilson"
+SouthBotNames[11]="Rob"
+SouthBotNames[12]="Ross"
+SouthBotNames[13]="George"
+SouthBotNames[14]="Ben"
+SouthBotNames[15]="Lucas"
+SouthBotNames[16]="Dan"
+SouthBotNames[17]="Thomas"
+SouthBotNames[18]="Keith"
+SouthBotNames[19]="Sam"
+SouthBotNames[20]="Joe"
+SouthBotNames[21]="Dave"
+SouthBotNames[22]="Toby"
+SouthBotNames[23]="James"
+SouthBotNames[24]="Justyn"
+SouthBotNames[25]="Lewis"
+SouthBotNames[26]="Nathan"
+SouthBotNames[27]="Pedro"
+SouthBotNames[28]="Alex"
+SouthBotNames[29]="Mike"
+SouthBotNames[30]="Ken"
+SouthBotNames[31]="Leo"
+
+[GMGameInfoTerritories]
+GameName="GMMTerritories"
+DisplayName="Territories"
+Description="Waves of reinforcements with multiple objectives to take or destroy."
+NorthTeamInfoText="After the defeat of the Tan Army, the most powerful force would be this."
+SouthTeamInfoText="The most powerful army of the plastic world."
+
+[GMGameInfoSupremacy]
+GameName="GMMSupremacy"
+DisplayName="Supremacy"
+Description="Objective based tug of war."
+
+[GMHUDWidgetCommander]
+ForceString="RAPID"
+AmbushString="RAPID"
+RespawnString="DEPLOYMENT"
+ZeroTimeString="0:00"
+AerialString="AERIAL"
+ReconString="RECON"
+CancelString="CANCEL"
+ArtilleryString="ARTILLERY"
+RequestString="REQUEST"
+ScoutString="AERIAL"
+EnhancedString="REQUEST"
+LogisticsString="SPOOKY"
+BarrageString="ARTILLERY"
+AirDefenceString="NAPALM"
+GunshipString="SPOOKY"
+NapalmString="NAPALM"
+ScrollThroughSquadString="[SHIFT+MOUSEWHEEL] CYCLE SQUADS"
+AerialReconTipString="Reconnaissance aircraft that will automatically spot enemies that are on the move or in the open. Stay near the Radio to receive position updates."
+ForceRespawnTipString="Instantly deploys all dead team members at their selected deployment points."
+GunshipTipString="Meet Spooky, the lone mortarman. (You can't see him because he's a ghost). Spooky will deliver a hail of scary accurate mortar fire."
+SouthArtilleryTipString="A mixed-bag of artillery and mortars. This is your standard barrage. Very cool and loud and not fun to be around."
+NapalmTipString="Rockets. Dipped in napalm. Surface-To-Air missiles won't stop you now."
+ScoutReconTipTitleString="AERIAL RECON"
+ScoutReconTipString="Reconnaissance aircraft that will automatically spot enemies that are on the move or in the open. Stay near the Radio to receive position updates."
+AmbushRespawnTipTitleString="RAPID DEPLOYMENT"
+AmbushRespawnTipString="Instantly deploys all dead team members at their selected deployment points."
+LogisticsTipTitleString="SPOOKY"
+LogisticsTipString="Meet Spooky, the lone mortarman. (You can't see him because he's a ghost). Spooky will deliver a hail of scary accurate mortar fire."
+NorthArtilleryTipString="A mixed-bag of artillery and mortars. This is your standard barrage. Very cool and loud and not fun to be around."
+AirDefenceTipTitleString="NAPALM"
+AirDefenceTipString="Rockets. Dipped in napalm. Surface-To-Air missiles won't stop you now."
+CancelButtonTipString="Cancel current ability."
+CooldownString="Cooldown:"
+
+[ROLocalMessageGameAlert]
+WonRound="HAVE CAPTURED ALL OBJECTIVES"
+WonRoundLockdown="LOCKED DOWN"
+WonMatch="HAVE WON THE MATCH"
+TeamIsFull="TEAM IS FULL"
+CantChangeTeamsQuicklyAfterSpawn="CANNOT CHANGE TEAMS YET"
+RoleFilled="SELECTED ROLE IS FULL"
+CampaignWon="have won the campaign"
+RespawnAvailable="Reinforcement Wave Available"
+WaitingRespawnAvailable="%i SOLDIERS QUEUED FOR DEPLOYMENT"
+RespawnedBy="DEPLOYED BY COMMANDER"
+MaintainRadioContactAerialRecon="STAY CLOSE TO RADIO TO RECEIVE RECON INFO"
+KillCamAlert="KILLED FROM LOCATION"
+SPGotReinforced="Your squad has been reinforced!"
+SpawnOnSquadLeaderFailed="CANNOT DEPLOY ON SQUAD LEADER\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
+SpawnOnYouFailed="SQUAD MEMBER FAILED TO DEPLOY NEAR YOU"
+SpawnOnSLFailedInSpawnVolume="SQUAD LEADER IS IN A RESTRICTED AREA\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
+SpawnOnSLFailedInObjectiveVolume="CANNOT DEPLOY WHEN SQUAD LEADER IS IN OBJECTIVE\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
+SpawnOnSLFailedInTunnel="SQUAD LEADER IN ENEMY TUNNEL\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
+SpawnOnYouFailedInSpawnVolume="SQUAD CANNOT DEPLOY IN RESTRICTED AREA"
+SpawnOnYouFailedInObjectiveVolume="SQUAD CANNOT DEPLOY IN OBJECTIVE"
+SpawnOnYouFailedInTunnel="SQUAD CANNOT DEPLOY IN ENEMY TUNNEL"
+AutoRespawnWarning="Auto Redeploying Team In 10 Seconds.\nPress [ %KEY% ] To Override."
+ReconShotDown="RECON SHOT DOWN"
+NewDesiredRole="QUEUED FOR DESIRED ROLE"
+ClaimedDesiredRole="CLAIMED DESIRED ROLE"
+DesiredRoleFilled="DESIRED ROLE OCCUPIED BY ANOTHER PLAYER"
+SpawnAtTunnelFailed="CANNOT DEPLOY AT TUNNEL\n[ %KEY% ] CHANGE DEPLOYMENT"
+SpawnTunnelInvalid="TUNNEL NOT AVAILABLE\n[ %KEY% ] CHANGE DEPLOYMENT"
+SpawnTunnelEnemyClose="ENEMY TOO CLOSE TO TUNNEL\n[ %KEY% ] CHANGE DEPLOYMENT"
+EnhancedLogisticsActive="HO CHI MINH TRAIL ACTIVATED"
+NooneToSpawnForAmbushRespawn="NO SOLDIERS WAITING TO DEPLOY"
+TunnelWasDestroyed="SQUAD TUNNEL DESTROYED!"
+NoTunnelPlaced="PLACE A SQUAD TUNNEL"
+SwitchingTeam="SWITCHING TEAMS"
+SwitchingTeamByAdmin="SWITCHED TEAMS BY ADMIN"

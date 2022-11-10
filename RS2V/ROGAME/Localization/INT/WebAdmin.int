@@ -1,0 +1,772 @@
+[WebAdmin]
+;;Defines a subdirectory that contains localized HTML files, will be used instead
+;;of the files in the Web/WebAdmin directory.
+;HTMLSubDirectory=INT
+menuLogout="Log out"
+menuLogoutDesc="Log out from the webadmin and clear all authentication information."
+AccessDenied="Access Denied"
+msgNoPrivs="You do not have the privileges to view this page."
+msgNoStartPage="No starting page."
+msgLogoutNotice="To properly log out you will need to close the webbrowser to clear the saved authentication information."
+msgUnableToLogout="Unable to log out."
+error404="Error 404 - Page not found"
+error403="Error 403 - Forbidden"
+error401="Error 401 - Unauthorized"
+msgNotFound="The requested page was not found."
+msgSessionCreateFail="Unable to create a session. See the log file for details."
+msgWrongAuthCookie="Authentication cookie does not contain correct information."
+pageLogin="Login"
+pageLoginDesc="Log in using the administrator username and password. Cookies must be enabled for this site."
+pageAboutTitle="About"
+pageAboutDesc="Various information about the Rising Storm 2 WebAdmin"
+msgUnknownDataType="Requested unknown data type:"
+msgInvalidToken="Invalid form data."
+msgMaxLoginTries="Exceeded login attempts."
+
+[BasicWebAdminAuth]
+NoAccessControl="No AccessControl instance."
+InvalidCreds="Invalid credentials."
+NoPassSet="No administrator password has been set for this server. Add an entry \"AdminPassword\" in the section \"[Engine.AccessControl]\" in the ROGame.ini configuration file."
+
+[MultiWebAdminAuth]
+InvalidCreds="Invalid credentials."
+NoAdmins="No administrators have been created. Please update the configuration."
+msgUnsupportedHash="Unsupported hash algorithm."
+
+[QHCurrent]
+menuCurrent="Current Game"
+menuCurrentDesc="The current game status."
+menuPlayers="Players"
+menuSquads="Squads"
+menuPlayersDesc="Manage the players currently on the server."
+menuSquadsDesc="Manage the squads currently on the server."
+menuChat="Chat console"
+menuChatDesc="This console allows you to chat with the players on the server."
+menuChange="Change Map"
+menuChangeDesc="Change the current map or game mode."
+menuConsole="Management Console"
+menuConsoleDesc="Execute console commands as if they are directly entered on the console of the server. You may not have access to the same commands as you would when logged in as admin when playing on the server."
+menuBots="Bots"
+menuBotsDesc="Add or remove bots from the current game."
+menuWorkshopTool="Steam Workshop Tool"
+menuWorkshopToolDesc="Manage the current Steam Workshop items on this server."
+NotesSaved="Notes saved"
+msgPlayerNotFound="Unable to find the requested player."
+msgNoHumanPlayer="No human player associated with this player."
+msgVoiceMuted="Player %s's voice has been muted for everybody."
+msgVoiceUnmuted="Player %s's voice has been unmuted for everybody."
+msgTextMuted="Player %s has been muted for everybody."
+msgTextUnmuted="Player %s has been unmuted for everybody."
+msgCantBanAdmin="Unable to session ban the player %s. Logged in admins can not be removed."
+msgCantKickDev="Unable to kick the player %s. Developers can not be kicked."
+msgCantBanDev="Unable to session ban the player %s. Developers can not be removed."
+msgSessionBanned="Player %s was banned for this session."
+msgCantKickAdmin="Unable to kick the player %s. Logged in admins can not be kicked."
+msgPlayerRemoved="Player %s was removed from the server."
+msgTextMute="Text Mute"
+msgTextUnmute="Text Unmute"
+msgExecDisabled="Execution of this command has been disabled."
+msgChangingGame="Changing the game. This could take a little while..."
+msgAddingBots="Attempted to add %d bot(s). It might take a little while before they have all been spawned."
+msgAddingBotsTeam="Attempted to add %d bot(s) to team %team. It might take a little while before they have all been spawned."
+msgRemovedBots="Removed bots: %s"
+msgNoMutators="There are no mutators available for this gametype."
+msgYes="Yes"
+msgNo="No"
+PlayerAction_kick="Kick"
+PlayerAction_sessionban="Session Ban"
+PlayerAction_banip="Ban IP"
+PlayerAction_banid="Ban Unique ID"
+PlayerAction_mutevoice="Mute Voice"
+PlayerAction_unmutevoice="Unmute Voice"
+PlayerAction_screenshot="Screenshot"
+msgScreenshot="Screenshot requested from player %s"
+rmStandard="Standard"
+rmCustom="Custom"
+msgOff="Off"
+pbLow="Low"
+pbMedium="Medium"
+pbHigh="High"
+msgUnknown="Unknown"
+msgOn="On"
+msgSessionBanNoROAC="Session ban functionality is not available with the current access control instance.""
+msgNotAllowed="You are not allowed to execute this action.""
+SquadAction_showallsquads="Show all squads"
+SquadAction_onlyopensquads="Show only open squads"
+SquadAction_onlyvalidsquads="Show only populated squads"
+SquadAction_resetsquadname="Reset squad name"
+SquadAction_getsquadplayercounts="Get squad player counts"
+SquadAction_locksquad="Lock squad"
+
+[QHDefaults]
+menuPolicy="Access Policy"
+menuPolicyDesc="Change the IP policies that determine who can join the server."
+menuToxicPlayers="Toxic Players"
+menuToxicPlayersDesc="Manage toxic players."
+menuBannedId="Banned IDs"
+menuBannedIdDesc="Change account ban records. These records ban a single online account."
+menuBannedHash="Banned Hashes"
+menuBannedHashDesc="Change client ban records. These records ban a single copy of the game."
+menuSession="Session Bans"
+menuSessionDesc="View current session bans."
+menuSettings="Settings"
+menuGeneral="General"
+menuGeneralDesc="Change various server wide settings. These settings affect all game modes. Changes will take effect in the next level."
+menuGameplay="Gameplay"
+menuGameplayDesc="Server wide gameplay settings. These settings affect all game modes. Changes will take effect in the next level."
+menuPassword="Passwords"
+menuPasswordDesc="Change the game and/or administration passwords."
+menuGametypes="Gametypes"
+menuGametypesDesc="Change the default settings of the gametypes. Changes will take effect in the next level."
+menuMutators="Mutators"
+menuMutatorsDesc="Change settings for mutators. Not all mutators can be configured. Changes will take effect in the next level."
+menuMapCycles="Map Cycles"
+menuMapCyclesDesc="Change the game mode specific map cycles. each game type can have a single map cycle."
+menuMLAddition="Additional Map Cycles"
+menuMLAdditionDesc="Manage additional map cycle configurations."
+msgSettingsCacheDesc="Rebuild the settings cache."
+msgRemovedPolicy="Removed policy:"
+msgNoValidIpMask="%s is not a valid IP mask"
+msgInvalidPolicy="Invalid policy selected."
+msgAddedPolicy="Added IP policy:"
+msdUpdatedPolicy="Updated IP policy: "
+msgNoValidId="%s is not a valid ID"
+msgAddedBanId="Added ban for UniqueID:"
+msgNoValidHash="%s is not a valid client hash"
+msgBannedHash="Added ban for hash: "
+msgRemovedSessionBan="Removed session ban for UniqueID: %1
+msgSettingsSaved="Settings saved."
+msgCantSaveSettings="Unable to load a settings information for this game mode."
+msgCantLoadSettings="Unable to load settings."
+msgGamePWError="Game password and confirmation do not match"
+msgGamePWSaved="Game password updated"
+msgAdminPWError="Admin password and confirmation do not match"
+msgAdminPWEmpty="Admin password can not be empty"
+msgAdminPWSaved="Admin password updated"
+msgMapCycleSaved="Map cycle saved."
+msgCantLoadGT="Unable to load the selected game mode."
+msgImportedMapList="Imported map cycle"
+msgInvalidMaplist="Invalid gametype selected."
+Untitled="Untitled"
+msgCantFindMapCycle="Unable to find the map cycle"
+msgCycleDeleted="Map cycle %s deleted."
+msgCycleSaved="Map cycle %s saved"
+msgCycleActivated="Map cycle activated for the game mode %s"
+menuServerActors="Server Actors"
+menuServerActorsDesc="Server actors are special addons that often add extra functionality to the server."
+msgServerActorsSaved="Server actors list saved. Changes take effect in the next map."
+msgServerActorsSavedWarn="Server actors list saved. However, changes will not take effect until a server restart."
+menuWelcome="Welcome Screen"
+menuWelcomeDesc="Change the content of the screen shown when players join."
+msgRealismModeEnforced="Updated various settings for the current realism mode."
+msgSessionBansNoROAC=Session bans are not available with the current access control.
+msgMapCycleActivated="Map cycle #%i activated."
+msgMapCycleDeleted="Map cycle deleted."
+msgNewMapCycle="new map cycle"
+mapList="Map list #%i"
+activeTag="(active)"
+
+[QHMultiAdmin]
+menuAdmins="Administrators"
+menuAdminsDesc="Manage WebAdmin administrators."
+msgCreatedAdmin="Created a new administrator with the name: %s"
+msgDupName="Unable to create a new administrator. There is already a admin with the name: %s"
+msgCantRemoveLast="You can not remove the last administrator."
+msgCantDelete="Administrator %s can not be deleted."
+msgRemovedAdmin="Removed administrator: %s"
+msgUnableToRemove="Unable to remove: %s"
+msgSavedAdmin="Saved administrator information"
+msgPassError="Passwords do not match."
+msgCannotDisableSelf="You cannot disable yourself."
+msgPrivLogEnabled="Privilege log enabled."
+msgPrivLogDisabled="Privilege log disabled."
+
+[WebAdminUtils]
+msgUnknownTeam="Team #%d"
+
+[GeneralSettings]
+SettingsGroups[0]=(DisplayName="Server Information")
+SettingsGroups[1]=(DisplayName="Connection")
+SettingsGroups[2]=(DisplayName="Cheat Detection")
+SettingsGroups[3]=(DisplayName="Game")
+SettingsGroups[4]=(DisplayName="Administration")
+SettingsGroups[5]=(DisplayName="Map Voting")
+SettingsGroups[6]=(DisplayName="Kick Voting")
+SettingsGroups[7]=(DisplayName="Role Kicking")
+SettingsGroups[8]=(DisplayName="Chat")
+; 0
+PropertyMappings[0]=(ColumnHeaderText="Server Name")
+; 1
+PropertyMappings[1]=(ColumnHeaderText="Advertisement Interval")
+; 2
+PropertyMappings[2]=(ColumnHeaderText="Advertisement Messages")
+; 3
+PropertyMappings[3]=(ColumnHeaderText="Server Type",ValueMappings=((name="Internet Server"),(name="LAN Server")))
+; 4
+PropertyMappings[4]=(ColumnHeaderText="")
+; 100
+PropertyMappings[5]=(ColumnHeaderText="Maximum Spectators")
+; 101
+PropertyMappings[6]=(ColumnHeaderText="Maximum Players")
+; 102
+PropertyMappings[7]=(ColumnHeaderText="Maximum Idle Time")
+; 103
+PropertyMappings[8]=(ColumnHeaderText="Minimum Players")
+; 104
+PropertyMappings[9]=(ColumnHeaderText="Maximum Server Idle Duration")
+; 105
+PropertyMappings[10]=(ColumnHeaderText="Name-Change Kick Threshold")
+; 106
+PropertyMappings[11]=(ColumnHeaderText="Ping Limit")
+; 300
+PropertyMappings[12]=(ColumnHeaderText="Game Start Delay")
+; 301
+PropertyMappings[13]=(ColumnHeaderText="Balance Teams",ValueMappings=((name="No"),(name="Yes")))
+; 302
+PropertyMappings[14]=(ColumnHeaderText="Realism",ValueMappings=((name="Enabled"),(name="Custom Game Options")))
+; 307
+PropertyMappings[15]=(ColumnHeaderText="Use Map List",ValueMappings=((name="No"),(name="Yes")))
+; 308
+PropertyMappings[16]=(ColumnHeaderText="Balance Teams On Death",ValueMappings=((name="No"),(name="Yes")))
+; 309
+PropertyMappings[17]=(ColumnHeaderText="Maximum Team Difference")
+; 310
+PropertyMappings[18]=(ColumnHeaderText="Spectating Mode",ValueMappings=((name="3rd Person"),(name="3rd Person (Camera Locked)"),(name="1st Person Only")))
+; 311
+PropertyMappings[19]=(ColumnHeaderText="Ready Up Delay")
+; 500
+PropertyMappings[20]=(ColumnHeaderText="Admin Can Pause",ValueMappings=((name="No"),(name="Yes")))
+; 501
+PropertyMappings[21]=(ColumnHeaderText="Admin Login",ValueMappings=((name="Announce"),(name="Keep Silent")))
+; 502
+PropertyMappings[22]=(ColumnHeaderText="Global Ban List",ValueMappings=((name="Disable"),(name="Enable")))
+; 600
+PropertyMappings[23]=(ColumnHeaderText="Map Voting",ValueMappings=((name="Disabled"),(name="Enabled")))
+; 601
+PropertyMappings[24]=(ColumnHeaderText="Map Voting Time")
+; 602
+PropertyMappings[25]=(ColumnHeaderText="Use Score As Vote Weight",ValueMappings=((name="Do not use"),(name="Use score")))
+; 603
+PropertyMappings[26]=(ColumnHeaderText="Mid Game Voting",ValueMappings=((name="Disallow"),(name="Allow")))
+; 604
+PropertyMappings[27]=(ColumnHeaderText="Mid Game Voting Percentage")
+; 605
+PropertyMappings[28]=(ColumnHeaderText="Map Repeat Limit")
+; 606
+PropertyMappings[29]=(ColumnHeaderText="End Game Voting Percentage")
+; 607
+PropertyMappings[30]=(ColumnHeaderText="Recently Played Maps (restricted from voting)")
+; 650
+PropertyMappings[31]=(ColumnHeaderText="Kick Voting",ValueMappings=((name="Disabled"),(name="Enabled")))
+; 651
+PropertyMappings[32]=(ColumnHeaderText="Anonymous Votes",ValueMappings=((name="Disabled"),(name="Enabled")))
+; 652
+PropertyMappings[33]=(ColumnHeaderText="Kick Voting Time")
+; 653
+PropertyMappings[34]=(ColumnHeaderText="Minimum Kick Vote Threshold")
+; 700
+PropertyMappings[35]=(ColumnHeaderText="Enable Role Kick",ValueMappings=((name="Disabled"),(name="Enabled")))
+; 750
+PropertyMappings[36]=(ColumnHeaderText="Censor Words")
+; 751
+PropertyMappings[37]=(ColumnHeaderText="VoIP",ValueMappings=((name="Disabled"),(name="Enabled")))
+; 752
+PropertyMappings[38]=(ColumnHeaderText="Public VoIP Channel",ValueMappings=((name="Available"),(name="Unavailable")))
+; 753
+PropertyMappings[39]=(ColumnHeaderText="Public Text Chat",ValueMappings=((name="Available"),(name="Unavailable")))
+; 754
+PropertyMappings[40]=(ColumnHeaderText="Dead-to-Dead VoIP",ValueMappings=((name="Disabled"),(name="Enabled")))
+; 755
+PropertyMappings[41]=(ColumnHeaderText="Positional 3D VoIP",ValueMappings=((name="Disabled"),(name="Friendly Only"),(name="All Players")))
+; 756
+PropertyMappings[42]=(ColumnHeaderText="Team VoIP Channel",ValueMappings=((name="Available"),(name="Unavailable")))
+
+[GeneralSettings Tooltips]
+ServerName=The name for the server as shown in the server browser.
+MaxSpectators=Maximum number of spectators allowed to join the server.
+MaxPlayers=Maximum number of players allowed on the server.
+MaxIdleTime=Maximum number of idle seconds before kicking the player. 0 disables idle kicking.
+bClientSideHitDetection=When set most calculations for weapons shooting and hit detection are done on the client
+GameStartDelay=Number of seconds to wait before starting the game.
+bAdminCanPause=Are administrators allowed to pause a network game.
+RealismLevel=Realism profile to use. This determines various aspects of the game, like HUD elements and feedback messages.
+ServerAdvertisementInterval=Number of seconds between advertisement broadcasts.
+ServerAdvertisementMessages=Messages to broadcast to all players at a given interval. One message per line, 259 characters max per message.
+MinNetPlayers=Minimum number of players required before initiating the match.
+PreStartDuration=Number of seconds to wait after the minimum number of players have joined the server before starting the match.
+bBalanceTeams=Do not allow teams to get out of balance
+GameDifficulty=Scales the capabilities and shooting accuracy of the AI
+bUseMapList=Make use of the map cycles to switch to a new map at the end of the match.
+bAutoBalanceTeamsOnDeath=Force team balancing when a player died.
+MaxTeamDifference=Maximum difference in teams size to allow during team balancing.
+SpectatingMode=
+bSilentAdminLogin=Whether to announce to players when an other player logs in as an administrator. This does not influence administration via the WebAdmin.
+bEnableGlobalBanList=Whether to download and enforce the global ban list maintained by Tripwire Interactive
+ChatFilterList=Words to censor in chat. Define one word per line.
+bEnableVOIP=Enable Voice over IP.
+bDisablePublicVOIPChannel=Defines the availability of a public VoIP channel.
+bDisablePublicTextChat=Defines if public chat messages are possible.
+bEnableDeadToDeadVOIP=Defines if dead players are allowed to speak to other dead players.
+MaxServerIdleDuration=If the server is idle/empty for more than this duration, then the next map will be loaded (0 = disabled)
+NameChangeKickThreshold=Per player name-change threshold. If exceeded, then the player will be session-banned. (0 = disabled)
+PingLimit=Maximum allowed average ping limit. If exceeded, then the player will be kicked. (0 = disabled)
+bEnableRoleKick=If set, then role-kick voting is enabled.
+MinKickVoteThreshold=Threshold of players on the server necessary to vote kick a player.
+bDisableTeamVOIPChannel=Defines the availability of the Team VoIP channel.
+
+[GameplaySettings]
+;SettingsGroups[0]=(DisplayName="Campaign")
+SettingsGroups[0]=(DisplayName="Friendly Fire")
+SettingsGroups[1]=(DisplayName="Clan Match")
+SettingsGroups[2]=(DisplayName="Gameplay Override")
+; Campaign
+;PropertyMappings[0]=(ColumnHeaderText="Campaign Game",ValueMappings=((name="Normal Game"),(name="Campaign")))
+;PropertyMappings[1]=(ColumnHeaderText="Voting Delay")
+;PropertyMappings[2]=(ColumnHeaderText="Attack/Defend Vote Time")
+;PropertyMappings[3]=(ColumnHeaderText="Region Vote Time")
+;PropertyMappings[4]=(ColumnHeaderText="First Region Vote Time")
+;PropertyMappings[5]=(ColumnHeaderText="Region Map Vote Time")
+;PropertyMappings[6]=(ColumnHeaderText="Campaign Theatre",ValueMappings=((name="Vietnam")))
+;PropertyMappings[7]=(ColumnHeaderText="Campaign Length",ValueMappings=((name="Normal"),(name="Long")))
+; Friendly Fire
+PropertyMappings[0]=(ColumnHeaderText="Kill Limit")
+PropertyMappings[1]=(ColumnHeaderText="Damage Limit")
+PropertyMappings[2]=(ColumnHeaderText="Scale")
+PropertyMappings[3]=(ColumnHeaderText="Artillery Scale")
+PropertyMappings[4]=(ColumnHeaderText="Explosive Scale")
+PropertyMappings[5]=(ColumnHeaderText="Artillery Punish Scale")
+PropertyMappings[6]=(ColumnHeaderText="Explosive Punish Scale")
+PropertyMappings[7]=(ColumnHeaderText="Punishment",ValueMappings=((name="Kick"),(name="Session Ban"),(name="Permanent Ban")))
+PropertyMappings[8]=(ColumnHeaderText="Team Kill Forgiving",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[9]=(ColumnHeaderText="Vehicle Damage Punish Scale")
+; Clan match
+PropertyMappings[10]=(ColumnHeaderText="Override Max Player Scaling",ValueMappings=((name="None"),(name="16 player"),(name="32 player"),(name="64 player")))
+PropertyMappings[11]=(ColumnHeaderText="Spawn On SquadLeader",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[12]=(ColumnHeaderText="Half-Time Team Swap",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[13]=(ColumnHeaderText="Overhead Map",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[14]=(ColumnHeaderText="Team Death Icons",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[15]=(ColumnHeaderText="Team Member Icons",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[16]=(ColumnHeaderText="Squad Member Icons",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[17]=(ColumnHeaderText="Squad Leader Icons",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[18]=(ColumnHeaderText="Enemy Spotted Icons",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[19]=(ColumnHeaderText="Tactical View",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[20]=(ColumnHeaderText="Tactical Squad Leader Icons",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[21]=(ColumnHeaderText="Tactical Enemy Spotted Icons",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[22]=(ColumnHeaderText="Peripheral Action Indicators",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[23]=(ColumnHeaderText="Peripheral Whips",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[24]=(ColumnHeaderText="Player Info On Scoreboard",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[25]=(ColumnHeaderText="Objective Force Output",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[26]=(ColumnHeaderText="Objective Notifications",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[27]=(ColumnHeaderText="Limited Grenades",ValueMappings=((name="Unlimited"),(name="Limited")))
+PropertyMappings[28]=(ColumnHeaderText="No Grenades",ValueMappings=((name="With Grenades"),(name="Without Grenades")))
+PropertyMappings[29]=(ColumnHeaderText="Rocket Time Scaling")
+PropertyMappings[30]=(ColumnHeaderText="Artillery Time Scaling")
+PropertyMappings[31]=(ColumnHeaderText="Mortar Time Scaling")
+PropertyMappings[32]=(ColumnHeaderText="IP On Scoreboard",ValueMappings=((name="Hide"),(name="Show")))
+PropertyMappings[33]=(ColumnHeaderText="Date On Scoreboard",ValueMappings=((name="Hide"),(name="Show")))
+PropertyMappings[34]=(ColumnHeaderText="Steam-ID On Scoreboard",ValueMappings=((name="Hide"),(name="Show")))
+PropertyMappings[35]=(ColumnHeaderText="Demo Recording",ValueMappings=((name="Unforced"),(name="Forced")))
+PropertyMappings[36]=(ColumnHeaderText="End Of Match Scoreboard Screenshot",ValueMappings=((name="Manual"),(name="Automatic")))
+PropertyMappings[37]=(ColumnHeaderText="Ignore Score For Tie Breaking",ValueMappings=((name="Do not ignore"),(name="Ignore")))
+; Override
+PropertyMappings[38]=(ColumnHeaderText="Vehicles",ValueMappings=((name="With Vehicles"),(name="No Vehicles")))
+PropertyMappings[39]=(ColumnHeaderText="Weapon Limits",ValueMappings=((name="With Limits"),(name="No Limits")))
+PropertyMappings[40]=(ColumnHeaderText="Small Arms Damage Scale")
+PropertyMappings[41]=(ColumnHeaderText="Explosives Damage Scale")
+PropertyMappings[42]=(ColumnHeaderText="Artillery Damage Scale")
+PropertyMappings[43]=(ColumnHeaderText="Tank Shell Damage Scale")
+PropertyMappings[44]=(ColumnHeaderText="Realistic Pistol Loadouts",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[45]=(ColumnHeaderText="Realistic Driving Restrictions",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[46]=(ColumnHeaderText="Friendly Player Names",ValueMappings=((name="None"),(name="10m"),(name="50m"),(name="100m"),(name="150m")))
+PropertyMappings[47]=(ColumnHeaderText="Player Hitsound Mode",ValueMappings=((name="High"),(name="Medium"),(name="Low")))
+PropertyMappings[48]=(ColumnHeaderText="Leg Damage Slows Player",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[49]=(ColumnHeaderText="Stop Sprinting When Exhausted",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[50]=(ColumnHeaderText="Focus Zoom Type",ValueMappings=((name="Always"),(name="No Ironsight Zoom"), (name="None")))
+PropertyMappings[51]=(ColumnHeaderText="Increased Suppression Effects",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[52]=(ColumnHeaderText="Increased Stamina Effects On Breathing",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[53]=(ColumnHeaderText="Tank AI Firing Setting",ValueMappings=((name="Fire when targets are designated by the human player only"),(name="Only Hull MG can fire when targets are designated by the human player only"),(name="Only Main Gun can fire when targets are designated by the human player only"),(name="Never fire at all"),(name="Only the hull MG can fire autonomously"),(name="Only the main gun can fire autonomously"),(name="Tank AI can fire fully autonomously")))
+PropertyMappings[54]=(ColumnHeaderText="Friendly Infantry Collision Type",ValueMappings=((name="No Collision"),(name="Reduced Size Collision"),(name="Full Size Collision"))))
+PropertyMappings[55]=(ColumnHeaderText="Vehicle Mobility Damage Mode",ValueMappings=((name="No Damage"),(name="Damage Reduces Functionality"),(name="Damage Can Disable")))
+PropertyMappings[56]=(ColumnHeaderText="Tank Turret Damage Mode",ValueMappings=((name="No Damage"),(name="Damage Reduces Functionality"),(name="Damage Can Disable")))
+PropertyMappings[57]=(ColumnHeaderText="Vehicle Crew Damage Mode",ValueMappings=((name="No Damage"),(name="Only If Exposed"),(name="Full Damage")))
+PropertyMappings[58]=(ColumnHeaderText="Enemy Spotted Mode",ValueMappings=((name="Full"),(name="Tactical View And Map Only"),(name="Map Only")))
+PropertyMappings[59]=(ColumnHeaderText="Delay Tank Ammo Switch",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[60]=(ColumnHeaderText="Allow Helicopter Auto Hover",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[61]=(ColumnHeaderText="Force Helicopter Advanced Flight Model",ValueMappings=((name="Disabled"),(name="Enabled")))
+
+[GameplaySettings Tooltips]
+FriendlyFireKillLimit=Number of friendly players that someone must kill before they are punished
+FriendlyFireDamageLimit=Amount of damage given to friendly players that someone can do before they are punished
+FriendlyFireScale=Percentage of friendly fire damage to apply to the damaged friendly player
+FriendlyFireArtilleryScale=Percentage of friendly artillery damage to apply to the damaged friendly player
+FriendlyFireExplosiveScale=Percentage of friendly explosive damage to apply to the damaged friendly player
+FriendlyFireArtilleryPunishScale=Percentage of friendly artillery damage to apply to the artillery caller's Friendly Fire Damage limit
+FriendlyFireExplosivePunishScale=Percentage of friendly explosive damage to apply to the thrower's Friendly Fire Damage limit
+FriendlyFireHitVehiclePunishScale=Percentage of damage to a friendly vehicle to apply to the damager's Friendly Fire Damage limit
+FriendlyFirePunishment=The punishment to apply to a player when they exceed either FriendlyFireKillLimit or FriendlyFireDamageLimit(0 = Kick, 1 = Session Ban, 2 = Permanent Ban)
+bEnableTeamKillForgiving=If enabled, players that are killed by friendlies will be able to type "np" to forgive their killer(which may forgo their punishment)
+OverrideMaxPlayerScaling=If set to anything other than 0, it will override the Max Player Scaling systems(reinforcements, strength points, round times, etc.)(1 or 16 means use 16 player scaling, 2 or 32 for 32 player scaling, and 3 or 64 for 64 player scaling)
+bDisableSpawnOnSquadLeader=If set, players will not get the Spawn On Squad Leader option
+bHalfTimeTeamSwap=If set, players teams will be swapped after a round or match is won
+bDisableOverheadMap=If set, the Overhead Map HUD element will not be available to players
+bDisableTeamDeathIcons=If set, the Team Death icons will not show up on players Overhead Maps nor Compasses
+; bDisableTeamMemberIcons=If set, the Team Member icons will not show up on players Overhead Maps nor Compasses ; // RS2PR-288 - Deprecated. -Nate
+bDisableSquadMemberIcons=If set, the Squad Member icons will not show up on players Overhead Maps nor Compasses
+bDisableSquadLeaderIcons=If set, the Squad Leader icons will not show up on players Overhead Maps nor Compasses
+bDisableEnemySpottedIcons=If set, the Enemy Spotted icons will not show up on players Overhead Maps nor Compasses
+bDisableTacticalView=If set, the Tactical View HUD element will not be available to players
+bDisableTacticalSquadLeaderIcons=If set, the Squad Leader icons will not show up in players Tactical View
+bDisableTacticalEnemySpottedIcons=If set, the Enemy Spotted icons will not show up in players Tactical View
+bDisablePeripheralActionIndicators=If set, the Peripheral Actions HUD element will not be available to players
+bDisablePeripheralWhips=If set, the Peripheral Whips HUD element will not be available to players
+bDisablePlayerInfoOnScoreboard=If set, the Player Info on the Scoreboard will not be available to players
+bDisableObjectiveForceOutput=If set, the Objective Force meter will not be available to players
+bDisableObjectiveNotifications=If set, the Objective Under Attack notifications will not be sent to players
+bLimitedGrenades=If set, players will receive only 1 of each type of grenade instead of 2(except Smoke grenades)
+bNoGrenades=If set, players will not receive any grenades except Smoke grenades
+RocketTimeScaling=Scales the time between Rocket Artillery strikes
+ArtilleryTimeScaling=Scales the time between Medium Artillery strikes
+MortarTimeScaling=Scales the time between Mortar Artillery strikes
+bShowIPOnScoreboard=If set, players scoreboards will have the Server's IP printed on them
+bShowDateOnScoreboard=If set, players scoreboards will have the current date printed on them
+bShowSteamIDsOnScoreboard=If set, Steam IDs will appear in place of player names on the score board
+bForceDemoRecording=If set, all clients will record a demo while connected to this server
+bAutoEndOfMatchScoreboardScreenshot=If set, a screenshot will automatically be taken at the end of a match
+bIgnoreScoreForTieBreaking=If set, will skip over score as a tie-breaker and move onto the next criteria
+bNoVehicles=If set, players will not be able to choose vehicle roles
+bNoWeaponLimits=If set, weapons will be unlimited
+SmallArmsDamageScale=Damage Scale applied to Small Arms
+ExplosivesDamageScale=Damage Scale applied to grenades and satchels
+ArtilleryDamageScale=Damage Scale Applied to Artillery
+TankShellDamageScale=Damage Scale applied to Tank Shells
+bRealisticPistolLoadouts=If set, pistols will only be given to historically accurate roles
+bRealisticDrivingRestrictions=If set, will not allow you to drive tanks, such as the Panzer IV, when you are unhatched
+FriendlyPlayerNames=Determines which Friendly Player names to show(0 = none, 1 = within 10 meters, 2 = full)
+VehicleMobilityDamageMode=Damage mode for vehicle mobility, such as engine, tracks, etc (0 = No damage, 1 = Can be damaged with reduced functionality, 2 = Can be disabled)
+TankTurretDamageMode=Damage mode for tank turret/main gun (0 = No damage, 1 = Can be damaged with reduced functionality, 2 = Can be disabled)
+VehicleCrewDamageMode=Damage mode used for vehicle crew (0 = No damage, 1 = Only damage if exposed, 2 = Full interior and exterior damage)
+EnemySpottedMode=Defines enemy spotted functionality (0 = full, 1 = tactical view and map only, 2 = map only)
+EnemyPrimaryWeaponUnlockMode=Defines players ability to unlock enemy weapons as they rank up. (0 = Heroes Only (default), 1 = Veterans and Heroes, 2 = No Enemy Weapon Unlocks )
+PlayerHitSoundMode=Player hit sound mode used (0 = Exaggerated, 1 = Mildy Exaggerated, 2 = Not Exaggerated)
+bLegDamageSlowsPlayer=If set the player will move slower for a short time if taking damage to the legs or feet
+bClassicStaminaAndSprinting=If set the player will use the slower "Classic" style sprint speed and stamina handling with less overall stamina, etc
+bStopSprintingWhenExhausted=If set the player will stop sprinting when exhausted like in RO1
+bNoControlledBreathingZoom=If set the player will not zoom in to the real world FOV size when using controlled breathing/focus
+bIncreasedSuppressionEffects=If set the player will recieved increased suppression effects (more screen shake, etc)
+bIncreasedBreathStaminaEffects=If set the player will recieved increased effects when breathing due to stamina (faster breathing when stamina is low, etc)
+TankAIFiringSetting=Used to modify when the AI controlled gunner and MGer in vehicles will fire
+FriendlyInfantryCollisionType=How to collide with friendly non AI controlled infantry players. 0 = none, 1 = reduced size, and 2 = full
+bDelayCannonAmmoSwitch=Tank gunners must fire the currently loaded shell before a change of ammunition can take place
+bAllowHeloAutoHover=Whether to let pilots use the Auto Hover functionality or not
+bForceHeloAdvancedFlightModel=Force all players to use the Advanced flight model rather than the Simplified one
+
+[WebAdminSystemSettings]
+menuSystem="WebAdmin"
+menuSystemDesc="Change the web administration configuration."
+msgSettingsSaved="Settings saved."
+SettingsGroups[0]=(DisplayName="General")
+SettingsGroups[1]=(DisplayName="Chat Logging")
+SettingsGroups[2]=(DisplayName="Authentication")
+SettingsGroups[3]=(DisplayName="Advanced")
+PropertyMappings[0]=(ColumnHeaderText="Authentication Class")
+PropertyMappings[1]=(ColumnHeaderText="Session Handler class")
+PropertyMappings[2]=(ColumnHeaderText="HTTP Authentication",ValueMappings=((name="Use Login Form"),(name="Use HTTP Authentication")))
+PropertyMappings[3]=(ColumnHeaderText="Starting Page")
+PropertyMappings[4]=(ColumnHeaderText="Chat Logging",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[5]=(ColumnHeaderText="Send XHTML headers",ValueMappings=((name="No"),(name="Yes")))
+PropertyMappings[6]=(ColumnHeaderText="Chat Window Refresh")
+PropertyMappings[7]=(ColumnHeaderText="Management Console Enabled",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[8]=(ColumnHeaderText="Deny URL options")
+PropertyMappings[9]=(ColumnHeaderText="Deny Console Commands")
+PropertyMappings[10]=(ColumnHeaderText="Admin Console Commands Enabled",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[11]=(ColumnHeaderText="Admin Console Commands Handler")
+PropertyMappings[12]=(ColumnHeaderText="Team Chatting",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[13]=(ColumnHeaderText="Hide News",ValueMappings=((name="Show"),(name="Hide")))
+PropertyMappings[14]=(ColumnHeaderText="Filename")
+PropertyMappings[15]=(ColumnHeaderText="Force Uniqe Name",ValueMappings=((name="No"),(name="Yes")))
+PropertyMappings[16]=(ColumnHeaderText="Append Timestamp",ValueMappings=((name="No"),(name="Yes")))
+PropertyMappings[17]=(ColumnHeaderText="IP Octet Validation"))
+PropertyMappings[18]=(ColumnHeaderText="Authentication Failure Threshold"))
+
+[WebAdminSystemSettings Tooltips]
+AuthenticationClass=Class that performs the authentication for web administrators. Takes effect after the current game.
+SessionHandlerClass=Class that manages session handling for logged in web administrators. Takes effect after the current game.
+bHttpAuth=Use HTTP Basic Authentication rather than a log in form.
+startpage=The starting page when going to the Rising Storm 2 Web server.
+bChatLog=Enable chat logging.
+bUseStrictContentType=Send the webpages with the application/xhtml+xml mime type.
+ChatRefresh=Delay between checking of chat messages in the chat window.
+bConsoleEnabled=The management console is enabled.
+denyUrlOptions=Options on a launch url to deny.
+denyConsoleCommands=Console commands which are not allowed to be executed in the management console. Matches the beginning of the command.
+bAdminConsoleCommandsHack=Support the "admin ..." console commands.
+AdminCommandHandlerClass=Handler for the "admin ..." console commands.
+bEnableTeamChat=Enable team chat functionality for webadmins.
+hideNews=Hide the news on the page
+chatLogFilename=Mask for the filename. Following place holders can be used: %i = server ip; %p = server port; %c = computer name (as reported by the OS); %v = engine version.
+chatLogUnique=Make sure the chatlog filename is unique.
+chatLogIncludeTimeStamp=Append a timestamp to the chatlog filename.
+sessionOctetValidation=The number of IP segments to validate in the session. Increasing this value makes sessions less prone to hijacking.
+MaxAuthFails=Maximum failed login attempts before locking the user our for the duration of the game session.
+
+[ROGameInfoSettings]
+SettingsGroups[0]=(DisplayName="Rules")
+SettingsGroups[1]=(DisplayName="Game")
+SettingsGroups[2]=(DisplayName="Advanced")
+PropertyMappings[0]=(ColumnHeaderText="Goal Score")
+PropertyMappings[1]=(ColumnHeaderText="Time Limit")
+PropertyMappings[2]=(ColumnHeaderText="Allow Kill Camera",ValueMappings=((name="No"),(name="Yes")))
+PropertyMappings[3]=(ColumnHeaderText="End Of Map Delay")
+PropertyMappings[4]=(ColumnHeaderText="Round Limit")
+PropertyMappings[5]=(ColumnHeaderText="Kill Message Mode",ValueMappings=((name="None"),(name="Own Death"),(name="Own"),(name="Squad"),(name="All")))
+PropertyMappings[6]=(ColumnHeaderText="Kill Message Delay")
+PropertyMappings[7]=(ColumnHeaderText="Ready System",ValueMappings=((name="None"),(name="Use Lobby")))
+PropertyMappings[8]=(ColumnHeaderText="Pre Start Duration")
+PropertyMappings[9]=(ColumnHeaderText="Minimum Number Of Players")
+PropertyMappings[10]=(ColumnHeaderText="Melee Only",ValueMappings=((name="No"),(name="Yes")))
+PropertyMappings[11]=(ColumnHeaderText="Warmup Round",ValueMappings=((name="No"),(name="Yes")))
+PropertyMappings[12]=(ColumnHeaderText="Warmup Round Duration")
+PropertyMappings[13]=(ColumnHeaderText="Dead Roaming",ValueMappings=((name="Disallowed"),(name="Allowed")))
+PropertyMappings[14]=(ColumnHeaderText="Viewpoint Spectating",ValueMappings=((name="Disallowed"),(name="Allowed")))
+PropertyMappings[15]=(ColumnHeaderText="Reinforcement Time Scale")
+PropertyMappings[16]=(ColumnHeaderText="Disallowed Items")
+PropertyMappings[17]=(ColumnHeaderText="Disallowed Roles")
+PropertyMappings[25]=(ColumnHeaderText="Ready Up Delay")
+PropertyMappings[26]=(ColumnHeaderText="Add Range Information to Victim's KilledBy Messages",ValueMappings=((name="No"),(name="Yes")))
+PropertyMappings[27]=(ColumnHeaderText="Maximum Round Duration")
+;PropertyMappings[27]=(ColumnHeaderText="AI Enemy Total")
+;PropertyMappings[28]=(ColumnHeaderText="AI Enemy Density")
+;PropertyMappings[29]=(ColumnHeaderText="AI Teammates")
+
+[ROGameInfoSettings Tooltips]
+GoalScore=
+TimeLimit=
+EndOfMapDelay=
+RoundLimit=
+KillMessageMode=
+KillMessageDelay=
+bUseReadySystem=
+PreStartDuration=
+MinPlayers=
+bMeleeOnly=
+bUseMatchWarmup=
+WarmupRoundDuration=
+bAllowDeadRoaming=
+bAllowViewpointSpectating=
+ReinforcementTimeScale=
+ReadyUpDelay=
+bShowVictimKilledFromRange=
+MaxRoundDuration=If a round takes longer than this duration, then the next rounds will be skipped (0 = disabled)
+
+[ROGameInfoTerritoriesSettings]
+PropertyMappings[18]=(ColumnHeaderText="Time Limit",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[19]=(ColumnHeaderText="Reinforcement Limit",ValueMappings=((name="Enabled"),(name="Disabled")))
+PropertyMappings[20]=(ColumnHeaderText="Reinforcement Scale")
+PropertyMappings[21]=(ColumnHeaderText="Use Captures For Tie Breaking",ValueMappings=((name="No"),(name="Yes")))
+PropertyMappings[22]=(ColumnHeaderText="Enable Lockdown",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[23]=(ColumnHeaderText="Team-swap at mid-match round ending",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[24]=(ColumnHeaderText="Team-swap preserves player squads",ValueMappings=((name="Disabled"),(name="Enabled")))
+
+[ROGameInfoTerritoriesSettings Tooltips]
+bDisableTimeLimit=
+bDisableReinforcementLimit=
+ReinforcementScale=
+bUseCapturesForTieBreaking=
+bLockdownEnabled=
+MaxRoundDuration=If a round takes longer than this duration, then the next rounds will be skipped (0 = disabled)
+
+[ROGameInfoFirefightSettings]
+PropertyMappings[18]=(ColumnHeaderText="Win Strength Points (16 Player Server)")
+PropertyMappings[19]=(ColumnHeaderText="Win Strength Points (32 Player Server)")
+PropertyMappings[20]=(ColumnHeaderText="Win Strength Points (64 Player Server)")
+PropertyMappings[21]=(ColumnHeaderText="Final Countdown Time")
+PropertyMappings[22]=(ColumnHeaderText="Team-swap at mid-match round ending",ValueMappings=((name="Disabled"),(name="Enabled")))
+
+[ROGameInfoFirefightSettings Tooltips]
+WinStrengthPoints16=
+WinStrengthPoints32=
+WinStrengthPoints64=
+FinalCountdownTime=
+MaxRoundDuration=If a round takes longer than this duration, then the next rounds will be skipped (0 = disabled)
+
+[ROGameInfoSkirmishSettings]
+PropertyMappings[18]=(ColumnHeaderText="Team-swap at mid-match round ending",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[19]=(ColumnHeaderText="Team-swap preserves player squads",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[20]=(ColumnHeaderText="Uncap Skirmish Max 16 Players Limit",ValueMappings=((name="Disabled"),(name="Enabled")))
+
+[ROGameInfoSkirmishSettings Tooltips]
+bUncapSKMaxPlayers=Allows Skirmish games to exceed 16 players. Maps are not guaranteed to be balanced for this however
+MaxRoundDuration=If a round takes longer than this duration, then the next rounds will be skipped (0 = disabled)
+
+[ROGameInfoSupremacySettings]
+PropertyMappings[18]=(ColumnHeaderText="Team-swap at mid-match round ending",ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[19]=(ColumnHeaderText="Team-swap preserves player squads",ValueMappings=((name="Disabled"),(name="Enabled")))
+
+[ROGameInfoSupremacySettings Tooltips]
+MaxRoundDuration=If a round takes longer than this duration, then the next rounds will be skipped (0 = disabled)
+
+[QHCampaign]
+menuCampaign=Campaign
+menuCampaignDesc=Change the region configuration for the campaign mode.
+msgActivated=Active campaign layout overwritten with selected layout.
+msgDefaultLoaded=Default campaign layout loaded. Press the save button to save the layout.
+msgEmptyRegionsAlert="There are empty regions. All regions must have at least one map"
+msgNonRegionGametypeMapAdded="Only Territories and Supremacy gametype maps are supported in campaign mode"
+
+[ROCampaignSettings]
+; Campaign
+PropertyMappings[0]=(ColumnHeaderText="Campaign Game",ValueMappings=((name="Disabled"),(name="Enabled")))
+;PropertyMappings[1]=(ColumnHeaderText="Campaign Theatre",ValueMappings=((name="Vietnam")))
+PropertyMappings[1]=(ColumnHeaderText="Campaign Length - (WARNING: Forces Campaign Reset)",ValueMappings=((name="Normal"),(name="Long")))
+PropertyMappings[2]=(ColumnHeaderText="Region Vote Time")
+PropertyMappings[3]=(ColumnHeaderText="First Region Vote Time")
+PropertyMappings[4]=(ColumnHeaderText="Region Map Vote Time")
+PropertyMappings[5]=(ColumnHeaderText="Special Ability (HCMT or S&D) Vote Time")
+PropertyMappings[6]=(ColumnHeaderText="Faction Vote Time")
+PropertyMappings[7]=(ColumnHeaderText="Voting Delay")
+PropertyMappings[8]=(ColumnHeaderText="Attack/Defend Vote Time")
+
+[ROCampaignSettings Tooltips]
+bCampaignGame=This is a MP Campaign game, or not
+CampaignTheater=Choose which map the campaign should be played on.
+CampaignLength=This determines the starting combat power to adjust the length of a campaign. If set as custom then the Starting Combat Power field setting is used. WARNING: Changing this setting will reset the current active Campaign!
+CampaignStartingCombatPower=How much combat power the Campaign starts with
+CampaignVotingDelay=How long to wait after the map is won before starting the Attack/Defend or Region vote
+CampaignAttackDefendVoteTime=How long to wait for all players to vote before using current majority
+CampaignRegionVoteTime=How long to wait for all players to vote before using current majority
+CampaignFirstRegionVoteTime=How long to wait for all players to vote before using current majority when the server just started a campaign for the first time
+CampaignRegionMapVoteTime=How long to wait for all players to vote before using current majority
+CampaignSpecialAbilityVoteTime=How long to wait for all players to vote before using current majority
+CampaignFactionVoteTime=How long to wait for all players to vote before using current majority
+
+[ROCurrentPlayers]
+PlayerAction_Kick="Kick"
+PlayerAction_SessionBan="Session Ban"
+PlayerAction_BanIP="Ban IP"
+PlayerAction_BanID="Ban Unique ID"
+PlayerAction_MuteVoice="Mute Voice"
+PlayerAction_UnmuteVoice="Unmute Voice"
+PlayerAction_ScreenShot="Screenshot"
+PlayerAction_AttachAlias="Attach Alias"
+PlayerAction_AttachNote="Attach Note"
+PlayerAction_Whisper="Whisper"
+PlayerAction_SwapTeam="Swap Team"
+PlayerAction_EnableTracking="Tracking On"
+PlayerAction_DisableTracking="Tracking Off"
+PlayerAction_MakeMember="Make Member"
+PlayerAction_CancelMembership="Cancel Membership"
+PlayerAction_KickFromRole="Kick from Role"
+msgWhispered="You have whispered to player %s."
+msgSwappedTeam="Player %s has swapped team."
+msgAttachedAlias="Attached alias to player %s."
+msgAttachedNote="Attached note to player %s."
+msgKickPlayer="Kick player %s?"
+msgSessionBanPlayer="Session ban player %s?"
+msgBanPlayerByIP="Ban player %s by IP?"
+msgBanPlayerByUniqueID="Ban player %s by Unique ID?"
+msgMutePlayer="Mute player %s?"
+msgUnmutePlayer="Unmute player %s?"
+msgAttachAlias="Alias for player %s"
+msgAttachNote="Note for player %s"
+msgWhisperToPlayer="Message for player %s"
+msgPlayerSwapTeam="Swap player %s to the other team?"
+msgMadeMember="Player %s has been made a member."
+msgCancelledMembership="Membership of member %s has been cancelled."
+msgMakeMember="Make player %s a member?"
+msgCancelMembership="Cancel membership of member %s?"
+msgEnableTracking="Enable tracking of player %s?"
+msgDisableTracking="Disable tracking of player %s?"
+msgTrackingEnabled="Tracking of player %s is enabled."
+msgTrackingDisabled="Tracking of player %s is disabled."
+msgKickFromRole="Kick player %s from his current role?"
+msgKickedFromRole="Player %s will be kicked from his role on his next death."
+
+[ROPolicyBans]
+BanActionId_Revoke="Revoke"
+BanActionId_Edit="Edit"
+msgAddBan="Add ban"
+msgRevokeSelectedBans="Revoke selected bans?"
+msgRevokeBan="Revoke ban of player %s?"
+msgBansRevoked="Selected bans have been revoked"
+msgUnknownUniqueId="Unique-id %s is unknown"
+msgAlreadyBanned="Unique-id %s is already banned"
+msgEdit="Edit ban of player %s"
+msgUpdatedMember="Updated ban of player %s."
+
+[ROPolicySessionBans]
+msgRevokeSessionBans="Revoke selected session-bans?"
+msgSessionBansRevoked="Selected session-bans have been revoked"
+
+[ROPolicyTracking]
+Title="Tracking"
+Description="Overview of players being tracked."
+PolicyTrackingActionId_ShowDetails="Details"
+PolicyTrackingActionId_DeleteEntry="Delete Entry"
+PolicyTrackingActionId_AttachAlias="Attach Alias"
+PolicyTrackingActionId_DeleteAlias="Delete Alias"
+PolicyTrackingActionId_AttachNote="Attach Note"
+msgShowDetails="Details for player %s"
+msgDeleteAlias="Delete alias for player %s?"
+msgDeleteNote="Delete note for player %s?"
+msgNoteDeleted="Note successfully deleted for player %s."
+msgAliasDeleted="Alias successfully deleted for player %s."
+msgDeleteEntry="Delete entry for player %s?"
+msgEntryDeleted="Entry for player %s successfully deleted".
+
+[ROPolicyMembers]
+Title="Members"
+Description="Manage the members for this server."
+PolicyMemberActionId_Edit="Edit"
+PolicyMemberActionId_Cancel="Cancel"
+PolicyMemberActionId_SetAlias="Set Alias"
+PolicyMemberActionId_DeleteAlias="Delete Alias"
+msgEdit="Edit details of member %s"
+msgCancel="Cancel membership of member %s?"
+msgAdd="Add member"
+msgCancelledMembership="Membership of member %s has been cancelled."
+msgAddedMember="Added member %s."
+msgUpdatedMember="Updated member %s."
+msgSetAlias="Set alias for member %s"
+msgAliasSet="Alias for member %s has been set."
+msgDeleteAlias="Delete alias for member %s"
+msgAliasDeleted="Alias for member %s has been deleted."
+
+[ROWebToxicPlayers]
+Title="Toxic Players"
+Description="Manage the toxic players in this server."
+ToxicPlayersActionId_Remove="Remove From List"
+msgRemove="Remove %s from toxic players list"
+
+[QHDynamic]
+msgGenericExecutionFailure=Failed to execute action.
+
+[ROMembersSettings]
+PropertyMappings[0]=(ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[1]=(ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[2]=(ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[3]=(ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[6]=(ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[7]=(ValueMappings=((name="Disabled"),(name="Enabled")))
+PropertyMappings[8]=(ValueMappings=((name="Disabled"),(name="Enabled")))
+
+[ROMembersSettings Tooltips]
+bBroadcastWelcomeMembers=If enabled, then a welcome message is broadcast to all players when a member joins the server.
+bReserveSlotsForMembers=If enabled, then server slots are reserved for members. If too less slots available, then a non-member shall be kicked from the server.
+bMembersMayAlwaysSpectate=If enabled, then a member may always join as a spectator. Even if the server is full.
+MaxMembers=If set to anything other than zero, then non-members will not get kicked any more if there are equal to or more members on this server than the setting indicates.
+bAdminsSupersedeNormalMembers=If enabled, Admins will have priority over non-admin members for reserved slots. "Reserve Slots for Members" setting MUST be Enabled for this to function.
+bAutoSignInAdmins=If enabled, then members marker as admins will automatically sign-in as an admin when they join the server. If disabled, then not though they can login without the admin password.
+bRestrictAdminLoginToMembersOnly=If set, then only a member (marked as admin) can sign-in as an admin.
+PingLimitModifier=Modifies the ping-limit for members allowing members to join with a higher ping than non-members.
+IdleTimeThreshold=A player which is idle for a longer time than this value will be kicked if there is no free slot available and a member tries to join the server.
+PingThreshold=A player with a ping above this value will be kicked if there is no free slot available and a member tries to join the server.
+
+[ROTrackingSettings]
+labelDays=days
+PropertyMappings[0]=(ValueMappings=((name="Disabled"),(name="Enabled")))
+
+[ROTrackingSettings Tooltips]
+bNotifyAdminsIfTrackedPlayerJoins=If a tracked player joins, then all connected admins receive a notification.
+DeleteTrackRecordsOlderThan=If a track-record is older than this number of days, then it is deleted (0 = disabled).
+DeleteTrackRecordsIfNotSeenAfter=If a player with a track-record has not been seen for more than these days, then it is deleted (0 = disabled).
+NameChangeLimit=Tracking for a player automatically enables if the player changed his name more than this limit. (0 = disabled).
