@@ -1,38 +1,38 @@
 [LoadingScreen]
-Destination="Destination: "
-Territories="Territories"
-TerritoriesDescription="Territories is an objective-based game mode that uses waves of attackers and defenders to simulate reinforcements."
-Firefight="Firefight"
+Destination="Destinazione: "
+Territories="Territori"
+TerritoriesDescription="Territori è una modalità a obiettivo che usa ondate di attaccanti e difensori per simulare i rinforzi."
+Firefight="Scontro a fuoco"
 FirefightDescription="ZZZ."
-Skirmish="Skirmish"
-SkirmishDescription="Skirmish is an objective-based game mode, where you can only redeploy while your team has time on your respawn clock. Capping objectives adds time. When the clock hits zero, you can no longer deploy."
-Supremacy="Supremacy"
-SupremacyDescription="Supremacy is an objective-based game mode where objectives must be linked to your home base for you to score. Some objectives are worth more than others. You score points every second you have objectives linked to your home base. Make sure you maintain your links, while pushing the enemy back and/or breaking their links."
-Training="Training"
+Skirmish="Schermaglia"
+SkirmishDescription="Schermaglia è una modalità a obiettivo in cui puoi rientrare finchè la tua squadra ha ancora tempo sul timer. Catturare obiettivi aggiunge tempo. Quando il timer scende a zero, non puoi più rientrare."
+Supremacy="Supremazia"
+SupremacyDescription="Supremazia è una modalità a obiettivo in cui gli obiettivi devono essere connessi al tuo campo base per ottenere punti. Alcuni obiettivi valgono più di altri. Ottieni punti ogni secondo in cui hai obiettivi connessi al campo base. Assicurati di mantenere i collegamenti, mentre attacchi i nemici e distruggi i loro collegamenti."
+Training="Addestramento"
 
-Tip="Tip:"
+Tip="Consiglio:"
 
 [MapTips]
 
 [GameTips]
-TerritoriesTip1="In Territories, attackers must capture all objectives or deplete enemy reinforcements before time expires."
-TerritoriesTip2="In Territories, defenders must prevent objectives from being captured, or deplete enemy reinforcements."
+TerritoriesTip1="In Territori, gli attaccanti devono catturare tutti gli obiettivi o esaurire i rinforzi nemici prima dello scadere del tempo."
+TerritoriesTip2="In Territori, i difensori devono impedire che gli obiettivi vengano catturati, o esaurire i rinforzi nemici."
 TerritoriesTip3="Capture an objective by having more soldiers in the objective area than the opposing team."
 TerritoriesTip4="Prevent an objective from being captured by having an equal or greater number of soldiers in the objective area."
-TerritoriesTip5="If a team runs out of reinforcements, they can no longer deploy additional forces."
+TerritoriesTip5="Se una squadra termina i rinforzi, non possono schierare forze aggiuntive."
 TerritoriesTip6="Lockdown occurs when the attackers have not captured any objectives for some time, and results in victory for the defenders."
 TerritoriesTip7="If there are an equal number of troops from opposing teams within an objective, it will not capture."
-TerritoriesTip8="In Territories mode, the defending side begins already holding all objectives."
+TerritoriesTip8="All'inizio di Territori, i difensori controllano tutti gli obiettivi."
 TerritoriesTip9="Territories sees the attacking team having to take objectives already held by the defending team."
-TerritoriesTip10="The Commander plays a crucial role in Territories mode. They can call in powerful fire support abilities using a Radio."
+TerritoriesTip10="Il Comandante ha un ruolo cruciale in Territori. Possono chiamare potenti abilità di supporto usando la radio."
 TerritoriesTip11="Southern forces can deploy on their Squad Leader's location. Northern Squad Leaders can place Tunnels for deployment purposes instead."
-TerritoriesTip12="If your team runs out of reinforcements, you won't be able to deploy."
+TerritoriesTip12="Se la tua squadra termina i rinforzi, non sarai in grado di rientrare."
 
 FirefightTip1="ZZZZZ"
 FirefightTip2="ZZZZZ"
 FirefightTip3="ZZZZZ"
 
-SkirmishTip1="Capturing objectives in Skirmish adds time to your team's �clock� so you can keep re-deploying after death."
+SkirmishTip1="Capturing objectives in Skirmish adds time to your team's �clock� so you can keep re-deploying after death."
 SkirmishTip2="In Skirmish games, run down the enemy's deploment time and kill all remaining foes to win."
 SkirmishTip3="If your team holds all objectives on a Skirmish map for sixty seconds, your team wins."
 SkirmishTip4="Prevent an objective from being captured by having an equal or greater amount of soldiers in an objective zone."
@@ -80,14 +80,14 @@ GeneralTip19="Using binoculars or the quick orders menu, Squad Leaders can set t
 GeneralTip20="Squad Leaders can request orders and actions from their commanders if they need to know what to do next."
 
 
-MovementTip1="Sprinting drains Stamina, which reduces your ability to hold your weapon steady."
+MovementTip1="Correre consuma stamina, il che riduce la tua abilità di mantenere ferma l'arma."
 MovementTip2="Press spacebar by default near small ledges and walls to climb them."
 MovementTip3="Press Ctrl by default to crouch and steady your weapon."
 MovementTip4="Press Alt by default to lay prone and steady your weapon."
-MovementTip5="Players move more slowly in water, and when travelling up hills and slopes."
-MovementTip6="Some weapons and gear are heavier than others. The more things you carry, the slower you move."
+MovementTip5="I giocatori si muovono più lentamente in acqua e quando salgono su colline e pendenze."
+MovementTip6="Alcune armi ed equipaggiamento sono più pesanti di altre. Più cose trasporti, più lento ti muovi."
 
-WeaponTip1="The M16 uses 5.56 rounds, which are smaller than the AK-47's 7.62mm - meaning less recoil and less penetration power."
+WeaponTip1="L'M16 usa proiettili 5.56, più piccoli dei 7.62mm dell'AK-47 - che si traduce in minore rinculo e forza di penetrazione."
 WeaponTip2="North Vietnamese forces can deploy a variety of traps against the Southern forces. Watch your step."
 WeaponTip3="Submachine guns like the MAT-49 and M3 can be deadly in close quarters, but lose effectiveness and damage at range."
 WeaponTip4="Machine Guns can be difficult to fire from the shoulder and hip. Try steadying them on the ground, or in cover."
@@ -115,11 +115,11 @@ ClassTip7="The Commander leads their team. They issues commands to squads and ca
 ClassTip8="The Pointman can see enemy mines and traps more easily."
 
 Squadtip1="Joining a squad allows you to play and co-ordinate with up to five other players for better teamwork."
-Squadtip2="If you no longer wish to lead your squad, you can return to the role-select menu and promote a squad-mate."
+Squadtip2="Se non vuoi essere a capo del tuo plotone, puoi tornare al menu di selezione del ruolo e promuovere un compagno."
 Squadtip3="Members of the same squad can keep track of each other easily and have their own voice and chat channels."
 Squadtip4="US squad members can spawn a short distance from their Squad Leader in large game modes."
 Squadtip5="North Vietnamese squad members can spawn on a tunnel placed by their Squad Leader in large game modes."
 Squadtip6="Squad Leaders are important for teamwork and leadership, and can be the difference between victory and defeat."
-Squadtip7="Your squad mates' names are colored differently in-game. You can change your Squad color in the settings menu."
+Squadtip7="I nomi dei tuoi compagni sono colorati in modo diverso in gioco. Puoi cambiare il colore del tuo plotone nel menu delle opzioni."
 
 [Subtitles]

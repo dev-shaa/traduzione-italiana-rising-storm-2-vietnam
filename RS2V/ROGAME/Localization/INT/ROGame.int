@@ -1,9 +1,9 @@
 [ROOnlineGameSearch]
-PropertyMappings[0]=(ColumnHeaderText="Non-Standard Options")
-PropertyMappings[1]=(ColumnHeaderText="Dedicated Server")
+PropertyMappings[0]=(ColumnHeaderText="Opzioni non-standard")
+PropertyMappings[1]=(ColumnHeaderText="Server dedicati")
 
 [ROOnlineGameSettings]
-LocalizedSettingsMappings[0]=(ColumnHeaderText="Game",ValueMappings=((Name="Skirmish"),(Name="Firefight"),(Name="Territories"),(Name="Supremacy")))
+LocalizedSettingsMappings[0]=(ColumnHeaderText="Game",ValueMappings=((Name="Schermaglia"),(Name="Scontro a fuoco"),(Name="Territori"),(Name="Supremazia")))
 LocalizedSettingsMappings[2]=(ValueMappings=((Name="0-100"),(Name="10-20"),(Name="10-50"),(Name="20-50"),(Name="40-50"),(Name="50-70"),(Name="50-100"),(Name="70-100")))
 PropertyMappings[0]=(ColumnHeaderText="Map")
 PropertyMappings[1]=(ColumnHeaderText="Game")
@@ -11,59 +11,59 @@ PropertyMappings[2]=(ColumnHeaderText="Non-Standard Options")
 PropertyMappings[3]=(ColumnHeaderText="Dedicated Server")
 
 [ROOnlineGameSettingsCommon]
-ServerFlags.FriendlyName="Details"
-MapName.FriendlyName="Map"
-PlayerRatio.FriendlyName="Players"
-AdminContact.FriendlyName="Server Contact"
-Anti-Cheat Protected.FriendlyName="Anti-Cheat Protected"
-Campaign Mode.FriendlyName="Campaign Mode"
-NorthCampaignRegions.FriendlyName="North Regions"
-SouthCampaignRegions.FriendlyName="South Regions"
-NorthCampaignVP.FriendlyName="North Victory Points"
-SouthCampaignVP.FriendlyName="South Victory Points"
-CampaignYear.FriendlyName="Campaign Year"
-Requires Password.FriendlyName="Requires Password"
-GameMode.FriendlyName="Mode"
-HonorRange.FriendlyName="Level"
-RealismLevel.FriendlyName="Server Settings"
-MapGame.FriendlyName="Game Type"
-FriendlyFire.FriendlyName="Friendly Fire"
+ServerFlags.FriendlyName="Dettagli"
+MapName.FriendlyName="Mappa"
+PlayerRatio.FriendlyName="Giocatori"
+AdminContact.FriendlyName="Contatti server"
+Anti-Cheat Protected.FriendlyName="Protetto da Anti-Cheat"
+Campaign Mode.FriendlyName="Campagna"
+NorthCampaignRegions.FriendlyName="Regioni del nord"
+SouthCampaignRegions.FriendlyName="Regioni del sud"
+NorthCampaignVP.FriendlyName="Punti vittoria del nord"
+SouthCampaignVP.FriendlyName="Punti vittoria del sud"
+CampaignYear.FriendlyName="Anno campagna"
+Requires Password.FriendlyName="Richiede password"
+GameMode.FriendlyName="ModalitÃ "
+HonorRange.FriendlyName="Livello"
+RealismLevel.FriendlyName="Impostazioni server"
+MapGame.FriendlyName="ModalitÃ  di gioco"
+FriendlyFire.FriendlyName="Fuoco amico"
 VAC Secured.FriendlyName="EAC Secured"
 bClientSideHitDetection.FriendlyName="Hit Detection"
-bEnableVOIP.FriendlyName="Voice Chat Enabled"
-bDeadVOIPEnabled.FriendlyName="Voice Chat While Dead"
-bPublicVOIPEnabled.FriendlyName="Public Voice Chat"
-bTeamVOIPEnabled.FriendlyName="Team Voice Chat"
-Proximity3DVOIPSetting.FriendlyName="Local Voice Chat"
-bPublicTextChatEnabled.FriendlyName="Public Text Chat"
-RoundLimit.FriendlyName="Round Limit"
-PingLimit.FriendlyName="Max Ping"
+bEnableVOIP.FriendlyName="Chat vocale abilitata"
+bDeadVOIPEnabled.FriendlyName="Chat vocale da morto"
+bPublicVOIPEnabled.FriendlyName="Chat vocale pubblica"
+bTeamVOIPEnabled.FriendlyName="Chat vocale di squadra"
+Proximity3DVOIPSetting.FriendlyName="Chat vocale di prossimitÃ "
+bPublicTextChatEnabled.FriendlyName="Chat testuale pubblica"
+RoundLimit.FriendlyName="Limite di round"
+PingLimit.FriendlyName="Ping massimo"
 bBalanceTeams.FriendlyName="Team Balancing"
 bAutoBalanceTeamsOnDeath.FriendlyName="Autobalance Teams on Death"
 MaxTeamDifference.FriendlyName="Max Team Difference"
-bEnableMapVoting.FriendlyName="Map Voting"
-bEnableKickVoting.FriendlyName="Kick Voting"
+bEnableMapVoting.FriendlyName="Votazione mappa"
+bEnableKickVoting.FriendlyName="Votazione espulsione"
 bEnableRoleKick.FriendlyName="Role Kick Voting"
-bForceHeloAdvancedFlightModel.FriendlyName="Advanced Helo Physics Forced"
-FriendlyPlayerNames.FriendlyName="Max Friendly Icon Dist"
-YesString="Yes"
+bForceHeloAdvancedFlightModel.FriendlyName="Fisica elicotteri avanzata forzata"
+FriendlyPlayerNames.FriendlyName="Distanza massima icone alleati"
+YesString="SÃ¬"
 NoString="No"
 ClientSideString="Client-Side"
 ServerSideString="Server-Side"
 GamemodeString0="Custom Mode"
-GamemodeString1="Territories"
-GamemodeString2="Supremacy"
-GamemodeString3="Skirmish"
-GamemodeString4="Firefight"
-GamemodeString5="Training"
+GamemodeString1="Territori"
+GamemodeString2="Supremazia"
+GamemodeString3="Schermaglia"
+GamemodeString4="Scontro a fuoco"
+GamemodeString5="Addestramento"
 RealisticString0="Standard"
 RealisticString1="Custom"
 SpectatorModeString0="3rd Person Free-Rotate"
 SpectatorModeString1="3rd Person Fixed"
 SpectatorModeString2="1st Person Only"
-Proximity3DVOIPString0="None"
-Proximity3DVOIPString1="Friendly Only"
-Proximity3DVOIPString2="All"
+Proximity3DVOIPString0="Nessuna"
+Proximity3DVOIPString1="Solo alleati"
+Proximity3DVOIPString2="Tutti"
 MapGameString0="RS2: Vietnam"
 MapGameString1="Green Army Men"
 FriendlyNameDisplayString0="0m"
@@ -150,14 +150,14 @@ VACBanKick=""
 
 
 [ROGameInfoFirefight]
-GameName="Firefight"
-DisplayName="Firefight"
-Description="Team Death-Match, RO Style!"
+GameName="Scontro a fuoco"
+DisplayName="Scontro a fuoco"
+Description="Deathmatch a squadre, in stile RO!"
 
 [ROGameInfoTerritories]
-GameName="Territories"
-DisplayName="Territories"
-Description="Waves of reinforcements with multiple objectives to take or destroy."
+GameName="Territori"
+DisplayName="Territori"
+Description="Ondate di rinforzi con piÃ¹ obiettivi da prendere o distruggere."
 
 [ROGameInfoCountdown]
 GameName="Countdown"
@@ -165,26 +165,26 @@ DisplayName="Countdown"
 Description="---"
 
 [ROGameInfoSkirmish]
-GameName="Skirmish"
-DisplayName="Skirmish"
-Description="Players deploy in waves, and each team starts with limited number. Capture objectives to add additional waves."
+GameName="Schermaglia"
+DisplayName="Schermaglia"
+Description="I giocatori rientrano a ondate, e ogni squadra comincia con un numero limitato. Cattura gli obiettivi per avere ondate addizionali."
 
 [ROGameInfoSinglePlayer]
-DisplayName="SinglePlayer"
-Description="SinglePlayer..."
+DisplayName="Giocatore singolo"
+Description="Giocatore singolo"
 
 [ROGameInfoSupremacy]
-GameName="Supremacy"
-DisplayName="Supremacy"
+GameName="Supremazia"
+DisplayName="Supremazia"
 Description="Objective based tug of war."
 
 [RODataProvider_MapAvailable]
-MapNameCol="Map List"
+MapNameCol="Lista mappe"
 TimesPlayedCol="Times Played"
 
 [RODataProvider_MapResult]
-MapNameVoteCol="Voted Maps"
-VoteCol="Votes"
+MapNameVoteCol="Mappe votate"
+VoteCol="Voti"
 
 [RODataProvider_KickVote]
 VoteCol="Votes"
@@ -193,35 +193,35 @@ TeamCol="Team"
 SteamIDCol="Steam ID"
 
 [RODataProvider_RoleVote]
-VoteCol="Votes"
-PlayerNameCol="Player"
+VoteCol="Voti"
+PlayerNameCol="Giocatore"
 TeamCol="Team"
-RoleCol="Role"
+RoleCol="Ruolo"
 
 [RODataProvider_InvitePlayerList]
-PlayerNameCol="Player"
-ScoreCol="Score"
-HonorCol="Level"
-RoleCol="Role"
-SquadCol="Squad"
+PlayerNameCol="Giocatore"
+ScoreCol="Punteggio"
+HonorCol="Livello"
+RoleCol="Ruolo"
+SquadCol="Plotone"
 
 [ROLocalMessageTickDown]
-StartNextObjectiveCount="Respawning At The Next Objective In:"
-WaitingAllSwitchedTeam="WAITING FOR PLAYERS:"
+StartNextObjectiveCount="Rientro al prossimo obiettivo in:"
+WaitingAllSwitchedTeam="IN ATTESA DI GIOCATORI:"
 
 [ROLocalMessageGame]
 HasJoined="joined"
-SecondsRemaining="seconds remaining"
-TypeNpToForgive="Type 'NP' in Chat to Forgive %k for Team Killing you"
-TeamKillForgivenMessage="You have forgiven %k for Team Killing you"
-TeamKillGotForgivenMessage="%v has forgiven you for Team Killing them"
+SecondsRemaining="secondi rimasti"
+TypeNpToForgive="Scrivi 'NP' in chat per perdonare %k per fuoco amico"
+TeamKillForgivenMessage="Hai perdonato %k per fuoco amico"
+TeamKillGotForgivenMessage="%v ti ha perdonato per fuoco amico"
 AutoAdminLogin="You have been automatically signed-in as a server admin"
-WelcomeMemberFirstPerson="Welcome %s"
+WelcomeMemberFirstPerson="Benvenuto %s"
 WelcomeMemberThirdPerson="Please welcome our member %s"
 NotifyTracked="INFO: Player %s has kicks/(session-)bans on record"
-North="North"
-South="South"
-NotifySquadKicked="%SL has kicked you from their squad"
+North="Nord"
+South="Sud"
+NotifySquadKicked="%SL ti ha cacciato dalla squadra"
 
 [ROUISceneEscapeMenu]
 PoorRolePerformanceString="Poor role performance"
@@ -230,7 +230,7 @@ WhinerString="I Can do better"
 IdlingString="Idle teammate"
 GriefingString="Toxic teammate"
 CheatingString="Cheating player"
-VoteKickInProgressString = "IN PROGRESS"
+VoteKickInProgressString = "IN CORSO"
 
 [ROLocalMessageGameHint]
 TacticalViewHint=""
@@ -239,18 +239,18 @@ TacticalViewHint=""
 WonRound="HAVE CAPTURED ALL OBJECTIVES"
 WonRoundLockdown="LOCKED DOWN"
 WonMatch="HAVE WON THE MATCH"
-TeamIsFull="TEAM IS FULL"
+TeamIsFull="LA SQUADRA Ãˆ PIENA"
 CantChangeTeamsQuicklyAfterSpawn="CANNOT CHANGE TEAMS YET"
 RoleFilled="SELECTED ROLE IS FULL"
 CampaignWon="have won the campaign"
-RespawnAvailable="Reinforcement Wave Available"
-WaitingRespawnAvailable="%i SOLDIERS QUEUED FOR DEPLOYMENT"
-OneWaitingRespawnAvailable="1 SOLDIER QUEUED FOR DEPLOYMENT"
-RespawnedBy="DEPLOYED BY COMMANDER"
+RespawnAvailable="Ondata di rinforzo disponibile"
+WaitingRespawnAvailable="%i SOLDATI IN ATTESA DI RIENTRO"
+OneWaitingRespawnAvailable="1 SOLDATO IN ATTESA DI RIENTRO"
+RespawnedBy="SCHIERATO DAL COMANDANTE"
 MaintainRadioContactAerialRecon="STAY CLOSE TO RADIO TO RECEIVE RECON INFO"
 KillCamAlert="KILLED FROM LOCATION"
 SPGotReinforced="Your squad has been reinforced"
-SpawnOnSquadLeaderFailed="CANNOT DEPLOY ON SQUAD LEADER\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
+SpawnOnSquadLeaderFailed="IMPOSSIBILE RIENTRARE SU CAPOSQUADRA\nATTENDI O [ %KEY% ] PER CAMBIARE RIENTRO"
 SpawnOnYouFailed="SQUAD MEMBER FAILED TO DEPLOY NEAR YOU"
 SpawnOnSLFailedInSpawnVolume="SQUAD LEADER IS IN A RESTRICTED AREA\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
 SpawnOnSLFailedInObjectiveVolume="CANNOT DEPLOY WHEN SQUAD LEADER IS IN OBJECTIVE\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
@@ -259,8 +259,8 @@ SpawnOnYouFailedInSpawnVolume="SQUAD CANNOT DEPLOY IN RESTRICTED AREA"
 SpawnOnYouFailedInObjectiveVolume="SQUAD CANNOT DEPLOY IN OBJECTIVE"
 SpawnOnYouFailedInTunnel="SQUAD CANNOT DEPLOY IN ENEMY TUNNEL"
 AutoRespawnWarning="Auto Redeploying Team In 10 Seconds.\nPress [ %KEY% ] To Override."
-ReconShotDown="RECON SHOT DOWN"
-NewDesiredRole="QUEUED FOR DESIRED ROLE"
+ReconShotDown="RICOGNITORE ABBATTUTO"
+NewDesiredRole="IN CODA PER IL RUOLO DESIDERATO"
 ClaimedDesiredRole="CLAIMED DESIRED ROLE"
 DesiredRoleFilled="DESIRED ROLE OCCUPIED BY ANOTHER PLAYER"
 SpawnAtTunnelFailed="CANNOT DEPLOY AT TUNNEL\n[ %KEY% ] CHANGE DEPLOYMENT"
@@ -270,13 +270,13 @@ EnhancedLogisticsActive="HO CHI MINH TRAIL ACTIVATED"
 NooneToSpawnForAmbushRespawn="NO SOLDIERS WAITING TO DEPLOY"
 MapBoundsAmbushRespawn="CANNOT DEPLOY OUT OF COMBAT AREA"
 SpawnProtectAmbushRespawn="CANNOT DEPLOY OUT OF COMBAT AREA"
-TunnelWasDestroyed="SQUAD TUNNEL DESTROYED"
-NoTunnelPlaced="DIG A SQUAD TUNNEL"
+TunnelWasDestroyed="TUNNEL DI SQUADRA DISTRUTTO"
+NoTunnelPlaced="SCAVA UN TUNNEL DI SQUADRA"
 SwitchingTeam="SWITCHING TEAMS"
 SwitchingTeamByAdmin="SWITCHED TEAMS BY ADMIN"
 
 [ROLocalMessageGameRedAlert]
-ReinforcementsDepleted="REINFORCEMENTS ARE DEPLETED"
+ReinforcementsDepleted="RINFORZI ESAURITI"
 SpawnWindowOpen="TEAM CAN DEPLOY AGAIN"
 SkirmishSpawnTimeLow="CAPTURE AN OBJECTIVE BEFORE IT'S TOO LATE"
 SpawnWindowClosed="TEAM CAN NO LONGER DEPLOY"
@@ -286,11 +286,11 @@ AllObjectivesCaptured="TEAM OWN ALL OBJECTIVES"
 FinalObjectiveAttack="ATTACKING FINAL OBJECTIVE"
 FinalObjectiveDefend="DEFENDING FINAL OBJECTIVE"
 MapBoundaryUnTouch="RETURNED TO COMBAT AREA"
-SpawnGrandfatheredMessage="ENEMY-CONTROLLED TERRITORY - FALL BACK"
-ArtilleryStrike="ARTILLERY SUPPORT INCOMING"
-BarrageStrike="BARRAGE STRIKE INCOMING"
-NapalmStrike="NAPALM SUPPORT INCOMING"
-GunshipStrike="AC-47 GUNSHIP SUPPORT INCOMING"
+SpawnGrandfatheredMessage="TERRITORIO NEMICO - RIPIEGARE"
+ArtilleryStrike="SUPPORTO D'ARTIGLIERIA IN ARRIVO"
+BarrageStrike="FUOCO DI SBARRAMENTO IN ARRIVO"
+NapalmStrike="SUPPORTO NAPALM IN ARRIVO"
+GunshipStrike="AC-47 IN ARRIVO"
 BombingRun="BOMBING RUN INCOMING"
 TankScuttleEnabled="PRESS K TO SCUTTLE"
 TankWillScuttle="TANK IS ABOUT TO BE SCUTTLED"
@@ -299,9 +299,9 @@ DefendersGotReinforced=""
 PrimaryWeaponUseProhibited="WEAPON RESTRICTED IN ENEMY TUNNEL"
 NormalWeaponsRestored="WEAPON RESTORED"
 HeloLZMarked="LZ MARKED - CHECK YOUR MAP"
-LastLivingPlayer="LAST MAN ALIVE"
+LastLivingPlayer="ULTIMO UOMO RIMASTO"
 SkirmishSuddenDeath="DEPLOYMENT NO LONGER POSSIBLE"
-WeaponBlockedInTunnelString="Cannot use Primary Weapon in Enemy Tunnel"
+WeaponBlockedInTunnelString="Impossibile usare arma primaria in tunnel nemico"
 TransportLandedInSpawnProtection="LZ IN ENEMY TERRITORY"
 Our="OUR"
 Enemy="ENEMY"
@@ -361,18 +361,18 @@ CountingHeloDespawn="REDEPLOYING IN"
 HeloBailoutString="BAIL OUT"
 
 [ROLocalMessageTimeRunningOut]
-FiveMinutesLeftString="5 MINUTES REMAINING"
-OneMinuteLeftString="60 SECONDS REMAINING"
-ThirtySecondsLeftString="30 SECONDS REMAINING"
+FiveMinutesLeftString="5 MINUTI RIMANENTI"
+OneMinuteLeftString="60 SECONDI RIMANENTI"
+ThirtySecondsLeftString="30 SECONDI RIMANENTI"
 
 [ROLocalMessageVictoryStatus]
-EnemyHalfwayString="ENEMY IS HALFWAY TO VICTORY"
-FriendlyHalfwayString="WE ARE HALFWAY TO VICTORY"
-NearlyLostString="ENEMY HAS NEARLY WON"
-NearlyWonString="WE HAVE NEARLY WON"
+EnemyHalfwayString="IL NEMICO Ãˆ A METÃ€ PER LA VITTORIA"
+FriendlyHalfwayString="SIAMO A METÃ€ PER LA VITTORIA"
+NearlyLostString="IL NEMICO HA QUASI VINTO"
+NearlyWonString="ABBIAMO QUASI VINTO"
 
 [ROLocalMessageGamePickup]
-Pickup="[ %key% ] PICK UP "
+Pickup="[ %key% ] RACCOGLI "
 InvArray[0]="TYPE 56"
 InvArray[1]="TYPE 56-1"
 InvArray[2]="AKM"
@@ -419,7 +419,7 @@ InvArray[42]="DShK HMG"
 InvArray[43]="M2 HMG"
 InvArray[44]="M1917"
 InvArray[45]="PM"
-InvArray[46]="XM21 Suppressed"
+InvArray[46]="XM21 Silenziato"
 InvArray[47]="L1A1"
 InvArray[48]="L2A1"
 InvArray[49]="OWEN"
@@ -446,8 +446,8 @@ InvArray[68]="PLACEABLE AMMO CRATE"
 Pickedup="PICKED UP"
 PickedUpAmmo="AMMO"
 PickupAmmoFailed="CANNOT CARRY MORE %WEAPON% AMMO"
-PickUpSwap="[ %key% ] SWAP"
-SwapWith="FOR"
+PickUpSwap="[ %key% ] SCAMBIA"
+SwapWith="PER"
 SavingCheckpoint="Saving Checkpoint"
 
 [ROLocalMessageVehicleDamage]
@@ -525,13 +525,13 @@ VehicleDamageMessages[70]="Left Skid Repaired"
 VehicleDamageMessages[71]="Right Skid Repaired"
 
 [ROLocalMessageVOIP]
-ChannelSwitchMessage="Channel:"
-ChannelPublic="Public"
-ChannelTeam="Team"
-ChannelSquad="Squad"
-ChannelVehicle="Vehicle"
-ChannelProximity="Local"
-ChannelCommand="Command"
+ChannelSwitchMessage="Canale:"
+ChannelPublic="Pubblico"
+ChannelTeam="Squadra"
+ChannelSquad="Plotone"
+ChannelVehicle="Veicolo"
+ChannelProximity="ProssimitÃ "
+ChannelCommand="Comando"
 
 [ROUISceneMainMenu]
 DownloadingString="Downloading"
@@ -541,10 +541,10 @@ RS2DefaultControlsString=RISING STORM 2 CONTROLS
 RS2DefaultControlsSmallString=Rising Storm 2: Vietnam Defaults
 RO2ClassicControlsString=USE RO2 CONTROLS
 RO2ClassicControlsSmallString=Classic Red Orchestra 2 Defaults
-TerritoriesString=TERRITORIES
-SupremacyString=SUPREMACY
-SkirmishString=SKIRMISH
-CampaignString=CAMPAIGN
+TerritoriesString=TERRITORI
+SupremacyString=SUPREMAZIA
+SkirmishString=SCHERMAGLIA
+CampaignString=CAMPAGNA
 QuickMatchQueueString="You will join the queue for a full server if an open slot is not found."
 QuickMatchSlowSearchString="Search is taking longer than expected. Consider trying a different Game Type, or finding a game manually through the Server Browser."
 QuickMatchNotFound="No match found"
@@ -554,46 +554,46 @@ NextClassUnlocks[1]=(ClassName="SQUAD LEADER")
 NextClassUnlocks[2]=(ClassName="COMMANDER")
 
 [ROUISceneTrainingMenu]
-MissionTypeString="TRAINING"
-TrainingMissionDates[0]="September 23, 1969"
-TrainingMissionSummaries[0]="Some place, maybe Vietnam or maybe not: Get some time in on the firing range before you head into combat. Familiarise yourself with all the available combat classes and their kit to be as prepared as you can be when you meet the enemy face to face."
-TrainingMissionDates[1]="November 12, 1969"
-TrainingMissionSummaries[1]="Some airfield, maybe Vietnam or maybe not: Familiarise yourself with the flight and handling characteristics of each helicopter in a low pressure environment. Test your dexterity on the aerial obstacle course, or your gunnery skills on the free-fire range."
-VideoComingSoon="COMING SOON"
-TutorialVideos[0]=(VideoTitle="Mode: Territories",VideoDescription="Learn how to play Territories, a returning Game Mode for 64 players which sees one team attack objectives held by the defending forces.")
-TutorialVideos[1]=(VideoTitle="Mode: Supremacy",VideoDescription="Learn all about the Supremacy Game Mode, a new 64-player mode with open battlefields and point-based scoring.")
-TutorialVideos[2]=(VideoTitle="Mode: Skirmish",VideoDescription="Learn about Skirmish mode in this video. Skirmish is a smaller-scale game mode designed for less than 64 players.")
-TutorialVideos[3]=(VideoTitle="Movement",VideoDescription="Learn the basics of moving and navigating the battlefields of Rising Storm 2.")
-TutorialVideos[4]=(VideoTitle="Combat Basics",VideoDescription="Find out how you use your weapons effectively, how to switch between your gear, and how to bandage wounds and throw grenades.")
-TutorialVideos[5]=(VideoTitle="Advanced Combat",VideoDescription="Learn about some of the more unique elements of Rising Storm 2’s combat. This video outlines how to use the unique features of certain guns, as well as more advanced tools like traps and explosives.")
-TutorialVideos[6]=(VideoTitle="Squads",VideoDescription="Learn about how Squads work in Rising Storm 2, both as a Squad Leader and as a regular soldier. Find out how to lock your Squad, how you can invite others, and how Squad-based deployment mechanics work.")
+MissionTypeString="ADDESTRAMENTO"
+TrainingMissionDates[0]="23 settembre, 1969"
+TrainingMissionSummaries[0]="Qualche posto, forse Vietnam o forse no: spendi del tempo al poligono prima di andare in battaglia. Familiarizza con tutte le classi disponibili per essere quanto piÃ¹ preparato possibile ad affrontare al meglio il nemico faccia a faccia."
+TrainingMissionDates[1]="12 november, 1969"
+TrainingMissionSummaries[1]="Qualche aeroporto, forse Vietname o forse no: familiarriza con le caratteristiche di volo di ogni elicottero senza pressioni. Prova la tua destrezza sul percorso a ostacoli aereo, o le tue doti di mitragliere al poligono."
+VideoComingSoon="IN ARRIVO"
+TutorialVideos[0]=(VideoTitle="ModalitÃ : Territori",VideoDescription="Impara tutto su Territori, un ritorno della modalitÃ  a 64 giocatori in cui una squadra attacca gli obiettivi dei difensori.")
+TutorialVideos[1]=(VideoTitle="ModalitÃ : Supremazia",VideoDescription="Impara tutto su Supremazia, una nuova modalitÃ  a 64 giocatori con campi aperti e basata sul punteggio.")
+TutorialVideos[2]=(VideoTitle="ModalitÃ : Schermaglia",VideoDescription="Impara tutto su Schermaglia, una modalitÃ  in scala ridotta pensata per meno di 64 giocatori.")
+TutorialVideos[3]=(VideoTitle="Movimento",VideoDescription="Impara le basi di come muoverti e orientarti sui campi di battaglia di Rising Storm 2.")
+TutorialVideos[4]=(VideoTitle="Combattimento di base",VideoDescription="Impara come usare efficacemente le tue armi, alternarti tra l'equipaggiamento, curare le ferite e lanciare granate.")
+TutorialVideos[5]=(VideoTitle="Combattimento avanzato",VideoDescription="Impara alcuni degli elementi unici di Rising Storm 2. Ti verrÃ  spiegato come usare le caratteristiche uniche di certe armi, cosÃ¬ come strumenti avanzati come trappole ed esplosivi.")
+TutorialVideos[6]=(VideoTitle="Plotono",VideoDescription="Impara come funzionano i plotoni in Rising Storm 2, sia come capoplotone che come soldato regolare. Scopri come rendere privato un plotone, invitare altri e come funzionano le meccaniche di rientro.")
 TutorialVideos[7]=(VideoTitle="Basic Classes",VideoDescription="This video breaks down the basic Class roles and their functions on the battlefield. Covered here are Grunt and Rifleman, Machinegunners, Marksmen (Snipers) and the Radioman.")
 TutorialVideos[8]=(VideoTitle="Advanced Classes",VideoDescription="Here we cover the more complex class roles and how they operate in Rising Storm 2. Covered here are the Pointman and Scout, the Combat Engineer and Sapper, the Grenadier and the RPG Soldier.")
-TutorialVideos[9]=(VideoTitle="Communication",VideoDescription="This video outlines how to communicate effectively with your team using voice and text chat, as well as the quick widgets.")
+TutorialVideos[9]=(VideoTitle="Comunicazione",VideoDescription="Impara a comunicare efficacemente con la tua squadra usando la chat testuale e vocale, cosÃ¬ come con i comandi rapidi.")
 TutorialVideos[10]=(VideoTitle="Helicopters",VideoDescription="This video outlines how flying Helicopters works in Rising Storm 2. We cover the basics of flight controls, the role of each Helicopter and their unique functions, as well as a few advanced tips for flying effectively.")
-TutorialVideos[11]=(VideoTitle="The Commander",VideoDescription="Find out how to play as the Commander of your team, arguably Rising Storm 2’s most important role. This video outlines how to call in powerful support abilities, how to give orders to your team, and how to most effectively lead your forces to victory.")
+TutorialVideos[11]=(VideoTitle="Comandante",VideoDescription="Impara a giocare da Comandate della tua squadra, probabilmente il ruolo piÃ¹ importante di Rising Storm 2. Ti verrÃ  mostrato come chiamare potenti abilitÃ  di supporto, dare ordini alla tua squadra e condurre le tue forze alla vittoria.")
 
 [ROUISceneServerBrowser]
 StandardString="Standard"
-CustomString="Custom"
-AllString="All"
-TerritoryString="Territories"
-SupremacyString="Supremacy"
-FirefightString="Firefight"
-SkirmishString="Skirmish"
-SearchDestroyString="Search and Destroy"
-CampaignString="Campaign"
-InfantryString="Infantry"
-CombinedArmsString="Combined Arms"
-TankString="Tank"
-RemoveFavoriteString="Remove from Favorites"
-AddFavoriteString="Add to Favorites"
-RefreshString="REFRESH ALL"
-StopString="STOP REFRESH"
+CustomString="Personalizzato"
+AllString="Tutto"
+TerritoryString="Territori"
+SupremacyString="Supremazia"
+FirefightString="Scontro a fuoco"
+SkirmishString="Schermaglia"
+SearchDestroyString="Cerca e distruggi"
+CampaignString="Campagna"
+InfantryString="Fanteria"
+CombinedArmsString="Forze combinate"
+TankString="Carri"
+RemoveFavoriteString="Rimuovi dai preferiti"
+AddFavoriteString="Aggiungi ai preferiti"
+RefreshString="RICARICA TUTTO"
+StopString="FERMA RICARICA"
 RS2String="RS2: Vietnam"
 GAMString="Green Army Men"
-ServerQueueDescription="You are in a queue and will automatically join the server when an open slot is available."
-ServerLost="It is not possible to connect to selected server"
+ServerQueueDescription="Sei in coda e ti unirai automaticamente al server quando si libererÃ  un posto."
+ServerLost="Non Ã¨ possibile connettersi al server selezionato."
 
 [ROUISceneUnitSelect]
 PrimaryString="PRIMARY"
@@ -1259,27 +1259,27 @@ AmmoUVs[64]=(AmmoDescription="50x200mm HE Grenade")
 AmmoUVs[65]=(AmmoDescription="7.62x54mmR 250rd Belt")
 
 [ROHUDWidgetComCommunication]
-BasicCommunication[0]="NEED AMMO"
-BasicCommunication[1]="REQUEST ORDERS"
-BasicCommunication[2]="REQUEST SUPPORT..."
+BasicCommunication[0]="RICHIEDO MUNIZIONI"
+BasicCommunication[1]="RICHIEDO ORDINI"
+BasicCommunication[2]="RICHIEDO SUPPORTO..."
 BasicCommunication[3]="ACKNOWLEDGE..."
-BasicCommunication[4]="TAKE COVER"
-BasicCommunication[5]="ATTACK"
-BasicCommunication[6]="RETREAT"
+BasicCommunication[4]="AL RIPARO"
+BasicCommunication[5]="ATTACCARE"
+BasicCommunication[6]="RITIRARSI"
 BasicCommunication[7]="TAUNT"
 BasicCommunication[8]=""
-SupportOptions[0]="MACHINE GUN"
-SupportOptions[1]="INFANTRY"
-SupportOptions[2]="RECON"
+SupportOptions[0]="MITRAGLIATRICE"
+SupportOptions[1]="FANTERIA"
+SupportOptions[2]="RICOGNITORE"
 SupportOptions[3]="FIRE SUPPORT"
-SupportOptions[4]="ANTI-AIRCRAFT"
-SupportOptions[5]="AIRCRAFT"
-SupportOptions[6]="EXPLOSIVE"
+SupportOptions[4]="ANTI-AEREA"
+SupportOptions[5]="VELIVOLO"
+SupportOptions[6]="ESPLOSIVO"
 SupportOptions[7]="SMOKE SCREEN"
-Acknowledgments[0]="NEGATIVE"
-Acknowledgments[1]="AFFIRMATIVE"
-Acknowledgments[2]="THANKS"
-Acknowledgments[3]="SORRY"
+Acknowledgments[0]="NEGATIVO"
+Acknowledgments[1]="AFFERMATIVO"
+Acknowledgments[2]="GRAZIE"
+Acknowledgments[3]="SCUSA"
 
 [ROHUDWidgetCompactVoiceComms]
 MyTankString="My Tank"
@@ -1345,16 +1345,16 @@ VoiceMenuMisc[1]="CLOSE"
 CutOffLabel=" REINFORCEMENTS CUT OFF IN"
 
 [ROHUDWidgetSPDefendTimer]
-DefendText="DEFEND OBJECTIVE:"
+DefendText="DIFENDERE L'OBIETTIVO:"
 
 [ROHUDWidgetMapBoundaryTimer]
-ReturnOrder="RETURN TO THE COMBAT AREA"
+ReturnOrder="RITORNA ALLA ZONA DI COMBATTIMENTO"
 
 [ROHUDWidgetVehicleInfo]
 AmmoCountString="99"
 APString="AP"
 HEString="HE"
-SmokyString="Smoke"
+SmokyString="Fumogeno"
 
 [ROVWeap_TankTurret]
 SwitchToAPString="Switched to AP Rounds"
@@ -1454,7 +1454,7 @@ AmbushString="AMBUSH"
 [ROHUDWidgetCountdownTimer]
 CountdownText="COUNTDOWN"
 ReinforcementText="REINFORCEMENT WAVES:"
-OvertimeText="OVERTIME"
+OvertimeText="SUPPLEMENTARI"
 SuddenDeathText="S U D D E N  D E A T H"
 
 [ROHUDWidgetKillMessages]
@@ -1517,7 +1517,7 @@ StrengthPointsText=": "
 [ROHUDWidgetRoundEndTimer]
 RoundEndText="ROUND ENDS IN:"
 SuddenDeathText="S U D D E N  D E A T H"
-OvertimeText="OVERTIME"
+OvertimeText="SUPPLEMENTARI"
 
 [ROHUDWidgetIndicator]
 CoverMessage="[ %COVERKEY% ]"
@@ -1527,7 +1527,7 @@ ClimbMessage="[ %MANTLEKEY% ]"
 CoverMantleMessage="[ %MANTLEKEY% ]"
 DeployMantleMessage="[ %MANTLEKEY% ]"
 EnterVehicleMessage="[ %USEKEY% ]"
-VehicleFullMessage="VEHICLE FULL"
+VehicleFullMessage="VEICOLO PIENO"
 
 [ROHUDWidgetKillMessages]
 LevelUpString="LEVEL UP"
@@ -1538,19 +1538,19 @@ LevelUpString="LEVEL"
 LevelUpHonorString=""
 
 [ROHUDWidgetSkirmishEnemies]
-EnemiesRemainingText="Enemies:"
+EnemiesRemainingText="Nemici:"
 
 
 [ROLocalMessageCom]
-Communication[0]="Enemy Spotted"
-Communication[1]="Requesting Orders"
+Communication[0]="Nemico individuato"
+Communication[1]="Richiedo ordini"
 Communication[2]="We need Infantry support"
-Communication[3]="Affirmative"
-Communication[4]="Thanks"
-Communication[5]="I need ammo"
-Communication[6]="Negative"
-Communication[7]="Sorry about that"
-Communication[8]="Take Cover"
+Communication[3]="Affirmativo"
+Communication[4]="Grazie"
+Communication[5]="Mi servono munizioni"
+Communication[6]="Negativo"
+Communication[7]="Mi spiace"
+Communication[8]="Al riparo"
 Communication[9]="We need Machine Gun support"
 Communication[10]="We need Recon"
 Communication[11]="We need Fire Support now"
@@ -1559,13 +1559,13 @@ Communication[13]="We need Aircraft support"
 Communication[14]="We need an Explosive here"
 Communication[15]="We need Smoke here"
 Communication[16]="We need to Attack"
-Communication[17]="Retreat Now"
+Communication[17]="Ritirarsi"
 SquadOrders[0]="Lay down suppressing fire"
 SquadOrders[1]="Move over there"
-SquadOrders[2]="Attack"
+SquadOrders[2]="Attaccare"
 SquadOrders[3]="Mark Fire Support Coordinates"
-SquadOrders[4]="Follow me"
-SquadOrders[5]="Defend"
+SquadOrders[4]="Seguitemi"
+SquadOrders[5]="Difendere"
 SquadOrders[6]="Trying To Force Deployment"
 SquadOrders[7]="As you were"
 SquadOrders[8]="Fire Support Coordinate Marked"
@@ -1576,7 +1576,7 @@ TankOrders[1]="Move over there"
 TankOrders[2]="Move to"
 TankOrders[3]="Attack That Tank"
 TankOrders[4]="Fire at will"
-TankOrders[5]="Cease Fire"
+TankOrders[5]="Cessare il fuoco"
 TankOrders[6]="As you were"
 TankOrders[7]="Attack the"
 TankOrders[8]="Defend the"
@@ -1594,9 +1594,9 @@ FireTeamString=""
 SquadString=" SQUAD LEADER:"
 
 [ROPlaceableSpawn]
-TunnelDestroyedMessage="TUNNEL DESTROYED"
+TunnelDestroyedMessage="TUNNEL DISTRUTTO"
 StoppedDestroyingTunnelMessage="CANCELLED TUNNEL DESTRUCTION"
-DestroyingTunnelInSecondsMessage="DESTROYING TUNNEL IN %TIME%s"
+DestroyingTunnelInSecondsMessage="DISTRUZIONE TUNNEL IN %TIME%s"
 
 [ROPlayerController]
 TeamString="TEAM "
@@ -1843,7 +1843,7 @@ ClassShortName="RADIO"
 ToolTipText="Working side-by-side with the team's Commander, the Radioman provides a vital team asset - a portable Radio.\nStay closeby so the Commander can use your Radio and be sure to provide him with protection.\nArmed with standard Rifleman equipment and smoke grenades."
 
 [RORoleInfoSouthernCommanderARVN]
-MyName="COMMANDER"
+MyName="COMANDANTE"
 ClassShortName="CMDR"
 ToolTipText="Team leader on the battlefield.\nProvides overall direction of the forces in combat by issuing orders through Squad Leaders.\nResponsible for calling in heavy fire support or reconnaissance via Radios or Radioman.\n\n* Required: Level 25 and willingness to work with your team."
 
@@ -1864,20 +1864,20 @@ CapitalizedDisplayName="SATCHEL"
 Description="3Kg Explosive Satchel"
 
 [ROWeap_AK47_AssaultRifle]
-DisplayName="AK-47 Assault Rifle"
+DisplayName="Fucile d'assalto AK-47"
 ShortDisplayName="AK-47"
-CapitalizedDisplayName="AK-47 ASSAULT RIFLE"
-Description="Rifle, 7.62x39mm, AK47\n\nUbiqitous Russian Assault Rifle Design."
-DisplayInfo[0]=(DisplayName="Type 56",Description="Rifle, 7.62x39mm.Chinese reproduction of the AK-47 with foldable \"pig-sticker\" bayonet and wooden stock.",WeaponSpecialAttributesText=("Foldable Bayonet","Solid Stock"))
-DisplayInfo[1]=(DisplayName="Type 56-1",Description="Lightweight version of the Type-56 with a foldable stock and no bayonet.",WeaponSpecialAttributesText=("Foldable Stock","-No Bayonet"))
-DisplayInfo[2]=(DisplayName="AKM",Description="Russian produced, the AKM is an update of the AK-47 design. Lighter than the standard Type-56, with lower recoil but a lower rate of fire and muzzle velocity. Includes attachable blade style bayonet.",WeaponSpecialAttributesText=("Attachable Bayonet","Solid Stock"))
+CapitalizedDisplayName="FUCILE D'ASSALTO AK-47"
+Description="Fucile, 7.62x39mm, AK47\n\nCelebre fucile d'assalto russo."
+DisplayInfo[0]=(DisplayName="Type 56",Description="Fucile, 7.62x39mm. Riproduzione cinese dell'AK-47 con baionetta piegabile \"pig-sticker\" e calcio di legno.",WeaponSpecialAttributesText=("Baionetta piegabile","Calcio solido"))
+DisplayInfo[1]=(DisplayName="Type 56-1",Description="Versione leggera del Type-56 con calcio piegabile ma senza baionetta.",WeaponSpecialAttributesText=("Calcio piegabile","-Nessuna baionetta"))
+DisplayInfo[2]=(DisplayName="AKM",Description="Prodotto in Russia, l'AKM Ã¨ un aggiornamento dell'AK-47. PiÃ¹ leggero del Type-56, con meno rinculo ma un rateo di fuoco e velocitÃ  di volata minori. Include baionetta attacabile.",WeaponSpecialAttributesText=("Baionetta attacabile","Calcio solido"))
 
 [ROWeap_M16A1_AssaultRifle]
-DisplayName="M16A1 Assault Rifle"
+DisplayName="Fucile d'assalto M16A1"
 ShortDisplayName="M16A1"
-CapitalizedDisplayName="M16A1 ASSAULT RIFLE"
-Description="Rifle, 5.56x45mm, M16A1\n\nIntroduced into wide service in 1968, Colt's M16 design became the standard in modern assault rifles."
-DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet","Flash Suppressor"))
+CapitalizedDisplayName="FUCILE D'ASSALTO M16A1"
+Description="Fucile, 5.56x45mm, M16A1\n\nIntrodotto in servizio nel 1968, il design dell'M16 Colt divenne lo standard per i fucili d'assalto moderni."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Baionetta removibile","Rompifiamma"))
 
 [ROWeap_XM177E1_Carbine]
 DisplayName="XM177E1 Carbine"
@@ -1969,9 +1969,9 @@ Description="Sniper Rifle, 7.62x54mmR, Mosin Nagant 1891/30\n\nScoped variant of
 DisplayInfo[0]=(WeaponSpecialAttributesText=("3.5x PU Scope","Attachable Bayonet"))
 
 [ROWeap_M40Scoped_Rifle]
-DisplayName="M40 Sniper Rifle"
+DisplayName="Fucile di precisione M40"
 ShortDisplayName="M40"
-CapitalizedDisplayName="M40 SNIPER RIFLE"
+CapitalizedDisplayName="FUCILE DI PRECISIONE M40"
 Description="Sniper Rifle, 7.62x51mm, M40\n\nRemington made bolt-action rifle with a 3-9x high-powered scope."
 DisplayInfo[0]=(WeaponSpecialAttributesText=("3-9x Redfield Scope"))
 
@@ -2020,27 +2020,27 @@ CapitalizedDisplayName="M79 WITH SIDEARM"
 Description="Grenade Launcher, 40x46mm, M79\n\nAmmunition loadout includes HE + Smoke grenades and sidearm."
 
 [ROWeap_RPG7_RocketLauncher]
-DisplayName="RPG-7 Rocket Launcher"
+DisplayName="Lanciarazzi RPG-7"
 ShortDisplayName="RPG-7"
-CapitalizedDisplayName="RPG-7 ROCKET LAUNCHER"
+CapitalizedDisplayName="LANCIARAZZI RPG-7"
 Description="Rocket Launcher, 40x105mm, RPG-7\n\nShoulder-mounted, fires HEAT rounds out to a range of nearly 1km at 115m/s."
 
 [ROWeap_M61_Grenade]
-DisplayName="M61 Grenade"
-ShortDisplayName="M61 GRENADE"
-CapitalizedDisplayName="M61 GRENADE"
+DisplayName="Granata M61"
+ShortDisplayName="GRANATA M61"
+CapitalizedDisplayName="GRANATA M61"
 Description="Grenade, Hand: Fragmentation, Delay, M61. Standard US 5-second explosive grenade."
 
 [ROWeap_Type67_Grenade]
-DisplayName="Type 67 Grenade"
-ShortDisplayName="TYPE 67 GRENADE"
-CapitalizedDisplayName="TYPE 67 GRENADE"
-Description="Type 67 Frag Grenade. Chinese Imitation of German Model 24 Stielhandgranate."
+DisplayName="Granata Type 67"
+ShortDisplayName="GRANATA TYPE 67"
+CapitalizedDisplayName="GRANATA TYPE 67"
+Description="Granata a framentazione Type 67. Imitazione cinese della Stielhandgranate 24 tedesca."
 
 [ROWeap_M8_Smoke]
-DisplayName="M8 Smoke Grenade"
-ShortDisplayName="M8 SMOKE"
-CapitalizedDisplayName="M8 SMOKE"
+DisplayName="Granata fumogena M8"
+ShortDisplayName="FUMOGENO M8"
+CapitalizedDisplayName="FUMOGENO M8"
 Description="Grenade, Hand: Smoke, M8. Use to provide cover and concealment."
 
 [ROWeap_M34_WP]
@@ -2050,10 +2050,10 @@ CapitalizedDisplayName="M34 WP GRENADE"
 Description="Grenade, Hand: White Phosphorous, M34. Explosive White Phosphorous grenade. Leaves behind deadly smoke."
 
 [ROWeap_RDG1_Smoke]
-DisplayName="RDG-1 Smoke Grenade"
-ShortDisplayName="RDG-1 SMOKE"
-CapitalizedDisplayName="RDG-1 SMOKE"
-Description="Russian RDG-1 Smoke Grenade. Used to provide cover and break up enemy sight-lines."
+DisplayName="Granata fumogena RDG-1"
+ShortDisplayName="FUMOGENO RDG-1"
+CapitalizedDisplayName="FUMOGENO RDG-1"
+Description="Granata fumogena RDG-1 russa. Usata per fornire copertura e bloccare le linee visive nemiche."
 
 [ROWeap_M18_SignalSmoke]
 DisplayName="M18 Colored Smoke Grenade"
@@ -2217,7 +2217,7 @@ DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Bipod"))
 DisplayName="M1D Garand Sniper Rifle"
 ShortDisplayName="Garand Sniper"
 CapitalizedDisplayName="M1D GARAND SNIPER RIFLE"
-Description="Sniper Rifle, Caliber .30, M1D\n\nThis modified M1 Garand features a scope, offset to the left of the weapon’s receiver."
+Description="Sniper Rifle, Caliber .30, M1D\n\nThis modified M1 Garand features a scope, offset to the left of the weaponï¿½s receiver."
 DisplayInfo[0]=(WeaponSpecialAttributesText=("Flash Suppressor"))
 
 [ROWeap_M1919A6_LMG]
@@ -2303,8 +2303,8 @@ RulesHeadingString="Rules"
 BotsHeadingString="Bots"
 GameHeadingString="Game"
 CountdownHeadingString="Countdown"
-TerritoryHeadingString="Territories"
-FirefightHeadingString="Firefight"
+TerritoryHeadingString="Territori"
+FirefightHeadingString="Scontro a fuoco"
 CampaignHeadingString="Campaign"
 DedicatedServerString="Dedicated Server"
 LanServerString="LAN Server"
@@ -2496,7 +2496,7 @@ PlayersString="Players"
 FullString="FULL"
 OwnTeamString="CURRENT TEAM"
 NorthTeamInfoText="Northern forces, representing Communist North Vietnam, use an arsenal of Chinese, Russian, and scavenged weaponry from previous conflicts as well as improvised explosives and traps. They can deploy on Squad Tunnels placed by their Squad Leaders."
-SouthTeamInfoText="The Southern forces fought on behalf of South Vietnam, a Capitalist government propped up by the United States. They use state-of-the-art Western military equipment and have overwhelming air superiority. They can deploy directly on their Squad Leader’s location."
+SouthTeamInfoText="The Southern forces fought on behalf of South Vietnam, a Capitalist government propped up by the United States. They use state-of-the-art Western military equipment and have overwhelming air superiority. They can deploy directly on their Squad Leaderï¿½s location."
 SwitchAllowedString="Team switch allowed in:"
 NoSwitchDuringVoteString="Cannot change teams while a kick vote against you is in progress."
 
@@ -3131,17 +3131,17 @@ DLCPackDetails[2]=(PackName="")
 DLCPackDetails[3]=(PackName="DIGITAL DELUXE EDITION",PackDescription="Rising Storm 2's Digital Deluxe Edition allows access to two exclusive camo patterned hats, plus early unlocks for several items and the game's Official Soundtrack.",PackDescriptionShort="Two exclusive camo patterned hats, early unlocks for several items and more.")
 DLCPackDetails[4]=(PackName="PULLING RANK",PackDescription="Show your team that you're above the rank and file with this set of customization options that put you a cut above regular infantry.%nl%%nl%Features items for both the Northern and Southern forces.",PackDescriptionShort="Show your team that you're above the rank and file!")
 DLCPackDetails[5]=(PackName="")
-DLCPackDetails[6]=(PackName="PERSONALIZED TOUCH",PackDescription="Get a haircut, soldier! The Personalized Touch pack contains a variety of exclusive customization options to make “Your Dudes” truly unique, whether they’re a war-torn, battle-scarred group of badasses, or hippies with an eye for flair.%nl%Contains new customization items for all factions including hair, glasses, scars and tattoos.",PackDescriptionShort="A variety of exclusive customization options to make “Your Dudes” truly unique.")
-DLCPackDetails[7]=(PackName="UNCLE HO'S HEROES",PackDescription="Are you worried about looking less than impressive while defending your homeland from the forces of capitalist imperialism? This pack is guaranteed to have you shouting ‘Our homes are safe!’.%nl%%nl%Provides instant access to items normally unlocked via leveling up for the NLF and PAVN.",PackDescriptionShort="This pack is guaranteed to have you shouting ‘Our homes are safe!’")
+DLCPackDetails[6]=(PackName="PERSONALIZED TOUCH",PackDescription="Get a haircut, soldier! The Personalized Touch pack contains a variety of exclusive customization options to make ï¿½Your Dudesï¿½ truly unique, whether theyï¿½re a war-torn, battle-scarred group of badasses, or hippies with an eye for flair.%nl%Contains new customization items for all factions including hair, glasses, scars and tattoos.",PackDescriptionShort="A variety of exclusive customization options to make ï¿½Your Dudesï¿½ truly unique.")
+DLCPackDetails[7]=(PackName="UNCLE HO'S HEROES",PackDescription="Are you worried about looking less than impressive while defending your homeland from the forces of capitalist imperialism? This pack is guaranteed to have you shouting ï¿½Our homes are safe!ï¿½.%nl%%nl%Provides instant access to items normally unlocked via leveling up for the NLF and PAVN.",PackDescriptionShort="This pack is guaranteed to have you shouting ï¿½Our homes are safe!ï¿½")
 DLCPackDetails[8]=(PackName="BORN IN THE USA",PackDescription="USA! USA! USA! With this set of all-American customization options, you'll be bleeding red, white and blue!%nl%%nl%Provides instant access to items normally unlocked via leveling up for the US Forces.",PackDescriptionShort="With this set of all-American customization options, you'll be bleeding red, white and blue!")
-DLCPackDetails[9]=(PackName="MAN DOWN UNDER",PackDescription="That’s not a DLC… THAT’S a DLC! Unleash your inner battler with this set of dinky-di Australia-themed customization options.%nl%%nl%Provides instant access to items normally unlocked via leveling up for the Australians.",PackDescriptionShort="That’s not a DLC… THAT’S a DLC! Dinky-di, Australia-themed customization options.")
+DLCPackDetails[9]=(PackName="MAN DOWN UNDER",PackDescription="Thatï¿½s not a DLCï¿½ THATï¿½S a DLC! Unleash your inner battler with this set of dinky-di Australia-themed customization options.%nl%%nl%Provides instant access to items normally unlocked via leveling up for the Australians.",PackDescriptionShort="Thatï¿½s not a DLCï¿½ THATï¿½S a DLC! Dinky-di, Australia-themed customization options.")
 DLCPackDetails[10]=(PackName="SOUTHERN STYLE",PackDescription="Not just for chicken, dress to impress as you repel the communist invaders in (Southern) Style.%nl%%nl%Provides instant access to items normally unlocked via leveling up for the ARVN.",PackDescriptionShort="Dress to impress as you repel the communist invaders in (Southern) Style.")
 DLCPackDetails[11]=(PackName="REAR ECHELON",PackDescription="Who are those stylish chaps you ask? Rear echelon, my friend. With this exclusive pack of support troop themed items, you too can lead from the rear!%nl%%nl%Contains new customization items for the US forces.",PackDescriptionShort="With this exclusive pack of support troop themed items, you too can lead from the rear!")
 DLCPackDetails[12]=(PackName="HOMELAND SECURITY",PackDescription="Dress like Uncle Ho's watching! Make your families proud (of your dress sense) as you defend the homeland with this exclusive pack of customization items for the Northern Forces.%nl%%nl%Contains new customization items for the PAVN and NLF forces.",PackDescriptionShort="Dress like Uncle Ho's watching! Exclusive pack of customization items for the Northern Forces.")
 DLCPackDetails[13]=(PackName="")
 DLCPackDetails[14]=(PackName="")
 DLCPackDetails[15]=(PackName="SGT. JOE'S SUPPORT BUNDLE",PackDescription="This Cosmetic DLC pack is entirely derived from the work of community developer \"Sgt Joe\" (and friends) on the Gameplay Overhaul Mutator - and all revenue from this DLC is shared with that team, to help encourage their work.%nl%Contains items for both the Northern and Southern forces.",PackDescriptionShort="Support our community developer \"Sgt Joe\" (and friends!)")
-DLCPackDetails[16]=(PackName="THE SPECIALISTS",PackDescription="Stand out on the battlefield - or rather, don’t. This cosmetic DLC pack contains everything you need to look and feel like a bona fide operator in the jungles of Vietnam. Contains items for both the North and South.%nl%%nl%Contains items for both the Northern and Southern forces.",PackDescriptionShort="Everything you need to look and feel like a bona fide operator in the jungles of Vietnam.")
+DLCPackDetails[16]=(PackName="THE SPECIALISTS",PackDescription="Stand out on the battlefield - or rather, donï¿½t. This cosmetic DLC pack contains everything you need to look and feel like a bona fide operator in the jungles of Vietnam. Contains items for both the North and South.%nl%%nl%Contains items for both the Northern and Southern forces.",PackDescriptionShort="Everything you need to look and feel like a bona fide operator in the jungles of Vietnam.")
 
 
 [ROLocalMessageResupply]
@@ -3389,16 +3389,16 @@ Home="Home"
 EscapeString="Esc"
 
 [ROHTimed_TacticalView]
-TitleString="TACTICAL VIEW"
+TitleString="VISUALE TATTICA"
 BodyString="Hold the [%KEY%] key to show your tactical overlay, which shows objectives and other valuable information."
 
 [ROHTimed_Crouch]
-TitleString="CROUCHING"
-BodyString="Press [%KEY%] to crouch. Crouching steadies your aim and lowers recoil when firing a weapon."
+TitleString="ACCOVACCIARSI"
+BodyString="Premi [%KEY%] per accovacciarti: stabilizza la mira e diminuisce il rinculo quando spari."
 
 [ROHTimed_Prone]
-TitleString="PRONE"
-BodyString="Press [%KEY%] to prone. Going prone steadies your aim and lowers recoil when firing a weapon."
+TitleString="STENDERSI"
+BodyString="Premi [%KEY%] per stenderti: stabilizza la mira e diminuisce il rinculo quando spari."
 
 [ROHTimed_FindObj]
 TitleString="FINDING OBJECTIVES"
@@ -3409,7 +3409,7 @@ TitleString="ORDNANCE MARKERS"
 BodyString="Using your Binoculars with [%BINOCS%], you can mark an artillery target for your Commander by pressing %FIRE%."
 
 [ROHTrig_CapturingObj]
-TitleString="CAPTURING OBJECTIVES"
+TitleString="CATTURARE GLI OBIETTIVI"
 BodyString="Capture objectives by outnumbering the enemy within the objective area."
 
 [ROHTrig_DefendingObj]
@@ -3445,19 +3445,19 @@ TitleString="STABILISING WEAPONS"
 BodyString="Stabilize your weapon for more accurate shooting by putting it on, or next to, objects."
 
 [ROHTrig_M79ShellTypes]
-TitleString="M79 AMMO TYPES"
-BodyString="Press [%WFUNC%] to load the M79 grenade launcher with different ammo types."
+TitleString="MUNIZIONI M79"
+BodyString="Premi [%WFUNC%] per usare munizioni diverse con il lanciagranate M79."
 
 [ROHTrig_HeloDespawn]
 TitleString="REDEPLOY FROM HELICOPTER"
 BodyString="Press [%WFUNC%] to redeploy from a helicopter you've spawned in, if you haven't left it yet."
 
 [ROHTrig_Commander]
-TitleString="COMMANDER"
+TitleString="COMANDANTE"
 BodyString="The Commander's role is for experienced players and is crucial for victory. The Commander can use unique abilities at the radio."
 
 [ROHTrig_Pilot]
-TitleString="PILOTS"
+TitleString="PILOTI"
 BodyString="Unlike other roles, Pilots spawn at special Helicopter bases, far from the action."
 
 [ROHTrig_SquadLeaderUS]
@@ -3470,10 +3470,10 @@ BodyString="As a North Vietnamese Squad Leader, you can place Tunnels that allow
 
 [ROHTrig_Supremacy]
 TitleString="SUPREMACY MODE"
-BodyString="Supremacy is a multi-objective game mode. Capture objectives in a chain to your Home Base to score points."
+BodyString="Supremazia is a multi-objective game mode. Capture objectives in a chain to your Home Base to score points."
 
 [ROHTrig_WhitePhosphorous]
-TitleString="WHITE PHOSPHOROUS"
+TitleString="FOSFORO BIANCO"
 BodyString="The M34 White Phosphorous Grenade deals incendiary damage in a large area. The smoke it leaves behind is deadly."
 
 [ROHTrig_M79]
@@ -3582,7 +3582,7 @@ BodyString="Press [%Key%] to melee attack an enemy. Hold [%Key%] while sprinting
 
 [ROHTrig_SupremacyLineIsBroke]
 TitleString="THE LINE IS BROKEN"
-BodyString="In Supremacy, objectives only gain points for your team when connected to your Home Base."
+BodyString="In Supremazia, objectives only gain points for your team when connected to your Home Base."
 
 [ROHTrig_FriendlyFire]
 TitleString="FRIENDLY FIRE"
@@ -3669,8 +3669,8 @@ TitleString="ANTI-AIR"
 BodyString="The North Vietnamese Commander can call anti-air missiles, which destroy aircraft above 75m AGL."
 
 [ROHTrig_Bipods]
-TitleString="BIPODS"
-BodyString="Press [%Key%] to adjust the Bipod on this weapon. When the Bipod is deployed, you will automatically rest the gun on surfaces."
+TitleString="BIPODE"
+BodyString="Premi [%Key%] per regolare il bipode su quest'arma. Quando il bipode Ã¨ schierato, appoggerai automaticamente l'arma sulle superfici."
 
 [ROHTrig_RadioMan]
 TitleString="RADIOMAN"
@@ -3697,12 +3697,12 @@ TitleString="GRENADIER TIPS"
 BodyString="Use your M79 to clear the enemy out of cover and hard defensive positions. Smoke ammo can be used to obscure the enemy's vision."
 
 [ROHTrig_RoleSpawnSniper]
-TitleString="SNIPER TIPS"
+TitleString="CONSIGLI CECCHINO"
 BodyString="Find a vantage point and carefully select targets for precise kills. Use explosives to protect yourself."
 
 [ROHTrig_RoleSpawnEngineer]
-TitleString="ENGINEER TIPS"
-BodyString="Use C4 defensively to protect key locations or objectives. The Flamethrower and WP grenade are best for clearing out enemy positions."
+TitleString="CONSIGLI GENIERE"
+BodyString="Usa il C4 per proteggere postazioni chiave o obiettivi. Il lanciafiamme e le granate al fosforo sono ottime per stanare i nemici."
 
 [ROHTrig_RoleSpawnRPGSoldier]
 TitleString="RPG SOLDIER TIPS"
@@ -3819,8 +3819,8 @@ PlayerHonorCol="LEVEL"
 PlayerPingCol="PING"
 
 [ROGameViewportClient]
-RealismTip="SETTINGS:"
-GameTypeString="MODE:"
+RealismTip="IMPOSTAZIONI:"
+GameTypeString="MODALITÃ€:"
 AuthorTitleString="AUTHOR:"
 RealismModeStrings[0]="Standard Server"
 RealismModeStrings[1]="Custom Server"
@@ -3828,17 +3828,17 @@ RealismModeDescription[0]="A Standard Server uses the standard default server se
 RealismModeDescription[1]="A Custom Server has adjusted one or more of a large number of gameplay affecting options.  Settings can vary from server to server."
 
 [ROLocalMessageVehicleTwo]
-VehicleEnterMessage="[ %KEY% ] ENTER VEHICLE"
+VehicleEnterMessage="[ %KEY% ] ENTRA NEL VEICOLO"
 BlockingVehicleMessage="MOVE - YOU ARE PREVENTING A VEHICLE FROM SPAWNING"
 ChangingSeatsMessage="Changing Seats..."
-PilotKilledMessage="PILOT IS DEAD"
+PilotKilledMessage="IL PILOTA Ãˆ MORTO"
 NonPilotErrorMessageString="MUST BE PILOT TO FLY AIRCRAFT"
 WrongPilotErrorMessageString="NOT QUALIFIED TO FLY THIS HELICOPTER"
 AirborneErrorMessageString="CANNOT LEAVE SEAT WHILE AIRBORNE"
 UnsafeToExitMessageString="CANNOT EXIT AT THIS SPEED/ALTITUDE"
 
 [ROLocalMessageHeloArmRepair]
-RepairRearmStartMessage="Repairing and Rearming..."
+RepairRearmStartMessage="In riparazione e ricarica..."
 RepairRearmProgressMessage="Finishing in"
 
 [ROGameInfo]
@@ -3851,7 +3851,7 @@ AmmoType1String="Ammo1"
 AmmoType2String="Ammo2"
 
 [ROHUDWidgetHelicopterInstruments]
-AltitudeString="ALTITUDE"
+AltitudeString="ALTITUDINE"
 AltitudeUnits="m AGL"
 VertSpeedString="VSI"
 VertSpeedUnits="m/s"
@@ -3864,24 +3864,24 @@ AutoHoverEnabledString="Auto-Hover Enabled"
 AutoHoverDisabledString="Auto-Hover Disabled"
 
 [ROUISceneCharacter]
-Random="RANDOM"
+Random="CASUALE"
 TunicString="TUNIC"
 TunicMatString="TUNIC PATTERN"
 ShirtString="SHIRT"
-HeadString="FACE"
-HairColourString="HAIR COLOR"
+HeadString="VOLTO"
+HairColourString="COLORE CAPELLI"
 HeadgearString="HEADGEAR"
-FaceItemString="FACIAL ACCESSORIES"
+FaceItemString="ACCESSORI VOLTO"
 FacialHairString="FACIAL HAIR"
-TattooString="TATTOO"
-AllRoleStrings[0]="ALL INFANTRY ROLES"
-AllRoleStrings[1]="ALL PILOT ROLES"
+TattooString="TATUAGGIO"
+AllRoleStrings[0]="TUTTI I RUOLI DI FANTERIA"
+AllRoleStrings[1]="TUTTI I RUOLI DI PILOTA"
 
 [ROUISceneStore]
 LevelString="LVL"
-ExclusiveString="EXCLUSIVE"
-OwnedString="ALREADY OWNED"
-CarouselItemsString="Items"
+ExclusiveString="ESCLUSIVO"
+OwnedString="GIÃ€ POSSEDUTO"
+CarouselItemsString="Oggetti"
 CarouselOfString="of"
 
 [ROSniperWeaponAdvanced]
@@ -3901,24 +3901,24 @@ DefaultTitleStrings[8]=INDIA
 DefaultTitleStrings[9]=JULIET
 
 [ROUIWidgetSquadSelection]
-CreateString=CREATE
-JoinString=JOIN
-LeaveString=LEAVE
+CreateString=CREA
+JoinString=UNISCITI A
+LeaveString=LASCIA
 BotString=(Bot)
-CreateSquadTip="Create Squad"
-JoinSquadTip="Join Squad"
-LeaveSquadTip="Leave Squad"
-LockSquadTip="Lock/Unlock Squad (%NUM% Players Min)"
-InviteTip="Invite Players"
-RenameTip="Rename Squad"
+CreateSquadTip="Crea plotone"
+JoinSquadTip="Unisciti a plotone"
+LeaveSquadTip="Lascia plotone"
+LockSquadTip="Blocca/Sblocca plotone (minimo %NUM% giocatori)"
+InviteTip="Invita giocatori"
+RenameTip="Rinomina plotone"
 PromoteTip="Promote Player to Squad Leader"
-KickTip="Kick Player from Squad"
+KickTip="Espelli giocatore dal plotone"
 AttachPilotTip="Attach Pilot to Squad"
 DetachPilotTip="Detach Pilot from Squad"
 
 [ROUIWidgetGridScrollable]
 RandomString=Random
-UnlockString="UNLOCK NOW"
+UnlockString="SBLOCCA ORA"
 DLCString="DLC"
 
 [ROGame.ROGeneralTips]
@@ -3966,20 +3966,20 @@ GeneralTips=Squadtip7
 [ROMapInfo]
 NorthernArmyNames[0]="PEOPLE'S ARMY OF VIETNAM"
 NorthernArmyNames[1]="NATIONAL LIBERATION FRONT"
-SouthernArmyNames[0]="UNITED STATES ARMY"
-SouthernArmyNames[1]="UNITED STATES MARINE CORPS"
-SouthernArmyNames[2]="AUSTRALIAN ARMY"
+SouthernArmyNames[0]="ESERCITO STATI UNITI"
+SouthernArmyNames[1]="CORPO MARINE STATI UNITI"
+SouthernArmyNames[2]="ESERCITO AUSTRALIANO"
 SouthernArmyNames[3]="ARMY OF THE REPUBLIC OF VIETNAM"
 NorthernArmyShortNames[0]="PAVN"
 NorthernArmyShortNames[1]="NLF"
-SouthernArmyShortNames[0]="US ARMY"
+SouthernArmyShortNames[0]="ESERCITO US"
 SouthernArmyShortNames[1]="USMC"
-SouthernArmyShortNames[2]="AUS ARMY"
+SouthernArmyShortNames[2]="ESERCITO AUS"
 SouthernArmyShortNames[3]="ARVN"
-SouthernArmyPilotStrings[0]="US PILOT"
-SouthernArmyPilotStrings[1]="US PILOT"
-SouthernArmyPilotStrings[2]="AUS PILOT"
-SouthernArmyPilotStrings[3]="NVAF PILOT"
+SouthernArmyPilotStrings[0]="PILOTA US"
+SouthernArmyPilotStrings[1]="PILOTA US"
+SouthernArmyPilotStrings[2]="PILOTA AUS"
+SouthernArmyPilotStrings[3]="PILOTA NVAF"
 
 [ROHUDWidgetSLNotice]
 SpawnedSquadLeaderString="YOU ARE SQUAD LEADER"
@@ -4000,30 +4000,30 @@ RemoveReason_Title="APOLOGIES"
 RemoveReason="You have been removed from this server to make space for a member."
 
 [PlayerReplicationInfo]
-PlayerName.FriendlyName="Player"
-Kills.FriendlyName="Kills"
-Deaths.FriendlyName="Deaths"
-Score.FriendlyName="Score"
+PlayerName.FriendlyName="Giocatore"
+Kills.FriendlyName="Uccisioni"
+Deaths.FriendlyName="Morti"
+Score.FriendlyName="Punteggio"
 UniqueID.FriendlyName="Player ID"
 
 [ROHUDWidgetHeloTrainRespawnTimer]
 RespawningText="RETURNING TO BASE IN %SEC% SECONDS"
 
 [ROUIWidgetKeyBindings]
-AlreadyBoundMessage=%KEY% is currently bound to %CMD%.
+AlreadyBoundMessage=%KEY% Ã¨ giÃ  assegnato a %CMD%.
 
 [ROHUDWidgetRadiomanHelper]
-InUseString="IN USE"
+InUseString="IN USO"
 MeterAbbreviation="m"
-CommanderNearByString="NEARBY"
+CommanderNearByString="VICINO"
 
 [ROGameEngine]
 DiscordStatusStandalone="%map%"
-DiscordStatusMultiplayerNoTeam="%gamemode% - %map%, %playercount% players"
-DiscordStatusMultiplayer="%gamemode% - %map%, %team% %role%, %playercount% players"
-DiscordStatusCampaign="Campaign - %campaignyear%, %gamemode% - %map%, %team%, %playercount% players"
-DiscordStatusMultiplayerNoTeamXP="%XP%, %gamemode% - %map%, %playercount% players"
-DiscordStatusMultiplayerXP="%XP%, %gamemode% - %map%, %team% %role%, %playercount% players"
-DiscordStatusCampaignXP="%XP%, Campaign - %campaignyear%, %gamemode% - %map%, %team%, %playercount% players"
-DiscordStatusMultiplayerQueuedForServer="Queued to join %servername%"
-DiscordStatusMultiplayerConnectingToServer="Connecting to %servername%"
+DiscordStatusMultiplayerNoTeam="%gamemode% - %map%, %playercount% giocatori"
+DiscordStatusMultiplayer="%gamemode% - %map%, %team% %role%, %playercount% giocatori"
+DiscordStatusCampaign="Campagna - %campaignyear%, %gamemode% - %map%, %team%, %playercount% giocatori"
+DiscordStatusMultiplayerNoTeamXP="%XP%, %gamemode% - %map%, %playercount% giocatori"
+DiscordStatusMultiplayerXP="%XP%, %gamemode% - %map%, %team% %role%, %playercount% giocatori"
+DiscordStatusCampaignXP="%XP%, Campagna - %campaignyear%, %gamemode% - %map%, %team%, %playercount% giocatori"
+DiscordStatusMultiplayerQueuedForServer="In coda per unirsi a %servername%"
+DiscordStatusMultiplayerConnectingToServer="Connessione a %servername%"
