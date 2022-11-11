@@ -26,8 +26,8 @@ VoteKickedReason_GriefingVictim=Toxic Behavior
 VoteKickedReason_CheatingVictim=Cheating/Exploiting
 IdleKickReason_Title=Idle Kicked
 IdleKickReason=You Have Been Kicked From This Server For Idling
-InvalidPacketKickMsg_Title=Invalid Packet
-InvalidPacketKickMsg=You Have Been Kicked From This Server Because Of An Invalid Packet
+InvalidPacketKickMsg_Title=Pacchetto non valido
+InvalidPacketKickMsg=Sei stato espulso dal server per un pacchetto non valido
 
 [Errors]
 CompressedReadFailure=Errore caricamento file

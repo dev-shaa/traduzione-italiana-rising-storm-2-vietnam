@@ -5,10 +5,10 @@ PropertyMappings[1]=(ColumnHeaderText="Server dedicati")
 [ROOnlineGameSettings]
 LocalizedSettingsMappings[0]=(ColumnHeaderText="Game",ValueMappings=((Name="Schermaglia"),(Name="Scontro a fuoco"),(Name="Territori"),(Name="Supremazia")))
 LocalizedSettingsMappings[2]=(ValueMappings=((Name="0-100"),(Name="10-20"),(Name="10-50"),(Name="20-50"),(Name="40-50"),(Name="50-70"),(Name="50-100"),(Name="70-100")))
-PropertyMappings[0]=(ColumnHeaderText="Map")
+PropertyMappings[0]=(ColumnHeaderText="Mappa")
 PropertyMappings[1]=(ColumnHeaderText="Game")
 PropertyMappings[2]=(ColumnHeaderText="Non-Standard Options")
-PropertyMappings[3]=(ColumnHeaderText="Dedicated Server")
+PropertyMappings[3]=(ColumnHeaderText="Server dedicato")
 
 [ROOnlineGameSettingsCommon]
 ServerFlags.FriendlyName="Dettagli"
@@ -17,10 +17,10 @@ PlayerRatio.FriendlyName="Giocatori"
 AdminContact.FriendlyName="Contatti server"
 Anti-Cheat Protected.FriendlyName="Protetto da Anti-Cheat"
 Campaign Mode.FriendlyName="Campagna"
-NorthCampaignRegions.FriendlyName="Regioni del nord"
-SouthCampaignRegions.FriendlyName="Regioni del sud"
-NorthCampaignVP.FriendlyName="Punti vittoria del nord"
-SouthCampaignVP.FriendlyName="Punti vittoria del sud"
+NorthCampaignRegions.FriendlyName="Regioni del Nord"
+SouthCampaignRegions.FriendlyName="Regioni del Sud"
+NorthCampaignVP.FriendlyName="Punti vittoria del Nord"
+SouthCampaignVP.FriendlyName="Punti vittoria del Sud"
 CampaignYear.FriendlyName="Anno campagna"
 Requires Password.FriendlyName="Richiede password"
 GameMode.FriendlyName="Modalità"
@@ -28,8 +28,8 @@ HonorRange.FriendlyName="Livello"
 RealismLevel.FriendlyName="Impostazioni server"
 MapGame.FriendlyName="Modalità di gioco"
 FriendlyFire.FriendlyName="Fuoco amico"
-VAC Secured.FriendlyName="EAC Secured"
-bClientSideHitDetection.FriendlyName="Hit Detection"
+VAC Secured.FriendlyName="Protetto da EAC"
+bClientSideHitDetection.FriendlyName="Rilevamento colpi"
 bEnableVOIP.FriendlyName="Chat vocale abilitata"
 bDeadVOIPEnabled.FriendlyName="Chat vocale da morto"
 bPublicVOIPEnabled.FriendlyName="Chat vocale pubblica"
@@ -38,29 +38,29 @@ Proximity3DVOIPSetting.FriendlyName="Chat vocale di prossimità"
 bPublicTextChatEnabled.FriendlyName="Chat testuale pubblica"
 RoundLimit.FriendlyName="Limite di round"
 PingLimit.FriendlyName="Ping massimo"
-bBalanceTeams.FriendlyName="Team Balancing"
-bAutoBalanceTeamsOnDeath.FriendlyName="Autobalance Teams on Death"
-MaxTeamDifference.FriendlyName="Max Team Difference"
+bBalanceTeams.FriendlyName="Bilanciamento squadre"
+bAutoBalanceTeamsOnDeath.FriendlyName="Bilanciamento squadre alla morte"
+MaxTeamDifference.FriendlyName="Differenza massima squadre"
 bEnableMapVoting.FriendlyName="Votazione mappa"
 bEnableKickVoting.FriendlyName="Votazione espulsione"
-bEnableRoleKick.FriendlyName="Role Kick Voting"
+bEnableRoleKick.FriendlyName="Votazione espulsione ruolo"
 bForceHeloAdvancedFlightModel.FriendlyName="Fisica elicotteri avanzata forzata"
 FriendlyPlayerNames.FriendlyName="Distanza massima icone alleati"
 YesString="Sì"
 NoString="No"
-ClientSideString="Client-Side"
-ServerSideString="Server-Side"
-GamemodeString0="Custom Mode"
+ClientSideString="Lato client"
+ServerSideString="Lato server"
+GamemodeString0="Personalizzata"
 GamemodeString1="Territori"
 GamemodeString2="Supremazia"
 GamemodeString3="Schermaglia"
 GamemodeString4="Scontro a fuoco"
 GamemodeString5="Addestramento"
 RealisticString0="Standard"
-RealisticString1="Custom"
-SpectatorModeString0="3rd Person Free-Rotate"
-SpectatorModeString1="3rd Person Fixed"
-SpectatorModeString2="1st Person Only"
+RealisticString1="Personalizzata"
+SpectatorModeString0="Terza persona libera"
+SpectatorModeString1="Terza persona fissa"
+SpectatorModeString2="Solo prima persona"
 Proximity3DVOIPString0="Nessuna"
 Proximity3DVOIPString1="Solo alleati"
 Proximity3DVOIPString2="Tutti"
@@ -74,7 +74,7 @@ FriendlyNameDisplayString4="150m"
 
 [ROTDMOnlineGameSearch]
 PropertyMappings[0]=(Name="Non-Standard Options")
-PropertyMappings[1]=(Name="Dedicated Server")
+PropertyMappings[1]=(Name="Server dedicato")
 
 [ROGameInfo]
 ExceededFriendlyFireKillLimit_Title="KICKED FROM SERVER"
@@ -176,7 +176,7 @@ Description="Giocatore singolo"
 [ROGameInfoSupremacy]
 GameName="Supremazia"
 DisplayName="Supremazia"
-Description="Objective based tug of war."
+Description="Tiro alla fune ad obiettivi."
 
 [RODataProvider_MapAvailable]
 MapNameCol="Lista mappe"
@@ -239,7 +239,7 @@ TacticalViewHint=""
 WonRound="HAVE CAPTURED ALL OBJECTIVES"
 WonRoundLockdown="LOCKED DOWN"
 WonMatch="HAVE WON THE MATCH"
-TeamIsFull="LA SQUADRA È PIENA"
+TeamIsFull="LA SQUADRA E\' PIENA"
 CantChangeTeamsQuicklyAfterSpawn="CANNOT CHANGE TEAMS YET"
 RoleFilled="SELECTED ROLE IS FULL"
 CampaignWon="have won the campaign"
@@ -366,8 +366,8 @@ OneMinuteLeftString="60 SECONDI RIMANENTI"
 ThirtySecondsLeftString="30 SECONDI RIMANENTI"
 
 [ROLocalMessageVictoryStatus]
-EnemyHalfwayString="IL NEMICO È A METÀ PER LA VITTORIA"
-FriendlyHalfwayString="SIAMO A METÀ PER LA VITTORIA"
+EnemyHalfwayString="IL NEMICO E\' A META\' PER LA VITTORIA"
+FriendlyHalfwayString="SIAMO A META\' PER LA VITTORIA"
 NearlyLostString="IL NEMICO HA QUASI VINTO"
 NearlyWonString="ABBIAMO QUASI VINTO"
 
@@ -551,22 +551,22 @@ QuickMatchNotFound="No match found"
 XPMultiplierString="x XP BONUS EVENT"
 NextClassUnlocks[0]=(ClassName="RADIOMAN")
 NextClassUnlocks[1]=(ClassName="SQUAD LEADER")
-NextClassUnlocks[2]=(ClassName="COMMANDER")
+NextClassUnlocks[2]=(ClassName="COMANDANTE")
 
 [ROUISceneTrainingMenu]
 MissionTypeString="ADDESTRAMENTO"
 TrainingMissionDates[0]="23 settembre, 1969"
 TrainingMissionSummaries[0]="Qualche posto, forse Vietnam o forse no: spendi del tempo al poligono prima di andare in battaglia. Familiarizza con tutte le classi disponibili per essere quanto più preparato possibile ad affrontare al meglio il nemico faccia a faccia."
 TrainingMissionDates[1]="12 november, 1969"
-TrainingMissionSummaries[1]="Qualche aeroporto, forse Vietname o forse no: familiarriza con le caratteristiche di volo di ogni elicottero senza pressioni. Prova la tua destrezza sul percorso a ostacoli aereo, o le tue doti di mitragliere al poligono."
+TrainingMissionSummaries[1]="Qualche aeroporto, forse Vietnam o forse no: familiarizza con le caratteristiche di volo di ogni elicottero senza pressioni. Prova la tua destrezza sul percorso a ostacoli aereo, o le tue doti di mitragliere al poligono."
 VideoComingSoon="IN ARRIVO"
-TutorialVideos[0]=(VideoTitle="Modalità: Territori",VideoDescription="Impara tutto su Territori, un ritorno della modalità a 64 giocatori in cui una squadra attacca gli obiettivi dei difensori.")
-TutorialVideos[1]=(VideoTitle="Modalità: Supremazia",VideoDescription="Impara tutto su Supremazia, una nuova modalità a 64 giocatori con campi aperti e basata sul punteggio.")
-TutorialVideos[2]=(VideoTitle="Modalità: Schermaglia",VideoDescription="Impara tutto su Schermaglia, una modalità in scala ridotta pensata per meno di 64 giocatori.")
+TutorialVideos[0]=(VideoTitle="Modalita': Territori",VideoDescription="Impara tutto su Territori, un ritorno della modalità a 64 giocatori in cui una squadra attacca gli obiettivi dei difensori.")
+TutorialVideos[1]=(VideoTitle="Modalita': Supremazia",VideoDescription="Impara tutto su Supremazia, una nuova modalità a 64 giocatori con campi aperti e basata sul punteggio.")
+TutorialVideos[2]=(VideoTitle="Modalita': Schermaglia",VideoDescription="Impara tutto su Schermaglia, una modalità in scala ridotta pensata per meno di 64 giocatori.")
 TutorialVideos[3]=(VideoTitle="Movimento",VideoDescription="Impara le basi di come muoverti e orientarti sui campi di battaglia di Rising Storm 2.")
 TutorialVideos[4]=(VideoTitle="Combattimento di base",VideoDescription="Impara come usare efficacemente le tue armi, alternarti tra l'equipaggiamento, curare le ferite e lanciare granate.")
 TutorialVideos[5]=(VideoTitle="Combattimento avanzato",VideoDescription="Impara alcuni degli elementi unici di Rising Storm 2. Ti verrà spiegato come usare le caratteristiche uniche di certe armi, così come strumenti avanzati come trappole ed esplosivi.")
-TutorialVideos[6]=(VideoTitle="Plotono",VideoDescription="Impara come funzionano i plotoni in Rising Storm 2, sia come capoplotone che come soldato regolare. Scopri come rendere privato un plotone, invitare altri e come funzionano le meccaniche di rientro.")
+TutorialVideos[6]=(VideoTitle="Plotoni",VideoDescription="Impara come funzionano i plotoni in Rising Storm 2, sia come capoplotone che come soldato regolare. Scopri come rendere privato un plotone, invitare altri e come funzionano le meccaniche di rientro.")
 TutorialVideos[7]=(VideoTitle="Basic Classes",VideoDescription="This video breaks down the basic Class roles and their functions on the battlefield. Covered here are Grunt and Rifleman, Machinegunners, Marksmen (Snipers) and the Radioman.")
 TutorialVideos[8]=(VideoTitle="Advanced Classes",VideoDescription="Here we cover the more complex class roles and how they operate in Rising Storm 2. Covered here are the Pointman and Scout, the Combat Engineer and Sapper, the Grenadier and the RPG Soldier.")
 TutorialVideos[9]=(VideoTitle="Comunicazione",VideoDescription="Impara a comunicare efficacemente con la tua squadra usando la chat testuale e vocale, così come con i comandi rapidi.")
@@ -711,13 +711,13 @@ HourSuffix="h"
 MinuteSuffix="m"
 SecondsSuffix="s"
 WeaponTypeString[0]="Handgun"
-WeaponTypeString[1]="Rifle"
+WeaponTypeString[1]="Fucile"
 WeaponTypeString[2]="Sub Machine Gun"
-WeaponTypeString[3]="Semi-Automatic Rifle"
+WeaponTypeString[3]="Fucile semi-automatico"
 WeaponTypeString[4]="Scoped Rifle"
-WeaponTypeString[5]="Assault Rifle"
+WeaponTypeString[5]="Fucile d'assalto"
 WeaponTypeString[6]="Battle Rifle"
-WeaponTypeString[7]="Light Machine Gun"
+WeaponTypeString[7]="Mitragliatrice leggera"
 WeaponTypeString[8]="Anti-Tank Rifle"
 WeaponTypeString[9]="Grenade"
 WeaponTypeString[10]="Smoke Grenade"
@@ -906,19 +906,19 @@ VOIPChannelStrings[7]="COMMAND"
 
 [ROHUDWidgetScoreboard]
 MapNameNotSetString="Map Name Not Set"
-SquadString="SQUAD"
-PlayerText="Players"
-ScoreText="Score"
-KillsText="Kills"
+SquadString="PLOTONE"
+PlayerText="Giocatori"
+ScoreText="Punteggio"
+KillsText="Uccisioni"
 PingText="Ping"
 RoundString="ROUND"
-SpectatorsString="SPECTATORS"
+SpectatorsString="SPETTATORI"
 InstructionMouseText="[ LMB ] Enable Mouse Cursor"
 InstructionMuteP1Text="Click"
 InstructionMuteP2Text="to Mute Players"
 
 [ROHUDWidgetScoreboardTE]
-ReinforcementsString="REINFORCEMENTS"
+ReinforcementsString="RINFORZI"
 ManpowerString="MANPOWER"
 RoundPointsString="Round Points"
 ObjectivesCapturedString="OBJECTIVES CAPTURED"
@@ -960,7 +960,7 @@ SquadleaderString="SQUAD LEADER"
 SquadMemberString="SQUAD MATE"
 TeamMemberString="FRIENDLY"
 DeadTeamMemberString="DEAD FRIENDLY"
-EnemySpottedString="ENEMY SPOTTED"
+EnemySpottedString="NEMICO INDIVIDUATO"
 EnemyTankSpottedString="TANK SPOTTED"
 EnemyTransportSpottedString="TRANSPORT SPOTTED"
 EnemyTunnelSpottedString="TUNNEL SPOTTED"
@@ -1061,7 +1061,7 @@ APlayerString="A Player"
 
 
 [ROHUDWidgetRespawnTimer]
-RespawnTimerString="NEXT DEPLOYMENT:"
+RespawnTimerString="PROSSIMO RIENTRO:"
 ZeroTimeString="0:00"
 SpawnClosedString:"WAITING FOR AN OBJECTIVE TO BE CAPTURED"
 
@@ -1081,15 +1081,15 @@ BandageResupplyText="Bandage"
 CarriedMGAmmoResupplyText="Carried Ammo"
 
 [ROHUDWidgetGameStatus]
-OvertimeString="OVERTIME"
+OvertimeString="SUPPLEMENTARI"
 SuddenDeathString="SUDDEN DEATH"
 LockdownString="LOCKDOWN IN:"
-VictoryString="VICTORY IN:"
-DefeatString="DEFEAT IN:"
+VictoryString="VITTORIA IN:"
+DefeatString="SCONFITTA IN:"
 
 [ROHUDWidgetGameStatusSK]
 WindowClosedString="LOCK"
-WavesString="WAVES"
+WavesString="ONDATE"
 
 [ROHUDWidgetWorld]
 AttackString="ATTACK"
@@ -1129,13 +1129,13 @@ AttackerExtraWaveString="Available Extra Waves:"
 RadioString=""
 SquadLeaderString="SL"
 TeamLeaderString="TL"
-IncomingArtilleryString="INCOMING ARTILLERY"
+IncomingArtilleryString="ARTIGLIERIA IN ARRIVO"
 SPManpowerReinfString="MANPOWER REINFORCED IN:"
 
 [ROHUDWidgetSquadList]
-SquadMemberString="SQUAD"
+SquadMemberString="PLOTONE"
 SquadLeaderListString="SQUAD LEADERS"
-NoTLString="TEAM HAS NO COMMANDER"
+NoTLString="LA SQUADRA NON HA UN COMANDANTE"
 NoSLString="NO SQUAD LEADER"
 NoPilotString="NO ATTACHED PILOT"
 NearbyString="Squad Bonus"
@@ -1266,16 +1266,16 @@ BasicCommunication[3]="ACKNOWLEDGE..."
 BasicCommunication[4]="AL RIPARO"
 BasicCommunication[5]="ATTACCARE"
 BasicCommunication[6]="RITIRARSI"
-BasicCommunication[7]="TAUNT"
+BasicCommunication[7]="PROVOCA"
 BasicCommunication[8]=""
 SupportOptions[0]="MITRAGLIATRICE"
 SupportOptions[1]="FANTERIA"
 SupportOptions[2]="RICOGNITORE"
-SupportOptions[3]="FIRE SUPPORT"
+SupportOptions[3]="FUOCO"
 SupportOptions[4]="ANTI-AEREA"
 SupportOptions[5]="VELIVOLO"
 SupportOptions[6]="ESPLOSIVO"
-SupportOptions[7]="SMOKE SCREEN"
+SupportOptions[7]="CORTINA DI FUMO"
 Acknowledgments[0]="NEGATIVO"
 Acknowledgments[1]="AFFERMATIVO"
 Acknowledgments[2]="GRAZIE"
@@ -1369,14 +1369,14 @@ ZeroTimeString="0:00"
 AerialString="AERIAL"
 ReconString="RECON"
 CancelString="CANCEL"
-ArtilleryString="ARTILLERY"
-RequestString="REQUEST"
+ArtilleryString="ARTIGLIERIA"
+RequestString="RICHIESTA"
 ScoutString="SCOUT"
 EnhancedString="HO CHI"
 LogisticsString="MINH TRAIL"
 BarrageString="BARRAGE"
-MortarsString="MORTARS"
-AirDefenceString="ANTI-AIR"
+MortarsString="MORTAI"
+AirDefenceString="ANTI-AEREA"
 GunshipString="SPOOKY"
 NapalmString="NAPALM"
 BombingRunString="BOMBING RUN"
@@ -1385,16 +1385,16 @@ ClearCoordsString="CLEAR CURRENT COORDINATES"
 CoordsLogString="COORDINATES LOG"
 ;The special character combination " $^" (including the leading space) are a special new line trigger that won't break the formatting in this particular widget. Do not replace them with /n or delete them unless we're going back to 100% automatic text wrapping.
 ScrollThroughSquadString="[SHIFT+MOUSEWHEEL] CYCLE SQUADS"
-AerialReconTipTitleString="AERIAL RECON"
+AerialReconTipTitleString="RICOGNIZIONE AEREA"
 AerialReconTipString="Reconnaissance aircraft reports enemies on the move or out in the open $^Duration: 60s"
 ForceRespawnTipTitleString="RAPID DEPLOYMENT"
 ForceRespawnTipString="Instantly deploys all dead team members at their selected deployment points"
-GunshipTipTitleString="REQUEST SPOOKY"
-GunshipTipString="Minigun Bursts: Every 4-6s $^Radius: 25m $^Duration: %DUR%s"
-SouthArtilleryTipTitleString="REQUEST ARTILLERY"
-SouthArtilleryTipString="Salvos: 5 $^Bombardment Radius: 25m $^Duration: 30s"
-NapalmTipTitleString="REQUEST NAPALM"
-NapalmTipString="Drops 2 Napalm Canisters on the selected target $^Strike Length: 90m"
+GunshipTipTitleString="RICHIEDI SPOOKY"
+GunshipTipString="Raffiche di minigun: ogni 4-6s $^Raggio: 25m $^Durata: %DUR%s"
+SouthArtilleryTipTitleString="RICHIEDI ARTIGLIERIA"
+SouthArtilleryTipString="Salve: 5 $^Raggio bombardamento: 25m $^Durata: 30s"
+NapalmTipTitleString="RICHIEDI NAPALM"
+NapalmTipString="Sgancia due taniche di napalm sul bersaglio selezionato $^Ampiezza attacco: 90m"
 ScoutReconTipTitleString="SCOUT RECON"
 ScoutReconTipString="Hidden Scouts deliver reports of enemy movement to your map. $^Duration: 60s"
 AmbushRespawnTipTitleString="AMBUSH DEPLOYMENT"
@@ -1406,7 +1406,7 @@ NorthArtilleryTipString="Salvos: 5 $^Bombardment Radius: 40m $^Duration: 30s"
 AirDefenceTipTitleString="REQUEST ANTI-AIR"
 AirDefenceTipString="Automatically targets enemy aircraft above an altitude of 75m. $^Duration: 60s"
 BombingRunTipTitleString="REQUEST BOMBING RUN"
-BombingRunTipString="2 RAAF Canberra Bombers perform a bombing run over the selected target $^Strike Length: 200m"
+BombingRunTipString="2 RAAF Canberra Bombers perform a bombing run over the selected target $^Ampiezza attacco: 200m"
 MortarsTipTitleString="REQUEST MORTARS"
 MortarsTipString="Salvos: 9 $^Bombardment Radius: 36m $^Duration: 35s"
 CancelButtonTipTitleString="CANCEL ARTILLERY"
@@ -1630,8 +1630,8 @@ ByString="BY"
 BackBlastWarningMessage="DANGER - RPG BACKBLAST AREA"
 
 [RORoleInfoNorthernRifleman]
-MyName="RIFLEMAN"
-ClassShortName="RIFLE"
+MyName="FUCILIERE"
+ClassShortName="FUCILIERE"
 Description="The Rifleman is the main-stay of the infantry platoon. He is tasked with the vital role of taking and holding ground. Using his standard issue rifle, he can effectively engage the enemy at a moderate to long range with a high level of effectiveness. He also carries spare ammunition for the squad LMGs and should remember to keep his machine-gunners well supplied."
 ToolTipText="Tasked with the vital role of taking and holding ground.\nUses standard issue rifle, can effectively engage the enemy at a moderate to long range with a high level of effectiveness.\nCarries spare ammunition for squad LMGs and remember to keep machine-gunners well supplied."
 
@@ -1647,13 +1647,13 @@ Description=
 ToolTipText="Equipment and weapons allow for ambushes and close-quarters fighting.\nThrow smoke grenades to block enemy line-of-sight and help attack objectives."
 
 [RORoleInfoNorthernMachineGunner]
-MyName="MACHINE GUNNER"
+MyName="MITRAGLIERE"
 ClassShortName="MG"
 Description="Armed with a light machine gun, he provides the squad with its primary source of firepower. The light machine gun can deliver overwhelming damage to the enemy, but careful use is required to avoid over-heating or wasting ammunition. Since the light machine gun is not a close combat weapon, the squad must provide protection and ammunition for this class."
 ToolTipText="Provides the squad with heavy, sustained firepower to suppress the enemy.\nCareful use is required to avoid over-heating and warping the weapon's barrel.\nMachine Gunners are encumbered with a heavy weapon and lots of ammunition."
 
 [RORoleInfoNorthernSniper]
-MyName="SNIPER"
+MyName="CECCHINO"
 ClassShortName="SNPR"
 Description=
 ToolTipText="Pick targets carefully, concentrating on key enemies, such as leaders, machine-gunners and opposing snipers."
@@ -1677,7 +1677,7 @@ Description=
 ToolTipText="Working side-by-side with the team's Commander, the Radioman provides a vital team asset - a portable Radio.\nStay closeby so the Commander can use your Radio and be sure to provide him with protection.\nArmed with standard Rifleman equipment and smoke grenades."
 
 [RORoleInfoNorthernCommander]
-MyName="COMMANDER"
+MyName="COMANDANTE"
 ClassShortName="CMDR"
 Description="The Platoon Commander is the overall leader on the battlefield, normally a junior Lieutenant by rank. His role is to provide overall direction of the forces in combat, issuing orders through his Squad Leaders. He is also responsible for handling fire support, aerial recon - and the key reinforcements."
 ToolTipText="Team leader on the battlefield.\nProvides overall direction of the forces in combat by issuing orders through Squad Leaders.\nResponsible for calling in heavy fire support or reconnaissance via Radios or Radioman.\n\n* Required: Level 25 and willingness to work with your team."
@@ -1730,7 +1730,7 @@ Description=
 ToolTipText="Working side-by-side with the team's Commander, the Radioman provides a vital team asset - a portable Radio.\nStay closeby so the Commander can use your Radio and be sure to provide him with protection.\nArmed with standard Rifleman equipment and smoke grenades."
 
 [RORoleInfoSouthernCommander]
-MyName="COMMANDER"
+MyName="COMANDANTE"
 ClassShortName="CMDR"
 Description="The Platoon Commander is the overall leader on the battlefield, normally a junior Lieutenant by rank. His role is to provide overall direction of the forces in combat, issuing orders through his Squad Leaders. He is also responsible for handling fire support, aerial recon - and the key reinforcements."
 ToolTipText="Team leader on the battlefield.\nProvides overall direction of the forces in combat by issuing orders through Squad Leaders.\nResponsible for calling in heavy fire support or reconnaissance via Radios or Radioman.\n\n* Required: Level 25 and willingness to work with your team."
@@ -1788,7 +1788,7 @@ ClassShortName="RADIO"
 ToolTipText="Working side-by-side with the team's Commander, the Radioman provides a vital team asset - a portable Radio.\nStay closeby so the Commander can use your Radio and be sure to provide him with protection.\nArmed with standard Rifleman equipment and smoke grenades."
 
 [RORoleInfoSouthernCommanderAus]
-MyName="COMMANDER"
+MyName="COMANDANTE"
 ClassShortName="CMDR"
 ToolTipText="Team leader on the battlefield.\nProvides overall direction of the forces in combat by issuing orders through Squad Leaders.\nResponsible for calling in heavy fire support or reconnaissance via Radios or Radioman.\n\n* Required: Level 25 and willingness to work with your team."
 
@@ -1861,7 +1861,7 @@ ToolTipText="Highly trained specialist, able to pilot and copilot Combat Helicop
 DisplayName="Satchel"
 ShortDisplayName="SATCHEL"
 CapitalizedDisplayName="SATCHEL"
-Description="3Kg Explosive Satchel"
+Description="Esplosivo satchel da 3kg"
 
 [ROWeap_AK47_AssaultRifle]
 DisplayName="Fucile d'assalto AK-47"
@@ -1870,7 +1870,7 @@ CapitalizedDisplayName="FUCILE D'ASSALTO AK-47"
 Description="Fucile, 7.62x39mm, AK47\n\nCelebre fucile d'assalto russo."
 DisplayInfo[0]=(DisplayName="Type 56",Description="Fucile, 7.62x39mm. Riproduzione cinese dell'AK-47 con baionetta piegabile \"pig-sticker\" e calcio di legno.",WeaponSpecialAttributesText=("Baionetta piegabile","Calcio solido"))
 DisplayInfo[1]=(DisplayName="Type 56-1",Description="Versione leggera del Type-56 con calcio piegabile ma senza baionetta.",WeaponSpecialAttributesText=("Calcio piegabile","-Nessuna baionetta"))
-DisplayInfo[2]=(DisplayName="AKM",Description="Prodotto in Russia, l'AKM è un aggiornamento dell'AK-47. Più leggero del Type-56, con meno rinculo ma un rateo di fuoco e velocità di volata minori. Include baionetta attacabile.",WeaponSpecialAttributesText=("Baionetta attacabile","Calcio solido"))
+DisplayInfo[2]=(DisplayName="AKM",Description="Prodotto in Russia, l'AKM è un aggiornamento dell'AK-47. Più leggero del Type-56, con meno rinculo ma un rateo di fuoco e velocità di volata minori. Include baionetta attaccabile.",WeaponSpecialAttributesText=("Baionetta attaccabile","Calcio solido"))
 
 [ROWeap_M16A1_AssaultRifle]
 DisplayName="Fucile d'assalto M16A1"
@@ -1880,58 +1880,58 @@ Description="Fucile, 5.56x45mm, M16A1\n\nIntrodotto in servizio nel 1968, il des
 DisplayInfo[0]=(WeaponSpecialAttributesText=("Baionetta removibile","Rompifiamma"))
 
 [ROWeap_XM177E1_Carbine]
-DisplayName="XM177E1 Carbine"
+DisplayName="Carabina XM177E1"
 ShortDisplayName="XM177E1"
-CapitalizedDisplayName="XM177E1 CARBINE"
-Description="Carbine, 5.56x45mm, XM177E1\n\nWith its 10 inch barrel, the XM177E1 is a more mobile and lightweight version of the M16A1."
-DisplayInfo[0]=(WeaponSpecialAttributesText=("Flash Suppressor","Collapsible Stock","-No Bayonet"))
+CapitalizedDisplayName="CARABINA XM177E1"
+Description="Carabina, 5.56x45mm, XM177E1\n\nCon la sua canna da 25cm, l'XM177E1 è una versione più leggera e mobile dell'M16A1."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Rompifiamma","Calcio piegabile","-Nessuna baionetta"))
 
 [ROWeap_SKS_Rifle]
-DisplayName="SKS-45 Carbine"
+DisplayName="Carabina SKS-45"
 ShortDisplayName="SKS-45"
-CapitalizedDisplayName="SKS-45 CARBINE"
-Description="Carbine, 7.62x39mm, SKS\n\nRussian made SKS-45, uses 10 round stripper clips."
-DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Bayonet"))
+CapitalizedDisplayName="CARABINA SKS-45"
+Description="Carabina, 7.62x39mm, SKS\n\nSKS-45 russo, usa stripper clips da 10 proiettili."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Baionetta piegabile"))
 
 [ROWeap_M14_Rifle]
-DisplayName="M14 Battle Rifle"
+DisplayName="Fucile da battaglia M14"
 ShortDisplayName="M14"
-CapitalizedDisplayName="M14 BATTLE RIFLE"
-Description="Rifle, 7.62x51mm, M14\n\nDeveloped from the M1 Garand, the M14 Battle Rifle uses a higher caliber bullet than the M16, but is restricted to semi-automatic fire."
-DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet"))
+CapitalizedDisplayName="FUCILE DA BATTAGIA M14"
+Description="Fucile, 7.62x51mm, M14\n\nSviluppato dall'M1 Garand, il fucile da battaglai M14 usa un calibro più grande dell'M16, ma è costretto al fuoco semi-automatico."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Baionetta attaccabile"))
 
 [ROWeap_M1911_Pistol]
-DisplayName="M1911A1 Handgun"
+DisplayName="Pistola M1911A1"
 ShortDisplayName="M1911A1"
-CapitalizedDisplayName="M1911A1 HANDGUN"
-Description="Handgun, .45 cal, M1911A1\n\nSemi-automatic, .45 caliber handgun. The standard sidearm of US Armed Forces since the first World War."
+CapitalizedDisplayName="PISTOLA M1911A1"
+Description="Pistola, .45 cal, M1911A1\n\nPistola semi-automatica, calibro .45. La secondaria standard delle forze armate US dalla prima guerra mondiale."
 
 [ROWeap_TT33_Pistol]
-DisplayName="TT33 Handgun"
+DisplayName="Pistola TT33"
 ShortDisplayName="TT-33"
-CapitalizedDisplayName="TT-33 HANDGUN"
-Description="Handgun, 7.62x25mm, TT-33\n\nRussian Tokarev handgun used during Second World War."
+CapitalizedDisplayName="PISTOLA TT-33"
+Description="Pistola, 7.62x25mmR, TT-33\n\nPistola Tokarev russa usata durante la seconda guerra mondiale."
 
 [ROWeap_DP28_LMG]
-DisplayName="DP-28 LMG"
+DisplayName="Mitragliatrice DP-28"
 ShortDisplayName="DP-28"
-CapitalizedDisplayName="DP-28 LMG"
-Description="Light Machine Gun, 7.62x54mmR, DP-28\n\nRussian Degtyaryov Machine Gun used in World War 2. Many Vietcong were armed with outdated Russian equipment."
-DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Bipod"))
+CapitalizedDisplayName="MITRAGLIATRICE DP-28"
+Description="Mitragliatrice leggera, 7.62x54mmR, DP-28\n\nMitragliatrice Degtyaryov russa usata nella seconda guerra mondiale. Molti Vietcong erano armati con equipaggiamento russo obsoleto."
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Bipode piegabile"))
 
 [ROWeap_RPD_LMG]
 DisplayName="RPD LMG"
 ShortDisplayName="RPD"
 CapitalizedDisplayName="RPD LMG"
 Description="Light Machine Gun, 7.62x39mm, RPD\n\nA formidable machine gun designed by the Russians and reproduced by China, North Korea, and other nations."
-DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Bipod"))
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Bipode piegabile"))
 
 [ROWeap_M60_GPMG]
 DisplayName="M60 GPMG"
 ShortDisplayName="M60"
 CapitalizedDisplayName="M60 GPMG"
 Description="Machine Gun, 7.62x51mm, M60 GPMG\n\nThe M60 General Purpose Machinegun is a powerful fire-support weapon with high ammo capacity."
-DisplayInfo[0]=(WeaponSpecialAttributesText=("Foldable Bipod"))
+DisplayInfo[0]=(WeaponSpecialAttributesText=("Bipode piegabile"))
 
 [ROWeap_PPSH41_SMG]
 DisplayName="PPSh-41"
@@ -1972,14 +1972,14 @@ DisplayInfo[0]=(WeaponSpecialAttributesText=("3.5x PU Scope","Attachable Bayonet
 DisplayName="Fucile di precisione M40"
 ShortDisplayName="M40"
 CapitalizedDisplayName="FUCILE DI PRECISIONE M40"
-Description="Sniper Rifle, 7.62x51mm, M40\n\nRemington made bolt-action rifle with a 3-9x high-powered scope."
+Description="Fucile di precisione, 7.62x51mm, M40\n\nFucile bolt-action creato da Remington con un mirino 3-9x."
 DisplayInfo[0]=(WeaponSpecialAttributesText=("3-9x Redfield Scope"))
 
 [ROWeap_SVDScoped_Rifle]
-DisplayName="SVD Sniper Rifle"
+DisplayName="Fucile di precisione SVD"
 ShortDisplayName="SVD"
-CapitalizedDisplayName="SVD SNIPER RIFLE"
-Description="Sniper Rifle, 7.62x54mmR, Dragunov SVD\n\nModern Russian Marksman rifle with unique design, including attachable bayonet and dual-sight configuration."
+CapitalizedDisplayName="FUCILE DI PRECISIONE SVD"
+Description="Fucile di precisione, 7.62x54mm, Dragunov SVD\n\nModern Russian Marksman rifle with unique design, including attachable bayonet and dual-sight configuration."
 DisplayInfo[0]=(WeaponSpecialAttributesText=("4x PSO-1 Scope","Attachable Bayonet"))
 
 [ROWeap_XM21Scoped_Rifle]
@@ -2557,7 +2557,7 @@ HelicopterString="HELICOPTER:"
 GunshipString="GUNSHIP:"
 SpawnInTunnelButtonText="SQUAD TUNNEL"
 LoachString="LOACH:"
-SpawnOnCommanderButtonText="COMMANDER"
+SpawnOnCommanderButtonText="COMANDANTE"
 
 [ROLocalMessageArtillery]
 SavedPosition="MARKED COORDINATES"
@@ -2881,9 +2881,9 @@ USMCTunics[11]=(DisplayName="Tiger Long",BodyMICs=((DisplayName="Tiger Stripe"))
 USMCTunics[12]=(DisplayName="Tiger Pants",BodyMICs=((DisplayName="Tiger Stripe")))
 USMCTunics[13]=(DisplayName="Open Vest",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Tiger Stripe"),(DisplayName="Olive Drab")))
 USMCTunics[14]=(DisplayName="Force Recon",BodyMICs=((DisplayName="Lowland ERDL"),(DisplayName="Highland ERDL"),(DisplayName="Olive Drab")))
-USMCShirts[0]=(DisplayName="None")
-USMCShirts[1]=(DisplayName="Bandages")
-USMCShirts[2]=(DisplayName="Dirty Bandages")
+USMCShirts[0]=(DisplayName="Niente")
+USMCShirts[1]=(DisplayName="Bende")
+USMCShirts[2]=(DisplayName="Bende sporche")
 USMCShirts[3]=(DisplayName="Olive Shirt")
 USMCShirts[4]=(DisplayName="Olive Shirt + Bandage")
 USMCShirts[5]=(DisplayName="Tiger Shirt")
@@ -2893,14 +2893,14 @@ USMCShirts[8]=(DisplayName="Olive Vest + Bandage")
 USMCShirts[9]=(DisplayName="White Vest")
 USMCShirts[10]=(DisplayName="White Vest + Bandage")
 USMCShirts[11]=(DisplayName="Black Shirt")
-USMCTattoos[0]=(DisplayName="None")
+USMCTattoos[0]=(DisplayName="Niente")
 USMCTattoos[1]=(DisplayName="Born Free")
 USMCTattoos[2]=(DisplayName="Pinup")
 USMCTattoos[3]=(DisplayName="Gamble")
 USMCTattoos[4]=(DisplayName="Reaper")
 USMCTattoos[5]=(DisplayName="Camo Paint")
 USMCTattoos[6]=(DisplayName="Coconut Monkey")
-USMCTattoos[7]=(DisplayName="Eye Scar")
+USMCTattoos[7]=(DisplayName="Cicatrice sull'occhio")
 USMCTattoos[8]=(DisplayName="Mouth Scar")
 USMCTattoos[9]=(DisplayName="Freedom")
 USMCTattoos[10]=(DisplayName="Panther")
@@ -3183,10 +3183,10 @@ ThirdPersonText=""
 FirstPersonText=""
 ViewpointText=""
 RoamingText=""
-ControlAText="[%KEY%] NEXT PLAYER"
-ControlBText="[%KEY%] PREVIOUS PLAYER"
-ControlCText="[%KEY%] CHANGE CAMERA"
-SpawnKeyText="[ %KEY% ] CHANGE DEPLOYMENT POINT"
+ControlAText="[%KEY%] GIOCATORE SUCCESSIVO"
+ControlBText="[%KEY%] GIOCATORE PRECEDENTE"
+ControlCText="[%KEY%] CAMBIA TELECAMERA"
+SpawnKeyText="[ %KEY% ] CAMBIA PUNTO DI RIENTRO"
 CameraSpeedText=""
 SpectatingWarningText="SPECTATING"
 TeamSelectKeyText="[ %KEY% ] Select a Team"
@@ -3199,9 +3199,9 @@ VictoryString="VICTORY"
 DefeatString="DEFEAT"
 
 [KeyBindingStrings_Movement]
-CategoryName="MOVEMENT"
-INF_MoveForwardString="Forward"
-INF_MoveBackwardString="Backward"
+CategoryName="MOVIMENTO"
+INF_MoveForwardString="Avanti"
+INF_MoveBackwardString="Indietro"
 INF_StrafeLeftString="Strafe Left"
 INF_StrafeRightString="Strafe Right"
 INF_Lean_LeftString="Lean Left"
@@ -3216,7 +3216,7 @@ INF_Sprint_ToggleString="Sprint (Toggle)"
 INF_WalkingString="Walk"
 
 [KeyBindingStrings_Interaction]
-CategoryName="INTERACTION"
+CategoryName="INTERAZIONE"
 InteractString="Use / Interact / Bandage"
 UseKeyString="Use / Interact"
 INF_BandageString="Bandage"
@@ -3275,7 +3275,7 @@ Vehicle_Voice_ChatString="Voice Chat - Vehicle"
 Spatialized_Voice_ChatString="Voice Chat - Local"
 
 [KeyBindingStrings_Other]
-CategoryName="OTHER"
+CategoryName="ALTRO"
 ConfirmString="Vote Yes / Confirm Order"
 DenyString="Vote No / Deny Order"
 Team_SelectString="Change Team"
@@ -3390,7 +3390,7 @@ EscapeString="Esc"
 
 [ROHTimed_TacticalView]
 TitleString="VISUALE TATTICA"
-BodyString="Hold the [%KEY%] key to show your tactical overlay, which shows objectives and other valuable information."
+BodyString="Tieni premuto [%KEY%] per vedere l'interfaccia tattica, che mostra gli obiettivi e altre informazioni utili."
 
 [ROHTimed_Crouch]
 TitleString="ACCOVACCIARSI"
@@ -3673,8 +3673,8 @@ TitleString="BIPODE"
 BodyString="Premi [%Key%] per regolare il bipode su quest'arma. Quando il bipode è schierato, appoggerai automaticamente l'arma sulle superfici."
 
 [ROHTrig_RadioMan]
-TitleString="RADIOMAN"
-BodyString="The Radioman provides a mobile radio for the Commander to use anywhere on the battlefield."
+TitleString="OPERATORE RADIO"
+BodyString="L'operatore radio fornisce una radio mobile per il Comandante da usare ovunque sul campo."
 
 [ROHTrig_RoleSpawnRifleman]
 TitleString="RIFLEMAN TIPS"
@@ -3820,7 +3820,7 @@ PlayerPingCol="PING"
 
 [ROGameViewportClient]
 RealismTip="IMPOSTAZIONI:"
-GameTypeString="MODALITÀ:"
+GameTypeString="MODALITA\':"
 AuthorTitleString="AUTHOR:"
 RealismModeStrings[0]="Standard Server"
 RealismModeStrings[1]="Custom Server"
@@ -3831,7 +3831,7 @@ RealismModeDescription[1]="A Custom Server has adjusted one or more of a large n
 VehicleEnterMessage="[ %KEY% ] ENTRA NEL VEICOLO"
 BlockingVehicleMessage="MOVE - YOU ARE PREVENTING A VEHICLE FROM SPAWNING"
 ChangingSeatsMessage="Changing Seats..."
-PilotKilledMessage="IL PILOTA È MORTO"
+PilotKilledMessage="IL PILOTA E\' MORTO"
 NonPilotErrorMessageString="MUST BE PILOT TO FLY AIRCRAFT"
 WrongPilotErrorMessageString="NOT QUALIFIED TO FLY THIS HELICOPTER"
 AirborneErrorMessageString="CANNOT LEAVE SEAT WHILE AIRBORNE"
@@ -3880,7 +3880,7 @@ AllRoleStrings[1]="TUTTI I RUOLI DI PILOTA"
 [ROUISceneStore]
 LevelString="LVL"
 ExclusiveString="ESCLUSIVO"
-OwnedString="GIÀ POSSEDUTO"
+OwnedString="GIA\' POSSEDUTO"
 CarouselItemsString="Oggetti"
 CarouselOfString="of"
 
