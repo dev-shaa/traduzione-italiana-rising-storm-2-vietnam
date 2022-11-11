@@ -7,7 +7,7 @@ LocalizedSettingsMappings[0]=(ColumnHeaderText="Game",ValueMappings=((Name="Sche
 LocalizedSettingsMappings[2]=(ValueMappings=((Name="0-100"),(Name="10-20"),(Name="10-50"),(Name="20-50"),(Name="40-50"),(Name="50-70"),(Name="50-100"),(Name="70-100")))
 PropertyMappings[0]=(ColumnHeaderText="Mappa")
 PropertyMappings[1]=(ColumnHeaderText="Game")
-PropertyMappings[2]=(ColumnHeaderText="Non-Standard Options")
+PropertyMappings[2]=(ColumnHeaderText="Opzioni non-standard")
 PropertyMappings[3]=(ColumnHeaderText="Server dedicato")
 
 [ROOnlineGameSettingsCommon]
@@ -73,14 +73,14 @@ FriendlyNameDisplayString3="100m"
 FriendlyNameDisplayString4="150m"
 
 [ROTDMOnlineGameSearch]
-PropertyMappings[0]=(Name="Non-Standard Options")
+PropertyMappings[0]=(Name="Opzioni non-standard")
 PropertyMappings[1]=(Name="Server dedicato")
 
 [ROGameInfo]
-ExceededFriendlyFireKillLimit_Title="KICKED FROM SERVER"
-ExceededFriendlyFireDamageLimit_Title="KICKED FROM SERVER"
-ExceededFriendlyFireKillLimitString="You exceeded the Friendly Fire Kill Limit"
-ExceededFriendlyFireDamageLimitString="You exceeded the Friendly Fire Damage Limit"
+ExceededFriendlyFireKillLimit_Title="ESPULSO DAL SERVER"
+ExceededFriendlyFireDamageLimit_Title="ESPULSO DAL SERVER"
+ExceededFriendlyFireKillLimitString="Hai superato il limite di uccisioni alleate"
+ExceededFriendlyFireDamageLimitString="Hai superato il limite di danno alleato"
 NorthBotNames[0]="Trang"
 NorthBotNames[1]="Giang"
 NorthBotNames[2]="Vuong"
@@ -187,10 +187,10 @@ MapNameVoteCol="Mappe votate"
 VoteCol="Voti"
 
 [RODataProvider_KickVote]
-VoteCol="Votes"
-PlayerNameCol="Player"
-TeamCol="Team"
-SteamIDCol="Steam ID"
+VoteCol="Voti"
+PlayerNameCol="Giocatore"
+TeamCol="Squadra"
+SteamIDCol="ID Steam"
 
 [RODataProvider_RoleVote]
 VoteCol="Voti"
@@ -210,14 +210,14 @@ StartNextObjectiveCount="Rientro al prossimo obiettivo in:"
 WaitingAllSwitchedTeam="IN ATTESA DI GIOCATORI:"
 
 [ROLocalMessageGame]
-HasJoined="joined"
+HasJoined="si è unito"
 SecondsRemaining="secondi rimasti"
 TypeNpToForgive="Scrivi 'NP' in chat per perdonare %k per fuoco amico"
 TeamKillForgivenMessage="Hai perdonato %k per fuoco amico"
 TeamKillGotForgivenMessage="%v ti ha perdonato per fuoco amico"
 AutoAdminLogin="You have been automatically signed-in as a server admin"
 WelcomeMemberFirstPerson="Benvenuto %s"
-WelcomeMemberThirdPerson="Please welcome our member %s"
+WelcomeMemberThirdPerson="Date il benvenuto a %s"
 NotifyTracked="INFO: Player %s has kicks/(session-)bans on record"
 North="Nord"
 South="Sud"
@@ -236,22 +236,22 @@ VoteKickInProgressString = "IN CORSO"
 TacticalViewHint=""
 
 [ROLocalMessageGameAlert]
-WonRound="HAVE CAPTURED ALL OBJECTIVES"
+WonRound="HANNO CATTURATO TUTTI GLI OBIETTIVI"
 WonRoundLockdown="LOCKED DOWN"
-WonMatch="HAVE WON THE MATCH"
+WonMatch="HANNO VINTO LA PARTITA"
 TeamIsFull="LA SQUADRA E\' PIENA"
-CantChangeTeamsQuicklyAfterSpawn="CANNOT CHANGE TEAMS YET"
-RoleFilled="SELECTED ROLE IS FULL"
-CampaignWon="have won the campaign"
+CantChangeTeamsQuicklyAfterSpawn="NON E' POSSIBILE CAMBIARE SQUADRA"
+RoleFilled="IL RUOLO SELEZIONATO E' PIENO"
+CampaignWon="hanno vinto la campagna"
 RespawnAvailable="Ondata di rinforzo disponibile"
 WaitingRespawnAvailable="%i SOLDATI IN ATTESA DI RIENTRO"
 OneWaitingRespawnAvailable="1 SOLDATO IN ATTESA DI RIENTRO"
 RespawnedBy="SCHIERATO DAL COMANDANTE"
-MaintainRadioContactAerialRecon="STAY CLOSE TO RADIO TO RECEIVE RECON INFO"
-KillCamAlert="KILLED FROM LOCATION"
+MaintainRadioContactAerialRecon="RESTA VICINO LA RADIO PER RICEVERE INFORMAZIONI DAL RICOGNITORE"
+KillCamAlert="UCCISO DA POSIZIONE"
 SPGotReinforced="Your squad has been reinforced"
 SpawnOnSquadLeaderFailed="IMPOSSIBILE RIENTRARE SU CAPOSQUADRA\nATTENDI O [ %KEY% ] PER CAMBIARE RIENTRO"
-SpawnOnYouFailed="SQUAD MEMBER FAILED TO DEPLOY NEAR YOU"
+SpawnOnYouFailed="MEMBRO DEL PLOTONE NON E' RIUSCITO A RIENTRARE SU DI TE"
 SpawnOnSLFailedInSpawnVolume="SQUAD LEADER IS IN A RESTRICTED AREA\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
 SpawnOnSLFailedInObjectiveVolume="CANNOT DEPLOY WHEN SQUAD LEADER IS IN OBJECTIVE\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
 SpawnOnSLFailedInTunnel="SQUAD LEADER IN ENEMY TUNNEL\nWAIT OR [ %KEY% ] TO CHANGE DEPLOYMENT"
@@ -261,28 +261,28 @@ SpawnOnYouFailedInTunnel="SQUAD CANNOT DEPLOY IN ENEMY TUNNEL"
 AutoRespawnWarning="Auto Redeploying Team In 10 Seconds.\nPress [ %KEY% ] To Override."
 ReconShotDown="RICOGNITORE ABBATTUTO"
 NewDesiredRole="IN CODA PER IL RUOLO DESIDERATO"
-ClaimedDesiredRole="CLAIMED DESIRED ROLE"
-DesiredRoleFilled="DESIRED ROLE OCCUPIED BY ANOTHER PLAYER"
-SpawnAtTunnelFailed="CANNOT DEPLOY AT TUNNEL\n[ %KEY% ] CHANGE DEPLOYMENT"
-SpawnTunnelInvalid="TUNNEL NOT AVAILABLE\n[ %KEY% ] CHANGE DEPLOYMENT"
-SpawnTunnelEnemyClose="ENEMY TOO CLOSE TO TUNNEL\n[ %KEY% ] CHANGE DEPLOYMENT"
+ClaimedDesiredRole="RUOLO DESIDERATO OTTENUTO"
+DesiredRoleFilled="RUOLO DESIDERATO OCCUPATO DA UN ALTRO GIOCATORE"
+SpawnAtTunnelFailed="IMPOSSIBILE RIENTRARE AL TUNNEL\n[ %KEY% ] CAMBIA RIENTRO"
+SpawnTunnelInvalid="TUNNEL NON DISPONIBILE\n[ %KEY% ] CAMBIA RIENTRO"
+SpawnTunnelEnemyClose="NEMICO TROPPO VICINO AL TUNNEL\n[ %KEY% ] CAMBIA RIENTRO"
 EnhancedLogisticsActive="HO CHI MINH TRAIL ACTIVATED"
-NooneToSpawnForAmbushRespawn="NO SOLDIERS WAITING TO DEPLOY"
-MapBoundsAmbushRespawn="CANNOT DEPLOY OUT OF COMBAT AREA"
-SpawnProtectAmbushRespawn="CANNOT DEPLOY OUT OF COMBAT AREA"
+NooneToSpawnForAmbushRespawn="NESSUN SOLDATO IN ATTESA DI RIENTRO"
+MapBoundsAmbushRespawn="IMPOSSIBILE RIENTRARE FUORI DALL'AREA DI COMBATTIMENTO"
+SpawnProtectAmbushRespawn="IMPOSSIBILE RIENTRARE FUORI DALL'AREA DI COMBATTIMENTO"
 TunnelWasDestroyed="TUNNEL DI SQUADRA DISTRUTTO"
 NoTunnelPlaced="SCAVA UN TUNNEL DI SQUADRA"
-SwitchingTeam="SWITCHING TEAMS"
-SwitchingTeamByAdmin="SWITCHED TEAMS BY ADMIN"
+SwitchingTeam="CAMBIO SQUADRA"
+SwitchingTeamByAdmin="SQUADRA CAMBIATA DALL'ADMIN"
 
 [ROLocalMessageGameRedAlert]
 ReinforcementsDepleted="RINFORZI ESAURITI"
-SpawnWindowOpen="TEAM CAN DEPLOY AGAIN"
-SkirmishSpawnTimeLow="CAPTURE AN OBJECTIVE BEFORE IT'S TOO LATE"
+SpawnWindowOpen="LA SQUADRA PUO' RIENTRARE DI NUOVO"
+SkirmishSpawnTimeLow="CATTURA UN OBIETTIVO PRIMA CHE SIA TARDI"
 SpawnWindowClosed="TEAM CAN NO LONGER DEPLOY"
 EnemySpawnWindowDisabled="TEAM CAN NO LONGER DEPLOY"
 MapBoundaryTouch="LEAVING COMBAT AREA - TURN BACK NOW"
-AllObjectivesCaptured="TEAM OWN ALL OBJECTIVES"
+AllObjectivesCaptured="LA SQUADRA CONTROLLA TUTTI GLI OBIETTIVI"
 FinalObjectiveAttack="ATTACKING FINAL OBJECTIVE"
 FinalObjectiveDefend="DEFENDING FINAL OBJECTIVE"
 MapBoundaryUnTouch="RETURNED TO COMBAT AREA"
@@ -309,18 +309,18 @@ We="WE"
 They="ENEMY"
 
 [ROLocalMessageBleeding]
-BleedingMessages[0]=HOLD [ %KEY% ] TO BANDAGE
-BleedingMessages[1]=%COUNT%/%TOTAL% BANDAGES REMAINING
+BleedingMessages[0]=TIENI PREMUTO [ %KEY% ] PER BENDARE
+BleedingMessages[1]=%COUNT%/%TOTAL% BENDE RIMANENTI
 
 [ROLocalMessagePlantedItem]
-TrapPlantHint="[ %FIREKEY% ] PLACE TRAP"
-TrapDisarmHint="[ %KEY% ] DISARM TRAP"
-DigTunnelHint="[ %IRONKEY% ] PLACE TUNNEL"
+TrapPlantHint="[ %FIREKEY% ] PIAZZA TRAPPOLA"
+TrapDisarmHint="[ %KEY% ] DISINNESCA TRAPPOLA"
+DigTunnelHint="[ %IRONKEY% ] PIAZZA TUNNEL"
 TunnelInObj="CANNOT TUNNEL IN OBJECTIVE"
-TunnelBlocked="CANNOT TUNNEL HERE"
+TunnelBlocked="IMPOSSIBILE PIAZZARE TUNNEL QUI"
 TunnelTooFar="CANNOT TUNNEL THIS FAR FROM OWN OBJECTIVE"
 TunnelTooCloseToObj="MOVE %DIST%m AWAY. TOO CLOSE TO OBJECTIVE"
-TunnelTooCloseToTunnel="TOO CLOSE TO ANOTHER TUNNEL"
+TunnelTooCloseToTunnel="TROPPO VICINO A UN ALTRO TUNNEL"
 TunnelWithinCooldown="SQUAD TUNNEL DESTROYED. TUNNEL IN %TIME% SECONDS"
 DestroyTunnel="HOLD [ %USEKEY% ] DESTROY ENEMY TUNNEL"
 HMGPlaceHint="[ %FIREKEY% ] PLACE HMG"
@@ -335,17 +335,17 @@ FailedString="NO %AMMO% AMMO TO LOAD"
 AmmoTypesArray[0]="HE GRENADE"
 AmmoTypesArray[1]="BUCKSHOT"
 AmmoTypesArray[2]="SLUG"
-AmmoTypesArray[3]="SMOKE GRENADE"
-AmmoTypesArray[4]="BULLETS"
+AmmoTypesArray[3]="GRANATA FUMOGENA"
+AmmoTypesArray[4]="PROIETTILI"
 
 [ROLocalMessageAirSupport]
 RequestString="PLATOON COMMANDER: REQUESTING"
 ConfirmedString="BATTALION HQ: %TYPE% SUPPORT ON THE WAY"
 DeniedString="BATTALION HQ: %TYPE% SUPPORT DENIED"
-NapalmString="NAPALM STRIKE"
+NapalmString="ATTACCO NAPALM"
 GunshipString="AC-47 SPOOKY"
 BomberString="BOMBING RUN"
-AntiAirString="ANTI-AIRCRAFT COVERAGE"
+AntiAirString="COPERTURA ANTI-AEREA"
 AirSupportCancelled="SUPPORT AIRCRAFT CANCELLED"
 AircraftShotDown="%TYPE% HAS BEEN SHOT DOWN"
 AntiAirActive="ANTI-AIRCRAFT COVERAGE ON STANDBY"
@@ -1599,8 +1599,8 @@ StoppedDestroyingTunnelMessage="CANCELLED TUNNEL DESTRUCTION"
 DestroyingTunnelInSecondsMessage="DISTRUZIONE TUNNEL IN %TIME%s"
 
 [ROPlayerController]
-TeamString="TEAM "
-SquadString="SQUAD "
+TeamString="SQUADRA "
+SquadString="PLOTONE "
 ObjectiveMarkersString[0]="A"
 ObjectiveMarkersString[1]="B"
 ObjectiveMarkersString[2]="C"
