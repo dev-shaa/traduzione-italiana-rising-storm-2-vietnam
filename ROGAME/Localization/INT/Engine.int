@@ -5,7 +5,7 @@ IPBanned=Your IP Has Been Banned From This Server
 SessionBanned_Title=Session Banned
 SessionBanned=You Are Session Banned From This Game And May Rejoin After Map Change
 GlobalBanned_Title=Globally Banned
-GlobalBanned=You Are Banned From This Server. Please contact support@tripwireinteractive.com for more information
+GlobalBanned=Sei bandito da questo server. Contatta support@tripwireinteractive.com per maggiori informazioni
 IDBanned_Title=Permanently Banned
 IDBanned=Your Steam ID Has Been Banned From This Server
 
@@ -30,34 +30,34 @@ InvalidPacketKickMsg_Title=Invalid Packet
 InvalidPacketKickMsg=You Have Been Kicked From This Server Because Of An Invalid Packet
 
 [Errors]
-CompressedReadFailure=Error Loading File
-CompressedReadCorruption=`~ may be incompatible. Please check the log for errors and notify author.
-ConnectionFailed_Title=Connection Lost
-ConnectionFailed=Your connection to the host has been lost.
+CompressedReadFailure=Errore caricamento file
+CompressedReadCorruption=`~ potrebbe essere incompatibile. Controlla il log per errori e avvisa l'autore.
+ConnectionFailed_Title=Connessione persa
+ConnectionFailed=Connessione all'host persa.
 
 [GameMessage]
-MaxedOutMessage_Title=Server Is Full
+MaxedOutMessage_Title=Il server è pieno
 MaxedOutMessage=" "
 
 [OnlineGameSettings]
 OwningPlayerName.FriendlyName="Server"
 PingInMs.FriendlyName="Ping"
-bIsDedicated.FriendlyName="Dedicated"
+bIsDedicated.FriendlyName="Dedicato"
 bIsListPlay.FriendlyName="ListPlay"
 AverageSkillRating.FriendlyName="Skill Rating"
-ServerAddress.FriendlyName="Server Address"
-bIsRanked.FriendlyName="Is Ranked"
-bRequiresPassword.FriendlyName="Requires Password"
+ServerAddress.FriendlyName="Indirizzo server"
+bIsRanked.FriendlyName="Classificato"
+bRequiresPassword.FriendlyName="Richiede password"
 ServerFlags.FriendlyName=" "
-PlayerRatio.FriendlyName="Players"
+PlayerRatio.FriendlyName="Giocatori"
 MapName.FriendlyName="Mappa"
 GameMode.FriendlyName="Modalità"
 HonorRange.FriendlyName="Onore"
-RealismLevel.FriendlyName="Realism Mode"
-FriendlyFire.FriendlyName="Friendly Fire"
-AdminContact.FriendlyName="Admin Contact"
-bIsCampaignGame.FriendlyName="Campaign Mode"
-NorthCampaignTerritories.FriendlyName="North Territories"
-SouthCampaignTerritories.FriendlyName="South Territories"
-SpectatorMode.FriendlyName="Spectator Mode"
-MutatorsRunning.FriendlyName="Mutator"
+RealismLevel.FriendlyName="Modalità realismo"
+FriendlyFire.FriendlyName="Fuoco amico"
+AdminContact.FriendlyName="Contatti admin"
+bIsCampaignGame.FriendlyName="Campagna"
+NorthCampaignTerritories.FriendlyName="Territori del Nord"
+SouthCampaignTerritories.FriendlyName="Territori del Sud"
+SpectatorMode.FriendlyName="Modalità spettatore"
+MutatorsRunning.FriendlyName="Modificatori"
