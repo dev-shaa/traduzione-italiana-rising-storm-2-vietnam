@@ -3,7 +3,7 @@
 IPBanned_Title=Bandito permanentemente
 IPBanned=Il tuo IP e' stato bandito da questo server
 SessionBanned_Title=Bandito da questa sessione
-SessionBanned=Sei stato bandito da questa sessione di gioco e potrai rientrare dopo il cambio di mappa
+SessionBanned=Sei stato bandito da questa sessione di gioco e potrai rientrare dopo il cambio mappa
 GlobalBanned_Title=Bandito a livello globale
 GlobalBanned=Sei bandito da questo server. Contatta support@tripwireinteractive.com per maggiori informazioni
 IDBanned_Title=Bandito permanentemente
@@ -15,7 +15,7 @@ KickedMsg=Sei stato espulso da questo server da un admin
 KickAndPermaBan_Title=Bandito dall'admin
 KickAndPermaBan=Sei stato bandito permanentemente da questo server
 KickAndSessionBan_Title=Bandito dalla sessione dall'admin
-KickAndSessionBan=Sei stato bandito dalla sessione di gioco corrente in questo server e potrai tornare dopo il cambio di mappa
+KickAndSessionBan=Sei stato bandito dalla sessione di gioco corrente in questo server e potrai tornare dopo il cambio mappa
 VoteKicked_Title=Vote Kicked
 VoteKicked=You Have Been Vote Kicked From This Server For:
 VoteKickedReason_Idling=Teammate has been idle for %PARAM% minutes
