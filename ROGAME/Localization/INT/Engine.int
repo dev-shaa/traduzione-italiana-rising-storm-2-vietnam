@@ -10,10 +10,10 @@ IDBanned_Title=Bandito permanentemente
 IDBanned=Il tuo ID Steam e' stato bandito da questo server
 
 ;Removed From Server Messages
-KickedMsg_Title=Kicked By Admin
-KickedMsg=Sei stato espulso da questo server da un amministratore
-KickAndPermaBan_Title=Bandito dall'amministratore
-KickAndPermaBan=You Have Been Permanently Banned From This Server
+KickedMsg_Title=Espulso dall'admin
+KickedMsg=Sei stato espulso da questo server da un admin
+KickAndPermaBan_Title=Bandito dall'admin
+KickAndPermaBan=Sei stato bandito permanentemente da questo server
 KickAndSessionBan_Title=Session Banned By Admin
 KickAndSessionBan=You Have Been Session Banned From This Server And May Return After Map Change
 VoteKicked_Title=Vote Kicked
