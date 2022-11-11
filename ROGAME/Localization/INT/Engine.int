@@ -6,7 +6,7 @@ SessionBanned_Title=Session Banned
 SessionBanned=You Are Session Banned From This Game And May Rejoin After Map Change
 GlobalBanned_Title=Globally Banned
 GlobalBanned=Sei bandito da questo server. Contatta support@tripwireinteractive.com per maggiori informazioni
-IDBanned_Title=Permanently Banned
+IDBanned_Title=Bandito permanentemente
 IDBanned=Your Steam ID Has Been Banned From This Server
 
 ;Removed From Server Messages
