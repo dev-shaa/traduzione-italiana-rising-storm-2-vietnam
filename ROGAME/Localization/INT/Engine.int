@@ -36,7 +36,7 @@ ConnectionFailed_Title=Connessione persa
 ConnectionFailed=Connessione all'host persa.
 
 [GameMessage]
-MaxedOutMessage_Title=Il server è pieno
+MaxedOutMessage_Title=Il server e' pieno
 MaxedOutMessage=" "
 
 [OnlineGameSettings]
@@ -51,13 +51,13 @@ bRequiresPassword.FriendlyName="Richiede password"
 ServerFlags.FriendlyName=" "
 PlayerRatio.FriendlyName="Giocatori"
 MapName.FriendlyName="Mappa"
-GameMode.FriendlyName="Modalità"
+GameMode.FriendlyName="Modalita'"
 HonorRange.FriendlyName="Onore"
-RealismLevel.FriendlyName="Modalità realismo"
+RealismLevel.FriendlyName="Modalita' realismo"
 FriendlyFire.FriendlyName="Fuoco amico"
 AdminContact.FriendlyName="Contatti admin"
 bIsCampaignGame.FriendlyName="Campagna"
 NorthCampaignTerritories.FriendlyName="Territori del Nord"
 SouthCampaignTerritories.FriendlyName="Territori del Sud"
-SpectatorMode.FriendlyName="Modalità spettatore"
+SpectatorMode.FriendlyName="Modalita' spettatore"
 MutatorsRunning.FriendlyName="Modificatori"

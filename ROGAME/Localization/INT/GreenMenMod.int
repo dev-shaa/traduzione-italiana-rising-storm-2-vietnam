@@ -3,8 +3,8 @@ AttackingString="ATTACCANTI"
 DefendingString="DIFENSORI"
 PlayersString="Giocatori"
 FullString="PIENO"
-NorthTeamInfoText="Il secondo più potente esercito di plastica del mondo."
-SouthTeamInfoText="Il più potente esercito di plastica del mondo."
+NorthTeamInfoText="Il secondo piu' potente esercito di plastica del mondo."
+SouthTeamInfoText="Il piu' potente esercito di plastica del mondo."
 
 [GMLocalMessageGamePickup]
 Pickup="[ %key% ] RACCOGLI "

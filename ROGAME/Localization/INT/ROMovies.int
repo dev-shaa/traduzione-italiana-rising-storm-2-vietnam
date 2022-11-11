@@ -1,13 +1,13 @@
 [LoadingScreen]
 Destination="Destinazione: "
 Territories="Territori"
-TerritoriesDescription="Territori è una modalità a obiettivo che usa ondate di attaccanti e difensori per simulare i rinforzi."
+TerritoriesDescription="Territori e' una modalita' a obiettivo che usa ondate di attaccanti e difensori per simulare i rinforzi."
 Firefight="Scontro a fuoco"
 FirefightDescription="ZZZ."
 Skirmish="Schermaglia"
-SkirmishDescription="Schermaglia è una modalità a obiettivo in cui puoi rientrare finchè la tua squadra ha ancora tempo sul timer. Catturare obiettivi aggiunge tempo. Quando il timer scende a zero, non puoi più rientrare."
+SkirmishDescription="Schermaglia e' una modalita' a obiettivo in cui puoi rientrare finche' la tua squadra ha ancora tempo sul timer. Catturare obiettivi aggiunge tempo. Quando il timer scende a zero, non puoi piu' rientrare."
 Supremacy="Supremazia"
-SupremacyDescription="Supremazia è una modalità a obiettivo in cui gli obiettivi devono essere connessi al tuo campo base per ottenere punti. Alcuni obiettivi valgono più di altri. Ottieni punti ogni secondo in cui hai obiettivi connessi al campo base. Assicurati di mantenere i collegamenti, mentre attacchi i nemici e distruggi i loro collegamenti."
+SupremacyDescription="Supremazia e' una modalita' a obiettivo in cui gli obiettivi devono essere connessi al tuo campo base per ottenere punti. Alcuni obiettivi valgono piu' di altri. Ottieni punti ogni secondo in cui hai obiettivi connessi al campo base. Assicurati di mantenere i collegamenti, mentre attacchi i nemici e distruggi i loro collegamenti."
 Training="Addestramento"
 
 Tip="Consiglio:"
@@ -24,7 +24,7 @@ TerritoriesTip6="Lockdown occurs when the attackers have not captured any object
 TerritoriesTip7="If there are an equal number of troops from opposing teams within an objective, it will not capture."
 TerritoriesTip8="All'inizio di Territori, i difensori controllano tutti gli obiettivi."
 TerritoriesTip9="Territories sees the attacking team having to take objectives already held by the defending team."
-TerritoriesTip10="Il Comandante ha un ruolo cruciale in Territori. Possono chiamare potenti abilità di supporto usando la radio."
+TerritoriesTip10="Il Comandante ha un ruolo cruciale in Territori. Possono chiamare potenti abilita' di supporto usando la radio."
 TerritoriesTip11="Southern forces can deploy on their Squad Leader's location. Northern Squad Leaders can place Tunnels for deployment purposes instead."
 TerritoriesTip12="Se la tua squadra termina i rinforzi, non sarai in grado di rientrare."
 
@@ -80,14 +80,14 @@ GeneralTip19="Using binoculars or the quick orders menu, Squad Leaders can set t
 GeneralTip20="Squad Leaders can request orders and actions from their commanders if they need to know what to do next."
 
 
-MovementTip1="Correre consuma stamina, il che riduce la tua abilità di mantenere ferma l'arma."
+MovementTip1="Correre consuma stamina, il che riduce la tua abilita' di mantenere ferma l'arma."
 MovementTip2="Press spacebar by default near small ledges and walls to climb them."
 MovementTip3="Press Ctrl by default to crouch and steady your weapon."
 MovementTip4="Press Alt by default to lay prone and steady your weapon."
-MovementTip5="I giocatori si muovono più lentamente in acqua e quando salgono su colline e pendenze."
-MovementTip6="Alcune armi ed equipaggiamento sono più pesanti di altre. Più cose trasporti, più lento ti muovi."
+MovementTip5="I giocatori si muovono piu' lentamente in acqua e quando salgono su colline e pendenze."
+MovementTip6="Alcune armi ed equipaggiamento sono piu' pesanti di altre. Piu' cose trasporti, piu' lento ti muovi."
 
-WeaponTip1="L'M16 usa proiettili 5.56, più piccoli dei 7.62mm dell'AK-47 - che si traduce in minore rinculo e forza di penetrazione."
+WeaponTip1="L'M16 usa proiettili 5.56, piu' piccoli dei 7.62mm dell'AK-47 - che si traduce in minore rinculo e forza di penetrazione."
 WeaponTip2="North Vietnamese forces can deploy a variety of traps against the Southern forces. Watch your step."
 WeaponTip3="Submachine guns like the MAT-49 and M3 can be deadly in close quarters, but lose effectiveness and damage at range."
 WeaponTip4="Machine Guns can be difficult to fire from the shoulder and hip. Try steadying them on the ground, or in cover."

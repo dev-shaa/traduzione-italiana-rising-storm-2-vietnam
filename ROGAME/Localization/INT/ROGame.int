@@ -23,10 +23,10 @@ NorthCampaignVP.FriendlyName="Punti vittoria del Nord"
 SouthCampaignVP.FriendlyName="Punti vittoria del Sud"
 CampaignYear.FriendlyName="Anno campagna"
 Requires Password.FriendlyName="Richiede password"
-GameMode.FriendlyName="Modalità"
+GameMode.FriendlyName="Modalita'"
 HonorRange.FriendlyName="Livello"
 RealismLevel.FriendlyName="Impostazioni server"
-MapGame.FriendlyName="Modalità di gioco"
+MapGame.FriendlyName="Modalita' di gioco"
 FriendlyFire.FriendlyName="Fuoco amico"
 VAC Secured.FriendlyName="Protetto da EAC"
 bClientSideHitDetection.FriendlyName="Rilevamento colpi"
@@ -34,7 +34,7 @@ bEnableVOIP.FriendlyName="Chat vocale abilitata"
 bDeadVOIPEnabled.FriendlyName="Chat vocale da morto"
 bPublicVOIPEnabled.FriendlyName="Chat vocale pubblica"
 bTeamVOIPEnabled.FriendlyName="Chat vocale di squadra"
-Proximity3DVOIPSetting.FriendlyName="Chat vocale di prossimità"
+Proximity3DVOIPSetting.FriendlyName="Chat vocale di prossimita'"
 bPublicTextChatEnabled.FriendlyName="Chat testuale pubblica"
 RoundLimit.FriendlyName="Limite di round"
 PingLimit.FriendlyName="Ping massimo"
@@ -157,7 +157,7 @@ Description="Deathmatch a squadre, in stile RO!"
 [ROGameInfoTerritories]
 GameName="Territori"
 DisplayName="Territori"
-Description="Ondate di rinforzi con più obiettivi da prendere o distruggere."
+Description="Ondate di rinforzi con piu' obiettivi da prendere o distruggere."
 
 [ROGameInfoCountdown]
 GameName="Countdown"
@@ -210,7 +210,7 @@ StartNextObjectiveCount="Rientro al prossimo obiettivo in:"
 WaitingAllSwitchedTeam="IN ATTESA DI GIOCATORI:"
 
 [ROLocalMessageGame]
-HasJoined="si è unito"
+HasJoined="si e' unito"
 SecondsRemaining="secondi rimasti"
 TypeNpToForgive="Scrivi 'NP' in chat per perdonare %k per fuoco amico"
 TeamKillForgivenMessage="Hai perdonato %k per fuoco amico"
@@ -530,7 +530,7 @@ ChannelPublic="Pubblico"
 ChannelTeam="Squadra"
 ChannelSquad="Plotone"
 ChannelVehicle="Veicolo"
-ChannelProximity="Prossimità"
+ChannelProximity="Prossimita'"
 ChannelCommand="Comando"
 
 [ROUISceneMainMenu]
@@ -556,22 +556,22 @@ NextClassUnlocks[2]=(ClassName="COMANDANTE")
 [ROUISceneTrainingMenu]
 MissionTypeString="ADDESTRAMENTO"
 TrainingMissionDates[0]="23 settembre, 1969"
-TrainingMissionSummaries[0]="Qualche posto, forse Vietnam o forse no: spendi del tempo al poligono prima di andare in battaglia. Familiarizza con tutte le classi disponibili per essere quanto più preparato possibile ad affrontare al meglio il nemico faccia a faccia."
+TrainingMissionSummaries[0]="Qualche posto, forse Vietnam o forse no: spendi del tempo al poligono prima di andare in battaglia. Familiarizza con tutte le classi disponibili per essere quanto piu' preparato possibile ad affrontare al meglio il nemico faccia a faccia."
 TrainingMissionDates[1]="12 november, 1969"
 TrainingMissionSummaries[1]="Qualche aeroporto, forse Vietnam o forse no: familiarizza con le caratteristiche di volo di ogni elicottero senza pressioni. Prova la tua destrezza sul percorso a ostacoli aereo, o le tue doti di mitragliere al poligono."
 VideoComingSoon="IN ARRIVO"
-TutorialVideos[0]=(VideoTitle="Modalita': Territori",VideoDescription="Impara tutto su Territori, un ritorno della modalità a 64 giocatori in cui una squadra attacca gli obiettivi dei difensori.")
-TutorialVideos[1]=(VideoTitle="Modalita': Supremazia",VideoDescription="Impara tutto su Supremazia, una nuova modalità a 64 giocatori con campi aperti e basata sul punteggio.")
-TutorialVideos[2]=(VideoTitle="Modalita': Schermaglia",VideoDescription="Impara tutto su Schermaglia, una modalità in scala ridotta pensata per meno di 64 giocatori.")
+TutorialVideos[0]=(VideoTitle="Modalita': Territori",VideoDescription="Impara tutto su Territori, un ritorno della modalita' a 64 giocatori in cui una squadra attacca gli obiettivi dei difensori.")
+TutorialVideos[1]=(VideoTitle="Modalita': Supremazia",VideoDescription="Impara tutto su Supremazia, una nuova modalita' a 64 giocatori con campi aperti e basata sul punteggio.")
+TutorialVideos[2]=(VideoTitle="Modalita': Schermaglia",VideoDescription="Impara tutto su Schermaglia, una modalita' in scala ridotta pensata per meno di 64 giocatori.")
 TutorialVideos[3]=(VideoTitle="Movimento",VideoDescription="Impara le basi di come muoverti e orientarti sui campi di battaglia di Rising Storm 2.")
 TutorialVideos[4]=(VideoTitle="Combattimento di base",VideoDescription="Impara come usare efficacemente le tue armi, alternarti tra l'equipaggiamento, curare le ferite e lanciare granate.")
-TutorialVideos[5]=(VideoTitle="Combattimento avanzato",VideoDescription="Impara alcuni degli elementi unici di Rising Storm 2. Ti verrà spiegato come usare le caratteristiche uniche di certe armi, così come strumenti avanzati come trappole ed esplosivi.")
+TutorialVideos[5]=(VideoTitle="Combattimento avanzato",VideoDescription="Impara alcuni degli elementi unici di Rising Storm 2. Ti verra' spiegato come usare le caratteristiche uniche di certe armi, così come strumenti avanzati come trappole ed esplosivi.")
 TutorialVideos[6]=(VideoTitle="Plotoni",VideoDescription="Impara come funzionano i plotoni in Rising Storm 2, sia come capoplotone che come soldato regolare. Scopri come rendere privato un plotone, invitare altri e come funzionano le meccaniche di rientro.")
 TutorialVideos[7]=(VideoTitle="Basic Classes",VideoDescription="This video breaks down the basic Class roles and their functions on the battlefield. Covered here are Grunt and Rifleman, Machinegunners, Marksmen (Snipers) and the Radioman.")
 TutorialVideos[8]=(VideoTitle="Advanced Classes",VideoDescription="Here we cover the more complex class roles and how they operate in Rising Storm 2. Covered here are the Pointman and Scout, the Combat Engineer and Sapper, the Grenadier and the RPG Soldier.")
 TutorialVideos[9]=(VideoTitle="Comunicazione",VideoDescription="Impara a comunicare efficacemente con la tua squadra usando la chat testuale e vocale, così come con i comandi rapidi.")
 TutorialVideos[10]=(VideoTitle="Helicopters",VideoDescription="This video outlines how flying Helicopters works in Rising Storm 2. We cover the basics of flight controls, the role of each Helicopter and their unique functions, as well as a few advanced tips for flying effectively.")
-TutorialVideos[11]=(VideoTitle="Comandante",VideoDescription="Impara a giocare da Comandate della tua squadra, probabilmente il ruolo più importante di Rising Storm 2. Ti verrà mostrato come chiamare potenti abilità di supporto, dare ordini alla tua squadra e condurre le tue forze alla vittoria.")
+TutorialVideos[11]=(VideoTitle="Comandante",VideoDescription="Impara a giocare da Comandate della tua squadra, probabilmente il ruolo piu' importante di Rising Storm 2. Ti verra' mostrato come chiamare potenti abilita' di supporto, dare ordini alla tua squadra e condurre le tue forze alla vittoria.")
 
 [ROUISceneServerBrowser]
 StandardString="Standard"
@@ -592,8 +592,8 @@ RefreshString="RICARICA TUTTO"
 StopString="FERMA RICARICA"
 RS2String="RS2: Vietnam"
 GAMString="Green Army Men"
-ServerQueueDescription="Sei in coda e ti unirai automaticamente al server quando si libererà un posto."
-ServerLost="Non è possibile connettersi al server selezionato."
+ServerQueueDescription="Sei in coda e ti unirai automaticamente al server quando si liberera' un posto."
+ServerLost="Non e' possibile connettersi al server selezionato."
 
 [ROUISceneUnitSelect]
 PrimaryString="PRIMARY"
@@ -1870,7 +1870,7 @@ CapitalizedDisplayName="FUCILE D'ASSALTO AK-47"
 Description="Fucile, 7.62x39mm, AK47\n\nCelebre fucile d'assalto russo."
 DisplayInfo[0]=(DisplayName="Type 56",Description="Fucile, 7.62x39mm. Riproduzione cinese dell'AK-47 con baionetta piegabile \"pig-sticker\" e calcio di legno.",WeaponSpecialAttributesText=("Baionetta piegabile","Calcio solido"))
 DisplayInfo[1]=(DisplayName="Type 56-1",Description="Versione leggera del Type-56 con calcio piegabile ma senza baionetta.",WeaponSpecialAttributesText=("Calcio piegabile","-Nessuna baionetta"))
-DisplayInfo[2]=(DisplayName="AKM",Description="Prodotto in Russia, l'AKM è un aggiornamento dell'AK-47. Più leggero del Type-56, con meno rinculo ma un rateo di fuoco e velocità di volata minori. Include baionetta attaccabile.",WeaponSpecialAttributesText=("Baionetta attaccabile","Calcio solido"))
+DisplayInfo[2]=(DisplayName="AKM",Description="Prodotto in Russia, l'AKM e' un aggiornamento dell'AK-47. Piu' leggero del Type-56, con meno rinculo ma un rateo di fuoco e velocita' di volata minori. Include baionetta attaccabile.",WeaponSpecialAttributesText=("Baionetta attaccabile","Calcio solido"))
 
 [ROWeap_M16A1_AssaultRifle]
 DisplayName="Fucile d'assalto M16A1"
@@ -1883,7 +1883,7 @@ DisplayInfo[0]=(WeaponSpecialAttributesText=("Baionetta removibile","Rompifiamma
 DisplayName="Carabina XM177E1"
 ShortDisplayName="XM177E1"
 CapitalizedDisplayName="CARABINA XM177E1"
-Description="Carabina, 5.56x45mm, XM177E1\n\nCon la sua canna da 25cm, l'XM177E1 è una versione più leggera e mobile dell'M16A1."
+Description="Carabina, 5.56x45mm, XM177E1\n\nCon la sua canna da 25cm, l'XM177E1 e' una versione piu' leggera e mobile dell'M16A1."
 DisplayInfo[0]=(WeaponSpecialAttributesText=("Rompifiamma","Calcio piegabile","-Nessuna baionetta"))
 
 [ROWeap_SKS_Rifle]
@@ -1897,7 +1897,7 @@ DisplayInfo[0]=(WeaponSpecialAttributesText=("Baionetta piegabile"))
 DisplayName="Fucile da battaglia M14"
 ShortDisplayName="M14"
 CapitalizedDisplayName="FUCILE DA BATTAGIA M14"
-Description="Fucile, 7.62x51mm, M14\n\nSviluppato dall'M1 Garand, il fucile da battaglai M14 usa un calibro più grande dell'M16, ma è costretto al fuoco semi-automatico."
+Description="Fucile, 7.62x51mm, M14\n\nSviluppato dall'M1 Garand, il fucile da battaglai M14 usa un calibro piu' grande dell'M16, ma e' costretto al fuoco semi-automatico."
 DisplayInfo[0]=(WeaponSpecialAttributesText=("Baionetta attaccabile"))
 
 [ROWeap_M1911_Pistol]
@@ -3670,7 +3670,7 @@ BodyString="The North Vietnamese Commander can call anti-air missiles, which des
 
 [ROHTrig_Bipods]
 TitleString="BIPODE"
-BodyString="Premi [%Key%] per regolare il bipode su quest'arma. Quando il bipode è schierato, appoggerai automaticamente l'arma sulle superfici."
+BodyString="Premi [%Key%] per regolare il bipode su quest'arma. Quando il bipode e' schierato, appoggerai automaticamente l'arma sulle superfici."
 
 [ROHTrig_RadioMan]
 TitleString="OPERATORE RADIO"
@@ -4010,7 +4010,7 @@ UniqueID.FriendlyName="Player ID"
 RespawningText="RETURNING TO BASE IN %SEC% SECONDS"
 
 [ROUIWidgetKeyBindings]
-AlreadyBoundMessage=%KEY% è già assegnato a %CMD%.
+AlreadyBoundMessage=%KEY% e' gia' assegnato a %CMD%.
 
 [ROHUDWidgetRadiomanHelper]
 InUseString="IN USO"
