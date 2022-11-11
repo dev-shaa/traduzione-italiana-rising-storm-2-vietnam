@@ -1,18 +1,18 @@
 [AccessControl]
 ;Access Denied Messages
-IPBanned_Title=Permanently Banned
-IPBanned=Your IP Has Been Banned From This Server
-SessionBanned_Title=Session Banned
-SessionBanned=You Are Session Banned From This Game And May Rejoin After Map Change
-GlobalBanned_Title=Globally Banned
+IPBanned_Title=Bandito permanentemente
+IPBanned=Il tuo IP e' stato bandito da questo server
+SessionBanned_Title=Bandito da questa sessione
+SessionBanned=Sei stato bandito da questa sessione di gioco e potrai rientrare dopo il cambio di mappa
+GlobalBanned_Title=Bandito a livello globale
 GlobalBanned=Sei bandito da questo server. Contatta support@tripwireinteractive.com per maggiori informazioni
 IDBanned_Title=Bandito permanentemente
-IDBanned=Your Steam ID Has Been Banned From This Server
+IDBanned=Il tuo ID Steam e' stato bandito da questo server
 
 ;Removed From Server Messages
 KickedMsg_Title=Kicked By Admin
-KickedMsg=You Have Been Kicked From This Server By An Admin
-KickAndPermaBan_Title=Banned By Admin
+KickedMsg=Sei stato espulso da questo server da un amministratore
+KickAndPermaBan_Title=Bandito dall'amministratore
 KickAndPermaBan=You Have Been Permanently Banned From This Server
 KickAndSessionBan_Title=Session Banned By Admin
 KickAndSessionBan=You Have Been Session Banned From This Server And May Return After Map Change
