@@ -1923,7 +1923,7 @@ DisplayInfo[0]=(WeaponSpecialAttributesText=("Bipode piegabile"))
 DisplayName="RPD LMG"
 ShortDisplayName="RPD"
 CapitalizedDisplayName="RPD LMG"
-Description="Light Machine Gun, 7.62x39mm, RPD\n\nA formidable machine gun designed by the Russians and reproduced by China, North Korea, and other nations."
+Description="Mitragliatrice leggera, 7.62x39mm, RPD\n\nUna formidabile mitragliatrice progettata in Russia e riprodotta in Cina, Corea del Nord, e in altre nazioni."
 DisplayInfo[0]=(WeaponSpecialAttributesText=("Bipode piegabile"))
 
 [ROWeap_M60_GPMG]
@@ -1958,7 +1958,7 @@ DisplayInfo[0]=(WeaponSpecialAttributesText=("Retractable Stock"))
 DisplayName="MN1891/30 Rifle"
 ShortDisplayName="MN 91/30"
 CapitalizedDisplayName="MOSIN NAGANT 91/30 RIFLE"
-Description="Rifle, 7.62x54mmR, Mosin Nagant 1891/30\n\nFirst introduced in 1891, the legendary Mosin Nagant has served in many wars across the globe."
+Description="Rifle, 7.62x54mmR, Mosin Nagant 1891/30\n\nIntrodotto per la prima volta nel 1891, il leggendario Mosin Nagant e' stato utilizzato in molte guerre in tutto il mondo."
 DisplayInfo[0]=(WeaponSpecialAttributesText=("Attachable Bayonet"))
 
 [ROWeap_MN9130Scoped_Rifle]
@@ -1966,7 +1966,7 @@ DisplayName="Scoped MN1891/30"
 ShortDisplayName="MN 91/30 PU"
 CapitalizedDisplayName="MN 91/30 PU SNIPER RIFLE"
 Description="Sniper Rifle, 7.62x54mmR, Mosin Nagant 1891/30\n\nScoped variant of the 'Mosin Nagant' for marksmen. Scope design allows user to still utilize the rifle's ironsights."
-DisplayInfo[0]=(WeaponSpecialAttributesText=("3.5x PU Scope","Attachable Bayonet"))
+DisplayInfo[0]=(WeaponSpecialAttributesText=("3.5x PU Scope","Baionetta agganciabile"))
 
 [ROWeap_M40Scoped_Rifle]
 DisplayName="Fucile di precisione M40"
@@ -1979,21 +1979,21 @@ DisplayInfo[0]=(WeaponSpecialAttributesText=("3-9x Redfield Scope"))
 DisplayName="Fucile di precisione SVD"
 ShortDisplayName="SVD"
 CapitalizedDisplayName="FUCILE DI PRECISIONE SVD"
-Description="Fucile di precisione, 7.62x54mm, Dragunov SVD\n\nModern Russian Marksman rifle with unique design, including attachable bayonet and dual-sight configuration."
-DisplayInfo[0]=(WeaponSpecialAttributesText=("4x PSO-1 Scope","Attachable Bayonet"))
+Description="Fucile di precisione, 7.62x54mm, Dragunov SVD\n\nFucile di precisione russo dal design inconfondibile, con inclusa una baionetta agganciabile e dual-sight configuration."//eng
+DisplayInfo[0]=(WeaponSpecialAttributesText=("4x PSO-1 Scope","Baionetta agganciabile"))
 
 [ROWeap_XM21Scoped_Rifle]
-DisplayName="XM21 Scoped Rifle"
+DisplayName="Fucile con mirino XM21"
 ShortDisplayName="XM21"
 CapitalizedDisplayName="XM21 SCOPED RIFLE"
-Description="Sniper Rifle, 7.62x51mm, XM21\n\nSemi-automatic marksman rifle based on the M14 with 3-9x scope."
-DisplayInfo[0]=(DisplayName="Standard",WeaponSpecialAttributesText=("3-9x AR TEL Scope","Attachable Bayonet"))
-DisplayInfo[1]=(DisplayName="Suppressed",Description="Rifle, Sniper, 7.62-MM, XM21. Semi-automatic marksman rifle based on the M14. Fitted with the Sionics M14SS-1 and subsonic ammunition.",WeaponSpecialAttributesText=("3-9x AR TEL Scope","Suppressor","Subsonic Ammo","-No Bayonet"))
+Description="Sniper Rifle, 7.62x51mm, XM21\n\nFucile di precisione semi-automatico basato sul M14 con un mirino 3-9x." //Scope eng
+DisplayInfo[0]=(DisplayName="Standard",WeaponSpecialAttributesText=("3-9x AR TEL Scope","Baionetta agganciabile"))
+DisplayInfo[1]=(DisplayName="Suppressed",Description="Rifle, Sniper, 7.62-MM, XM21. Fucile di precisione semi-automatico basato sul M14. Fitted with the Sionics M14SS-1 and subsonic ammunition.",WeaponSpecialAttributesText=("3-9x AR TEL Scope","Suppressor","Subsonic Ammo","-No Bayonet"))
 
 [ROWeap_M37_Shotgun]
-DisplayName="M37 Shotgun"
+DisplayName="Fucile a pompa M37"
 ShortDisplayName="M37"
-CapitalizedDisplayName="ITHACA M37 SHOTGUN"
+CapitalizedDisplayName="FUCILE A POMPA ITHACA M37"
 Description="Shotgun, 12-Gauge, M37 Ithaca\n\nThe M37 is a rugged pump action shotgun designed for close-quarters assault."
 DisplayInfo[0]=(DisplayName="Trench Gun",Description="Based on the Browning Model-17, the Trench Gun variant has a five shell capacity, and features a 20-inch heat-shielded barrel which can be mount a bayonet.",WeaponSpecialAttributesText=("Attachable Bayonet"))
 DisplayInfo[1]=(DisplayName="'Stakeout' Riot Gun",Description="A lightweight, compact variant of the M37 for extreme CQB. Fitted with a pistol-grip, no stock and a shortened barrel with no bayonet lug.",WeaponSpecialAttributesText=("Pistol Grip","No Stock","-No Bayonet"))
@@ -2009,10 +2009,11 @@ DisplayInfo[1]=(DisplayName="Coach Gun",Description="Shorter 20\" barrel version
 DisplayInfo[2]=(DisplayName="Sawn-Off",Description="The sawn-off shotgun can be used in even the tightest spaces, but the high recoil and spread make it unsuited for any engagement beyond 50 metres.")
 
 [ROWeap_M79_GrenadeLauncher]
-DisplayName="M79 Grenade Launcher"
+DisplayName="Lanciagranate M79"
 ShortDisplayName="M79"
-CapitalizedDisplayName="M79 GRENADE LAUNCHER"
-Description="Grenade Launcher, 40x46mm, M79\n\nSingle-shot, breach loading grenade launcher which can fire various ammunition types."
+CapitalizedDisplayName="LANCIAGRANATE M79"
+Description="Lanciagranate, 40x46mm, M79\n\n Un lanciagranate a retrocarica a colpo singolo che puo' sparare vari tipi di munizioni. 
+Single-shot, breach loading grenade launcher which can fire various ammunition types." //eng
 
 [ROWeap_M79_GrenadeLauncherSmoke]
 DisplayName="M79 with Sidearm"
@@ -2023,7 +2024,7 @@ Description="Grenade Launcher, 40x46mm, M79\n\nAmmunition loadout includes HE + 
 DisplayName="Lanciarazzi RPG-7"
 ShortDisplayName="RPG-7"
 CapitalizedDisplayName="LANCIARAZZI RPG-7"
-Description="Rocket Launcher, 40x105mm, RPG-7\n\nShoulder-mounted, fires HEAT rounds out to a range of nearly 1km at 115m/s."
+Description="Lanciarazzi, 40x105mm, RPG-7\n\nMontato a spalla, spara proiettili HEAT a una distanza di circa 1km a 115m/s." //stoimpazzendo eng
 
 [ROWeap_M61_Grenade]
 DisplayName="Granata M61"
@@ -2035,7 +2036,7 @@ Description="Grenade, Hand: Fragmentation, Delay, M61. Standard US 5-second expl
 DisplayName="Granata Type 67"
 ShortDisplayName="GRANATA TYPE 67"
 CapitalizedDisplayName="GRANATA TYPE 67"
-Description="Granata a framentazione Type 67. Imitazione cinese della Stielhandgranate 24 tedesca."
+Description="Granata a frammentazione Type 67. Imitazione cinese della Stielhandgranate 24 tedesca."
 
 [ROWeap_M8_Smoke]
 DisplayName="Granata fumogena M8"
