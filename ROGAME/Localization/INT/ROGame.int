@@ -279,7 +279,7 @@ SwitchingTeamByAdmin="SQUADRA CAMBIATA DALL'ADMIN"
 ReinforcementsDepleted="RINFORZI ESAURITI"
 SpawnWindowOpen="LA SQUADRA PUO' RIENTRARE DI NUOVO"
 SkirmishSpawnTimeLow="CATTURA UN OBIETTIVO PRIMA CHE SIA TARDI"
-SpawnWindowClosed="TEAM CAN NO LONGER DEPLOY"
+SpawnWindowClosed="LA SQUADRA NON PUÒ PIU' RIENTRARE"
 EnemySpawnWindowDisabled="TEAM CAN NO LONGER DEPLOY"
 MapBoundaryTouch="LEAVING COMBAT AREA - TURN BACK NOW"
 AllObjectivesCaptured="LA SQUADRA CONTROLLA TUTTI GLI OBIETTIVI"
@@ -1683,7 +1683,7 @@ Description="The Platoon Commander is the overall leader on the battlefield, nor
 ToolTipText="Team leader on the battlefield.\nProvides overall direction of the forces in combat by issuing orders through Squad Leaders.\nResponsible for calling in heavy fire support or reconnaissance via Radios or Radioman.\n\n* Required: Level 25 and willingness to work with your team."
 
 [RORoleInfoSouthernRifleman]
-MyName="RIFLEMAN"
+MyName="FUCILIERE"
 ClassShortName="RIFLE"
 Description="The Rifleman is the main-stay of the infantry platoon. He is tasked with the vital role of taking and holding ground. Using his standard issue rifle, he can effectively engage the enemy at a moderate to long range with a high level of effectiveness. He also carries spare ammunition for the squad LMGs and should remember to keep his machine-gunners well supplied."
 ToolTipText="Tasked with the vital role of taking and holding ground.\nUses standard issue rifle, can effectively engage the enemy at a moderate to long range with a high level of effectiveness.\nCarries spare ammunition for squad LMGs and remember to keep machine-gunners well supplied."
@@ -1700,7 +1700,7 @@ Description=
 ToolTipText="Enemy traps are easily noticed and can be disarmed.\nEquipment and weapons allow for ambushes and close-quarters fighting.\nThrow smoke grenades to block enemy line-of-sight and help attack objectives."
 
 [RORoleInfoSouthernMachineGunner]
-MyName="MACHINE GUNNER"
+MyName="MITRAGLIERE"
 ClassShortName="MG"
 Description="Armed with a light machine gun, he provides the squad with its primary source of firepower. The light machine gun can deliver overwhelming damage to the enemy, but careful use is required to avoid over-heating or wasting ammunition. Since the light machine gun is not a close combat weapon, the squad must provide protection and ammunition for this class."
 ToolTipText="Provides the squad with heavy, sustained firepower to suspress the enemy.\nCareful use is required to avoid over-heating and warping the weapon's barrel.\nMachine Gunners are encumbered with a heavy weapon and lots of ammunition."
@@ -1718,7 +1718,7 @@ Description="The Combat Engineer carries high explosive demolition ("satchel") c
 ToolTipText="Equipped with high-explosive plastics (C4), seek out and destroy enemy positions or ambush common enemy routes.\nAlternatively, the Combat Engineer can use the M9A-1 Flamethrower to set enemy positions ablaze."
 
 [RORoleInfoSouthernGrenadier]
-MyName="GRENADIER"
+MyName="GRANATIERE"
 ClassShortName="GREN"
 Description=
 ToolTipText="Grenadier provides an overwhelming force multiplier using a large volume of explosives.\nAlternative ammo can be used with the M79 Grenade Launcher.\nProvide smoke or eliminate enemies in close-quarters with buckshot rounds."
@@ -1778,7 +1778,7 @@ ClassShortName="ENGI"
 ToolTipText="Equipped with high-explosive plastics (C4), seek out and destroy enemy positions or ambush common enemy routes.\nAlternatively, the Combat Engineer can use the M9A-1 Flamethrower to set enemy positions ablaze."
 
 [RORoleInfoSouthernGrenadierAus]
-MyName="GRENADIER"
+MyName="GRANATIERE"
 ClassShortName="GREN"
 ToolTipText="Grenadier provides an overwhelming force multiplier using a large volume of explosives.\nAlternative ammo can be used with the M79 Grenade Launcher.\nProvide smoke or eliminate enemies in close-quarters with buckshot rounds."
 
@@ -1833,12 +1833,12 @@ ClassShortName="ENGI"
 ToolTipText="Equipped with high-explosive plastics (C4), seek out and destroy enemy positions or ambush common enemy routes."
 
 [RORoleInfoSouthernGrenadierARVN]
-MyName="GRENADIER"
+MyName="GRANATIERE"
 ClassShortName="GREN"
 ToolTipText="Grenadier provides an overwhelming force multiplier using a large volume of explosives.\nAlternative ammo can be used with the M79 Grenade Launcher.\nProvide smoke or eliminate enemies in close-quarters with buckshot rounds."
 
 [RORoleInfoSouthernRadiomanARVN]
-MyName="RADIOMAN"
+MyName="OPERATORE RADIO"
 ClassShortName="RADIO"
 ToolTipText="Working side-by-side with the team's Commander, the Radioman provides a vital team asset - a portable Radio.\nStay closeby so the Commander can use your Radio and be sure to provide him with protection.\nArmed with standard Rifleman equipment and smoke grenades."
 
@@ -1890,7 +1890,7 @@ DisplayInfo[0]=(WeaponSpecialAttributesText=("Rompifiamma","Calcio piegabile","-
 DisplayName="Carabina SKS-45"
 ShortDisplayName="SKS-45"
 CapitalizedDisplayName="CARABINA SKS-45"
-Description="Carabina, 7.62x39mm, SKS\n\nSKS-45 russo, usa stripper clips da 10 proiettili."
+Description="Carabina, 7.62x39mm, SKS\n\nSKS-45 russo, usa stripper clip da 10 proiettili."
 DisplayInfo[0]=(WeaponSpecialAttributesText=("Baionetta piegabile"))
 
 [ROWeap_M14_Rifle]
