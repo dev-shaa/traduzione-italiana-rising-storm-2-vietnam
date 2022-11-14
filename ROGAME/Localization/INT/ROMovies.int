@@ -81,9 +81,9 @@ GeneralTip20="Squad Leaders can request orders and actions from their commanders
 
 
 MovementTip1="Correre consuma stamina, il che riduce la tua abilita' di mantenere ferma l'arma."
-MovementTip2="Press spacebar by default near small ledges and walls to climb them."
-MovementTip3="Press Ctrl by default to crouch and steady your weapon."
-MovementTip4="Press Alt by default to lay prone and steady your weapon."
+MovementTip2="Premi Barra Spaziatrice di default vicino muri e sporgenze per arrampicarti."
+MovementTip3="Premi Ctrl di default per accovacciarti e stabilizzare l'arma."
+MovementTip4="Premi Alt di default per stenderti e stabilizzare l'arma."
 MovementTip5="I giocatori si muovono piu' lentamente in acqua e quando salgono su colline e pendenze."
 MovementTip6="Alcune armi ed equipaggiamento sono piu' pesanti di altre. Piu' cose trasporti, piu' lento ti muovi."
 
