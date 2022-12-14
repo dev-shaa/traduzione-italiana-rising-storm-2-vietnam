@@ -37,7 +37,7 @@ SkirmishTip2="Nelle Schermaglie, fai scadere il tempo di schieramento dei nemici
 SkirmishTip3="La tua squadra vince se controlla tutti gli obiettivi su una mappa Schermaglia per almeno sessanta secondi."
 SkirmishTip4="Previeni la cattura di un obiettivo cercando di avere un quantità di soldati pari o maggiore a quella dei nemici nella zona dell'obiettivo."
 SkirmishTip5="Una volta che l'orologio di respawn del team arriva allo zero, qualunque giocatore rimasto vivo deve catturare un obiettivo per farlo ripartire."
-SkirmishTip6="Anche solo con solo un membro vivo nella tua squadra, c'è ancora una possibilità di riavviare l'orologio di respawn."
+SkirmishTip6="Anche solo con solo un membro vivo nella tua squadra, c'e' ancora una possibilità di riavviare l'orologio di respawn."
 SkirmishTip7="Per continuare a mandare avanti l'orologio di respawn devi prendere continuamente obiettivi."
 SkirmishTip8="Quando il nemico cattura un obiettivo in Schermaglia, riceveranno del tempo di respawn aggiuntivo."
 SkirmishTip9="Per vincere una Schermaglia, fai arrivare allo zero l'orologio di respawn dei nemici, poi uccidi ogni soldato rimasto nella squadra nemica."
@@ -52,8 +52,8 @@ SupremacyTip4="Cattura un obiettivo assicurandoti di avere piu' soldati dei nemi
 SupremacyTip5="Difendi un obiettivo assicurandoti di avere piu' soldati dei nemici nell'area."
 SupremacyTip6="Le uccisioni consumano rinforzi dalla squadra nemica. Quando i loro rinforzi terminano, non possono piu' rientrare."
 SupremacyTip7="Gli obiettivi che non sono collegati al campo base non conferiscono punti. Assicurati che i tuoi rimangano connessi - e quelli dei nemici no!"
-SupremacyTip8="L'obiettivo 'campo base' di ogni squadra è indicato con un'icona speciale."
-SupremacyTip9="Catturare il campo base dei nemici impedisce loro di guadagnare punti mentre è sotto il tuo controllo."
+SupremacyTip8="L'obiettivo 'campo base' di ogni squadra e' indicato con un'icona speciale."
+SupremacyTip9="Catturare il campo base dei nemici impedisce loro di guadagnare punti mentre e' sotto il tuo controllo."
 SupremacyTip10="Obiettivi diversi hanno valori diversi, indicato dal piccolo numero vicino l'icona dell'obiettivo sull'HUD."
 
 
