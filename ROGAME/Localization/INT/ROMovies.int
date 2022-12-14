@@ -106,9 +106,9 @@ WeaponTip16="Puoi tenere premuto il pulsante di ricarica per controllare le muni
 WeaponTip17="Il lanciafiamme e' letale a distanza ravvicinata, ma e' molto pesante e ha carburante limitato."
 
 ClassTip1="Le truppe con fucile d'assalto sono il cuore delle forze del Nord e del Sud, versatili ed efficaci a tutte le distanze."
-ClassTip2="Scouts and Pointmen assault the enemy at close range with shotguns, SMGs and explosives."
-ClassTip3="The Scout and Pointman roles should use smoke grenades to create temporary cover for assaults."
-ClassTip4="The Sapper role has a variety of explosives which they can use to defend against enemies."
+ClassTip2="I Ricognitori e i Soldati di Punta attaccano il nemico a distanza ravvicinata con fucili a pompa, SMG ed esplosivi."
+ClassTip3="I Ricognitori e i Soldati di Punta dovrebbero usare delle granate fumogene per creare coperture temporanee per gli assalti."
+ClassTip4="L'Artificiere ha una varietà di esplosivi che possono usare per difendersi dai nemici."
 ClassTip5="A soldier with a Machinegun can lay down heavy amounts of covering fire, keeping enemy troops suppressed."
 ClassTip6="Tutti gli eserciti hanno accesso all'Operatore radio, che funge da radio mobile al fronte per il Comandante."
 ClassTip7="Il Comandante guida la sua squadra. Impartisce comandi e richiede supporto come artiglieria e attacchi napalm."
